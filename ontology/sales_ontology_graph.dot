@@ -1,0 +1,47 @@
+digraph FabricSalesDemoOntology {
+  graph [rankdir=LR, bgcolor="white", fontname="Segoe UI"];
+  node [shape=box, style="rounded,filled", fontname="Segoe UI", color="#0078D4", fillcolor="#CFE4FA"];
+  edge [fontname="Segoe UI", color="#605E5C"];
+
+  subgraph cluster_silver {
+    label="Silver semantic model";
+    color="#0078D4";
+    Customer [label="Customer\ndim_customer"];
+    Product [label="Product\ndim_product"];
+    Channel [label="Channel\ndim_channel"];
+    Date [label="Date\ndim_date"];
+    Sale [label="Sale\nfact_sales"];
+    CampaignTouch [label="Campaign Touch\nfact_campaign_touch"];
+    WebEvent [label="Web Event\nfact_web_event"];
+  }
+
+  subgraph cluster_gold {
+    label="Gold analytics datasets";
+    color="#107C10";
+    node [color="#107C10", fillcolor="#DFF6DD"];
+    SalesKPI [label="Sales KPI\nmonthly_sales_summary"];
+    CustomerValue [label="Customer 360\ncustomer_360"];
+    CampaignROI [label="Campaign ROI\ncampaign_roi_summary"];
+    ExecutiveSnapshot [label="Executive Snapshot\nexecutive_kpi_snapshot"];
+    ProductPerformance [label="Product Performance\nproduct_performance"];
+    ChannelPerformance [label="Channel Performance\nchannel_performance"];
+    RegionSegmentScorecard [label="Region Segment Scorecard\nregion_segment_scorecard"];
+  }
+
+  Sale -> Customer [label="belongs_to"];
+  Sale -> Product [label="sold_as"];
+  Sale -> Channel [label="originated_in"];
+  Sale -> Date [label="occurred_on"];
+  CampaignTouch -> Customer [label="targets"];
+  CampaignTouch -> Sale [label="attributes_to"];
+  WebEvent -> Customer [label="performed_by"];
+  WebEvent -> Product [label="references"];
+  SalesKPI -> Sale [label="aggregates"];
+  CustomerValue -> Customer [label="summarizes"];
+  CampaignROI -> CampaignTouch [label="aggregates"];
+  ExecutiveSnapshot -> SalesKPI [label="rolls_up"];
+  ExecutiveSnapshot -> CampaignROI [label="rolls_up"];
+  ProductPerformance -> Sale [label="aggregates"];
+  ChannelPerformance -> Sale [label="aggregates"];
+  RegionSegmentScorecard -> Customer [label="aggregates"];
+}

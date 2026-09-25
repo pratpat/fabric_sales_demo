@@ -40,4 +40,8 @@ The ontology gives the demo a business vocabulary that can be used for Microsoft
 ## Files
 
 - `ontology\sales_ontology.json` is the machine-readable ontology.
+- `ontology\sales_ontology_graph.mmd` is a Mermaid graph that can be rendered in Markdown-compatible tools.
+- `ontology\sales_ontology_graph.dot` is a Graphviz DOT graph for lineage and architecture docs.
+- `ontology\sales_ontology_graph.excalidraw` is an editable visual diagram.
 - `data\ontology\entities.csv`, `relationships.csv`, `metrics.csv`, and `business_terms.csv` are Fabric-loadable ontology tables.
+- `data\ontology\graph_nodes.csv` and `graph_edges.csv` are graph-shaped node/edge tables for Fabric notebooks, KQL graph demos, or custom visualization.

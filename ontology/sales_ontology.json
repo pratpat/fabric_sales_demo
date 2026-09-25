@@ -94,5 +94,12 @@
     "region_segment_scorecard",
     "campaign_roi_summary",
     "customer_360"
+  ],
+  "graphArtifacts": [
+    "ontology/sales_ontology_graph.mmd",
+    "ontology/sales_ontology_graph.dot",
+    "ontology/sales_ontology_graph.excalidraw",
+    "data/ontology/graph_nodes.csv",
+    "data/ontology/graph_edges.csv"
   ]
 }

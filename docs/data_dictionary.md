@@ -43,6 +43,8 @@ All tables are synthetic and intended for Microsoft Fabric demos.
 | `relationships.csv` | One row per semantic relationship | Entity relationship definitions and cardinality. |
 | `metrics.csv` | One row per metric | Business metric definitions and formulas. |
 | `business_terms.csv` | One row per term | Demo glossary for business users and Fabric Data Agent prompts. |
+| `graph_nodes.csv` | One row per graph node | Ontology nodes for dimensions, facts, and gold aggregates. |
+| `graph_edges.csv` | One row per graph edge | Ontology relationships and rollups as graph edges. |
 
 ## Recommended Power BI measures
 

@@ -1,0 +1,15 @@
+node_id,node_type,label,table,layer,domain
+Customer,Dimension,Customer,dim_customer,Silver,Customer
+Product,Dimension,Product,dim_product,Silver,Product
+Channel,Dimension,Channel,dim_channel,Silver,Channel
+Date,Dimension,Date,dim_date,Silver,Calendar
+Sale,Fact,Sale,fact_sales,Silver,Sales
+CampaignTouch,Fact,Campaign Touch,fact_campaign_touch,Silver,Marketing
+WebEvent,Fact,Web Event,fact_web_event,Silver,Digital
+SalesKPI,GoldAggregate,Sales KPI,monthly_sales_summary,Gold,Sales
+CustomerValue,GoldAggregate,Customer 360,customer_360,Gold,Customer
+CampaignROI,GoldAggregate,Campaign ROI,campaign_roi_summary,Gold,Marketing
+ExecutiveSnapshot,GoldAggregate,Executive Snapshot,executive_kpi_snapshot,Gold,Executive
+ProductPerformance,GoldAggregate,Product Performance,product_performance,Gold,Product
+ChannelPerformance,GoldAggregate,Channel Performance,channel_performance,Gold,Channel
+RegionSegmentScorecard,GoldAggregate,Region Segment Scorecard,region_segment_scorecard,Gold,Customer

@@ -501,6 +501,46 @@ def make_ontology_business_terms() -> list[dict]:
     ]
 
 
+def make_ontology_graph_nodes() -> list[dict]:
+    return [
+        {"node_id": "Customer", "node_type": "Dimension", "label": "Customer", "table": "dim_customer", "layer": "Silver", "domain": "Customer"},
+        {"node_id": "Product", "node_type": "Dimension", "label": "Product", "table": "dim_product", "layer": "Silver", "domain": "Product"},
+        {"node_id": "Channel", "node_type": "Dimension", "label": "Channel", "table": "dim_channel", "layer": "Silver", "domain": "Channel"},
+        {"node_id": "Date", "node_type": "Dimension", "label": "Date", "table": "dim_date", "layer": "Silver", "domain": "Calendar"},
+        {"node_id": "Sale", "node_type": "Fact", "label": "Sale", "table": "fact_sales", "layer": "Silver", "domain": "Sales"},
+        {"node_id": "CampaignTouch", "node_type": "Fact", "label": "Campaign Touch", "table": "fact_campaign_touch", "layer": "Silver", "domain": "Marketing"},
+        {"node_id": "WebEvent", "node_type": "Fact", "label": "Web Event", "table": "fact_web_event", "layer": "Silver", "domain": "Digital"},
+        {"node_id": "SalesKPI", "node_type": "GoldAggregate", "label": "Sales KPI", "table": "monthly_sales_summary", "layer": "Gold", "domain": "Sales"},
+        {"node_id": "CustomerValue", "node_type": "GoldAggregate", "label": "Customer 360", "table": "customer_360", "layer": "Gold", "domain": "Customer"},
+        {"node_id": "CampaignROI", "node_type": "GoldAggregate", "label": "Campaign ROI", "table": "campaign_roi_summary", "layer": "Gold", "domain": "Marketing"},
+        {"node_id": "ExecutiveSnapshot", "node_type": "GoldAggregate", "label": "Executive Snapshot", "table": "executive_kpi_snapshot", "layer": "Gold", "domain": "Executive"},
+        {"node_id": "ProductPerformance", "node_type": "GoldAggregate", "label": "Product Performance", "table": "product_performance", "layer": "Gold", "domain": "Product"},
+        {"node_id": "ChannelPerformance", "node_type": "GoldAggregate", "label": "Channel Performance", "table": "channel_performance", "layer": "Gold", "domain": "Channel"},
+        {"node_id": "RegionSegmentScorecard", "node_type": "GoldAggregate", "label": "Region Segment Scorecard", "table": "region_segment_scorecard", "layer": "Gold", "domain": "Customer"},
+    ]
+
+
+def make_ontology_graph_edges() -> list[dict]:
+    return [
+        {"edge_id": "Sale_Customer", "source": "Sale", "target": "Customer", "relationship": "belongs_to", "source_field": "customer_id", "target_field": "customer_id", "cardinality": "many-to-one"},
+        {"edge_id": "Sale_Product", "source": "Sale", "target": "Product", "relationship": "sold_as", "source_field": "product_id", "target_field": "product_id", "cardinality": "many-to-one"},
+        {"edge_id": "Sale_Channel", "source": "Sale", "target": "Channel", "relationship": "originated_in", "source_field": "channel_id", "target_field": "channel_id", "cardinality": "many-to-one"},
+        {"edge_id": "Sale_Date", "source": "Sale", "target": "Date", "relationship": "occurred_on", "source_field": "transaction_date", "target_field": "date", "cardinality": "many-to-one"},
+        {"edge_id": "CampaignTouch_Customer", "source": "CampaignTouch", "target": "Customer", "relationship": "targets", "source_field": "customer_id", "target_field": "customer_id", "cardinality": "many-to-one"},
+        {"edge_id": "CampaignTouch_Sale", "source": "CampaignTouch", "target": "Sale", "relationship": "attributes_to", "source_field": "attributed_transaction_id", "target_field": "transaction_id", "cardinality": "many-to-zero-or-one"},
+        {"edge_id": "WebEvent_Customer", "source": "WebEvent", "target": "Customer", "relationship": "performed_by", "source_field": "customer_id", "target_field": "customer_id", "cardinality": "many-to-one"},
+        {"edge_id": "WebEvent_Product", "source": "WebEvent", "target": "Product", "relationship": "references", "source_field": "product_id", "target_field": "product_id", "cardinality": "many-to-one"},
+        {"edge_id": "SalesKPI_Sale", "source": "SalesKPI", "target": "Sale", "relationship": "aggregates", "source_field": "sales_month,region,segment,product_id,channel_id", "target_field": "transaction_date,region,segment,product_id,channel_id", "cardinality": "many-to-many-summary"},
+        {"edge_id": "CustomerValue_Customer", "source": "CustomerValue", "target": "Customer", "relationship": "summarizes", "source_field": "customer_id", "target_field": "customer_id", "cardinality": "one-to-one"},
+        {"edge_id": "CampaignROI_CampaignTouch", "source": "CampaignROI", "target": "CampaignTouch", "relationship": "aggregates", "source_field": "campaign_month,campaign_id,channel", "target_field": "touch_date,campaign_id,channel", "cardinality": "many-to-many-summary"},
+        {"edge_id": "ExecutiveSnapshot_SalesKPI", "source": "ExecutiveSnapshot", "target": "SalesKPI", "relationship": "rolls_up", "source_field": "reporting_period", "target_field": "sales_month", "cardinality": "one-to-many-summary"},
+        {"edge_id": "ExecutiveSnapshot_CampaignROI", "source": "ExecutiveSnapshot", "target": "CampaignROI", "relationship": "rolls_up", "source_field": "reporting_period", "target_field": "campaign_month", "cardinality": "one-to-many-summary"},
+        {"edge_id": "ProductPerformance_Sale", "source": "ProductPerformance", "target": "Sale", "relationship": "aggregates", "source_field": "product_id", "target_field": "product_id", "cardinality": "one-to-many-summary"},
+        {"edge_id": "ChannelPerformance_Sale", "source": "ChannelPerformance", "target": "Sale", "relationship": "aggregates", "source_field": "sales_month,channel_id", "target_field": "transaction_date,channel_id", "cardinality": "many-to-many-summary"},
+        {"edge_id": "RegionSegmentScorecard_Customer", "source": "RegionSegmentScorecard", "target": "Customer", "relationship": "aggregates", "source_field": "region,segment", "target_field": "region,segment", "cardinality": "one-to-many-summary"},
+    ]
+
+
 def main() -> None:
     random.seed(RANDOM_SEED)
 
@@ -549,6 +589,8 @@ def main() -> None:
     write_csv(DATA / "ontology" / "relationships.csv", make_ontology_relationships())
     write_csv(DATA / "ontology" / "metrics.csv", make_ontology_metrics())
     write_csv(DATA / "ontology" / "business_terms.csv", make_ontology_business_terms())
+    write_csv(DATA / "ontology" / "graph_nodes.csv", make_ontology_graph_nodes())
+    write_csv(DATA / "ontology" / "graph_edges.csv", make_ontology_graph_edges())
 
     print("Generated synthetic Fabric sales demo data.")
     print(f"Customers: {len(customers)}")

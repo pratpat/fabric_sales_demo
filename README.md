@@ -25,7 +25,7 @@ The script writes CSV files into `data\bronze`, `data\silver`, `data\gold`, and 
 2. Upload the CSV files under `data\bronze`, `data\silver`, and `data\gold`.
 3. Use `fabric\notebooks\01_load_to_lakehouse.py` as starter PySpark code to create Delta tables.
 4. Use `sql\gold_views.sql` as a SQL analytics endpoint example for Power BI semantic modeling.
-5. Use `ontology\sales_ontology.json` and `data\ontology\*.csv` as business ontology inputs for documentation, governance, or a Fabric Data Agent demo.
+5. Use `ontology\sales_ontology.json`, `ontology\sales_ontology_graph.mmd`, and `data\ontology\*.csv` as business ontology inputs for documentation, governance, graph, or Fabric Data Agent demos.
 
 ## Dataset themes
 

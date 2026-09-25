@@ -27,6 +27,8 @@ TABLES = {
     "ontology_relationships": "Files/data/ontology/relationships.csv",
     "ontology_metrics": "Files/data/ontology/metrics.csv",
     "ontology_business_terms": "Files/data/ontology/business_terms.csv",
+    "ontology_graph_nodes": "Files/data/ontology/graph_nodes.csv",
+    "ontology_graph_edges": "Files/data/ontology/graph_edges.csv",
 }
 
 
