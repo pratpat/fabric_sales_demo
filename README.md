@@ -11,6 +11,37 @@ This repository contains a deterministic sample dataset and Fabric-oriented asse
 
 All data is synthetic and generated locally. It is not sourced from Goldman Sachs, Marcus, or any real customer system.
 
+## End-to-end architecture
+
+```mermaid
+flowchart LR
+    Repo["GitHub repo<br/>fabric_sales_demo"] --> Data["Synthetic CSV data<br/>bronze / silver / gold / ontology"]
+    Data --> LakehouseFiles["Fabric Lakehouse Files<br/>Files/data/*"]
+    LakehouseFiles --> Notebook["Fabric notebook<br/>01_load_to_lakehouse.py"]
+    Notebook --> Delta["Managed Delta tables<br/>bronze, silver, gold, ontology"]
+    Delta --> SQLEndpoint["SQL analytics endpoint<br/>gold views"]
+    Delta --> DirectLake["Power BI Direct Lake<br/>semantic model"]
+    SQLEndpoint --> SemanticModel["Sales semantic model<br/>measures + relationships"]
+    DirectLake --> SemanticModel
+    SemanticModel --> Report["Power BI report<br/>Executive, Sales, Campaign ROI, Customer 360"]
+    Delta --> GoldOntology["Gold-only ontology<br/>entities, relationships, metrics, terms, graph"]
+    GoldOntology --> DataAgent["Fabric Data Agent<br/>grounded business Q&A"]
+    SemanticModel --> DataAgent
+    Report --> Cowork["Cowork<br/>embedded analytics and prompt starters"]
+    DataAgent --> Cowork
+
+    classDef source fill:#CFE4FA,stroke:#0078D4,color:#000000
+    classDef fabric fill:#DFF6DD,stroke:#107C10,color:#000000
+    classDef semantic fill:#E8DAEF,stroke:#5C2D91,color:#000000
+    classDef consume fill:#FFF4CE,stroke:#F7630C,color:#000000
+    class Repo,Data source
+    class LakehouseFiles,Notebook,Delta,SQLEndpoint,DirectLake fabric
+    class SemanticModel,GoldOntology,DataAgent semantic
+    class Report,Cowork consume
+```
+
+The architecture flows from generated sample data into a Fabric Lakehouse, promotes it to Delta tables, exposes gold analytics through SQL/Direct Lake, grounds a Fabric Data Agent with the Gold-only ontology, and surfaces insights through Power BI and Cowork.
+
 ## Quick start
 
 ```powershell
