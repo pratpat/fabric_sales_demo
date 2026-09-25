@@ -7,7 +7,7 @@ This repository contains a deterministic sample dataset and Fabric-oriented asse
 - **Bronze**: raw customer, sales, campaign, and web event extracts.
 - **Silver**: cleaned dimensional model tables.
 - **Gold**: business-ready sales, customer, campaign, product, channel, and executive aggregates.
-- **Ontology**: entities, relationships, business terms, and metric definitions for semantic modeling.
+- **Ontology**: Gold-layer entities, relationships, business terms, and metric definitions for semantic modeling.
 
 All data is synthetic and generated locally. It is not sourced from Goldman Sachs, Marcus, or any real customer system.
 
@@ -25,7 +25,7 @@ The script writes CSV files into `data\bronze`, `data\silver`, `data\gold`, and 
 2. Upload the CSV files under `data\bronze`, `data\silver`, and `data\gold`.
 3. Use `fabric\notebooks\01_load_to_lakehouse.py` as starter PySpark code to create Delta tables.
 4. Use `sql\gold_views.sql` as a SQL analytics endpoint example for Power BI semantic modeling.
-5. Use `ontology\sales_ontology.json`, `ontology\sales_ontology_graph.mmd`, and `data\ontology\*.csv` as business ontology inputs for documentation, governance, graph, or Fabric Data Agent demos.
+5. Use `ontology\sales_ontology.json`, `ontology\sales_ontology_graph.mmd`, and `data\ontology\*.csv` as Gold-layer business ontology inputs for documentation, governance, graph, or Fabric Data Agent demos.
 
 ## End-to-end user journey
 
@@ -53,7 +53,7 @@ Recommended model shape:
 | Dimensions | `dim_customer`, `dim_product`, `dim_channel`, `dim_date` |
 | Facts | `fact_sales`, `fact_campaign_touch`, `fact_web_event` |
 | Gold aggregates | `gold_monthly_sales_summary`, `gold_customer_360`, `gold_campaign_roi_summary`, `gold_product_performance`, `gold_channel_performance`, `gold_region_segment_scorecard`, `gold_executive_kpi_snapshot` |
-| Ontology | `ontology_entities`, `ontology_relationships`, `ontology_metrics`, `ontology_business_terms`, `ontology_graph_nodes`, `ontology_graph_edges` |
+| Gold ontology | `ontology_entities`, `ontology_relationships`, `ontology_metrics`, `ontology_business_terms`, `ontology_graph_nodes`, `ontology_graph_edges` |
 
 Core measures:
 
@@ -80,23 +80,23 @@ Create a Power BI report with four pages:
 
 ### 4. Add the ontology
 
-Use `ontology\sales_ontology.json` as the canonical business ontology. Load `data\ontology\*.csv` into Fabric to make the ontology queryable alongside the model. Use the graph node and edge tables for graph visualization, lineage discussions, or KQL graph demos.
+Use `ontology\sales_ontology.json` as the canonical Gold-layer business ontology. Load `data\ontology\*.csv` into Fabric to make the Gold ontology queryable alongside the model. Use the graph node and edge tables for graph visualization, lineage discussions, or KQL graph demos.
 
 The ontology defines:
 
-- Business entities: Customer, Product, Channel, Sale, Campaign Touch, Web Event, and Gold KPI aggregates.
-- Relationships: sales-to-customer, sales-to-product, campaign attribution, web engagement, and gold rollups.
+- Business entities: Executive Snapshot, Sales KPI, Customer 360, Campaign ROI, Product Performance, Channel Performance, and Region Segment Scorecard.
+- Relationships: executive rollups, KPI-to-product alignment, KPI-to-channel alignment, KPI-to-region/segment alignment, and Customer 360 rollup to region/segment scorecards.
 - Metrics: applications, funded sales, sales amount, estimated revenue, conversion rate, new customer mix, campaign ROI, and revenue per customer.
 - Terms: application, funded sale, sales amount, estimated revenue, digital engagement score, and attributed revenue.
 
 ### 5. Create a Fabric Data Agent
 
-Create a Fabric Data Agent over the semantic model and include the ontology tables as grounding context. Seed it with business-friendly instructions like:
+Create a Fabric Data Agent over the semantic model and include the Gold ontology tables as grounding context. Seed it with business-friendly instructions like:
 
 ```text
 You are a sales analytics assistant for the Fabric Sales Demo.
 Use the ontology tables to explain business terms, entity relationships, and metric definitions.
-Prefer gold tables for executive answers and silver fact/dimension tables for drill-through analysis.
+Use only gold tables for ontology-grounded answers. Do not describe the ontology in terms of silver facts or dimensions.
 When users ask about revenue, use Estimated Revenue unless they explicitly ask for Sales Amount.
 When users ask about marketing effectiveness, use Campaign ROI Index and campaign conversion rate.
 ```
@@ -135,17 +135,7 @@ Draft an executive update using the gold KPI snapshot.
 
 ```mermaid
 flowchart LR
-    subgraph Silver["Silver semantic model"]
-        Customer["Customer<br/>dim_customer"]
-        Product["Product<br/>dim_product"]
-        Channel["Channel<br/>dim_channel"]
-        Date["Date<br/>dim_date"]
-        Sale["Sale<br/>fact_sales"]
-        CampaignTouch["Campaign Touch<br/>fact_campaign_touch"]
-        WebEvent["Web Event<br/>fact_web_event"]
-    end
-
-    subgraph Gold["Gold analytics datasets"]
+    subgraph Gold["Gold-only ontology"]
         SalesKPI["Sales KPI<br/>monthly_sales_summary"]
         CustomerValue["Customer 360<br/>customer_360"]
         CampaignROI["Campaign ROI<br/>campaign_roi_summary"]
@@ -155,26 +145,17 @@ flowchart LR
         RegionSegmentScorecard["Region Segment Scorecard<br/>region_segment_scorecard"]
     end
 
-    Sale -->|"belongs_to"| Customer
-    Sale -->|"sold_as"| Product
-    Sale -->|"originated_in"| Channel
-    Sale -->|"occurred_on"| Date
-    CampaignTouch -->|"targets"| Customer
-    CampaignTouch -->|"attributes_to"| Sale
-    WebEvent -->|"performed_by"| Customer
-    WebEvent -->|"references"| Product
-    SalesKPI -->|"aggregates"| Sale
-    CustomerValue -->|"summarizes"| Customer
-    CampaignROI -->|"aggregates"| CampaignTouch
     ExecutiveSnapshot -->|"rolls_up"| SalesKPI
     ExecutiveSnapshot -->|"rolls_up"| CampaignROI
-    ProductPerformance -->|"aggregates"| Sale
-    ChannelPerformance -->|"aggregates"| Sale
-    RegionSegmentScorecard -->|"aggregates"| Customer
+    ExecutiveSnapshot -->|"summarizes"| ProductPerformance
+    ExecutiveSnapshot -->|"summarizes"| ChannelPerformance
+    ExecutiveSnapshot -->|"summarizes"| RegionSegmentScorecard
+    SalesKPI -->|"aligns_to_product"| ProductPerformance
+    SalesKPI -->|"aligns_to_channel"| ChannelPerformance
+    SalesKPI -->|"aligns_to_region_segment"| RegionSegmentScorecard
+    CustomerValue -->|"rolls_up_to"| RegionSegmentScorecard
 
-    classDef silver fill:#CFE4FA,stroke:#0078D4,color:#000000
     classDef gold fill:#DFF6DD,stroke:#107C10,color:#000000
-    class Customer,Product,Channel,Date,Sale,CampaignTouch,WebEvent silver
     class SalesKPI,CustomerValue,CampaignROI,ExecutiveSnapshot,ProductPerformance,ChannelPerformance,RegionSegmentScorecard gold
 ```
 

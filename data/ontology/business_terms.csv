@@ -1,7 +1,7 @@
 term,description,example
-Application,"A customer application or intent event for a product, regardless of final stage.",Loan application started through Web.
-Funded Sale,A transaction whose sales stage is Funded and contributes to sales amount and revenue.,Approved CD account funded by a customer.
-Sales Amount,"The funded balance, loan amount, or card spend proxy used for sales volume.",Principal balance for a personal loan.
-Estimated Revenue,Modeled revenue derived from sales amount multiplied by product-level revenue rate.,Savings balance times deposit revenue rate.
-Digital Engagement Score,Synthetic 25-100 customer engagement score based on digital behavior.,High app/web engagement customer with score 88.
-Attributed Revenue,Estimated revenue credited to a converted campaign touch.,Revenue assigned to a rate booster email.
+Application,"Gold-level count of customer applications or intent events summarized by month, region, segment, product, and channel.",Applications in monthly_sales_summary for Northeast Mass Affluent savings.
+Funded Sale,Gold-level count of sales that reached funded status and contribute to sales amount and revenue.,Funded sales in product_performance for personal loans.
+Sales Amount,"Gold-level funded balance, loan amount, or card spend proxy used for sales volume.",Total sales_amount in monthly_sales_summary.
+Estimated Revenue,Gold-level modeled revenue derived from funded sales.,Estimated revenue in executive_kpi_snapshot.
+Digital Engagement Score,Average or customer-level engagement score surfaced through gold Customer 360 and region-segment scorecards.,average_engagement_score in region_segment_scorecard.
+Attributed Revenue,Gold-level campaign revenue credited to converted campaign touches.,attributed_revenue in campaign_roi_summary.

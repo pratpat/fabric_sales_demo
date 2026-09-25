@@ -451,35 +451,33 @@ def make_executive_kpi_snapshot(transactions: list[dict], campaign_touches: list
 
 def make_ontology_entities() -> list[dict]:
     return [
-        {"entity": "Customer", "layer": "Silver", "table": "dim_customer", "primary_key": "customer_id", "description": "Person or household prospect/customer in the consumer banking sales motion."},
-        {"entity": "Product", "layer": "Silver", "table": "dim_product", "primary_key": "product_id", "description": "Financial product sold through Marcus-style channels."},
-        {"entity": "Channel", "layer": "Silver", "table": "dim_channel", "primary_key": "channel_id", "description": "Acquisition or servicing channel for applications and funded sales."},
-        {"entity": "Date", "layer": "Silver", "table": "dim_date", "primary_key": "date_key", "description": "Calendar dimension for time-series analysis."},
-        {"entity": "Sale", "layer": "Silver", "table": "fact_sales", "primary_key": "transaction_id", "description": "Application or funded sale event with amount, stage, customer, product, and channel."},
-        {"entity": "CampaignTouch", "layer": "Silver", "table": "fact_campaign_touch", "primary_key": "touch_id", "description": "Marketing touch with conversion attribution."},
-        {"entity": "WebEvent", "layer": "Silver", "table": "fact_web_event", "primary_key": "event_id", "description": "Digital engagement event associated with a customer and product."},
+        {"entity": "ExecutiveSnapshot", "layer": "Gold", "table": "executive_kpi_snapshot", "primary_key": "snapshot_date", "description": "Single-row executive scorecard for demo landing pages."},
         {"entity": "SalesKPI", "layer": "Gold", "table": "monthly_sales_summary", "primary_key": "sales_month,region,segment,product_id,channel_id", "description": "Business-ready monthly sales KPI aggregate."},
         {"entity": "CustomerValue", "layer": "Gold", "table": "customer_360", "primary_key": "customer_id", "description": "Customer-level value, revenue, sales, and engagement profile."},
-        {"entity": "ExecutiveSnapshot", "layer": "Gold", "table": "executive_kpi_snapshot", "primary_key": "snapshot_date", "description": "Single-row executive scorecard for demo landing pages."},
+        {"entity": "CampaignROI", "layer": "Gold", "table": "campaign_roi_summary", "primary_key": "campaign_month,campaign_id,channel", "description": "Campaign conversion and ROI aggregate."},
+        {"entity": "ProductPerformance", "layer": "Gold", "table": "product_performance", "primary_key": "product_id", "description": "Product-level sales, revenue, conversion, and new-customer mix."},
+        {"entity": "ChannelPerformance", "layer": "Gold", "table": "channel_performance", "primary_key": "sales_month,channel_id", "description": "Monthly channel sales and conversion performance."},
+        {"entity": "RegionSegmentScorecard", "layer": "Gold", "table": "region_segment_scorecard", "primary_key": "region,segment", "description": "Region and segment scorecard with customers, engagement, conversion, and revenue."},
     ]
 
 
 def make_ontology_relationships() -> list[dict]:
     return [
-        {"from_entity": "Sale", "relationship": "belongs_to", "to_entity": "Customer", "from_field": "customer_id", "to_field": "customer_id", "cardinality": "many-to-one"},
-        {"from_entity": "Sale", "relationship": "sold_as", "to_entity": "Product", "from_field": "product_id", "to_field": "product_id", "cardinality": "many-to-one"},
-        {"from_entity": "Sale", "relationship": "originated_in", "to_entity": "Channel", "from_field": "channel_id", "to_field": "channel_id", "cardinality": "many-to-one"},
-        {"from_entity": "CampaignTouch", "relationship": "targets", "to_entity": "Customer", "from_field": "customer_id", "to_field": "customer_id", "cardinality": "many-to-one"},
-        {"from_entity": "CampaignTouch", "relationship": "attributes_to", "to_entity": "Sale", "from_field": "attributed_transaction_id", "to_field": "transaction_id", "cardinality": "many-to-zero-or-one"},
-        {"from_entity": "WebEvent", "relationship": "performed_by", "to_entity": "Customer", "from_field": "customer_id", "to_field": "customer_id", "cardinality": "many-to-one"},
-        {"from_entity": "WebEvent", "relationship": "references", "to_entity": "Product", "from_field": "product_id", "to_field": "product_id", "cardinality": "many-to-one"},
-        {"from_entity": "CustomerValue", "relationship": "summarizes", "to_entity": "Customer", "from_field": "customer_id", "to_field": "customer_id", "cardinality": "one-to-one"},
+        {"from_entity": "ExecutiveSnapshot", "relationship": "rolls_up", "to_entity": "SalesKPI", "from_field": "reporting_period", "to_field": "sales_month", "cardinality": "one-to-many-summary"},
+        {"from_entity": "ExecutiveSnapshot", "relationship": "rolls_up", "to_entity": "CampaignROI", "from_field": "reporting_period", "to_field": "campaign_month", "cardinality": "one-to-many-summary"},
+        {"from_entity": "ExecutiveSnapshot", "relationship": "summarizes", "to_entity": "ProductPerformance", "from_field": "snapshot_date", "to_field": "product_id", "cardinality": "one-to-many-summary"},
+        {"from_entity": "ExecutiveSnapshot", "relationship": "summarizes", "to_entity": "ChannelPerformance", "from_field": "reporting_period", "to_field": "sales_month", "cardinality": "one-to-many-summary"},
+        {"from_entity": "ExecutiveSnapshot", "relationship": "summarizes", "to_entity": "RegionSegmentScorecard", "from_field": "snapshot_date", "to_field": "region,segment", "cardinality": "one-to-many-summary"},
+        {"from_entity": "SalesKPI", "relationship": "aligns_to_product", "to_entity": "ProductPerformance", "from_field": "product_id", "to_field": "product_id", "cardinality": "many-to-one-summary"},
+        {"from_entity": "SalesKPI", "relationship": "aligns_to_channel", "to_entity": "ChannelPerformance", "from_field": "sales_month,channel_id", "to_field": "sales_month,channel_id", "cardinality": "many-to-one-summary"},
+        {"from_entity": "SalesKPI", "relationship": "aligns_to_region_segment", "to_entity": "RegionSegmentScorecard", "from_field": "region,segment", "to_field": "region,segment", "cardinality": "many-to-one-summary"},
+        {"from_entity": "CustomerValue", "relationship": "rolls_up_to", "to_entity": "RegionSegmentScorecard", "from_field": "region,segment", "to_field": "region,segment", "cardinality": "many-to-one-summary"},
     ]
 
 
 def make_ontology_metrics() -> list[dict]:
     return [
-        {"metric": "Applications", "definition": "Count of sales transaction rows regardless of stage.", "formula": "COUNT(fact_sales[transaction_id])", "gold_table": "monthly_sales_summary"},
+        {"metric": "Applications", "definition": "Count of sales applications represented in the gold monthly sales summary.", "formula": "SUM(monthly_sales_summary[applications])", "gold_table": "monthly_sales_summary"},
         {"metric": "Funded Sales", "definition": "Count of transactions where sales_stage is Funded.", "formula": "SUM(monthly_sales_summary[funded_sales])", "gold_table": "monthly_sales_summary"},
         {"metric": "Sales Amount", "definition": "Total funded sales balance or funded volume.", "formula": "SUM(monthly_sales_summary[sales_amount])", "gold_table": "monthly_sales_summary"},
         {"metric": "Estimated Revenue", "definition": "Modeled revenue from funded sales using product revenue assumptions.", "formula": "SUM(monthly_sales_summary[estimated_revenue])", "gold_table": "monthly_sales_summary"},
@@ -492,28 +490,21 @@ def make_ontology_metrics() -> list[dict]:
 
 def make_ontology_business_terms() -> list[dict]:
     return [
-        {"term": "Application", "description": "A customer application or intent event for a product, regardless of final stage.", "example": "Loan application started through Web."},
-        {"term": "Funded Sale", "description": "A transaction whose sales stage is Funded and contributes to sales amount and revenue.", "example": "Approved CD account funded by a customer."},
-        {"term": "Sales Amount", "description": "The funded balance, loan amount, or card spend proxy used for sales volume.", "example": "Principal balance for a personal loan."},
-        {"term": "Estimated Revenue", "description": "Modeled revenue derived from sales amount multiplied by product-level revenue rate.", "example": "Savings balance times deposit revenue rate."},
-        {"term": "Digital Engagement Score", "description": "Synthetic 25-100 customer engagement score based on digital behavior.", "example": "High app/web engagement customer with score 88."},
-        {"term": "Attributed Revenue", "description": "Estimated revenue credited to a converted campaign touch.", "example": "Revenue assigned to a rate booster email."},
+        {"term": "Application", "description": "Gold-level count of customer applications or intent events summarized by month, region, segment, product, and channel.", "example": "Applications in monthly_sales_summary for Northeast Mass Affluent savings."},
+        {"term": "Funded Sale", "description": "Gold-level count of sales that reached funded status and contribute to sales amount and revenue.", "example": "Funded sales in product_performance for personal loans."},
+        {"term": "Sales Amount", "description": "Gold-level funded balance, loan amount, or card spend proxy used for sales volume.", "example": "Total sales_amount in monthly_sales_summary."},
+        {"term": "Estimated Revenue", "description": "Gold-level modeled revenue derived from funded sales.", "example": "Estimated revenue in executive_kpi_snapshot."},
+        {"term": "Digital Engagement Score", "description": "Average or customer-level engagement score surfaced through gold Customer 360 and region-segment scorecards.", "example": "average_engagement_score in region_segment_scorecard."},
+        {"term": "Attributed Revenue", "description": "Gold-level campaign revenue credited to converted campaign touches.", "example": "attributed_revenue in campaign_roi_summary."},
     ]
 
 
 def make_ontology_graph_nodes() -> list[dict]:
     return [
-        {"node_id": "Customer", "node_type": "Dimension", "label": "Customer", "table": "dim_customer", "layer": "Silver", "domain": "Customer"},
-        {"node_id": "Product", "node_type": "Dimension", "label": "Product", "table": "dim_product", "layer": "Silver", "domain": "Product"},
-        {"node_id": "Channel", "node_type": "Dimension", "label": "Channel", "table": "dim_channel", "layer": "Silver", "domain": "Channel"},
-        {"node_id": "Date", "node_type": "Dimension", "label": "Date", "table": "dim_date", "layer": "Silver", "domain": "Calendar"},
-        {"node_id": "Sale", "node_type": "Fact", "label": "Sale", "table": "fact_sales", "layer": "Silver", "domain": "Sales"},
-        {"node_id": "CampaignTouch", "node_type": "Fact", "label": "Campaign Touch", "table": "fact_campaign_touch", "layer": "Silver", "domain": "Marketing"},
-        {"node_id": "WebEvent", "node_type": "Fact", "label": "Web Event", "table": "fact_web_event", "layer": "Silver", "domain": "Digital"},
+        {"node_id": "ExecutiveSnapshot", "node_type": "GoldAggregate", "label": "Executive Snapshot", "table": "executive_kpi_snapshot", "layer": "Gold", "domain": "Executive"},
         {"node_id": "SalesKPI", "node_type": "GoldAggregate", "label": "Sales KPI", "table": "monthly_sales_summary", "layer": "Gold", "domain": "Sales"},
         {"node_id": "CustomerValue", "node_type": "GoldAggregate", "label": "Customer 360", "table": "customer_360", "layer": "Gold", "domain": "Customer"},
         {"node_id": "CampaignROI", "node_type": "GoldAggregate", "label": "Campaign ROI", "table": "campaign_roi_summary", "layer": "Gold", "domain": "Marketing"},
-        {"node_id": "ExecutiveSnapshot", "node_type": "GoldAggregate", "label": "Executive Snapshot", "table": "executive_kpi_snapshot", "layer": "Gold", "domain": "Executive"},
         {"node_id": "ProductPerformance", "node_type": "GoldAggregate", "label": "Product Performance", "table": "product_performance", "layer": "Gold", "domain": "Product"},
         {"node_id": "ChannelPerformance", "node_type": "GoldAggregate", "label": "Channel Performance", "table": "channel_performance", "layer": "Gold", "domain": "Channel"},
         {"node_id": "RegionSegmentScorecard", "node_type": "GoldAggregate", "label": "Region Segment Scorecard", "table": "region_segment_scorecard", "layer": "Gold", "domain": "Customer"},
@@ -522,22 +513,15 @@ def make_ontology_graph_nodes() -> list[dict]:
 
 def make_ontology_graph_edges() -> list[dict]:
     return [
-        {"edge_id": "Sale_Customer", "source": "Sale", "target": "Customer", "relationship": "belongs_to", "source_field": "customer_id", "target_field": "customer_id", "cardinality": "many-to-one"},
-        {"edge_id": "Sale_Product", "source": "Sale", "target": "Product", "relationship": "sold_as", "source_field": "product_id", "target_field": "product_id", "cardinality": "many-to-one"},
-        {"edge_id": "Sale_Channel", "source": "Sale", "target": "Channel", "relationship": "originated_in", "source_field": "channel_id", "target_field": "channel_id", "cardinality": "many-to-one"},
-        {"edge_id": "Sale_Date", "source": "Sale", "target": "Date", "relationship": "occurred_on", "source_field": "transaction_date", "target_field": "date", "cardinality": "many-to-one"},
-        {"edge_id": "CampaignTouch_Customer", "source": "CampaignTouch", "target": "Customer", "relationship": "targets", "source_field": "customer_id", "target_field": "customer_id", "cardinality": "many-to-one"},
-        {"edge_id": "CampaignTouch_Sale", "source": "CampaignTouch", "target": "Sale", "relationship": "attributes_to", "source_field": "attributed_transaction_id", "target_field": "transaction_id", "cardinality": "many-to-zero-or-one"},
-        {"edge_id": "WebEvent_Customer", "source": "WebEvent", "target": "Customer", "relationship": "performed_by", "source_field": "customer_id", "target_field": "customer_id", "cardinality": "many-to-one"},
-        {"edge_id": "WebEvent_Product", "source": "WebEvent", "target": "Product", "relationship": "references", "source_field": "product_id", "target_field": "product_id", "cardinality": "many-to-one"},
-        {"edge_id": "SalesKPI_Sale", "source": "SalesKPI", "target": "Sale", "relationship": "aggregates", "source_field": "sales_month,region,segment,product_id,channel_id", "target_field": "transaction_date,region,segment,product_id,channel_id", "cardinality": "many-to-many-summary"},
-        {"edge_id": "CustomerValue_Customer", "source": "CustomerValue", "target": "Customer", "relationship": "summarizes", "source_field": "customer_id", "target_field": "customer_id", "cardinality": "one-to-one"},
-        {"edge_id": "CampaignROI_CampaignTouch", "source": "CampaignROI", "target": "CampaignTouch", "relationship": "aggregates", "source_field": "campaign_month,campaign_id,channel", "target_field": "touch_date,campaign_id,channel", "cardinality": "many-to-many-summary"},
         {"edge_id": "ExecutiveSnapshot_SalesKPI", "source": "ExecutiveSnapshot", "target": "SalesKPI", "relationship": "rolls_up", "source_field": "reporting_period", "target_field": "sales_month", "cardinality": "one-to-many-summary"},
         {"edge_id": "ExecutiveSnapshot_CampaignROI", "source": "ExecutiveSnapshot", "target": "CampaignROI", "relationship": "rolls_up", "source_field": "reporting_period", "target_field": "campaign_month", "cardinality": "one-to-many-summary"},
-        {"edge_id": "ProductPerformance_Sale", "source": "ProductPerformance", "target": "Sale", "relationship": "aggregates", "source_field": "product_id", "target_field": "product_id", "cardinality": "one-to-many-summary"},
-        {"edge_id": "ChannelPerformance_Sale", "source": "ChannelPerformance", "target": "Sale", "relationship": "aggregates", "source_field": "sales_month,channel_id", "target_field": "transaction_date,channel_id", "cardinality": "many-to-many-summary"},
-        {"edge_id": "RegionSegmentScorecard_Customer", "source": "RegionSegmentScorecard", "target": "Customer", "relationship": "aggregates", "source_field": "region,segment", "target_field": "region,segment", "cardinality": "one-to-many-summary"},
+        {"edge_id": "ExecutiveSnapshot_ProductPerformance", "source": "ExecutiveSnapshot", "target": "ProductPerformance", "relationship": "summarizes", "source_field": "snapshot_date", "target_field": "product_id", "cardinality": "one-to-many-summary"},
+        {"edge_id": "ExecutiveSnapshot_ChannelPerformance", "source": "ExecutiveSnapshot", "target": "ChannelPerformance", "relationship": "summarizes", "source_field": "reporting_period", "target_field": "sales_month", "cardinality": "one-to-many-summary"},
+        {"edge_id": "ExecutiveSnapshot_RegionSegmentScorecard", "source": "ExecutiveSnapshot", "target": "RegionSegmentScorecard", "relationship": "summarizes", "source_field": "snapshot_date", "target_field": "region,segment", "cardinality": "one-to-many-summary"},
+        {"edge_id": "SalesKPI_ProductPerformance", "source": "SalesKPI", "target": "ProductPerformance", "relationship": "aligns_to_product", "source_field": "product_id", "target_field": "product_id", "cardinality": "many-to-one-summary"},
+        {"edge_id": "SalesKPI_ChannelPerformance", "source": "SalesKPI", "target": "ChannelPerformance", "relationship": "aligns_to_channel", "source_field": "sales_month,channel_id", "target_field": "sales_month,channel_id", "cardinality": "many-to-one-summary"},
+        {"edge_id": "SalesKPI_RegionSegmentScorecard", "source": "SalesKPI", "target": "RegionSegmentScorecard", "relationship": "aligns_to_region_segment", "source_field": "region,segment", "target_field": "region,segment", "cardinality": "many-to-one-summary"},
+        {"edge_id": "CustomerValue_RegionSegmentScorecard", "source": "CustomerValue", "target": "RegionSegmentScorecard", "relationship": "rolls_up_to", "source_field": "region,segment", "target_field": "region,segment", "cardinality": "many-to-one-summary"},
     ]
 
 

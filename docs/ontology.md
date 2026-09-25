@@ -1,29 +1,32 @@
-# Sales ontology
+# Gold sales ontology
 
-The ontology gives the demo a business vocabulary that can be used for Microsoft Fabric Data Agent, semantic model design, documentation, and governance conversations.
+The ontology gives the demo a Gold-layer business vocabulary that can be used for Microsoft Fabric Data Agent, semantic model design, documentation, and governance conversations. Silver facts and dimensions are intentionally excluded from the ontology.
 
 ## Core entities
 
 | Entity | Table | Key | Meaning |
 | --- | --- | --- | --- |
-| Customer | `dim_customer` | `customer_id` | Person or household prospect/customer. |
-| Product | `dim_product` | `product_id` | Financial product such as savings, CD, loan, invest, or card. |
-| Channel | `dim_channel` | `channel_id` | Sales or acquisition channel. |
-| Sale | `fact_sales` | `transaction_id` | Application or funded sale event. |
-| CampaignTouch | `fact_campaign_touch` | `touch_id` | Marketing touch with optional sales attribution. |
-| WebEvent | `fact_web_event` | `event_id` | Digital interaction tied to a customer and product. |
+| ExecutiveSnapshot | `executive_kpi_snapshot` | `snapshot_date` | Single-row executive scorecard for the reporting period. |
+| SalesKPI | `monthly_sales_summary` | `sales_month,region,segment,product_id,channel_id` | Monthly sales KPI aggregate. |
+| CustomerValue | `customer_360` | `customer_id` | Customer-level value and engagement profile. |
+| CampaignROI | `campaign_roi_summary` | `campaign_month,campaign_id,channel` | Campaign conversion and ROI aggregate. |
+| ProductPerformance | `product_performance` | `product_id` | Product-level sales, revenue, conversion, and new-customer mix. |
+| ChannelPerformance | `channel_performance` | `sales_month,channel_id` | Monthly channel performance. |
+| RegionSegmentScorecard | `region_segment_scorecard` | `region,segment` | Region and segment scorecard. |
 
 ## Relationships
 
 | Relationship | Cardinality | Description |
 | --- | --- | --- |
-| Sale -> Customer | many-to-one | Every sale/application belongs to one customer. |
-| Sale -> Product | many-to-one | Every sale/application is for one product. |
-| Sale -> Channel | many-to-one | Every sale/application originates in one channel. |
-| CampaignTouch -> Customer | many-to-one | Every campaign touch targets one customer. |
-| CampaignTouch -> Sale | many-to-zero-or-one | Converted touches can attribute revenue to a funded sale. |
-| WebEvent -> Customer | many-to-one | Digital events are performed by customers. |
-| WebEvent -> Product | many-to-one | Digital events can reference a product. |
+| ExecutiveSnapshot -> SalesKPI | one-to-many-summary | Executive scorecard rolls up monthly sales KPIs. |
+| ExecutiveSnapshot -> CampaignROI | one-to-many-summary | Executive scorecard rolls up campaign ROI. |
+| ExecutiveSnapshot -> ProductPerformance | one-to-many-summary | Executive scorecard summarizes product performance. |
+| ExecutiveSnapshot -> ChannelPerformance | one-to-many-summary | Executive scorecard summarizes channel performance. |
+| ExecutiveSnapshot -> RegionSegmentScorecard | one-to-many-summary | Executive scorecard summarizes regional segment performance. |
+| SalesKPI -> ProductPerformance | many-to-one-summary | Monthly sales KPIs align to product-level performance. |
+| SalesKPI -> ChannelPerformance | many-to-one-summary | Monthly sales KPIs align to channel-level performance. |
+| SalesKPI -> RegionSegmentScorecard | many-to-one-summary | Monthly sales KPIs align to region and segment scorecards. |
+| CustomerValue -> RegionSegmentScorecard | many-to-one-summary | Customer 360 records roll up to region and segment scorecards. |
 
 ## Gold datasets
 
@@ -39,7 +42,7 @@ The ontology gives the demo a business vocabulary that can be used for Microsoft
 
 ## Files
 
-- `ontology\sales_ontology.json` is the machine-readable ontology.
+- `ontology\sales_ontology.json` is the machine-readable Gold-only ontology.
 - `ontology\sales_ontology_graph.mmd` is a Mermaid graph that can be rendered in Markdown-compatible tools.
 - `ontology\sales_ontology_graph.dot` is a Graphviz DOT graph for lineage and architecture docs.
 - `ontology\sales_ontology_graph.excalidraw` is an editable visual diagram.

@@ -1,42 +1,23 @@
 flowchart LR
-    subgraph Silver["Silver semantic model"]
-        Customer["Customer<br/>dim_customer"]
-        Product["Product<br/>dim_product"]
-        Channel["Channel<br/>dim_channel"]
-        Date["Date<br/>dim_date"]
-        Sale["Sale<br/>fact_sales"]
-        CampaignTouch["Campaign Touch<br/>fact_campaign_touch"]
-        WebEvent["Web Event<br/>fact_web_event"]
-    end
-
-    subgraph Gold["Gold analytics datasets"]
-        SalesKPI["Sales KPI<br/>monthly_sales_summary"]
-        CustomerValue["Customer 360<br/>customer_360"]
-        CampaignROI["Campaign ROI<br/>campaign_roi_summary"]
+    subgraph Gold["Gold-only ontology"]
         ExecutiveSnapshot["Executive Snapshot<br/>executive_kpi_snapshot"]
+        SalesKPI["Sales KPI<br/>monthly_sales_summary"]
         ProductPerformance["Product Performance<br/>product_performance"]
         ChannelPerformance["Channel Performance<br/>channel_performance"]
         RegionSegmentScorecard["Region Segment Scorecard<br/>region_segment_scorecard"]
+        CustomerValue["Customer 360<br/>customer_360"]
+        CampaignROI["Campaign ROI<br/>campaign_roi_summary"]
     end
 
-    Sale -->|"belongs_to"| Customer
-    Sale -->|"sold_as"| Product
-    Sale -->|"originated_in"| Channel
-    Sale -->|"occurred_on"| Date
-    CampaignTouch -->|"targets"| Customer
-    CampaignTouch -->|"attributes_to"| Sale
-    WebEvent -->|"performed_by"| Customer
-    WebEvent -->|"references"| Product
-    SalesKPI -->|"aggregates"| Sale
-    CustomerValue -->|"summarizes"| Customer
-    CampaignROI -->|"aggregates"| CampaignTouch
     ExecutiveSnapshot -->|"rolls_up"| SalesKPI
     ExecutiveSnapshot -->|"rolls_up"| CampaignROI
-    ProductPerformance -->|"aggregates"| Sale
-    ChannelPerformance -->|"aggregates"| Sale
-    RegionSegmentScorecard -->|"aggregates"| Customer
+    ExecutiveSnapshot -->|"summarizes"| ProductPerformance
+    ExecutiveSnapshot -->|"summarizes"| ChannelPerformance
+    ExecutiveSnapshot -->|"summarizes"| RegionSegmentScorecard
+    SalesKPI -->|"aligns_to_product"| ProductPerformance
+    SalesKPI -->|"aligns_to_channel"| ChannelPerformance
+    SalesKPI -->|"aligns_to_region_segment"| RegionSegmentScorecard
+    CustomerValue -->|"rolls_up_to"| RegionSegmentScorecard
 
-    classDef silver fill:#CFE4FA,stroke:#0078D4,color:#000000
     classDef gold fill:#DFF6DD,stroke:#107C10,color:#000000
-    class Customer,Product,Channel,Date,Sale,CampaignTouch,WebEvent silver
-    class SalesKPI,CustomerValue,CampaignROI,ExecutiveSnapshot,ProductPerformance,ChannelPerformance,RegionSegmentScorecard gold
+    class ExecutiveSnapshot,SalesKPI,ProductPerformance,ChannelPerformance,RegionSegmentScorecard,CustomerValue,CampaignROI gold

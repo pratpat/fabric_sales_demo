@@ -1,11 +1,8 @@
 entity,layer,table,primary_key,description
-Customer,Silver,dim_customer,customer_id,Person or household prospect/customer in the consumer banking sales motion.
-Product,Silver,dim_product,product_id,Financial product sold through Marcus-style channels.
-Channel,Silver,dim_channel,channel_id,Acquisition or servicing channel for applications and funded sales.
-Date,Silver,dim_date,date_key,Calendar dimension for time-series analysis.
-Sale,Silver,fact_sales,transaction_id,"Application or funded sale event with amount, stage, customer, product, and channel."
-CampaignTouch,Silver,fact_campaign_touch,touch_id,Marketing touch with conversion attribution.
-WebEvent,Silver,fact_web_event,event_id,Digital engagement event associated with a customer and product.
+ExecutiveSnapshot,Gold,executive_kpi_snapshot,snapshot_date,Single-row executive scorecard for demo landing pages.
 SalesKPI,Gold,monthly_sales_summary,"sales_month,region,segment,product_id,channel_id",Business-ready monthly sales KPI aggregate.
 CustomerValue,Gold,customer_360,customer_id,"Customer-level value, revenue, sales, and engagement profile."
-ExecutiveSnapshot,Gold,executive_kpi_snapshot,snapshot_date,Single-row executive scorecard for demo landing pages.
+CampaignROI,Gold,campaign_roi_summary,"campaign_month,campaign_id,channel",Campaign conversion and ROI aggregate.
+ProductPerformance,Gold,product_performance,product_id,"Product-level sales, revenue, conversion, and new-customer mix."
+ChannelPerformance,Gold,channel_performance,"sales_month,channel_id",Monthly channel sales and conversion performance.
+RegionSegmentScorecard,Gold,region_segment_scorecard,"region,segment","Region and segment scorecard with customers, engagement, conversion, and revenue."

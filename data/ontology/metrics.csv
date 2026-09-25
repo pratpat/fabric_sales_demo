@@ -1,5 +1,5 @@
 metric,definition,formula,gold_table
-Applications,Count of sales transaction rows regardless of stage.,COUNT(fact_sales[transaction_id]),monthly_sales_summary
+Applications,Count of sales applications represented in the gold monthly sales summary.,SUM(monthly_sales_summary[applications]),monthly_sales_summary
 Funded Sales,Count of transactions where sales_stage is Funded.,SUM(monthly_sales_summary[funded_sales]),monthly_sales_summary
 Sales Amount,Total funded sales balance or funded volume.,SUM(monthly_sales_summary[sales_amount]),monthly_sales_summary
 Estimated Revenue,Modeled revenue from funded sales using product revenue assumptions.,SUM(monthly_sales_summary[estimated_revenue]),monthly_sales_summary

@@ -39,8 +39,8 @@ All tables are synthetic and intended for Microsoft Fabric demos.
 
 | File | Grain | Description |
 | --- | --- | --- |
-| `entities.csv` | One row per business entity | Entity-to-table mapping for the Fabric model. |
-| `relationships.csv` | One row per semantic relationship | Entity relationship definitions and cardinality. |
+| `entities.csv` | One row per Gold business entity | Gold entity-to-table mapping for the Fabric model. |
+| `relationships.csv` | One row per Gold semantic relationship | Gold entity relationship definitions and cardinality. |
 | `metrics.csv` | One row per metric | Business metric definitions and formulas. |
 | `business_terms.csv` | One row per term | Demo glossary for business users and Fabric Data Agent prompts. |
 | `graph_nodes.csv` | One row per graph node | Ontology nodes for dimensions, facts, and gold aggregates. |

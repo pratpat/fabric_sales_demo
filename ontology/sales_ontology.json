@@ -1,68 +1,75 @@
 {
-  "name": "FabricSalesDemoOntology",
-  "version": "1.0.0",
-  "description": "Business ontology for the synthetic Marcus-style Fabric sales demo.",
+  "name": "FabricSalesDemoGoldOntology",
+  "version": "1.1.0",
+  "description": "Gold-layer-only business ontology for the synthetic Marcus-style Fabric sales demo.",
+  "scope": "Gold datasets only. Silver facts and dimensions are intentionally excluded from this ontology.",
   "layers": {
-    "bronze": "Raw synthetic extracts for customers, sales, campaigns, and web events.",
-    "silver": "Conformed dimensions and facts for a star-schema analytics model.",
-    "gold": "Business-ready aggregates and scorecards for executive and operational reporting."
+    "gold": "Business-ready aggregates and scorecards for executive reporting, analytics, Fabric Data Agent grounding, and Cowork integration."
   },
   "entities": [
     {
-      "name": "Customer",
-      "table": "dim_customer",
+      "name": "ExecutiveSnapshot",
+      "table": "executive_kpi_snapshot",
+      "key": "snapshot_date",
+      "attributes": ["reporting_period", "customers", "applications", "funded_sales", "sales_amount", "estimated_revenue", "conversion_rate", "campaign_conversion_rate"]
+    },
+    {
+      "name": "SalesKPI",
+      "table": "monthly_sales_summary",
+      "key": "sales_month,region,segment,product_id,channel_id",
+      "attributes": ["applications", "funded_sales", "sales_amount", "estimated_revenue", "new_customer_sales", "conversion_rate"]
+    },
+    {
+      "name": "CustomerValue",
+      "table": "customer_360",
       "key": "customer_id",
-      "attributes": ["region", "segment", "age_band", "annual_income_band", "credit_tier", "digital_engagement_score"]
+      "attributes": ["region", "segment", "credit_tier", "digital_engagement_score", "web_events", "funded_sales", "lifetime_sales_amount", "lifetime_estimated_revenue"]
     },
     {
-      "name": "Product",
-      "table": "dim_product",
+      "name": "CampaignROI",
+      "table": "campaign_roi_summary",
+      "key": "campaign_month,campaign_id,channel",
+      "attributes": ["campaign_name", "touches", "conversions", "attributed_revenue", "conversion_rate", "roi_index"]
+    },
+    {
+      "name": "ProductPerformance",
+      "table": "product_performance",
       "key": "product_id",
-      "attributes": ["product_name", "product_family", "base_amount", "revenue_rate"]
+      "attributes": ["product_name", "product_family", "applications", "funded_sales", "sales_amount", "estimated_revenue", "average_funded_sale", "conversion_rate", "new_customer_mix"]
     },
     {
-      "name": "Channel",
-      "table": "dim_channel",
-      "key": "channel_id",
-      "attributes": ["channel_name", "channel_group"]
+      "name": "ChannelPerformance",
+      "table": "channel_performance",
+      "key": "sales_month,channel_id",
+      "attributes": ["channel_name", "channel_group", "applications", "funded_sales", "sales_amount", "estimated_revenue", "conversion_rate"]
     },
     {
-      "name": "Sale",
-      "table": "fact_sales",
-      "key": "transaction_id",
-      "attributes": ["transaction_date", "sales_stage", "sales_amount", "estimated_revenue", "is_new_customer_sale"]
-    },
-    {
-      "name": "CampaignTouch",
-      "table": "fact_campaign_touch",
-      "key": "touch_id",
-      "attributes": ["touch_date", "campaign_id", "campaign_name", "channel", "offer_variant", "converted", "attributed_revenue"]
-    },
-    {
-      "name": "WebEvent",
-      "table": "fact_web_event",
-      "key": "event_id",
-      "attributes": ["event_timestamp", "event_type", "device_type", "session_minutes", "referrer"]
+      "name": "RegionSegmentScorecard",
+      "table": "region_segment_scorecard",
+      "key": "region,segment",
+      "attributes": ["customers", "average_engagement_score", "applications", "funded_sales", "sales_amount", "estimated_revenue", "conversion_rate", "revenue_per_customer"]
     }
   ],
   "relationships": [
-    {"from": "Sale.customer_id", "to": "Customer.customer_id", "cardinality": "many-to-one"},
-    {"from": "Sale.product_id", "to": "Product.product_id", "cardinality": "many-to-one"},
-    {"from": "Sale.channel_id", "to": "Channel.channel_id", "cardinality": "many-to-one"},
-    {"from": "CampaignTouch.customer_id", "to": "Customer.customer_id", "cardinality": "many-to-one"},
-    {"from": "CampaignTouch.attributed_transaction_id", "to": "Sale.transaction_id", "cardinality": "many-to-zero-or-one"},
-    {"from": "WebEvent.customer_id", "to": "Customer.customer_id", "cardinality": "many-to-one"},
-    {"from": "WebEvent.product_id", "to": "Product.product_id", "cardinality": "many-to-one"}
+    {"from": "ExecutiveSnapshot.reporting_period", "to": "SalesKPI.sales_month", "relationship": "rolls_up", "cardinality": "one-to-many-summary"},
+    {"from": "ExecutiveSnapshot.reporting_period", "to": "CampaignROI.campaign_month", "relationship": "rolls_up", "cardinality": "one-to-many-summary"},
+    {"from": "ExecutiveSnapshot.snapshot_date", "to": "ProductPerformance.product_id", "relationship": "summarizes", "cardinality": "one-to-many-summary"},
+    {"from": "ExecutiveSnapshot.reporting_period", "to": "ChannelPerformance.sales_month", "relationship": "summarizes", "cardinality": "one-to-many-summary"},
+    {"from": "ExecutiveSnapshot.snapshot_date", "to": "RegionSegmentScorecard.region,segment", "relationship": "summarizes", "cardinality": "one-to-many-summary"},
+    {"from": "SalesKPI.product_id", "to": "ProductPerformance.product_id", "relationship": "aligns_to_product", "cardinality": "many-to-one-summary"},
+    {"from": "SalesKPI.sales_month,channel_id", "to": "ChannelPerformance.sales_month,channel_id", "relationship": "aligns_to_channel", "cardinality": "many-to-one-summary"},
+    {"from": "SalesKPI.region,segment", "to": "RegionSegmentScorecard.region,segment", "relationship": "aligns_to_region_segment", "cardinality": "many-to-one-summary"},
+    {"from": "CustomerValue.region,segment", "to": "RegionSegmentScorecard.region,segment", "relationship": "rolls_up_to", "cardinality": "many-to-one-summary"}
   ],
   "metrics": [
     {
       "name": "Applications",
-      "definition": "Count of sales transaction rows regardless of stage.",
-      "dax": "Applications = COUNTROWS(fact_sales)"
+      "definition": "Gold-level count of applications represented in monthly sales aggregates.",
+      "dax": "Applications = SUM(gold_monthly_sales_summary[applications])"
     },
     {
       "name": "Funded Sales",
-      "definition": "Count of transactions where sales_stage is Funded.",
+      "definition": "Gold-level count of funded sales.",
       "dax": "Funded Sales = SUM(gold_monthly_sales_summary[funded_sales])"
     },
     {
