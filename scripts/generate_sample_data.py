@@ -303,6 +303,204 @@ def make_customer_360(customers: list[dict], transactions: list[dict], web_event
     return rows
 
 
+def summarize_product_performance(transactions: list[dict]) -> list[dict]:
+    products = {product.product_id: product for product in PRODUCTS}
+    grouped: dict[str, dict] = {}
+    for row in transactions:
+        product = products[row["product_id"]]
+        target = grouped.setdefault(
+            row["product_id"],
+            {
+                "product_id": row["product_id"],
+                "product_name": product.product_name,
+                "product_family": product.product_family,
+                "applications": 0,
+                "funded_sales": 0,
+                "sales_amount": 0.0,
+                "estimated_revenue": 0.0,
+                "new_customer_sales": 0,
+            },
+        )
+        target["applications"] += 1
+        if row["sales_stage"] == "Funded":
+            target["funded_sales"] += 1
+            target["sales_amount"] += float(row["sales_amount"])
+            target["estimated_revenue"] += float(row["estimated_revenue"])
+            target["new_customer_sales"] += 1 if row["is_new_customer_sale"] else 0
+    return [
+        {
+            **row,
+            "sales_amount": round(row["sales_amount"], 2),
+            "estimated_revenue": round(row["estimated_revenue"], 2),
+            "average_funded_sale": round(row["sales_amount"] / row["funded_sales"], 2) if row["funded_sales"] else 0,
+            "conversion_rate": round(row["funded_sales"] / row["applications"], 4),
+            "new_customer_mix": round(row["new_customer_sales"] / row["funded_sales"], 4) if row["funded_sales"] else 0,
+        }
+        for row in grouped.values()
+    ]
+
+
+def summarize_channel_performance(transactions: list[dict]) -> list[dict]:
+    channels = {
+        channel_id: {"channel_name": channel_name, "channel_group": channel_group}
+        for channel_id, channel_name, channel_group in CHANNELS
+    }
+    grouped: dict[tuple, dict] = {}
+    for row in transactions:
+        sales_month = row["transaction_date"][:7]
+        channel = channels[row["channel_id"]]
+        key = (sales_month, row["channel_id"])
+        target = grouped.setdefault(
+            key,
+            {
+                "sales_month": sales_month,
+                "channel_id": row["channel_id"],
+                "channel_name": channel["channel_name"],
+                "channel_group": channel["channel_group"],
+                "applications": 0,
+                "funded_sales": 0,
+                "sales_amount": 0.0,
+                "estimated_revenue": 0.0,
+            },
+        )
+        target["applications"] += 1
+        if row["sales_stage"] == "Funded":
+            target["funded_sales"] += 1
+            target["sales_amount"] += float(row["sales_amount"])
+            target["estimated_revenue"] += float(row["estimated_revenue"])
+    return [
+        {
+            **row,
+            "sales_amount": round(row["sales_amount"], 2),
+            "estimated_revenue": round(row["estimated_revenue"], 2),
+            "conversion_rate": round(row["funded_sales"] / row["applications"], 4),
+        }
+        for row in grouped.values()
+    ]
+
+
+def summarize_region_segment_scorecard(customers: list[dict], transactions: list[dict]) -> list[dict]:
+    grouped: dict[tuple, dict] = {}
+    for customer in customers:
+        key = (customer["region"], customer["segment"])
+        target = grouped.setdefault(
+            key,
+            {
+                "region": customer["region"],
+                "segment": customer["segment"],
+                "customers": 0,
+                "total_engagement_score": 0,
+                "applications": 0,
+                "funded_sales": 0,
+                "sales_amount": 0.0,
+                "estimated_revenue": 0.0,
+            },
+        )
+        target["customers"] += 1
+        target["total_engagement_score"] += int(customer["digital_engagement_score"])
+    for row in transactions:
+        target = grouped[(row["region"], row["segment"])]
+        target["applications"] += 1
+        if row["sales_stage"] == "Funded":
+            target["funded_sales"] += 1
+            target["sales_amount"] += float(row["sales_amount"])
+            target["estimated_revenue"] += float(row["estimated_revenue"])
+    return [
+        {
+            "region": row["region"],
+            "segment": row["segment"],
+            "customers": row["customers"],
+            "average_engagement_score": round(row["total_engagement_score"] / row["customers"], 1),
+            "applications": row["applications"],
+            "funded_sales": row["funded_sales"],
+            "sales_amount": round(row["sales_amount"], 2),
+            "estimated_revenue": round(row["estimated_revenue"], 2),
+            "conversion_rate": round(row["funded_sales"] / row["applications"], 4) if row["applications"] else 0,
+            "revenue_per_customer": round(row["estimated_revenue"] / row["customers"], 2),
+        }
+        for row in grouped.values()
+    ]
+
+
+def make_executive_kpi_snapshot(transactions: list[dict], campaign_touches: list[dict], customers: list[dict]) -> list[dict]:
+    applications = len(transactions)
+    funded_transactions = [row for row in transactions if row["sales_stage"] == "Funded"]
+    sales_amount = sum(float(row["sales_amount"]) for row in funded_transactions)
+    estimated_revenue = sum(float(row["estimated_revenue"]) for row in funded_transactions)
+    new_customer_sales = sum(1 for row in funded_transactions if row["is_new_customer_sale"])
+    campaign_conversions = sum(1 for row in campaign_touches if row["converted"])
+    return [
+        {
+            "snapshot_date": date(2026, 9, 30).isoformat(),
+            "reporting_period": "2025-01 through 2026-09",
+            "customers": len(customers),
+            "applications": applications,
+            "funded_sales": len(funded_transactions),
+            "sales_amount": round(sales_amount, 2),
+            "estimated_revenue": round(estimated_revenue, 2),
+            "average_funded_sale": round(sales_amount / len(funded_transactions), 2),
+            "conversion_rate": round(len(funded_transactions) / applications, 4),
+            "new_customer_sales": new_customer_sales,
+            "new_customer_mix": round(new_customer_sales / len(funded_transactions), 4),
+            "campaign_touches": len(campaign_touches),
+            "campaign_conversions": campaign_conversions,
+            "campaign_conversion_rate": round(campaign_conversions / len(campaign_touches), 4),
+        }
+    ]
+
+
+def make_ontology_entities() -> list[dict]:
+    return [
+        {"entity": "Customer", "layer": "Silver", "table": "dim_customer", "primary_key": "customer_id", "description": "Person or household prospect/customer in the consumer banking sales motion."},
+        {"entity": "Product", "layer": "Silver", "table": "dim_product", "primary_key": "product_id", "description": "Financial product sold through Marcus-style channels."},
+        {"entity": "Channel", "layer": "Silver", "table": "dim_channel", "primary_key": "channel_id", "description": "Acquisition or servicing channel for applications and funded sales."},
+        {"entity": "Date", "layer": "Silver", "table": "dim_date", "primary_key": "date_key", "description": "Calendar dimension for time-series analysis."},
+        {"entity": "Sale", "layer": "Silver", "table": "fact_sales", "primary_key": "transaction_id", "description": "Application or funded sale event with amount, stage, customer, product, and channel."},
+        {"entity": "CampaignTouch", "layer": "Silver", "table": "fact_campaign_touch", "primary_key": "touch_id", "description": "Marketing touch with conversion attribution."},
+        {"entity": "WebEvent", "layer": "Silver", "table": "fact_web_event", "primary_key": "event_id", "description": "Digital engagement event associated with a customer and product."},
+        {"entity": "SalesKPI", "layer": "Gold", "table": "monthly_sales_summary", "primary_key": "sales_month,region,segment,product_id,channel_id", "description": "Business-ready monthly sales KPI aggregate."},
+        {"entity": "CustomerValue", "layer": "Gold", "table": "customer_360", "primary_key": "customer_id", "description": "Customer-level value, revenue, sales, and engagement profile."},
+        {"entity": "ExecutiveSnapshot", "layer": "Gold", "table": "executive_kpi_snapshot", "primary_key": "snapshot_date", "description": "Single-row executive scorecard for demo landing pages."},
+    ]
+
+
+def make_ontology_relationships() -> list[dict]:
+    return [
+        {"from_entity": "Sale", "relationship": "belongs_to", "to_entity": "Customer", "from_field": "customer_id", "to_field": "customer_id", "cardinality": "many-to-one"},
+        {"from_entity": "Sale", "relationship": "sold_as", "to_entity": "Product", "from_field": "product_id", "to_field": "product_id", "cardinality": "many-to-one"},
+        {"from_entity": "Sale", "relationship": "originated_in", "to_entity": "Channel", "from_field": "channel_id", "to_field": "channel_id", "cardinality": "many-to-one"},
+        {"from_entity": "CampaignTouch", "relationship": "targets", "to_entity": "Customer", "from_field": "customer_id", "to_field": "customer_id", "cardinality": "many-to-one"},
+        {"from_entity": "CampaignTouch", "relationship": "attributes_to", "to_entity": "Sale", "from_field": "attributed_transaction_id", "to_field": "transaction_id", "cardinality": "many-to-zero-or-one"},
+        {"from_entity": "WebEvent", "relationship": "performed_by", "to_entity": "Customer", "from_field": "customer_id", "to_field": "customer_id", "cardinality": "many-to-one"},
+        {"from_entity": "WebEvent", "relationship": "references", "to_entity": "Product", "from_field": "product_id", "to_field": "product_id", "cardinality": "many-to-one"},
+        {"from_entity": "CustomerValue", "relationship": "summarizes", "to_entity": "Customer", "from_field": "customer_id", "to_field": "customer_id", "cardinality": "one-to-one"},
+    ]
+
+
+def make_ontology_metrics() -> list[dict]:
+    return [
+        {"metric": "Applications", "definition": "Count of sales transaction rows regardless of stage.", "formula": "COUNT(fact_sales[transaction_id])", "gold_table": "monthly_sales_summary"},
+        {"metric": "Funded Sales", "definition": "Count of transactions where sales_stage is Funded.", "formula": "SUM(monthly_sales_summary[funded_sales])", "gold_table": "monthly_sales_summary"},
+        {"metric": "Sales Amount", "definition": "Total funded sales balance or funded volume.", "formula": "SUM(monthly_sales_summary[sales_amount])", "gold_table": "monthly_sales_summary"},
+        {"metric": "Estimated Revenue", "definition": "Modeled revenue from funded sales using product revenue assumptions.", "formula": "SUM(monthly_sales_summary[estimated_revenue])", "gold_table": "monthly_sales_summary"},
+        {"metric": "Conversion Rate", "definition": "Funded sales divided by applications.", "formula": "DIVIDE([Funded Sales], [Applications])", "gold_table": "monthly_sales_summary"},
+        {"metric": "New Customer Mix", "definition": "New customer funded sales divided by total funded sales.", "formula": "DIVIDE([New Customer Sales], [Funded Sales])", "gold_table": "product_performance"},
+        {"metric": "Campaign ROI Index", "definition": "Attributed revenue divided by modeled campaign touch cost.", "formula": "SUM(attributed_revenue) / (SUM(touches) * 7.5)", "gold_table": "campaign_roi_summary"},
+        {"metric": "Revenue Per Customer", "definition": "Estimated revenue divided by customers in a region and segment.", "formula": "DIVIDE([Estimated Revenue], [Customers])", "gold_table": "region_segment_scorecard"},
+    ]
+
+
+def make_ontology_business_terms() -> list[dict]:
+    return [
+        {"term": "Application", "description": "A customer application or intent event for a product, regardless of final stage.", "example": "Loan application started through Web."},
+        {"term": "Funded Sale", "description": "A transaction whose sales stage is Funded and contributes to sales amount and revenue.", "example": "Approved CD account funded by a customer."},
+        {"term": "Sales Amount", "description": "The funded balance, loan amount, or card spend proxy used for sales volume.", "example": "Principal balance for a personal loan."},
+        {"term": "Estimated Revenue", "description": "Modeled revenue derived from sales amount multiplied by product-level revenue rate.", "example": "Savings balance times deposit revenue rate."},
+        {"term": "Digital Engagement Score", "description": "Synthetic 25-100 customer engagement score based on digital behavior.", "example": "High app/web engagement customer with score 88."},
+        {"term": "Attributed Revenue", "description": "Estimated revenue credited to a converted campaign touch.", "example": "Revenue assigned to a rate booster email."},
+    ]
+
+
 def main() -> None:
     random.seed(RANDOM_SEED)
 
@@ -342,6 +540,15 @@ def main() -> None:
     write_csv(DATA / "gold" / "monthly_sales_summary.csv", summarize_sales(transactions))
     write_csv(DATA / "gold" / "campaign_roi_summary.csv", summarize_campaigns(campaign_touches))
     write_csv(DATA / "gold" / "customer_360.csv", make_customer_360(customers, transactions, web_events))
+    write_csv(DATA / "gold" / "executive_kpi_snapshot.csv", make_executive_kpi_snapshot(transactions, campaign_touches, customers))
+    write_csv(DATA / "gold" / "product_performance.csv", summarize_product_performance(transactions))
+    write_csv(DATA / "gold" / "channel_performance.csv", summarize_channel_performance(transactions))
+    write_csv(DATA / "gold" / "region_segment_scorecard.csv", summarize_region_segment_scorecard(customers, transactions))
+
+    write_csv(DATA / "ontology" / "entities.csv", make_ontology_entities())
+    write_csv(DATA / "ontology" / "relationships.csv", make_ontology_relationships())
+    write_csv(DATA / "ontology" / "metrics.csv", make_ontology_metrics())
+    write_csv(DATA / "ontology" / "business_terms.csv", make_ontology_business_terms())
 
     print("Generated synthetic Fabric sales demo data.")
     print(f"Customers: {len(customers)}")

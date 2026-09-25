@@ -1,0 +1,9 @@
+metric,definition,formula,gold_table
+Applications,Count of sales transaction rows regardless of stage.,COUNT(fact_sales[transaction_id]),monthly_sales_summary
+Funded Sales,Count of transactions where sales_stage is Funded.,SUM(monthly_sales_summary[funded_sales]),monthly_sales_summary
+Sales Amount,Total funded sales balance or funded volume.,SUM(monthly_sales_summary[sales_amount]),monthly_sales_summary
+Estimated Revenue,Modeled revenue from funded sales using product revenue assumptions.,SUM(monthly_sales_summary[estimated_revenue]),monthly_sales_summary
+Conversion Rate,Funded sales divided by applications.,"DIVIDE([Funded Sales], [Applications])",monthly_sales_summary
+New Customer Mix,New customer funded sales divided by total funded sales.,"DIVIDE([New Customer Sales], [Funded Sales])",product_performance
+Campaign ROI Index,Attributed revenue divided by modeled campaign touch cost.,SUM(attributed_revenue) / (SUM(touches) * 7.5),campaign_roi_summary
+Revenue Per Customer,Estimated revenue divided by customers in a region and segment.,"DIVIDE([Estimated Revenue], [Customers])",region_segment_scorecard

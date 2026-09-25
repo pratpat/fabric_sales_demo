@@ -30,6 +30,19 @@ All tables are synthetic and intended for Microsoft Fabric demos.
 | `monthly_sales_summary.csv` | Month, region, segment, product, channel | Sales KPI aggregate for executive dashboards. |
 | `campaign_roi_summary.csv` | Month, campaign, channel | Campaign conversion and ROI aggregate. |
 | `customer_360.csv` | One row per customer | Customer value and engagement profile. |
+| `executive_kpi_snapshot.csv` | One row per reporting period | Executive landing-page KPI snapshot. |
+| `product_performance.csv` | Product | Product-level application, funded sales, revenue, conversion, and new-customer mix. |
+| `channel_performance.csv` | Month, channel | Channel-level sales trend and conversion performance. |
+| `region_segment_scorecard.csv` | Region, segment | Customer, engagement, conversion, revenue, and revenue-per-customer scorecard. |
+
+## Ontology
+
+| File | Grain | Description |
+| --- | --- | --- |
+| `entities.csv` | One row per business entity | Entity-to-table mapping for the Fabric model. |
+| `relationships.csv` | One row per semantic relationship | Entity relationship definitions and cardinality. |
+| `metrics.csv` | One row per metric | Business metric definitions and formulas. |
+| `business_terms.csv` | One row per term | Demo glossary for business users and Fabric Data Agent prompts. |
 
 ## Recommended Power BI measures
 
@@ -39,4 +52,5 @@ Sales Amount = SUM(gold_monthly_sales_summary[sales_amount])
 Estimated Revenue = SUM(gold_monthly_sales_summary[estimated_revenue])
 Conversion Rate = DIVIDE(SUM(gold_monthly_sales_summary[funded_sales]), SUM(gold_monthly_sales_summary[applications]))
 New Customer Sales = SUM(gold_monthly_sales_summary[new_customer_sales])
+Campaign ROI Index = DIVIDE(SUM(gold_campaign_roi_summary[attributed_revenue]), SUM(gold_campaign_roi_summary[touches]) * 7.5)
 ```

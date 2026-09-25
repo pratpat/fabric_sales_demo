@@ -1,0 +1,6 @@
+product_id,product_name,product_family,applications,funded_sales,sales_amount,estimated_revenue,new_customer_sales,average_funded_sale,conversion_rate,new_customer_mix
+P003,Marcus Personal Loan,Lending,439,317,4614177.75,147653.62,80,14555.77,0.7221,0.2524
+P001,Marcus High Yield Savings,Deposits,516,363,6227034.04,37362.29,91,17154.36,0.7035,0.2507
+P004,Marcus Invest Account,Wealth,511,373,8349627.95,66797.0,101,22385.06,0.7299,0.2708
+P002,Marcus Certificate of Deposit,Deposits,507,358,9614125.35,38456.47,89,26855.1,0.7061,0.2486
+P005,Marcus Credit Card,Cards,527,368,1179243.33,48348.94,92,3204.47,0.6983,0.25

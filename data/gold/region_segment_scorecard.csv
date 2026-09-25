@@ -1,0 +1,26 @@
+region,segment,customers,average_engagement_score,applications,funded_sales,sales_amount,estimated_revenue,conversion_rate,revenue_per_customer
+Northeast,Mass Affluent,23,57.1,130,102,1526229.4,18052.99,0.7846,784.91
+Northeast,Borrower,18,65.0,95,64,1106558.31,12046.59,0.6737,669.25
+West,Mass Affluent,23,69.3,121,91,1484721.28,20237.79,0.7521,879.9
+Northeast,Emerging Affluent,20,72.6,104,74,1180547.43,14152.48,0.7115,707.62
+Northeast,Rate Shopper,22,65.8,103,71,1252973.19,12029.87,0.6893,546.81
+Southwest,Digital Native,27,58.1,128,93,1690872.2,15725.36,0.7266,582.42
+West,Emerging Affluent,22,62.3,127,94,1518537.61,17753.25,0.7402,806.97
+Southeast,Digital Native,16,73.4,79,55,848792.94,8072.25,0.6962,504.52
+Southeast,Borrower,16,64.6,79,55,893867.56,9518.45,0.6962,594.9
+Southeast,Emerging Affluent,19,62.5,93,63,1042497.07,11036.17,0.6774,580.85
+Southwest,Borrower,21,61.5,100,69,1356919.71,13768.89,0.69,655.66
+Southwest,Mass Affluent,17,66.8,102,68,1209106.63,13436.54,0.6667,790.38
+Midwest,Emerging Affluent,20,56.8,103,81,1426425.28,16153.0,0.7864,807.65
+Southeast,Mass Affluent,18,55.4,68,51,996136.73,11549.7,0.75,641.65
+Southeast,Rate Shopper,23,72.7,118,76,1256637.7,15006.69,0.6441,652.46
+Southwest,Emerging Affluent,14,72.2,56,34,628181.9,5907.17,0.6071,421.94
+West,Borrower,24,68.9,125,94,1485848.38,19517.38,0.752,813.22
+Midwest,Digital Native,18,59.6,82,62,986725.91,11537.14,0.7561,640.95
+Midwest,Mass Affluent,22,58.5,99,67,1104233.52,13187.09,0.6768,599.41
+Northeast,Digital Native,18,57.8,89,71,1180950.22,13068.41,0.7978,726.02
+West,Digital Native,14,62.1,78,54,960606.39,13020.25,0.6923,930.02
+Midwest,Borrower,24,61.7,123,77,1335141.35,12936.3,0.626,539.01
+West,Rate Shopper,23,68.6,111,81,1191055.05,12875.05,0.7297,559.78
+Southwest,Rate Shopper,15,62.3,67,51,960194.43,11861.85,0.7612,790.79
+Midwest,Rate Shopper,23,65.2,120,81,1360448.23,16167.66,0.675,702.94

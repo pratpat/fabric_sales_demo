@@ -1,0 +1,9 @@
+from_entity,relationship,to_entity,from_field,to_field,cardinality
+Sale,belongs_to,Customer,customer_id,customer_id,many-to-one
+Sale,sold_as,Product,product_id,product_id,many-to-one
+Sale,originated_in,Channel,channel_id,channel_id,many-to-one
+CampaignTouch,targets,Customer,customer_id,customer_id,many-to-one
+CampaignTouch,attributes_to,Sale,attributed_transaction_id,transaction_id,many-to-zero-or-one
+WebEvent,performed_by,Customer,customer_id,customer_id,many-to-one
+WebEvent,references,Product,product_id,product_id,many-to-one
+CustomerValue,summarizes,Customer,customer_id,customer_id,one-to-one

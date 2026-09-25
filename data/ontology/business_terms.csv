@@ -1,0 +1,7 @@
+term,description,example
+Application,"A customer application or intent event for a product, regardless of final stage.",Loan application started through Web.
+Funded Sale,A transaction whose sales stage is Funded and contributes to sales amount and revenue.,Approved CD account funded by a customer.
+Sales Amount,"The funded balance, loan amount, or card spend proxy used for sales volume.",Principal balance for a personal loan.
+Estimated Revenue,Modeled revenue derived from sales amount multiplied by product-level revenue rate.,Savings balance times deposit revenue rate.
+Digital Engagement Score,Synthetic 25-100 customer engagement score based on digital behavior.,High app/web engagement customer with score 88.
+Attributed Revenue,Estimated revenue credited to a converted campaign touch.,Revenue assigned to a rate booster email.

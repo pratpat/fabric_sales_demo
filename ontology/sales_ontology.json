@@ -1,0 +1,98 @@
+{
+  "name": "FabricSalesDemoOntology",
+  "version": "1.0.0",
+  "description": "Business ontology for the synthetic Marcus-style Fabric sales demo.",
+  "layers": {
+    "bronze": "Raw synthetic extracts for customers, sales, campaigns, and web events.",
+    "silver": "Conformed dimensions and facts for a star-schema analytics model.",
+    "gold": "Business-ready aggregates and scorecards for executive and operational reporting."
+  },
+  "entities": [
+    {
+      "name": "Customer",
+      "table": "dim_customer",
+      "key": "customer_id",
+      "attributes": ["region", "segment", "age_band", "annual_income_band", "credit_tier", "digital_engagement_score"]
+    },
+    {
+      "name": "Product",
+      "table": "dim_product",
+      "key": "product_id",
+      "attributes": ["product_name", "product_family", "base_amount", "revenue_rate"]
+    },
+    {
+      "name": "Channel",
+      "table": "dim_channel",
+      "key": "channel_id",
+      "attributes": ["channel_name", "channel_group"]
+    },
+    {
+      "name": "Sale",
+      "table": "fact_sales",
+      "key": "transaction_id",
+      "attributes": ["transaction_date", "sales_stage", "sales_amount", "estimated_revenue", "is_new_customer_sale"]
+    },
+    {
+      "name": "CampaignTouch",
+      "table": "fact_campaign_touch",
+      "key": "touch_id",
+      "attributes": ["touch_date", "campaign_id", "campaign_name", "channel", "offer_variant", "converted", "attributed_revenue"]
+    },
+    {
+      "name": "WebEvent",
+      "table": "fact_web_event",
+      "key": "event_id",
+      "attributes": ["event_timestamp", "event_type", "device_type", "session_minutes", "referrer"]
+    }
+  ],
+  "relationships": [
+    {"from": "Sale.customer_id", "to": "Customer.customer_id", "cardinality": "many-to-one"},
+    {"from": "Sale.product_id", "to": "Product.product_id", "cardinality": "many-to-one"},
+    {"from": "Sale.channel_id", "to": "Channel.channel_id", "cardinality": "many-to-one"},
+    {"from": "CampaignTouch.customer_id", "to": "Customer.customer_id", "cardinality": "many-to-one"},
+    {"from": "CampaignTouch.attributed_transaction_id", "to": "Sale.transaction_id", "cardinality": "many-to-zero-or-one"},
+    {"from": "WebEvent.customer_id", "to": "Customer.customer_id", "cardinality": "many-to-one"},
+    {"from": "WebEvent.product_id", "to": "Product.product_id", "cardinality": "many-to-one"}
+  ],
+  "metrics": [
+    {
+      "name": "Applications",
+      "definition": "Count of sales transaction rows regardless of stage.",
+      "dax": "Applications = COUNTROWS(fact_sales)"
+    },
+    {
+      "name": "Funded Sales",
+      "definition": "Count of transactions where sales_stage is Funded.",
+      "dax": "Funded Sales = SUM(gold_monthly_sales_summary[funded_sales])"
+    },
+    {
+      "name": "Sales Amount",
+      "definition": "Total funded sales balance or funded volume.",
+      "dax": "Sales Amount = SUM(gold_monthly_sales_summary[sales_amount])"
+    },
+    {
+      "name": "Estimated Revenue",
+      "definition": "Modeled revenue from funded sales using product revenue assumptions.",
+      "dax": "Estimated Revenue = SUM(gold_monthly_sales_summary[estimated_revenue])"
+    },
+    {
+      "name": "Conversion Rate",
+      "definition": "Funded sales divided by applications.",
+      "dax": "Conversion Rate = DIVIDE([Funded Sales], [Applications])"
+    },
+    {
+      "name": "Campaign ROI Index",
+      "definition": "Attributed revenue divided by modeled campaign touch cost.",
+      "dax": "Campaign ROI Index = DIVIDE(SUM(gold_campaign_roi_summary[attributed_revenue]), SUM(gold_campaign_roi_summary[touches]) * 7.5)"
+    }
+  ],
+  "goldTables": [
+    "executive_kpi_snapshot",
+    "monthly_sales_summary",
+    "product_performance",
+    "channel_performance",
+    "region_segment_scorecard",
+    "campaign_roi_summary",
+    "customer_360"
+  ]
+}

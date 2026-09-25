@@ -39,3 +39,30 @@ SELECT
     SUM(lifetime_estimated_revenue) AS lifetime_estimated_revenue
 FROM gold_customer_360
 GROUP BY region, segment, credit_tier;
+
+CREATE OR ALTER VIEW dbo.vw_product_performance AS
+SELECT
+    product_family,
+    product_name,
+    SUM(applications) AS applications,
+    SUM(funded_sales) AS funded_sales,
+    SUM(sales_amount) AS sales_amount,
+    SUM(estimated_revenue) AS estimated_revenue,
+    CAST(SUM(funded_sales) AS FLOAT) / NULLIF(SUM(applications), 0) AS conversion_rate,
+    CAST(SUM(new_customer_sales) AS FLOAT) / NULLIF(SUM(funded_sales), 0) AS new_customer_mix
+FROM gold_product_performance
+GROUP BY product_family, product_name;
+
+CREATE OR ALTER VIEW dbo.vw_region_segment_scorecard AS
+SELECT
+    region,
+    segment,
+    customers,
+    average_engagement_score,
+    applications,
+    funded_sales,
+    sales_amount,
+    estimated_revenue,
+    conversion_rate,
+    revenue_per_customer
+FROM gold_region_segment_scorecard;

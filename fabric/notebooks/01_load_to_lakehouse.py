@@ -19,6 +19,14 @@ TABLES = {
     "gold_monthly_sales_summary": "Files/data/gold/monthly_sales_summary.csv",
     "gold_campaign_roi_summary": "Files/data/gold/campaign_roi_summary.csv",
     "gold_customer_360": "Files/data/gold/customer_360.csv",
+    "gold_executive_kpi_snapshot": "Files/data/gold/executive_kpi_snapshot.csv",
+    "gold_product_performance": "Files/data/gold/product_performance.csv",
+    "gold_channel_performance": "Files/data/gold/channel_performance.csv",
+    "gold_region_segment_scorecard": "Files/data/gold/region_segment_scorecard.csv",
+    "ontology_entities": "Files/data/ontology/entities.csv",
+    "ontology_relationships": "Files/data/ontology/relationships.csv",
+    "ontology_metrics": "Files/data/ontology/metrics.csv",
+    "ontology_business_terms": "Files/data/ontology/business_terms.csv",
 }
 
 
