@@ -1,0 +1,432 @@
+campaign_month,campaign_id,campaign_name,channel,touches,conversions,attributed_revenue,conversion_rate,roi_index
+2026-04,CMP002,Debt Consolidation Loan,Email,3,0,0.0,0.0,0.0
+2025-02,CMP005,CD Maturity Winback,In App,3,1,394.76,0.3333,17.54
+2026-09,CMP001,Savings Rate Booster,Email,3,0,0.0,0.0,0.0
+2025-05,CMP002,Debt Consolidation Loan,Contact Center,3,0,0.0,0.0,0.0
+2025-10,CMP005,CD Maturity Winback,Email,2,1,134.51,0.5,8.97
+2025-05,CMP002,Debt Consolidation Loan,In App,5,1,93.02,0.2,2.48
+2026-07,CMP001,Savings Rate Booster,Display,3,1,303.71,0.3333,13.5
+2025-06,CMP001,Savings Rate Booster,Paid Search,5,1,243.04,0.2,6.48
+2025-06,CMP004,Card Rewards Upgrade,Paid Search,3,1,394.81,0.3333,17.55
+2025-01,CMP004,Card Rewards Upgrade,Display,1,0,0.0,0.0,0.0
+2026-05,CMP003,Invest Starter,Email,1,0,0.0,0.0,0.0
+2025-07,CMP002,Debt Consolidation Loan,Email,4,1,253.54,0.25,8.45
+2025-03,CMP004,Card Rewards Upgrade,Contact Center,2,0,0.0,0.0,0.0
+2025-10,CMP002,Debt Consolidation Loan,In App,3,0,0.0,0.0,0.0
+2026-02,CMP004,Card Rewards Upgrade,Contact Center,4,2,229.41,0.5,7.65
+2025-08,CMP001,Savings Rate Booster,Paid Search,2,0,0.0,0.0,0.0
+2026-07,CMP001,Savings Rate Booster,Paid Search,4,0,0.0,0.0,0.0
+2026-07,CMP004,Card Rewards Upgrade,Email,2,0,0.0,0.0,0.0
+2026-02,CMP004,Card Rewards Upgrade,Email,1,1,139.24,1.0,18.57
+2026-02,CMP002,Debt Consolidation Loan,In App,1,0,0.0,0.0,0.0
+2025-05,CMP003,Invest Starter,Email,2,1,99.42,0.5,6.63
+2025-01,CMP003,Invest Starter,Contact Center,2,0,0.0,0.0,0.0
+2025-08,CMP001,Savings Rate Booster,Contact Center,3,0,0.0,0.0,0.0
+2025-08,CMP002,Debt Consolidation Loan,Paid Search,2,0,0.0,0.0,0.0
+2026-09,CMP002,Debt Consolidation Loan,Paid Search,3,1,150.97,0.3333,6.71
+2026-01,CMP004,Card Rewards Upgrade,Contact Center,5,2,676.05,0.4,18.03
+2025-04,CMP002,Debt Consolidation Loan,Paid Search,2,0,0.0,0.0,0.0
+2026-10,CMP001,Savings Rate Booster,In App,1,0,0.0,0.0,0.0
+2026-04,CMP002,Debt Consolidation Loan,In App,2,0,0.0,0.0,0.0
+2025-10,CMP003,Invest Starter,Contact Center,3,1,121.15,0.3333,5.38
+2025-10,CMP001,Savings Rate Booster,Contact Center,2,0,0.0,0.0,0.0
+2025-12,CMP003,Invest Starter,Email,5,1,202.48,0.2,5.4
+2026-07,CMP005,CD Maturity Winback,Contact Center,4,2,226.63,0.5,7.55
+2025-12,CMP003,Invest Starter,Display,4,0,0.0,0.0,0.0
+2026-02,CMP003,Invest Starter,Contact Center,2,1,107.11,0.5,7.14
+2026-05,CMP002,Debt Consolidation Loan,Email,3,1,699.55,0.3333,31.09
+2025-01,CMP004,Card Rewards Upgrade,In App,2,0,0.0,0.0,0.0
+2025-05,CMP004,Card Rewards Upgrade,In App,5,1,306.19,0.2,8.17
+2025-10,CMP004,Card Rewards Upgrade,Paid Search,4,2,214.82,0.5,7.16
+2025-05,CMP004,Card Rewards Upgrade,Email,2,1,380.68,0.5,25.38
+2025-01,CMP005,CD Maturity Winback,Email,1,1,36.38,1.0,4.85
+2025-04,CMP004,Card Rewards Upgrade,Email,2,0,0.0,0.0,0.0
+2025-12,CMP004,Card Rewards Upgrade,Contact Center,1,0,0.0,0.0,0.0
+2025-07,CMP003,Invest Starter,Email,3,0,0.0,0.0,0.0
+2025-12,CMP002,Debt Consolidation Loan,Contact Center,1,0,0.0,0.0,0.0
+2026-01,CMP001,Savings Rate Booster,Display,4,2,189.21,0.5,6.31
+2025-11,CMP001,Savings Rate Booster,In App,2,1,8.32,0.5,0.55
+2026-04,CMP001,Savings Rate Booster,Email,2,1,163.64,0.5,10.91
+2026-02,CMP005,CD Maturity Winback,Display,2,0,0.0,0.0,0.0
+2026-03,CMP005,CD Maturity Winback,Email,3,0,0.0,0.0,0.0
+2025-11,CMP002,Debt Consolidation Loan,In App,3,0,0.0,0.0,0.0
+2026-02,CMP005,CD Maturity Winback,Email,2,0,0.0,0.0,0.0
+2025-07,CMP004,Card Rewards Upgrade,In App,1,0,0.0,0.0,0.0
+2025-09,CMP001,Savings Rate Booster,Email,3,0,0.0,0.0,0.0
+2025-06,CMP005,CD Maturity Winback,In App,3,1,100.91,0.3333,4.48
+2025-07,CMP002,Debt Consolidation Loan,Paid Search,2,0,0.0,0.0,0.0
+2025-07,CMP003,Invest Starter,Paid Search,1,0,0.0,0.0,0.0
+2025-06,CMP002,Debt Consolidation Loan,In App,5,1,467.8,0.2,12.47
+2026-08,CMP005,CD Maturity Winback,Display,2,0,0.0,0.0,0.0
+2025-08,CMP004,Card Rewards Upgrade,Paid Search,4,1,232.2,0.25,7.74
+2025-12,CMP005,CD Maturity Winback,Email,3,0,0.0,0.0,0.0
+2025-07,CMP002,Debt Consolidation Loan,Display,3,2,272.13,0.6667,12.09
+2026-09,CMP001,Savings Rate Booster,Paid Search,2,1,182.94,0.5,12.2
+2025-05,CMP003,Invest Starter,In App,1,1,70.3,1.0,9.37
+2026-06,CMP005,CD Maturity Winback,Email,1,1,27.26,1.0,3.63
+2025-11,CMP003,Invest Starter,Display,3,1,143.44,0.3333,6.38
+2026-02,CMP003,Invest Starter,Display,1,1,117.06,1.0,15.61
+2026-09,CMP005,CD Maturity Winback,Paid Search,3,0,0.0,0.0,0.0
+2025-01,CMP002,Debt Consolidation Loan,In App,1,1,54.01,1.0,7.2
+2026-04,CMP002,Debt Consolidation Loan,Paid Search,3,0,0.0,0.0,0.0
+2026-06,CMP001,Savings Rate Booster,Email,3,0,0.0,0.0,0.0
+2025-11,CMP004,Card Rewards Upgrade,Email,4,2,592.48,0.5,19.75
+2026-09,CMP001,Savings Rate Booster,Contact Center,2,1,240.3,0.5,16.02
+2025-10,CMP003,Invest Starter,Email,2,1,119.34,0.5,7.96
+2025-02,CMP003,Invest Starter,Display,1,1,199.5,1.0,26.6
+2026-01,CMP004,Card Rewards Upgrade,In App,4,0,0.0,0.0,0.0
+2026-01,CMP004,Card Rewards Upgrade,Email,3,1,55.31,0.3333,2.46
+2025-02,CMP002,Debt Consolidation Loan,In App,4,1,135.11,0.25,4.5
+2026-01,CMP005,CD Maturity Winback,In App,2,1,208.15,0.5,13.88
+2025-03,CMP004,Card Rewards Upgrade,In App,5,0,0.0,0.0,0.0
+2026-05,CMP003,Invest Starter,Paid Search,3,0,0.0,0.0,0.0
+2025-08,CMP005,CD Maturity Winback,Contact Center,3,1,536.94,0.3333,23.86
+2026-06,CMP003,Invest Starter,Contact Center,2,0,0.0,0.0,0.0
+2025-11,CMP003,Invest Starter,Contact Center,2,1,390.39,0.5,26.03
+2026-03,CMP002,Debt Consolidation Loan,In App,1,0,0.0,0.0,0.0
+2025-05,CMP004,Card Rewards Upgrade,Contact Center,2,1,101.51,0.5,6.77
+2025-03,CMP005,CD Maturity Winback,Email,3,1,213.05,0.3333,9.47
+2026-07,CMP005,CD Maturity Winback,Paid Search,4,1,483.38,0.25,16.11
+2025-03,CMP001,Savings Rate Booster,In App,2,1,141.49,0.5,9.43
+2025-07,CMP002,Debt Consolidation Loan,Contact Center,1,0,0.0,0.0,0.0
+2026-04,CMP004,Card Rewards Upgrade,In App,4,1,63.86,0.25,2.13
+2026-05,CMP005,CD Maturity Winback,Paid Search,3,0,0.0,0.0,0.0
+2025-07,CMP001,Savings Rate Booster,Display,3,1,119.71,0.3333,5.32
+2025-10,CMP005,CD Maturity Winback,Display,3,0,0.0,0.0,0.0
+2026-03,CMP004,Card Rewards Upgrade,Contact Center,4,0,0.0,0.0,0.0
+2026-07,CMP002,Debt Consolidation Loan,Email,4,0,0.0,0.0,0.0
+2025-07,CMP004,Card Rewards Upgrade,Email,2,0,0.0,0.0,0.0
+2026-08,CMP005,CD Maturity Winback,In App,2,1,274.77,0.5,18.32
+2025-05,CMP004,Card Rewards Upgrade,Display,1,1,47.56,1.0,6.34
+2026-04,CMP003,Invest Starter,In App,8,2,251.33,0.25,4.19
+2026-06,CMP003,Invest Starter,Display,4,0,0.0,0.0,0.0
+2025-10,CMP004,Card Rewards Upgrade,In App,4,1,97.98,0.25,3.27
+2026-06,CMP004,Card Rewards Upgrade,In App,2,0,0.0,0.0,0.0
+2026-06,CMP003,Invest Starter,In App,1,0,0.0,0.0,0.0
+2025-07,CMP001,Savings Rate Booster,Contact Center,1,1,422.54,1.0,56.34
+2025-08,CMP001,Savings Rate Booster,In App,2,0,0.0,0.0,0.0
+2025-01,CMP001,Savings Rate Booster,In App,1,0,0.0,0.0,0.0
+2026-09,CMP001,Savings Rate Booster,Display,2,1,157.26,0.5,10.48
+2026-02,CMP002,Debt Consolidation Loan,Display,5,3,323.94,0.6,8.64
+2025-10,CMP001,Savings Rate Booster,Email,1,0,0.0,0.0,0.0
+2026-08,CMP004,Card Rewards Upgrade,Paid Search,3,1,45.8,0.3333,2.04
+2026-07,CMP003,Invest Starter,Paid Search,4,0,0.0,0.0,0.0
+2025-10,CMP004,Card Rewards Upgrade,Display,1,0,0.0,0.0,0.0
+2025-07,CMP001,Savings Rate Booster,In App,3,1,131.7,0.3333,5.85
+2025-01,CMP003,Invest Starter,In App,1,0,0.0,0.0,0.0
+2025-01,CMP005,CD Maturity Winback,Contact Center,5,3,500.45,0.6,13.35
+2026-03,CMP001,Savings Rate Booster,Contact Center,1,1,167.51,1.0,22.33
+2025-02,CMP003,Invest Starter,Email,3,1,243.97,0.3333,10.84
+2025-05,CMP005,CD Maturity Winback,Display,2,1,94.25,0.5,6.28
+2025-07,CMP001,Savings Rate Booster,Paid Search,2,0,0.0,0.0,0.0
+2026-08,CMP002,Debt Consolidation Loan,In App,2,0,0.0,0.0,0.0
+2026-03,CMP003,Invest Starter,Contact Center,2,0,0.0,0.0,0.0
+2025-11,CMP001,Savings Rate Booster,Display,2,2,610.47,1.0,40.7
+2025-01,CMP002,Debt Consolidation Loan,Paid Search,1,0,0.0,0.0,0.0
+2026-03,CMP001,Savings Rate Booster,Paid Search,2,1,105.72,0.5,7.05
+2025-04,CMP005,CD Maturity Winback,In App,3,1,135.74,0.3333,6.03
+2026-02,CMP001,Savings Rate Booster,Paid Search,2,1,107.08,0.5,7.14
+2026-06,CMP003,Invest Starter,Email,4,1,192.16,0.25,6.41
+2025-06,CMP005,CD Maturity Winback,Paid Search,4,1,567.23,0.25,18.91
+2025-12,CMP003,Invest Starter,In App,1,0,0.0,0.0,0.0
+2025-01,CMP005,CD Maturity Winback,Paid Search,5,1,102.21,0.2,2.73
+2026-05,CMP004,Card Rewards Upgrade,Email,2,0,0.0,0.0,0.0
+2026-04,CMP002,Debt Consolidation Loan,Contact Center,1,0,0.0,0.0,0.0
+2026-03,CMP001,Savings Rate Booster,Display,1,0,0.0,0.0,0.0
+2026-07,CMP004,Card Rewards Upgrade,In App,1,0,0.0,0.0,0.0
+2025-09,CMP005,CD Maturity Winback,In App,1,1,112.79,1.0,15.04
+2025-02,CMP005,CD Maturity Winback,Paid Search,3,0,0.0,0.0,0.0
+2025-12,CMP005,CD Maturity Winback,Display,4,1,85.15,0.25,2.84
+2026-07,CMP005,CD Maturity Winback,Display,1,0,0.0,0.0,0.0
+2026-02,CMP005,CD Maturity Winback,Contact Center,5,2,126.28,0.4,3.37
+2026-07,CMP005,CD Maturity Winback,In App,2,0,0.0,0.0,0.0
+2025-04,CMP004,Card Rewards Upgrade,Paid Search,1,0,0.0,0.0,0.0
+2026-04,CMP001,Savings Rate Booster,Paid Search,1,0,0.0,0.0,0.0
+2026-07,CMP002,Debt Consolidation Loan,Contact Center,2,2,324.27,1.0,21.62
+2026-06,CMP002,Debt Consolidation Loan,In App,2,0,0.0,0.0,0.0
+2026-04,CMP005,CD Maturity Winback,Paid Search,2,0,0.0,0.0,0.0
+2026-05,CMP001,Savings Rate Booster,Contact Center,2,0,0.0,0.0,0.0
+2026-06,CMP004,Card Rewards Upgrade,Paid Search,1,0,0.0,0.0,0.0
+2025-05,CMP001,Savings Rate Booster,Contact Center,1,0,0.0,0.0,0.0
+2025-08,CMP005,CD Maturity Winback,Display,1,0,0.0,0.0,0.0
+2026-01,CMP001,Savings Rate Booster,Contact Center,3,0,0.0,0.0,0.0
+2025-03,CMP001,Savings Rate Booster,Display,3,2,231.39,0.6667,10.28
+2025-04,CMP001,Savings Rate Booster,Paid Search,1,0,0.0,0.0,0.0
+2026-02,CMP001,Savings Rate Booster,In App,2,0,0.0,0.0,0.0
+2025-02,CMP001,Savings Rate Booster,In App,1,0,0.0,0.0,0.0
+2026-03,CMP003,Invest Starter,Display,1,0,0.0,0.0,0.0
+2025-08,CMP004,Card Rewards Upgrade,Display,2,0,0.0,0.0,0.0
+2026-04,CMP004,Card Rewards Upgrade,Paid Search,2,0,0.0,0.0,0.0
+2026-03,CMP002,Debt Consolidation Loan,Contact Center,6,1,108.11,0.1667,2.4
+2025-08,CMP005,CD Maturity Winback,Paid Search,3,1,171.98,0.3333,7.64
+2025-12,CMP001,Savings Rate Booster,Display,3,0,0.0,0.0,0.0
+2026-03,CMP002,Debt Consolidation Loan,Email,4,1,69.47,0.25,2.32
+2025-03,CMP005,CD Maturity Winback,In App,5,0,0.0,0.0,0.0
+2026-03,CMP005,CD Maturity Winback,Display,2,1,106.63,0.5,7.11
+2025-06,CMP002,Debt Consolidation Loan,Email,2,2,904.09,1.0,60.27
+2025-03,CMP005,CD Maturity Winback,Display,4,1,77.14,0.25,2.57
+2026-08,CMP001,Savings Rate Booster,Contact Center,1,0,0.0,0.0,0.0
+2026-02,CMP002,Debt Consolidation Loan,Paid Search,4,1,109.32,0.25,3.64
+2025-06,CMP001,Savings Rate Booster,Display,1,0,0.0,0.0,0.0
+2026-08,CMP005,CD Maturity Winback,Paid Search,1,0,0.0,0.0,0.0
+2025-07,CMP005,CD Maturity Winback,In App,2,0,0.0,0.0,0.0
+2026-01,CMP001,Savings Rate Booster,In App,1,0,0.0,0.0,0.0
+2025-05,CMP001,Savings Rate Booster,In App,1,0,0.0,0.0,0.0
+2025-02,CMP003,Invest Starter,Paid Search,4,3,405.33,0.75,13.51
+2026-09,CMP002,Debt Consolidation Loan,Email,2,0,0.0,0.0,0.0
+2026-04,CMP004,Card Rewards Upgrade,Display,1,0,0.0,0.0,0.0
+2026-02,CMP003,Invest Starter,Email,3,2,274.49,0.6667,12.2
+2025-09,CMP002,Debt Consolidation Loan,Display,1,0,0.0,0.0,0.0
+2026-02,CMP004,Card Rewards Upgrade,In App,1,0,0.0,0.0,0.0
+2026-01,CMP002,Debt Consolidation Loan,Email,1,0,0.0,0.0,0.0
+2026-05,CMP004,Card Rewards Upgrade,In App,2,0,0.0,0.0,0.0
+2026-08,CMP001,Savings Rate Booster,Display,3,1,114.13,0.3333,5.07
+2025-12,CMP005,CD Maturity Winback,Paid Search,1,0,0.0,0.0,0.0
+2026-03,CMP004,Card Rewards Upgrade,Display,3,0,0.0,0.0,0.0
+2025-02,CMP003,Invest Starter,Contact Center,3,1,506.61,0.3333,22.52
+2025-08,CMP001,Savings Rate Booster,Display,4,0,0.0,0.0,0.0
+2026-07,CMP005,CD Maturity Winback,Email,3,0,0.0,0.0,0.0
+2025-09,CMP004,Card Rewards Upgrade,Email,3,0,0.0,0.0,0.0
+2026-01,CMP003,Invest Starter,Email,2,1,104.47,0.5,6.96
+2025-09,CMP001,Savings Rate Booster,Contact Center,4,1,207.08,0.25,6.9
+2026-04,CMP005,CD Maturity Winback,Display,2,0,0.0,0.0,0.0
+2025-01,CMP001,Savings Rate Booster,Contact Center,3,1,73.65,0.3333,3.27
+2026-03,CMP003,Invest Starter,In App,1,0,0.0,0.0,0.0
+2025-04,CMP001,Savings Rate Booster,Contact Center,2,0,0.0,0.0,0.0
+2025-11,CMP002,Debt Consolidation Loan,Display,1,1,57.5,1.0,7.67
+2025-04,CMP002,Debt Consolidation Loan,Email,1,0,0.0,0.0,0.0
+2026-06,CMP004,Card Rewards Upgrade,Display,3,1,95.05,0.3333,4.22
+2025-09,CMP001,Savings Rate Booster,Paid Search,3,2,62.52,0.6667,2.78
+2025-02,CMP004,Card Rewards Upgrade,Paid Search,3,2,147.37,0.6667,6.55
+2025-12,CMP004,Card Rewards Upgrade,Display,1,0,0.0,0.0,0.0
+2025-06,CMP003,Invest Starter,In App,2,2,262.93,1.0,17.53
+2025-03,CMP001,Savings Rate Booster,Contact Center,1,0,0.0,0.0,0.0
+2025-04,CMP002,Debt Consolidation Loan,In App,3,1,164.35,0.3333,7.3
+2026-06,CMP002,Debt Consolidation Loan,Paid Search,2,1,185.14,0.5,12.34
+2025-11,CMP001,Savings Rate Booster,Contact Center,2,0,0.0,0.0,0.0
+2025-06,CMP002,Debt Consolidation Loan,Paid Search,2,2,399.65,1.0,26.64
+2026-07,CMP002,Debt Consolidation Loan,Paid Search,2,1,51.83,0.5,3.46
+2025-04,CMP005,CD Maturity Winback,Paid Search,2,0,0.0,0.0,0.0
+2025-12,CMP005,CD Maturity Winback,In App,2,0,0.0,0.0,0.0
+2025-08,CMP003,Invest Starter,Contact Center,2,0,0.0,0.0,0.0
+2025-11,CMP003,Invest Starter,In App,1,0,0.0,0.0,0.0
+2026-08,CMP003,Invest Starter,Display,2,1,198.71,0.5,13.25
+2025-08,CMP005,CD Maturity Winback,Email,3,0,0.0,0.0,0.0
+2026-05,CMP001,Savings Rate Booster,In App,3,0,0.0,0.0,0.0
+2025-09,CMP003,Invest Starter,Contact Center,3,0,0.0,0.0,0.0
+2026-03,CMP002,Debt Consolidation Loan,Display,2,0,0.0,0.0,0.0
+2025-11,CMP004,Card Rewards Upgrade,Display,1,0,0.0,0.0,0.0
+2025-09,CMP003,Invest Starter,In App,2,1,83.93,0.5,5.6
+2025-11,CMP005,CD Maturity Winback,Email,2,2,519.84,1.0,34.66
+2025-08,CMP003,Invest Starter,Display,2,0,0.0,0.0,0.0
+2026-04,CMP003,Invest Starter,Paid Search,1,0,0.0,0.0,0.0
+2026-06,CMP001,Savings Rate Booster,In App,2,0,0.0,0.0,0.0
+2025-01,CMP001,Savings Rate Booster,Paid Search,3,2,225.96,0.6667,10.04
+2025-03,CMP002,Debt Consolidation Loan,Paid Search,1,0,0.0,0.0,0.0
+2026-07,CMP001,Savings Rate Booster,In App,3,1,60.77,0.3333,2.7
+2025-05,CMP001,Savings Rate Booster,Display,3,0,0.0,0.0,0.0
+2025-05,CMP002,Debt Consolidation Loan,Display,2,1,241.58,0.5,16.11
+2025-10,CMP002,Debt Consolidation Loan,Contact Center,2,0,0.0,0.0,0.0
+2025-04,CMP002,Debt Consolidation Loan,Contact Center,2,0,0.0,0.0,0.0
+2026-02,CMP001,Savings Rate Booster,Email,4,2,216.05,0.5,7.2
+2026-02,CMP001,Savings Rate Booster,Contact Center,2,1,331.66,0.5,22.11
+2025-09,CMP001,Savings Rate Booster,Display,3,0,0.0,0.0,0.0
+2026-03,CMP002,Debt Consolidation Loan,Paid Search,3,0,0.0,0.0,0.0
+2025-04,CMP005,CD Maturity Winback,Contact Center,3,0,0.0,0.0,0.0
+2025-03,CMP003,Invest Starter,In App,2,0,0.0,0.0,0.0
+2025-02,CMP005,CD Maturity Winback,Contact Center,4,3,1052.45,0.75,35.08
+2026-07,CMP002,Debt Consolidation Loan,In App,2,0,0.0,0.0,0.0
+2026-07,CMP001,Savings Rate Booster,Email,2,0,0.0,0.0,0.0
+2025-09,CMP005,CD Maturity Winback,Email,2,0,0.0,0.0,0.0
+2025-11,CMP001,Savings Rate Booster,Email,1,1,124.21,1.0,16.56
+2025-03,CMP004,Card Rewards Upgrade,Email,1,0,0.0,0.0,0.0
+2025-04,CMP002,Debt Consolidation Loan,Display,3,0,0.0,0.0,0.0
+2025-04,CMP005,CD Maturity Winback,Email,3,0,0.0,0.0,0.0
+2025-11,CMP005,CD Maturity Winback,In App,3,0,0.0,0.0,0.0
+2026-03,CMP005,CD Maturity Winback,Contact Center,2,0,0.0,0.0,0.0
+2026-09,CMP004,Card Rewards Upgrade,In App,2,0,0.0,0.0,0.0
+2026-02,CMP004,Card Rewards Upgrade,Display,1,0,0.0,0.0,0.0
+2026-04,CMP001,Savings Rate Booster,Contact Center,2,0,0.0,0.0,0.0
+2025-10,CMP004,Card Rewards Upgrade,Contact Center,3,1,71.11,0.3333,3.16
+2025-09,CMP003,Invest Starter,Email,1,0,0.0,0.0,0.0
+2025-02,CMP001,Savings Rate Booster,Display,1,1,58.83,1.0,7.84
+2026-01,CMP002,Debt Consolidation Loan,In App,1,0,0.0,0.0,0.0
+2025-04,CMP003,Invest Starter,Contact Center,2,0,0.0,0.0,0.0
+2025-06,CMP003,Invest Starter,Contact Center,2,2,220.66,1.0,14.71
+2025-06,CMP004,Card Rewards Upgrade,Display,4,1,368.51,0.25,12.28
+2026-04,CMP005,CD Maturity Winback,Email,3,1,453.58,0.3333,20.16
+2025-04,CMP003,Invest Starter,Paid Search,1,0,0.0,0.0,0.0
+2026-06,CMP002,Debt Consolidation Loan,Email,1,0,0.0,0.0,0.0
+2026-01,CMP003,Invest Starter,Contact Center,1,0,0.0,0.0,0.0
+2025-05,CMP003,Invest Starter,Contact Center,3,0,0.0,0.0,0.0
+2025-02,CMP002,Debt Consolidation Loan,Contact Center,2,1,172.69,0.5,11.51
+2025-01,CMP005,CD Maturity Winback,Display,6,0,0.0,0.0,0.0
+2025-02,CMP005,CD Maturity Winback,Display,2,1,159.49,0.5,10.63
+2025-12,CMP001,Savings Rate Booster,Paid Search,3,0,0.0,0.0,0.0
+2025-10,CMP004,Card Rewards Upgrade,Email,1,0,0.0,0.0,0.0
+2026-07,CMP004,Card Rewards Upgrade,Contact Center,1,1,101.67,1.0,13.56
+2025-08,CMP002,Debt Consolidation Loan,Contact Center,3,1,158.01,0.3333,7.02
+2025-01,CMP003,Invest Starter,Paid Search,2,0,0.0,0.0,0.0
+2025-09,CMP002,Debt Consolidation Loan,Contact Center,1,1,53.44,1.0,7.13
+2025-03,CMP001,Savings Rate Booster,Paid Search,3,1,50.4,0.3333,2.24
+2025-12,CMP001,Savings Rate Booster,In App,2,0,0.0,0.0,0.0
+2025-01,CMP005,CD Maturity Winback,In App,3,0,0.0,0.0,0.0
+2026-09,CMP003,Invest Starter,Paid Search,1,0,0.0,0.0,0.0
+2025-07,CMP004,Card Rewards Upgrade,Contact Center,2,0,0.0,0.0,0.0
+2025-07,CMP005,CD Maturity Winback,Display,1,0,0.0,0.0,0.0
+2026-02,CMP005,CD Maturity Winback,Paid Search,1,0,0.0,0.0,0.0
+2026-08,CMP001,Savings Rate Booster,Paid Search,2,1,320.92,0.5,21.39
+2026-09,CMP002,Debt Consolidation Loan,Contact Center,4,1,199.0,0.25,6.63
+2025-03,CMP001,Savings Rate Booster,Email,1,1,224.04,1.0,29.87
+2025-12,CMP002,Debt Consolidation Loan,Display,2,0,0.0,0.0,0.0
+2025-10,CMP002,Debt Consolidation Loan,Display,1,0,0.0,0.0,0.0
+2025-08,CMP002,Debt Consolidation Loan,In App,2,1,172.98,0.5,11.53
+2025-10,CMP001,Savings Rate Booster,Display,1,0,0.0,0.0,0.0
+2026-08,CMP002,Debt Consolidation Loan,Display,2,1,97.36,0.5,6.49
+2025-09,CMP002,Debt Consolidation Loan,In App,4,2,202.56,0.5,6.75
+2026-03,CMP005,CD Maturity Winback,In App,1,1,82.14,1.0,10.95
+2026-06,CMP003,Invest Starter,Paid Search,3,0,0.0,0.0,0.0
+2025-02,CMP002,Debt Consolidation Loan,Paid Search,3,2,303.8,0.6667,13.5
+2025-09,CMP002,Debt Consolidation Loan,Email,4,1,165.67,0.25,5.52
+2025-08,CMP004,Card Rewards Upgrade,Contact Center,1,1,164.98,1.0,22.0
+2025-03,CMP003,Invest Starter,Display,1,0,0.0,0.0,0.0
+2025-12,CMP004,Card Rewards Upgrade,In App,1,1,119.55,1.0,15.94
+2025-09,CMP003,Invest Starter,Display,2,0,0.0,0.0,0.0
+2026-01,CMP003,Invest Starter,In App,5,0,0.0,0.0,0.0
+2026-06,CMP005,CD Maturity Winback,In App,1,0,0.0,0.0,0.0
+2026-02,CMP001,Savings Rate Booster,Display,2,0,0.0,0.0,0.0
+2025-12,CMP004,Card Rewards Upgrade,Paid Search,2,0,0.0,0.0,0.0
+2025-08,CMP002,Debt Consolidation Loan,Email,1,0,0.0,0.0,0.0
+2025-07,CMP002,Debt Consolidation Loan,In App,1,0,0.0,0.0,0.0
+2025-05,CMP005,CD Maturity Winback,Contact Center,2,0,0.0,0.0,0.0
+2025-10,CMP002,Debt Consolidation Loan,Paid Search,1,0,0.0,0.0,0.0
+2025-06,CMP002,Debt Consolidation Loan,Contact Center,1,0,0.0,0.0,0.0
+2026-02,CMP003,Invest Starter,In App,3,0,0.0,0.0,0.0
+2026-02,CMP004,Card Rewards Upgrade,Paid Search,3,1,47.86,0.3333,2.13
+2025-01,CMP004,Card Rewards Upgrade,Paid Search,3,1,211.03,0.3333,9.38
+2026-06,CMP001,Savings Rate Booster,Display,2,1,531.68,0.5,35.45
+2025-09,CMP004,Card Rewards Upgrade,Contact Center,1,0,0.0,0.0,0.0
+2026-06,CMP004,Card Rewards Upgrade,Contact Center,2,1,299.81,0.5,19.99
+2025-01,CMP001,Savings Rate Booster,Display,1,1,488.08,1.0,65.08
+2025-12,CMP001,Savings Rate Booster,Contact Center,2,1,318.51,0.5,21.23
+2025-09,CMP001,Savings Rate Booster,In App,2,2,275.37,1.0,18.36
+2025-08,CMP003,Invest Starter,Paid Search,1,0,0.0,0.0,0.0
+2025-04,CMP001,Savings Rate Booster,In App,1,1,125.0,1.0,16.67
+2026-08,CMP004,Card Rewards Upgrade,Contact Center,1,0,0.0,0.0,0.0
+2026-07,CMP003,Invest Starter,Display,3,3,349.74,1.0,15.54
+2026-01,CMP002,Debt Consolidation Loan,Paid Search,1,0,0.0,0.0,0.0
+2026-08,CMP005,CD Maturity Winback,Contact Center,1,0,0.0,0.0,0.0
+2026-02,CMP003,Invest Starter,Paid Search,1,0,0.0,0.0,0.0
+2025-10,CMP003,Invest Starter,In App,1,0,0.0,0.0,0.0
+2026-01,CMP002,Debt Consolidation Loan,Contact Center,1,0,0.0,0.0,0.0
+2025-03,CMP003,Invest Starter,Email,2,0,0.0,0.0,0.0
+2026-04,CMP004,Card Rewards Upgrade,Email,1,0,0.0,0.0,0.0
+2025-05,CMP005,CD Maturity Winback,In App,3,0,0.0,0.0,0.0
+2025-01,CMP004,Card Rewards Upgrade,Email,1,0,0.0,0.0,0.0
+2025-03,CMP004,Card Rewards Upgrade,Paid Search,1,1,98.15,1.0,13.09
+2026-09,CMP001,Savings Rate Booster,In App,2,0,0.0,0.0,0.0
+2026-05,CMP005,CD Maturity Winback,Contact Center,1,1,166.1,1.0,22.15
+2026-09,CMP003,Invest Starter,In App,3,0,0.0,0.0,0.0
+2025-10,CMP002,Debt Consolidation Loan,Email,2,0,0.0,0.0,0.0
+2026-01,CMP005,CD Maturity Winback,Display,2,1,119.34,0.5,7.96
+2026-08,CMP004,Card Rewards Upgrade,Email,1,1,160.73,1.0,21.43
+2025-08,CMP005,CD Maturity Winback,In App,2,0,0.0,0.0,0.0
+2026-05,CMP002,Debt Consolidation Loan,Display,1,0,0.0,0.0,0.0
+2025-02,CMP001,Savings Rate Booster,Paid Search,1,0,0.0,0.0,0.0
+2025-05,CMP002,Debt Consolidation Loan,Email,2,0,0.0,0.0,0.0
+2026-03,CMP003,Invest Starter,Paid Search,1,0,0.0,0.0,0.0
+2025-07,CMP005,CD Maturity Winback,Email,1,0,0.0,0.0,0.0
+2025-02,CMP001,Savings Rate Booster,Contact Center,2,0,0.0,0.0,0.0
+2025-03,CMP005,CD Maturity Winback,Contact Center,2,0,0.0,0.0,0.0
+2025-08,CMP002,Debt Consolidation Loan,Display,2,0,0.0,0.0,0.0
+2026-09,CMP003,Invest Starter,Contact Center,2,0,0.0,0.0,0.0
+2025-04,CMP004,Card Rewards Upgrade,In App,3,0,0.0,0.0,0.0
+2025-01,CMP002,Debt Consolidation Loan,Email,1,0,0.0,0.0,0.0
+2026-04,CMP003,Invest Starter,Display,2,0,0.0,0.0,0.0
+2026-05,CMP004,Card Rewards Upgrade,Paid Search,1,0,0.0,0.0,0.0
+2025-05,CMP005,CD Maturity Winback,Paid Search,1,0,0.0,0.0,0.0
+2026-05,CMP005,CD Maturity Winback,Display,1,0,0.0,0.0,0.0
+2026-05,CMP001,Savings Rate Booster,Email,1,0,0.0,0.0,0.0
+2025-11,CMP004,Card Rewards Upgrade,Contact Center,1,1,129.41,1.0,17.25
+2026-04,CMP005,CD Maturity Winback,Contact Center,1,0,0.0,0.0,0.0
+2026-04,CMP004,Card Rewards Upgrade,Contact Center,3,1,89.74,0.3333,3.99
+2026-03,CMP001,Savings Rate Booster,In App,2,1,273.17,0.5,18.21
+2025-02,CMP004,Card Rewards Upgrade,Display,1,0,0.0,0.0,0.0
+2026-04,CMP005,CD Maturity Winback,In App,4,0,0.0,0.0,0.0
+2026-08,CMP003,Invest Starter,Email,2,0,0.0,0.0,0.0
+2026-08,CMP002,Debt Consolidation Loan,Paid Search,1,0,0.0,0.0,0.0
+2025-07,CMP003,Invest Starter,Contact Center,1,0,0.0,0.0,0.0
+2026-04,CMP003,Invest Starter,Contact Center,2,1,195.49,0.5,13.03
+2026-02,CMP002,Debt Consolidation Loan,Contact Center,1,0,0.0,0.0,0.0
+2025-06,CMP004,Card Rewards Upgrade,Email,2,0,0.0,0.0,0.0
+2025-01,CMP002,Debt Consolidation Loan,Display,2,1,274.77,0.5,18.32
+2025-07,CMP004,Card Rewards Upgrade,Display,1,0,0.0,0.0,0.0
+2025-11,CMP005,CD Maturity Winback,Display,2,1,93.55,0.5,6.24
+2025-08,CMP003,Invest Starter,Email,3,0,0.0,0.0,0.0
+2025-09,CMP004,Card Rewards Upgrade,In App,1,0,0.0,0.0,0.0
+2025-03,CMP002,Debt Consolidation Loan,In App,1,0,0.0,0.0,0.0
+2025-03,CMP005,CD Maturity Winback,Paid Search,2,1,467.8,0.5,31.19
+2026-03,CMP005,CD Maturity Winback,Paid Search,2,0,0.0,0.0,0.0
+2026-06,CMP002,Debt Consolidation Loan,Contact Center,2,0,0.0,0.0,0.0
+2025-05,CMP002,Debt Consolidation Loan,Paid Search,1,0,0.0,0.0,0.0
+2025-09,CMP002,Debt Consolidation Loan,Paid Search,1,1,200.59,1.0,26.75
+2025-10,CMP001,Savings Rate Booster,Paid Search,1,0,0.0,0.0,0.0
+2025-07,CMP005,CD Maturity Winback,Paid Search,2,0,0.0,0.0,0.0
+2026-08,CMP002,Debt Consolidation Loan,Email,1,0,0.0,0.0,0.0
+2025-06,CMP004,Card Rewards Upgrade,In App,1,0,0.0,0.0,0.0
+2026-05,CMP004,Card Rewards Upgrade,Display,1,1,97.68,1.0,13.02
+2026-09,CMP003,Invest Starter,Email,2,0,0.0,0.0,0.0
+2025-12,CMP003,Invest Starter,Paid Search,3,0,0.0,0.0,0.0
+2025-03,CMP004,Card Rewards Upgrade,Display,2,1,87.45,0.5,5.83
+2025-01,CMP004,Card Rewards Upgrade,Contact Center,2,0,0.0,0.0,0.0
+2025-02,CMP002,Debt Consolidation Loan,Email,3,1,123.8,0.3333,5.5
+2025-02,CMP001,Savings Rate Booster,Email,1,0,0.0,0.0,0.0
+2026-06,CMP004,Card Rewards Upgrade,Email,2,1,238.88,0.5,15.93
+2025-04,CMP004,Card Rewards Upgrade,Contact Center,1,0,0.0,0.0,0.0
+2025-05,CMP004,Card Rewards Upgrade,Paid Search,1,0,0.0,0.0,0.0
+2025-04,CMP003,Invest Starter,In App,1,1,84.01,1.0,11.2
+2026-09,CMP004,Card Rewards Upgrade,Paid Search,2,1,128.61,0.5,8.57
+2025-03,CMP002,Debt Consolidation Loan,Contact Center,1,0,0.0,0.0,0.0
+2025-10,CMP005,CD Maturity Winback,In App,2,0,0.0,0.0,0.0
+2025-11,CMP005,CD Maturity Winback,Paid Search,1,1,175.51,1.0,23.4
+2026-08,CMP002,Debt Consolidation Loan,Contact Center,1,0,0.0,0.0,0.0
+2025-10,CMP003,Invest Starter,Display,2,1,389.1,0.5,25.94
+2025-06,CMP005,CD Maturity Winback,Display,1,1,100.12,1.0,13.35
+2026-06,CMP005,CD Maturity Winback,Display,1,0,0.0,0.0,0.0
+2025-08,CMP004,Card Rewards Upgrade,Email,2,0,0.0,0.0,0.0
+2025-06,CMP003,Invest Starter,Display,1,0,0.0,0.0,0.0
+2025-05,CMP003,Invest Starter,Display,1,0,0.0,0.0,0.0
+2026-06,CMP005,CD Maturity Winback,Paid Search,1,0,0.0,0.0,0.0
+2025-06,CMP001,Savings Rate Booster,In App,2,1,560.75,0.5,37.38
+2026-03,CMP004,Card Rewards Upgrade,Paid Search,1,0,0.0,0.0,0.0
+2025-03,CMP003,Invest Starter,Contact Center,1,0,0.0,0.0,0.0
+2026-09,CMP004,Card Rewards Upgrade,Email,1,0,0.0,0.0,0.0
+2026-01,CMP004,Card Rewards Upgrade,Paid Search,2,0,0.0,0.0,0.0
+2026-09,CMP005,CD Maturity Winback,In App,1,0,0.0,0.0,0.0
+2025-02,CMP004,Card Rewards Upgrade,Email,2,0,0.0,0.0,0.0
+2026-07,CMP003,Invest Starter,In App,1,0,0.0,0.0,0.0
+2025-01,CMP003,Invest Starter,Email,1,0,0.0,0.0,0.0
+2026-03,CMP001,Savings Rate Booster,Email,1,0,0.0,0.0,0.0
+2025-12,CMP002,Debt Consolidation Loan,Paid Search,1,0,0.0,0.0,0.0
+2025-05,CMP001,Savings Rate Booster,Paid Search,1,0,0.0,0.0,0.0
+2025-03,CMP003,Invest Starter,Paid Search,1,0,0.0,0.0,0.0
+2026-01,CMP005,CD Maturity Winback,Email,1,0,0.0,0.0,0.0
+2026-05,CMP002,Debt Consolidation Loan,Contact Center,1,0,0.0,0.0,0.0
+2025-08,CMP004,Card Rewards Upgrade,In App,1,0,0.0,0.0,0.0
+2026-08,CMP003,Invest Starter,Paid Search,1,0,0.0,0.0,0.0
+2026-08,CMP003,Invest Starter,Contact Center,2,1,70.74,0.5,4.72
+2026-05,CMP003,Invest Starter,Contact Center,1,0,0.0,0.0,0.0
+2025-11,CMP003,Invest Starter,Paid Search,2,1,122.86,0.5,8.19
+2026-04,CMP002,Debt Consolidation Loan,Display,1,0,0.0,0.0,0.0
+2025-11,CMP004,Card Rewards Upgrade,In App,1,0,0.0,0.0,0.0
+2025-07,CMP003,Invest Starter,Display,1,1,391.95,1.0,52.26
+2025-07,CMP005,CD Maturity Winback,Contact Center,1,1,255.22,1.0,34.03
+2025-11,CMP005,CD Maturity Winback,Contact Center,1,0,0.0,0.0,0.0
+2025-06,CMP003,Invest Starter,Email,1,1,713.01,1.0,95.07
+2025-07,CMP001,Savings Rate Booster,Email,2,1,30.12,0.5,2.01
+2026-01,CMP005,CD Maturity Winback,Contact Center,1,0,0.0,0.0,0.0
+2026-08,CMP004,Card Rewards Upgrade,In App,1,0,0.0,0.0,0.0
+2026-07,CMP004,Card Rewards Upgrade,Display,1,0,0.0,0.0,0.0
+2025-08,CMP003,Invest Starter,In App,1,1,341.02,1.0,45.47
+2026-07,CMP001,Savings Rate Booster,Contact Center,1,0,0.0,0.0,0.0
+2026-05,CMP001,Savings Rate Booster,Display,1,0,0.0,0.0,0.0

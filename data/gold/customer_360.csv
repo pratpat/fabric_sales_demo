@@ -1,0 +1,501 @@
+customer_id,region,segment,credit_tier,digital_engagement_score,web_events,funded_sales,lifetime_sales_amount,lifetime_estimated_revenue
+CUST00001,Northeast,Mass Affluent,Near Prime,94,9,2,37511.52,180.64
+CUST00002,Northeast,Borrower,Prime,89,4,0,0.0,0.0
+CUST00003,West,Mass Affluent,Near Prime,60,7,5,84794.99,1575.18
+CUST00004,Northeast,Emerging Affluent,Super Prime,38,11,3,66360.97,408.87
+CUST00005,Northeast,Rate Shopper,Prime,83,4,4,80061.03,488.79
+CUST00006,West,Mass Affluent,Near Prime,49,7,7,126931.04,1160.76
+CUST00007,Northeast,Mass Affluent,Super Prime,60,6,3,39265.48,1030.59
+CUST00008,Southwest,Digital Native,Near Prime,34,4,2,20300.42,259.54
+CUST00009,West,Emerging Affluent,Super Prime,96,1,8,113702.39,1287.19
+CUST00010,Southeast,Digital Native,Super Prime,33,9,2,7320.02,300.12
+CUST00011,Southeast,Borrower,Prime,58,8,5,98688.67,632.84
+CUST00012,Southeast,Emerging Affluent,Super Prime,53,8,6,76965.58,991.58
+CUST00013,Southeast,Borrower,Near Prime,45,7,3,35145.97,756.82
+CUST00014,Southwest,Borrower,Near Prime,57,10,7,150960.25,1292.91
+CUST00015,West,Mass Affluent,Super Prime,45,3,5,49534.34,682.75
+CUST00016,Southwest,Mass Affluent,Prime,72,7,2,26813.14,897.87
+CUST00017,Southeast,Borrower,Prime,71,4,1,21832.23,130.99
+CUST00018,Midwest,Emerging Affluent,Prime,93,12,3,48514.1,958.77
+CUST00019,Southeast,Emerging Affluent,Prime,94,6,2,24358.22,174.22
+CUST00020,Southeast,Digital Native,Prime,56,3,2,20584.77,180.74
+CUST00021,Southeast,Mass Affluent,Prime,34,5,3,22593.69,376.05
+CUST00022,Northeast,Emerging Affluent,Super Prime,87,6,7,134517.32,1600.79
+CUST00023,Southeast,Borrower,Prime,37,4,2,43763.2,209.17
+CUST00024,Northeast,Rate Shopper,Near Prime,37,6,1,20086.09,160.69
+CUST00025,Northeast,Rate Shopper,Near Prime,82,4,4,53780.48,349.95
+CUST00026,Southeast,Rate Shopper,Super Prime,95,3,3,37900.84,778.19
+CUST00027,Northeast,Mass Affluent,Super Prime,87,3,4,66266.2,1002.72
+CUST00028,Southwest,Emerging Affluent,Super Prime,58,5,1,9190.73,73.53
+CUST00029,Southwest,Digital Native,Prime,32,5,2,32051.38,537.65
+CUST00030,West,Borrower,Near Prime,92,7,5,53726.73,724.73
+CUST00031,Southeast,Mass Affluent,Near Prime,55,4,4,63974.12,608.14
+CUST00032,Southwest,Mass Affluent,Super Prime,99,8,4,58275.43,524.73
+CUST00033,West,Borrower,Super Prime,75,6,8,148626.08,2102.05
+CUST00034,Southeast,Digital Native,Near Prime,97,9,6,91351.2,1586.64
+CUST00035,Northeast,Mass Affluent,Prime,56,3,8,136820.19,2185.81
+CUST00036,Midwest,Digital Native,Near Prime,95,3,1,4686.8,192.16
+CUST00037,Midwest,Mass Affluent,Super Prime,61,6,1,6640.38,212.49
+CUST00038,West,Emerging Affluent,Super Prime,31,2,4,64047.55,606.99
+CUST00039,Northeast,Rate Shopper,Near Prime,58,10,4,92486.65,985.54
+CUST00040,Southeast,Rate Shopper,Near Prime,44,8,3,32134.47,393.28
+CUST00041,West,Mass Affluent,Super Prime,71,10,7,159893.44,2695.41
+CUST00042,Northeast,Digital Native,Near Prime,44,8,1,24975.95,199.81
+CUST00043,Southeast,Emerging Affluent,Super Prime,56,5,5,93505.36,810.93
+CUST00044,Midwest,Emerging Affluent,Prime,83,10,3,55558.09,331.16
+CUST00045,Midwest,Digital Native,Super Prime,60,3,4,93007.49,1108.29
+CUST00046,Northeast,Digital Native,Super Prime,47,5,7,114432.36,1136.09
+CUST00047,West,Digital Native,Super Prime,90,5,10,194187.2,2846.65
+CUST00048,Northeast,Rate Shopper,Prime,91,11,2,54137.48,256.79
+CUST00049,West,Emerging Affluent,Near Prime,40,2,5,85430.09,1476.46
+CUST00050,Midwest,Borrower,Near Prime,41,7,3,80262.66,361.09
+CUST00051,Southeast,Rate Shopper,Super Prime,61,3,4,38507.39,808.16
+CUST00052,Southeast,Rate Shopper,Near Prime,52,5,4,66694.38,476.83
+CUST00053,West,Rate Shopper,Prime,55,10,6,56552.24,996.98
+CUST00054,Midwest,Emerging Affluent,Super Prime,34,5,3,56582.06,755.61
+CUST00055,Southwest,Rate Shopper,Prime,43,8,5,102368.51,1281.72
+CUST00056,Northeast,Mass Affluent,Prime,96,6,5,92352.38,763.24
+CUST00057,Southeast,Mass Affluent,Super Prime,89,9,3,70563.2,852.27
+CUST00058,Southwest,Borrower,Prime,60,3,8,204000.08,1673.66
+CUST00059,West,Rate Shopper,Prime,59,4,4,59482.47,1564.77
+CUST00060,Midwest,Digital Native,Super Prime,44,7,3,27763.52,226.46
+CUST00061,Southeast,Mass Affluent,Super Prime,32,4,5,113576.92,2005.88
+CUST00062,Southeast,Rate Shopper,Super Prime,63,4,5,86163.95,565.36
+CUST00063,Southwest,Rate Shopper,Super Prime,87,4,6,88581.06,1454.71
+CUST00064,Northeast,Rate Shopper,Near Prime,93,9,2,23417.53,265.4
+CUST00065,Northeast,Rate Shopper,Super Prime,48,6,2,69858.14,901.64
+CUST00066,Northeast,Digital Native,Super Prime,73,5,4,70440.75,713.82
+CUST00067,Midwest,Rate Shopper,Super Prime,53,6,6,104996.94,773.48
+CUST00068,Northeast,Mass Affluent,Prime,41,4,5,59830.87,481.26
+CUST00069,Southwest,Mass Affluent,Prime,39,3,5,105431.96,580.98
+CUST00070,Southeast,Digital Native,Super Prime,50,8,3,54924.03,422.27
+CUST00071,Northeast,Borrower,Near Prime,30,5,2,37891.37,573.42
+CUST00072,Midwest,Borrower,Prime,78,4,2,20377.12,261.33
+CUST00073,Southwest,Mass Affluent,Prime,91,3,6,116849.1,1064.97
+CUST00074,Midwest,Borrower,Super Prime,56,4,4,38344.69,399.09
+CUST00075,Northeast,Digital Native,Super Prime,28,9,3,80526.76,870.24
+CUST00076,Southwest,Digital Native,Super Prime,60,5,1,21281.71,681.01
+CUST00077,West,Digital Native,Near Prime,77,12,3,73901.1,440.65
+CUST00078,Southwest,Borrower,Prime,62,1,1,31905.63,191.43
+CUST00079,Southeast,Rate Shopper,Super Prime,95,8,4,63127.07,1438.08
+CUST00080,Midwest,Digital Native,Prime,49,5,5,96173.09,1001.25
+CUST00081,Midwest,Mass Affluent,Super Prime,100,10,1,4280.66,175.51
+CUST00082,West,Borrower,Super Prime,47,7,4,66720.33,489.23
+CUST00083,Midwest,Mass Affluent,Near Prime,62,6,6,102793.19,2189.67
+CUST00084,Southeast,Rate Shopper,Super Prime,68,7,6,85617.98,472.31
+CUST00085,Southeast,Mass Affluent,Super Prime,34,6,2,13038.27,184.4
+CUST00086,West,Mass Affluent,Prime,96,2,4,48238.87,466.96
+CUST00087,Southwest,Borrower,Super Prime,100,3,5,107508.0,1659.01
+CUST00088,Southwest,Digital Native,Super Prime,35,8,3,37854.11,527.75
+CUST00089,Southeast,Emerging Affluent,Super Prime,85,8,2,20132.58,161.07
+CUST00090,Midwest,Mass Affluent,Near Prime,54,3,3,28350.59,147.71
+CUST00091,Midwest,Borrower,Near Prime,44,7,3,56610.87,370.72
+CUST00092,Midwest,Emerging Affluent,Super Prime,40,6,5,111774.93,739.2
+CUST00093,Southwest,Digital Native,Near Prime,30,4,4,65240.8,910.99
+CUST00094,Southwest,Digital Native,Near Prime,98,4,5,142319.19,655.59
+CUST00095,West,Mass Affluent,Super Prime,48,6,5,93344.53,1671.19
+CUST00096,West,Rate Shopper,Super Prime,66,10,1,2791.64,114.46
+CUST00097,Northeast,Emerging Affluent,Near Prime,29,7,4,53487.71,778.25
+CUST00098,Southwest,Mass Affluent,Near Prime,25,2,7,131894.18,1381.87
+CUST00099,West,Rate Shopper,Near Prime,88,3,3,57733.96,615.57
+CUST00100,Southwest,Mass Affluent,Near Prime,87,7,4,57625.93,869.54
+CUST00101,Northeast,Mass Affluent,Near Prime,77,8,2,31326.65,218.17
+CUST00102,Northeast,Emerging Affluent,Near Prime,62,6,5,49740.55,586.9
+CUST00103,West,Digital Native,Near Prime,43,5,3,22966.36,799.19
+CUST00104,Southwest,Emerging Affluent,Super Prime,89,9,6,94289.85,1409.11
+CUST00105,Midwest,Mass Affluent,Near Prime,86,4,2,58013.58,276.96
+CUST00106,Midwest,Digital Native,Near Prime,55,5,5,65737.85,700.28
+CUST00107,West,Rate Shopper,Near Prime,73,11,1,33192.12,132.77
+CUST00108,Southwest,Emerging Affluent,Prime,81,11,2,4792.7,196.5
+CUST00109,Northeast,Borrower,Prime,85,3,3,41072.71,257.93
+CUST00110,Midwest,Digital Native,Super Prime,87,8,5,71785.57,607.91
+CUST00111,West,Mass Affluent,Super Prime,37,6,5,88506.83,1347.93
+CUST00112,Northeast,Rate Shopper,Prime,62,15,3,20533.72,692.97
+CUST00113,Midwest,Digital Native,Near Prime,48,6,5,99465.25,1488.12
+CUST00114,Southeast,Emerging Affluent,Prime,84,8,4,73477.18,1292.43
+CUST00115,Midwest,Rate Shopper,Prime,81,8,1,21863.04,87.45
+CUST00116,Midwest,Borrower,Prime,74,5,5,61812.39,695.22
+CUST00117,Southwest,Mass Affluent,Near Prime,62,6,2,43052.84,270.19
+CUST00118,Northeast,Rate Shopper,Super Prime,54,4,2,40585.22,243.51
+CUST00119,West,Digital Native,Near Prime,30,2,3,52319.89,343.78
+CUST00120,Midwest,Rate Shopper,Super Prime,78,3,5,84863.99,857.87
+CUST00121,Southeast,Emerging Affluent,Super Prime,62,4,2,6914.81,283.51
+CUST00122,Midwest,Mass Affluent,Near Prime,71,10,4,57986.04,373.2
+CUST00123,Northeast,Rate Shopper,Near Prime,58,6,2,51186.9,224.5
+CUST00124,West,Rate Shopper,Near Prime,96,4,4,38087.79,362.46
+CUST00125,Midwest,Borrower,Prime,42,3,1,11632.02,69.79
+CUST00126,Northeast,Mass Affluent,Near Prime,42,3,8,133836.86,1440.1
+CUST00127,Southwest,Rate Shopper,Super Prime,77,9,2,28841.33,125.38
+CUST00128,Midwest,Mass Affluent,Super Prime,37,9,5,73007.61,1177.12
+CUST00129,Midwest,Borrower,Prime,83,6,2,38393.35,307.15
+CUST00130,Northeast,Emerging Affluent,Prime,97,6,4,103821.03,1123.49
+CUST00131,Southeast,Mass Affluent,Prime,25,9,0,0.0,0.0
+CUST00132,Midwest,Emerging Affluent,Prime,26,11,1,19775.65,118.65
+CUST00133,Midwest,Emerging Affluent,Prime,41,4,6,126968.07,2108.14
+CUST00134,Southwest,Borrower,Near Prime,100,6,2,56706.12,226.82
+CUST00135,Northeast,Rate Shopper,Super Prime,28,5,2,42518.12,340.15
+CUST00136,Northeast,Rate Shopper,Prime,35,9,2,24654.17,295.32
+CUST00137,Midwest,Borrower,Super Prime,92,3,3,32407.85,474.51
+CUST00138,Midwest,Rate Shopper,Super Prime,82,5,4,52197.77,1149.1
+CUST00139,Southeast,Rate Shopper,Super Prime,79,12,5,98796.5,719.0
+CUST00140,Midwest,Digital Native,Prime,36,7,4,59530.48,560.55
+CUST00141,Southwest,Mass Affluent,Near Prime,40,4,8,117538.62,1612.03
+CUST00142,Southwest,Digital Native,Super Prime,38,3,5,88394.62,588.56
+CUST00143,West,Borrower,Super Prime,96,8,3,68655.77,1147.92
+CUST00144,Midwest,Mass Affluent,Near Prime,59,8,2,41219.91,195.26
+CUST00145,Northeast,Emerging Affluent,Prime,43,8,2,24285.84,493.64
+CUST00146,West,Rate Shopper,Super Prime,78,6,5,32814.32,738.32
+CUST00147,Southwest,Digital Native,Prime,44,7,2,21960.97,338.54
+CUST00148,Southeast,Borrower,Super Prime,81,8,4,73730.57,1002.71
+CUST00149,Southwest,Digital Native,Super Prime,100,6,2,35013.48,586.26
+CUST00150,Southwest,Borrower,Prime,51,5,3,74692.3,472.49
+CUST00151,Midwest,Emerging Affluent,Prime,88,4,5,60457.53,929.4
+CUST00152,Southwest,Emerging Affluent,Prime,75,7,2,61844.01,347.93
+CUST00153,Northeast,Rate Shopper,Near Prime,76,4,4,85320.69,588.87
+CUST00154,Southwest,Digital Native,Near Prime,83,5,8,105311.7,845.04
+CUST00155,Midwest,Mass Affluent,Near Prime,35,4,3,46173.53,376.0
+CUST00156,Southwest,Digital Native,Near Prime,39,4,8,165989.88,1285.35
+CUST00157,West,Borrower,Prime,43,1,3,38430.83,401.27
+CUST00158,Midwest,Emerging Affluent,Super Prime,97,9,7,173580.17,1387.29
+CUST00159,West,Rate Shopper,Prime,85,3,7,114484.62,752.42
+CUST00160,Southwest,Digital Native,Super Prime,84,4,5,115379.53,1345.2
+CUST00161,Southwest,Mass Affluent,Near Prime,89,5,2,36934.38,403.89
+CUST00162,Southwest,Rate Shopper,Super Prime,85,5,2,47349.47,219.4
+CUST00163,West,Emerging Affluent,Near Prime,47,3,4,24772.54,910.5
+CUST00164,Northeast,Emerging Affluent,Super Prime,74,8,3,59895.31,1244.53
+CUST00165,Southwest,Digital Native,Prime,96,10,4,51166.41,273.75
+CUST00166,Southwest,Digital Native,Super Prime,64,4,3,26643.22,285.79
+CUST00167,Southwest,Emerging Affluent,Near Prime,67,9,2,11381.58,398.03
+CUST00168,Southeast,Borrower,Super Prime,48,4,4,84663.99,612.31
+CUST00169,Southeast,Digital Native,Prime,62,7,4,64044.42,569.09
+CUST00170,Northeast,Borrower,Near Prime,73,3,6,117183.88,869.77
+CUST00171,Southeast,Emerging Affluent,Super Prime,55,8,5,71318.04,921.54
+CUST00172,Southwest,Borrower,Super Prime,85,4,3,35000.56,695.58
+CUST00173,Southeast,Digital Native,Near Prime,92,5,4,51567.19,456.51
+CUST00174,Southwest,Emerging Affluent,Super Prime,95,9,4,87868.81,747.62
+CUST00175,Northeast,Borrower,Super Prime,90,7,1,14728.03,88.37
+CUST00176,Southeast,Rate Shopper,Super Prime,31,7,4,42040.71,1375.51
+CUST00177,Southwest,Borrower,Prime,28,2,1,36986.64,147.95
+CUST00178,Midwest,Mass Affluent,Super Prime,42,3,1,23387.63,187.1
+CUST00179,Southwest,Rate Shopper,Prime,95,6,2,37402.38,299.22
+CUST00180,West,Borrower,Prime,31,5,2,44248.6,214.04
+CUST00181,Southeast,Rate Shopper,Near Prime,90,3,4,121228.48,570.33
+CUST00182,West,Emerging Affluent,Prime,98,7,1,27178.44,163.07
+CUST00183,Southwest,Emerging Affluent,Super Prime,85,5,5,111830.57,640.61
+CUST00184,Northeast,Rate Shopper,Super Prime,55,3,2,55383.46,261.78
+CUST00185,Northeast,Borrower,Near Prime,47,5,6,86108.83,1321.24
+CUST00186,Southwest,Rate Shopper,Super Prime,50,7,2,56959.23,816.64
+CUST00187,Northeast,Emerging Affluent,Near Prime,85,7,3,65041.32,390.25
+CUST00188,Midwest,Mass Affluent,Super Prime,40,6,2,35666.15,1141.31
+CUST00189,Midwest,Rate Shopper,Super Prime,88,5,2,24135.38,139.49
+CUST00190,Midwest,Borrower,Near Prime,48,3,4,72385.0,683.93
+CUST00191,West,Digital Native,Super Prime,82,6,2,44210.57,353.69
+CUST00192,West,Rate Shopper,Near Prime,70,4,3,37799.52,264.8
+CUST00193,West,Rate Shopper,Near Prime,45,7,7,62867.53,746.02
+CUST00194,Northeast,Emerging Affluent,Near Prime,71,6,3,24561.18,237.75
+CUST00195,Midwest,Rate Shopper,Super Prime,81,8,5,53319.89,725.95
+CUST00196,Northeast,Borrower,Prime,39,5,5,40081.72,964.25
+CUST00197,Northeast,Emerging Affluent,Near Prime,82,2,3,47118.91,347.58
+CUST00198,Southeast,Borrower,Prime,82,9,2,27210.07,314.87
+CUST00199,Southeast,Rate Shopper,Super Prime,45,8,3,52028.03,941.65
+CUST00200,Southeast,Digital Native,Prime,88,11,2,41549.09,210.97
+CUST00201,Northeast,Digital Native,Near Prime,36,5,8,129675.39,875.7
+CUST00202,Northeast,Digital Native,Prime,65,10,4,73294.74,785.08
+CUST00203,Northeast,Rate Shopper,Prime,80,5,3,49188.05,330.99
+CUST00204,West,Mass Affluent,Super Prime,53,13,1,38148.13,305.19
+CUST00205,Midwest,Borrower,Prime,63,4,0,0.0,0.0
+CUST00206,West,Borrower,Near Prime,30,7,5,63454.55,1414.21
+CUST00207,Northeast,Mass Affluent,Near Prime,28,5,7,145387.5,1448.36
+CUST00208,Southwest,Borrower,Super Prime,83,5,4,75520.79,493.11
+CUST00209,Northeast,Mass Affluent,Prime,68,8,2,25933.55,500.34
+CUST00210,West,Emerging Affluent,Super Prime,90,5,5,100829.05,1135.51
+CUST00211,West,Mass Affluent,Super Prime,56,5,3,53588.78,498.06
+CUST00212,Southeast,Mass Affluent,Prime,45,7,2,3200.48,131.22
+CUST00213,Midwest,Borrower,Super Prime,64,8,4,92952.31,519.02
+CUST00214,Southwest,Mass Affluent,Near Prime,70,3,4,75971.63,889.56
+CUST00215,Northeast,Mass Affluent,Prime,80,11,5,59594.21,1077.22
+CUST00216,Southeast,Digital Native,Prime,97,9,1,41457.8,331.66
+CUST00217,West,Emerging Affluent,Near Prime,60,4,2,29855.19,499.98
+CUST00218,West,Borrower,Super Prime,96,6,3,26443.56,485.11
+CUST00219,Midwest,Emerging Affluent,Prime,67,5,5,111068.23,1191.59
+CUST00220,Southwest,Borrower,Prime,75,8,3,62636.0,452.93
+CUST00221,West,Digital Native,Super Prime,27,6,2,42515.93,253.41
+CUST00222,Midwest,Digital Native,Super Prime,99,7,4,69185.84,634.95
+CUST00223,West,Emerging Affluent,Prime,56,12,4,51184.78,607.04
+CUST00224,Northeast,Borrower,Super Prime,44,10,1,21660.39,129.96
+CUST00225,Southwest,Emerging Affluent,Near Prime,66,6,2,39216.04,258.94
+CUST00226,Southwest,Borrower,Near Prime,70,10,2,35163.2,210.98
+CUST00227,Midwest,Borrower,Prime,63,6,3,101586.72,449.2
+CUST00228,Midwest,Emerging Affluent,Super Prime,40,9,7,94729.54,1283.66
+CUST00229,West,Borrower,Prime,61,7,6,91133.54,1624.36
+CUST00230,Northeast,Digital Native,Near Prime,59,3,5,77650.42,384.84
+CUST00231,West,Digital Native,Near Prime,92,11,5,83816.21,1109.67
+CUST00232,Southeast,Emerging Affluent,Prime,42,5,4,52160.08,417.86
+CUST00233,Northeast,Borrower,Super Prime,66,11,8,125696.95,1165.11
+CUST00234,Midwest,Mass Affluent,Prime,29,4,2,37006.47,472.91
+CUST00235,Southwest,Rate Shopper,Near Prime,38,3,5,114993.73,1200.94
+CUST00236,Midwest,Digital Native,Super Prime,49,2,2,34062.5,272.5
+CUST00237,Northeast,Digital Native,Near Prime,68,2,3,33933.55,457.55
+CUST00238,Midwest,Borrower,Prime,76,3,7,136254.38,901.33
+CUST00239,Northeast,Emerging Affluent,Super Prime,74,7,4,51115.05,1073.34
+CUST00240,Southeast,Rate Shopper,Super Prime,71,3,2,47281.57,342.83
+CUST00241,Southeast,Mass Affluent,Near Prime,89,6,2,36507.07,788.49
+CUST00242,Midwest,Mass Affluent,Super Prime,44,5,4,44831.3,554.44
+CUST00243,Southwest,Borrower,Prime,35,5,2,29357.32,668.05
+CUST00244,West,Rate Shopper,Prime,95,7,3,29617.62,506.97
+CUST00245,West,Emerging Affluent,Prime,51,7,6,89274.53,1339.27
+CUST00246,West,Rate Shopper,Near Prime,78,7,3,93841.4,432.41
+CUST00247,Southwest,Borrower,Super Prime,25,9,2,26643.69,311.27
+CUST00248,Southeast,Borrower,Near Prime,32,5,5,90282.48,1189.91
+CUST00249,Northeast,Rate Shopper,Near Prime,78,6,4,65044.23,583.41
+CUST00250,Midwest,Rate Shopper,Near Prime,69,11,7,119668.17,1165.53
+CUST00251,Northeast,Emerging Affluent,Prime,63,6,7,118288.15,1520.88
+CUST00252,Southwest,Borrower,Super Prime,44,5,3,64788.18,630.37
+CUST00253,Midwest,Emerging Affluent,Prime,51,7,5,31520.92,428.39
+CUST00254,Northeast,Mass Affluent,Prime,30,5,6,104729.36,1022.73
+CUST00255,Southwest,Rate Shopper,Prime,98,7,4,74897.65,679.69
+CUST00256,Midwest,Borrower,Near Prime,91,4,2,4452.75,182.56
+CUST00257,Southeast,Rate Shopper,Near Prime,79,3,5,77412.79,1096.93
+CUST00258,West,Rate Shopper,Near Prime,78,7,1,3286.99,134.77
+CUST00259,Southwest,Emerging Affluent,Prime,53,5,1,21205.35,127.23
+CUST00260,Midwest,Emerging Affluent,Super Prime,56,8,3,35275.82,291.79
+CUST00261,Midwest,Emerging Affluent,Near Prime,49,8,3,20292.43,704.43
+CUST00262,Northeast,Digital Native,Super Prime,51,8,5,105511.5,1383.25
+CUST00263,Midwest,Digital Native,Prime,51,5,0,0.0,0.0
+CUST00264,Southwest,Emerging Affluent,Near Prime,70,7,0,0.0,0.0
+CUST00265,Midwest,Digital Native,Super Prime,51,5,4,57749.64,659.61
+CUST00266,Midwest,Digital Native,Super Prime,95,9,7,97247.72,1478.57
+CUST00267,West,Borrower,Prime,73,6,5,69001.57,414.01
+CUST00268,West,Emerging Affluent,Super Prime,46,4,4,57177.78,548.17
+CUST00269,Midwest,Emerging Affluent,Near Prime,29,10,3,23893.73,820.11
+CUST00270,Northeast,Mass Affluent,Near Prime,44,4,1,3938.88,161.49
+CUST00271,Northeast,Emerging Affluent,Near Prime,87,8,4,93904.07,910.57
+CUST00272,Northeast,Mass Affluent,Near Prime,61,5,4,68720.02,431.38
+CUST00273,Northeast,Borrower,Prime,49,5,2,53284.87,213.14
+CUST00274,West,Borrower,Super Prime,76,4,7,101706.1,1004.05
+CUST00275,Southwest,Borrower,Prime,76,2,1,24831.92,198.66
+CUST00276,Southwest,Rate Shopper,Prime,88,7,2,27742.04,607.69
+CUST00277,Southwest,Digital Native,Near Prime,97,5,2,44941.19,790.0
+CUST00278,Southwest,Digital Native,Prime,65,9,3,45447.9,572.85
+CUST00279,Northeast,Emerging Affluent,Prime,97,5,1,19848.47,158.79
+CUST00280,Southeast,Borrower,Near Prime,69,7,4,33933.74,378.46
+CUST00281,Northeast,Mass Affluent,Super Prime,28,3,4,57774.46,506.4
+CUST00282,Midwest,Rate Shopper,Super Prime,48,4,2,30271.7,608.01
+CUST00283,West,Rate Shopper,Super Prime,44,5,2,56156.57,404.34
+CUST00284,Southwest,Emerging Affluent,Prime,64,8,3,58629.3,578.27
+CUST00285,Southwest,Digital Native,Super Prime,82,4,5,83078.51,818.79
+CUST00286,West,Borrower,Super Prime,95,3,3,30351.64,358.22
+CUST00287,Northeast,Borrower,Super Prime,74,9,4,49058.61,712.57
+CUST00288,Northeast,Borrower,Super Prime,63,7,4,70578.04,978.73
+CUST00289,Midwest,Rate Shopper,Super Prime,63,8,2,17697.09,240.04
+CUST00290,Southwest,Mass Affluent,Super Prime,38,1,4,98499.14,769.49
+CUST00291,Southeast,Digital Native,Super Prime,81,6,6,104163.99,1364.69
+CUST00292,Midwest,Rate Shopper,Super Prime,65,4,4,54434.25,531.55
+CUST00293,Southeast,Rate Shopper,Super Prime,73,4,3,56949.68,317.1
+CUST00294,Midwest,Rate Shopper,Near Prime,95,6,2,38407.47,211.09
+CUST00295,Northeast,Rate Shopper,Near Prime,88,4,4,18272.54,466.73
+CUST00296,Southeast,Digital Native,Prime,82,7,6,105249.23,497.76
+CUST00297,West,Rate Shopper,Super Prime,93,9,1,3317.46,136.02
+CUST00298,West,Mass Affluent,Near Prime,76,7,3,34257.91,650.84
+CUST00299,Midwest,Rate Shopper,Near Prime,91,8,3,34063.71,827.71
+CUST00300,West,Borrower,Super Prime,100,5,2,26698.16,252.25
+CUST00301,West,Emerging Affluent,Super Prime,35,4,4,86840.93,725.46
+CUST00302,Northeast,Emerging Affluent,Near Prime,86,5,4,41266.49,606.34
+CUST00303,Midwest,Rate Shopper,Super Prime,30,5,3,63457.83,656.22
+CUST00304,Northeast,Mass Affluent,Near Prime,45,6,6,92331.56,992.36
+CUST00305,Midwest,Borrower,Prime,80,8,5,88477.78,965.14
+CUST00306,Southwest,Mass Affluent,Near Prime,52,6,3,49214.85,438.45
+CUST00307,Southeast,Digital Native,Prime,83,7,5,104950.39,692.88
+CUST00308,Northeast,Digital Native,Near Prime,39,6,2,37369.47,192.01
+CUST00309,Midwest,Digital Native,Near Prime,42,8,2,26427.35,411.86
+CUST00310,Midwest,Mass Affluent,Near Prime,43,5,5,112925.29,704.3
+CUST00311,West,Rate Shopper,Super Prime,93,7,4,23732.85,426.15
+CUST00312,Southeast,Borrower,Super Prime,82,2,0,0.0,0.0
+CUST00313,West,Mass Affluent,Super Prime,96,6,8,106287.85,1292.07
+CUST00314,West,Rate Shopper,Prime,35,3,4,44078.2,731.41
+CUST00315,West,Mass Affluent,Near Prime,61,3,1,14283.52,457.07
+CUST00316,Southeast,Rate Shopper,Super Prime,94,5,2,8560.04,350.96
+CUST00317,Midwest,Borrower,Near Prime,56,7,5,92358.84,1571.39
+CUST00318,Midwest,Mass Affluent,Prime,55,4,5,85446.51,661.29
+CUST00319,Southeast,Borrower,Prime,51,4,3,30902.91,609.37
+CUST00320,Northeast,Borrower,Super Prime,98,5,6,148289.49,1559.37
+CUST00321,Midwest,Borrower,Near Prime,41,3,2,20268.81,679.72
+CUST00322,Southeast,Emerging Affluent,Prime,98,9,4,97161.41,616.46
+CUST00323,Midwest,Rate Shopper,Near Prime,60,8,3,60255.5,482.05
+CUST00324,Midwest,Rate Shopper,Near Prime,70,8,4,55371.55,341.87
+CUST00325,Northeast,Borrower,Super Prime,66,7,3,68421.66,345.57
+CUST00326,Midwest,Digital Native,Prime,37,8,4,56973.28,504.81
+CUST00327,Southwest,Mass Affluent,Super Prime,50,14,4,75085.95,661.99
+CUST00328,Southeast,Digital Native,Prime,72,11,1,14105.11,84.63
+CUST00329,Southeast,Mass Affluent,Near Prime,37,4,3,93829.34,1268.56
+CUST00330,Northeast,Emerging Affluent,Near Prime,81,3,1,19697.93,157.58
+CUST00331,Northeast,Mass Affluent,Prime,54,8,1,16018.15,64.07
+CUST00332,Southwest,Mass Affluent,Prime,73,6,5,76241.0,443.27
+CUST00333,Southeast,Emerging Affluent,Near Prime,52,5,5,82193.0,1254.61
+CUST00334,Southeast,Rate Shopper,Prime,100,13,0,0.0,0.0
+CUST00335,Southwest,Digital Native,Near Prime,35,8,3,69794.17,459.23
+CUST00336,Southeast,Borrower,Near Prime,90,4,3,11523.28,472.45
+CUST00337,Southeast,Rate Shopper,Prime,55,8,3,48111.31,609.74
+CUST00338,Southwest,Borrower,Super Prime,97,8,8,177334.34,1825.78
+CUST00339,Southwest,Digital Native,Near Prime,33,6,2,44161.04,214.99
+CUST00340,Northeast,Digital Native,Near Prime,89,8,2,45866.17,219.29
+CUST00341,Southwest,Rate Shopper,Super Prime,35,7,3,41658.06,257.24
+CUST00342,West,Emerging Affluent,Super Prime,80,7,4,63042.83,743.98
+CUST00343,Southeast,Mass Affluent,Near Prime,32,5,1,16686.01,100.12
+CUST00344,Midwest,Emerging Affluent,Super Prime,69,5,5,122918.56,580.87
+CUST00345,West,Borrower,Near Prime,40,6,2,5807.41,238.1
+CUST00346,Northeast,Digital Native,Super Prime,83,5,3,33003.83,234.11
+CUST00347,West,Digital Native,Super Prime,38,7,4,63694.38,740.44
+CUST00348,West,Mass Affluent,Prime,85,8,2,27909.63,893.11
+CUST00349,Midwest,Rate Shopper,Prime,66,3,3,96589.34,765.08
+CUST00350,Southeast,Rate Shopper,Prime,89,10,1,25353.07,202.82
+CUST00351,Northeast,Emerging Affluent,Super Prime,64,3,2,20315.33,223.13
+CUST00352,Midwest,Mass Affluent,Super Prime,97,9,3,44535.69,455.78
+CUST00353,Midwest,Borrower,Prime,94,4,4,120403.04,957.9
+CUST00354,Southeast,Emerging Affluent,Near Prime,26,7,1,30256.04,121.02
+CUST00355,Midwest,Mass Affluent,Super Prime,87,10,0,0.0,0.0
+CUST00356,Northeast,Emerging Affluent,Near Prime,72,9,2,39801.52,594.8
+CUST00357,Southwest,Mass Affluent,Near Prime,97,5,1,3623.48,148.56
+CUST00358,Northeast,Rate Shopper,Super Prime,66,5,4,42674.63,700.31
+CUST00359,Midwest,Rate Shopper,Near Prime,38,4,5,121426.65,808.25
+CUST00360,Southeast,Mass Affluent,Prime,93,3,5,113331.79,1109.82
+CUST00361,Midwest,Emerging Affluent,Prime,45,6,2,41068.06,246.41
+CUST00362,Midwest,Borrower,Near Prime,56,6,1,11010.85,44.04
+CUST00363,Midwest,Rate Shopper,Prime,76,4,3,61176.95,841.87
+CUST00364,Southwest,Borrower,Prime,40,5,2,30459.92,121.84
+CUST00365,Northeast,Mass Affluent,Near Prime,35,5,3,40882.46,396.8
+CUST00366,West,Borrower,Near Prime,81,3,4,59962.99,873.45
+CUST00367,Southeast,Mass Affluent,Prime,98,6,4,85044.01,1175.78
+CUST00368,Southwest,Rate Shopper,Super Prime,52,5,4,83641.32,1200.3
+CUST00369,Southeast,Digital Native,Near Prime,62,4,2,6904.2,283.07
+CUST00370,Southwest,Rate Shopper,Super Prime,42,4,6,99362.31,1323.73
+CUST00371,Southwest,Emerging Affluent,Super Prime,94,3,2,24004.76,559.35
+CUST00372,Southwest,Digital Native,Prime,65,5,3,82572.76,556.11
+CUST00373,West,Emerging Affluent,Near Prime,54,11,5,71035.67,1084.57
+CUST00374,Southeast,Mass Affluent,Prime,98,8,2,32336.7,146.8
+CUST00375,Southwest,Digital Native,Near Prime,70,8,2,34870.9,238.52
+CUST00376,West,Mass Affluent,Prime,87,10,5,51477.72,765.72
+CUST00377,Northeast,Mass Affluent,Prime,67,8,7,88948.25,1142.82
+CUST00378,West,Emerging Affluent,Prime,43,8,7,106773.48,1031.11
+CUST00379,West,Emerging Affluent,Near Prime,37,5,5,48941.0,1101.74
+CUST00380,Midwest,Digital Native,Near Prime,65,6,2,27265.35,314.89
+CUST00381,Southeast,Borrower,Near Prime,62,5,6,98281.91,1358.79
+CUST00382,Southeast,Emerging Affluent,Near Prime,53,9,3,47947.16,345.66
+CUST00383,West,Mass Affluent,Super Prime,65,7,4,57438.01,1055.25
+CUST00384,Southeast,Mass Affluent,Prime,33,4,0,0.0,0.0
+CUST00385,Midwest,Digital Native,Near Prime,78,8,4,80643.24,1260.8
+CUST00386,Southeast,Rate Shopper,Prime,86,4,3,36698.81,717.45
+CUST00387,West,Emerging Affluent,Prime,65,4,3,45829.67,241.65
+CUST00388,Midwest,Mass Affluent,Near Prime,34,5,5,79744.59,706.09
+CUST00389,West,Mass Affluent,Near Prime,80,11,2,36632.26,1172.24
+CUST00390,Southeast,Mass Affluent,Near Prime,95,9,6,167052.77,814.4
+CUST00391,West,Digital Native,Super Prime,98,6,1,28027.74,112.11
+CUST00392,West,Rate Shopper,Prime,62,0,3,59949.1,1260.34
+CUST00393,West,Rate Shopper,Near Prime,62,13,6,125559.17,751.63
+CUST00394,Northeast,Rate Shopper,Near Prime,58,9,7,153721.99,1426.51
+CUST00395,Northeast,Borrower,Prime,82,6,3,61864.86,1104.47
+CUST00396,Northeast,Digital Native,Near Prime,32,8,8,137502.47,1695.47
+CUST00397,Southeast,Mass Affluent,Near Prime,32,3,3,41524.68,705.03
+CUST00398,Southwest,Borrower,Prime,75,7,3,36081.47,995.22
+CUST00399,Northeast,Borrower,Prime,52,3,4,49716.68,481.84
+CUST00400,Southeast,Emerging Affluent,Near Prime,43,7,3,82634.46,330.54
+CUST00401,West,Digital Native,Near Prime,66,3,4,54632.85,841.11
+CUST00402,Midwest,Borrower,Prime,43,8,7,80758.73,1134.78
+CUST00403,West,Borrower,Super Prime,93,6,8,162042.76,1760.83
+CUST00404,Midwest,Rate Shopper,Prime,47,7,3,57250.98,797.69
+CUST00405,Midwest,Rate Shopper,Near Prime,55,3,6,35524.68,1312.9
+CUST00406,Northeast,Rate Shopper,Super Prime,60,4,5,68348.36,670.72
+CUST00407,Southwest,Mass Affluent,Super Prime,78,5,2,68997.67,275.99
+CUST00408,West,Mass Affluent,Near Prime,72,4,2,30861.9,383.92
+CUST00409,Northeast,Borrower,Prime,92,7,4,73462.28,951.47
+CUST00410,West,Mass Affluent,Prime,83,11,3,27802.3,299.02
+CUST00411,Northeast,Digital Native,Near Prime,40,6,6,84447.45,1763.86
+CUST00412,Northeast,Emerging Affluent,Near Prime,95,6,7,80615.52,776.61
+CUST00413,Midwest,Digital Native,Super Prime,31,6,1,19020.94,114.13
+CUST00414,Southeast,Borrower,Near Prime,77,6,4,100168.61,858.63
+CUST00415,West,Mass Affluent,Prime,57,7,4,101112.98,642.58
+CUST00416,West,Digital Native,Super Prime,52,9,5,82713.79,1271.44
+CUST00417,Southwest,Digital Native,Near Prime,61,7,5,133344.3,610.96
+CUST00418,Midwest,Mass Affluent,Super Prime,58,9,5,113047.13,1344.44
+CUST00419,Midwest,Emerging Affluent,Near Prime,65,2,4,135670.6,1571.13
+CUST00420,Southeast,Mass Affluent,Super Prime,29,8,4,81559.3,483.88
+CUST00421,West,Borrower,Near Prime,70,3,2,47764.33,726.64
+CUST00422,West,Digital Native,Prime,58,1,5,96675.16,2130.97
+CUST00423,West,Emerging Affluent,Near Prime,64,2,1,37964.06,303.71
+CUST00424,Southwest,Digital Native,Super Prime,31,3,2,53234.6,258.43
+CUST00425,West,Borrower,Near Prime,73,2,2,42065.04,196.82
+CUST00426,West,Digital Native,Super Prime,77,4,4,62395.65,563.83
+CUST00427,West,Rate Shopper,Super Prime,47,4,2,27593.89,165.56
+CUST00428,Midwest,Mass Affluent,Near Prime,45,2,4,46927.96,615.45
+CUST00429,Southwest,Mass Affluent,Super Prime,74,8,5,67057.33,2203.16
+CUST00430,Northeast,Mass Affluent,Near Prime,49,4,4,50759.78,756.96
+CUST00431,Northeast,Mass Affluent,Prime,74,5,5,55386.93,740.13
+CUST00432,West,Borrower,Super Prime,83,9,6,95703.68,1785.57
+CUST00433,West,Borrower,Super Prime,70,4,2,30067.52,962.16
+CUST00434,Southeast,Emerging Affluent,Prime,27,6,2,23851.22,279.33
+CUST00435,West,Borrower,Near Prime,57,4,0,0.0,0.0
+CUST00436,West,Borrower,Near Prime,39,11,5,108174.85,972.59
+CUST00437,Southwest,Rate Shopper,Prime,26,3,3,59416.12,1211.49
+CUST00438,Midwest,Rate Shopper,Near Prime,40,8,3,62345.13,924.83
+CUST00439,Midwest,Mass Affluent,Super Prime,91,6,2,27061.68,865.98
+CUST00440,Southeast,Digital Native,Prime,86,7,5,77351.61,543.51
+CUST00441,Midwest,Emerging Affluent,Prime,36,5,3,36541.65,847.62
+CUST00442,West,Mass Affluent,Super Prime,84,5,3,33018.44,351.19
+CUST00443,Northeast,Mass Affluent,Super Prime,39,3,6,60003.29,858.05
+CUST00444,Northeast,Mass Affluent,Super Prime,59,8,4,58610.85,651.35
+CUST00445,Northeast,Digital Native,Super Prime,59,10,5,85361.09,1684.38
+CUST00446,Southwest,Rate Shopper,Prime,38,6,4,74774.43,1050.46
+CUST00447,Southwest,Borrower,Super Prime,28,9,1,3583.76,146.93
+CUST00448,Southeast,Rate Shopper,Prime,58,7,2,42825.58,308.24
+CUST00449,Midwest,Mass Affluent,Super Prime,56,2,2,35187.63,354.08
+CUST00450,Southwest,Digital Native,Near Prime,85,9,2,19133.19,213.11
+CUST00451,Southwest,Emerging Affluent,Super Prime,31,4,3,70434.17,302.1
+CUST00452,West,Emerging Affluent,Super Prime,81,6,8,121591.13,1183.9
+CUST00453,West,Rate Shopper,Super Prime,27,7,2,15788.43,526.52
+CUST00454,Northeast,Rate Shopper,Near Prime,96,8,4,75469.17,483.49
+CUST00455,Southeast,Rate Shopper,Super Prime,96,7,4,81670.64,840.94
+CUST00456,West,Borrower,Near Prime,53,3,3,36884.05,266.21
+CUST00457,Northeast,Digital Native,Prime,88,4,0,0.0,0.0
+CUST00458,Southeast,Rate Shopper,Super Prime,52,8,3,83376.77,1198.5
+CUST00459,Southwest,Emerging Affluent,Super Prime,83,5,1,33494.03,267.95
+CUST00460,West,Borrower,Near Prime,80,10,4,68178.29,1103.56
+CUST00461,West,Rate Shopper,Super Prime,66,6,8,178624.79,975.55
+CUST00462,West,Rate Shopper,Super Prime,82,5,1,33702.37,134.81
+CUST00463,Southeast,Emerging Affluent,Prime,51,8,4,87845.37,601.91
+CUST00464,West,Digital Native,Near Prime,39,6,3,58549.56,1213.31
+CUST00465,Midwest,Borrower,Near Prime,38,2,3,44743.97,387.28
+CUST00466,Northeast,Rate Shopper,Prime,61,5,4,66244.54,1311.81
+CUST00467,Midwest,Emerging Affluent,Super Prime,82,3,1,1751.79,71.82
+CUST00468,Northeast,Borrower,Near Prime,31,7,2,47457.94,329.38
+CUST00469,Southwest,Rate Shopper,Prime,81,6,1,22206.79,133.24
+CUST00470,Southeast,Digital Native,Prime,34,6,3,45624.52,291.5
+CUST00471,Southeast,Emerging Affluent,Super Prime,96,5,1,16332.15,522.63
+CUST00472,Midwest,Emerging Affluent,Near Prime,44,4,7,118483.35,786.96
+CUST00473,Northeast,Emerging Affluent,Prime,65,2,5,66864.76,918.39
+CUST00474,West,Emerging Affluent,Prime,69,4,3,52445.94,453.55
+CUST00475,Southeast,Emerging Affluent,Near Prime,92,2,6,92205.09,1116.01
+CUST00476,Southwest,Borrower,Near Prime,56,6,4,53399.58,484.0
+CUST00477,Northeast,Digital Native,Prime,91,2,1,2785.2,114.19
+CUST00478,Midwest,Borrower,Near Prime,49,10,0,0.0,0.0
+CUST00479,Midwest,Borrower,Near Prime,33,7,5,83426.75,1176.14
+CUST00480,Southeast,Emerging Affluent,Near Prime,34,2,1,21653.5,86.61
+CUST00481,Southeast,Mass Affluent,Prime,47,6,2,41318.38,798.86
+CUST00482,Midwest,Borrower,Super Prime,76,13,2,46220.47,344.97
+CUST00483,Southwest,Digital Native,Near Prime,33,5,0,0.0,0.0
+CUST00484,West,Mass Affluent,Near Prime,36,3,5,66798.19,891.3
+CUST00485,Midwest,Rate Shopper,Near Prime,53,9,1,35788.43,143.15
+CUST00486,Southeast,Rate Shopper,Prime,95,6,3,24157.64,482.48
+CUST00487,West,Emerging Affluent,Near Prime,95,4,5,105700.53,840.51
+CUST00488,Northeast,Digital Native,Prime,48,3,4,44173.12,358.72
+CUST00489,Southeast,Borrower,Near Prime,84,4,4,62632.34,366.18
+CUST00490,West,Mass Affluent,Near Prime,99,9,3,66555.73,464.0
+CUST00491,Southwest,Digital Native,Near Prime,33,5,5,76016.51,1152.51
+CUST00492,Southeast,Digital Native,Near Prime,99,8,3,17645.37,256.21
+CUST00493,Southeast,Borrower,Prime,65,5,5,81107.59,624.95
+CUST00494,Southeast,Emerging Affluent,Super Prime,84,8,3,41585.82,708.25
+CUST00495,Southwest,Digital Native,Super Prime,42,2,5,75369.71,718.84
+CUST00496,West,Emerging Affluent,Near Prime,99,7,4,105856.61,538.86
+CUST00497,Southwest,Borrower,Near Prime,44,5,4,39359.96,869.9
+CUST00498,Midwest,Rate Shopper,Super Prime,71,8,4,75341.79,1776.48
+CUST00499,West,Mass Affluent,Prime,97,8,4,87303.89,516.05
+CUST00500,West,Emerging Affluent,Prime,33,2,2,29063.42,930.03

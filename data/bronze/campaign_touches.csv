@@ -1,0 +1,901 @@
+touch_id,touch_date,customer_id,campaign_id,campaign_name,target_product_family,channel,offer_variant,converted,attributed_transaction_id,attributed_revenue
+TCH000001,2026-04-25,CUST00310,CMP002,Debt Consolidation Loan,Lending,Email,Education,False,,0
+TCH000002,2025-02-24,CUST00461,CMP005,CD Maturity Winback,Deposits,In App,Rewards,False,,0
+TCH000003,2026-09-12,CUST00259,CMP001,Savings Rate Booster,Deposits,Email,Education,False,,0
+TCH000004,2025-05-01,CUST00022,CMP002,Debt Consolidation Loan,Lending,Contact Center,Control,False,,0
+TCH000005,2025-10-16,CUST00430,CMP005,CD Maturity Winback,Deposits,Email,Control,False,,0
+TCH000006,2025-05-29,CUST00349,CMP002,Debt Consolidation Loan,Lending,In App,Control,False,,0
+TCH000007,2026-07-05,CUST00172,CMP001,Savings Rate Booster,Deposits,Display,Education,False,,0
+TCH000008,2025-06-16,CUST00176,CMP001,Savings Rate Booster,Deposits,Paid Search,Rate,False,,0
+TCH000009,2026-09-01,CUST00058,CMP001,Savings Rate Booster,Deposits,Email,Cash Bonus,False,,0
+TCH000010,2025-06-12,CUST00409,CMP004,Card Rewards Upgrade,Cards,Paid Search,Education,True,TXN0000921,394.81
+TCH000011,2025-01-08,CUST00348,CMP004,Card Rewards Upgrade,Cards,Display,Cash Bonus,False,,0
+TCH000012,2026-05-07,CUST00152,CMP003,Invest Starter,Wealth,Email,Education,False,,0
+TCH000013,2025-07-21,CUST00471,CMP002,Debt Consolidation Loan,Lending,Email,Cash Bonus,True,TXN0002159,253.54
+TCH000014,2025-03-17,CUST00382,CMP004,Card Rewards Upgrade,Cards,Contact Center,Cash Bonus,False,,0
+TCH000015,2025-10-06,CUST00296,CMP002,Debt Consolidation Loan,Lending,In App,Rewards,False,,0
+TCH000016,2026-02-22,CUST00068,CMP004,Card Rewards Upgrade,Cards,Contact Center,Rewards,True,TXN0000958,85.06
+TCH000017,2025-08-26,CUST00187,CMP001,Savings Rate Booster,Deposits,Paid Search,Rewards,False,,0
+TCH000018,2026-07-02,CUST00379,CMP001,Savings Rate Booster,Deposits,Paid Search,Cash Bonus,False,,0
+TCH000019,2026-07-23,CUST00417,CMP004,Card Rewards Upgrade,Cards,Email,Rate,False,,0
+TCH000020,2026-02-15,CUST00265,CMP004,Card Rewards Upgrade,Cards,Email,Rewards,True,TXN0002347,139.24
+TCH000021,2026-02-10,CUST00022,CMP002,Debt Consolidation Loan,Lending,In App,Control,False,,0
+TCH000022,2025-05-13,CUST00023,CMP003,Invest Starter,Wealth,Email,Rewards,False,,0
+TCH000023,2025-01-09,CUST00429,CMP003,Invest Starter,Wealth,Contact Center,Control,False,,0
+TCH000024,2025-08-10,CUST00441,CMP001,Savings Rate Booster,Deposits,Contact Center,Control,False,,0
+TCH000025,2025-08-31,CUST00031,CMP002,Debt Consolidation Loan,Lending,Paid Search,Cash Bonus,False,,0
+TCH000026,2026-09-15,CUST00012,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rate,False,,0
+TCH000027,2026-01-15,CUST00388,CMP004,Card Rewards Upgrade,Cards,Contact Center,Cash Bonus,False,,0
+TCH000028,2025-04-25,CUST00440,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rewards,False,,0
+TCH000029,2026-10-01,CUST00026,CMP001,Savings Rate Booster,Deposits,In App,Control,False,,0
+TCH000030,2026-04-20,CUST00442,CMP002,Debt Consolidation Loan,Lending,In App,Cash Bonus,False,,0
+TCH000031,2025-10-07,CUST00132,CMP003,Invest Starter,Wealth,Contact Center,Rate,False,,0
+TCH000032,2025-10-20,CUST00164,CMP001,Savings Rate Booster,Deposits,Contact Center,Cash Bonus,False,,0
+TCH000033,2025-12-04,CUST00474,CMP003,Invest Starter,Wealth,Email,Control,False,,0
+TCH000034,2026-07-29,CUST00009,CMP005,CD Maturity Winback,Deposits,Contact Center,Rewards,True,TXN0001592,84.27
+TCH000035,2025-12-25,CUST00323,CMP003,Invest Starter,Wealth,Display,Cash Bonus,False,,0
+TCH000036,2026-02-20,CUST00204,CMP003,Invest Starter,Wealth,Contact Center,Cash Bonus,True,TXN0000491,107.11
+TCH000037,2026-05-21,CUST00064,CMP002,Debt Consolidation Loan,Lending,Email,Cash Bonus,False,,0
+TCH000038,2025-01-13,CUST00195,CMP004,Card Rewards Upgrade,Cards,In App,Control,False,,0
+TCH000039,2025-05-23,CUST00431,CMP004,Card Rewards Upgrade,Cards,In App,Control,False,,0
+TCH000040,2025-10-31,CUST00006,CMP004,Card Rewards Upgrade,Cards,Paid Search,Rewards,False,,0
+TCH000041,2025-05-15,CUST00009,CMP004,Card Rewards Upgrade,Cards,Email,Cash Bonus,True,TXN0002310,380.68
+TCH000042,2025-01-28,CUST00187,CMP005,CD Maturity Winback,Deposits,Email,Control,True,TXN0000589,36.38
+TCH000043,2025-04-03,CUST00118,CMP004,Card Rewards Upgrade,Cards,Email,Cash Bonus,False,,0
+TCH000044,2025-12-22,CUST00028,CMP004,Card Rewards Upgrade,Cards,Contact Center,Control,False,,0
+TCH000045,2025-07-03,CUST00067,CMP003,Invest Starter,Wealth,Email,Rate,False,,0
+TCH000046,2025-12-01,CUST00303,CMP002,Debt Consolidation Loan,Lending,Contact Center,Cash Bonus,False,,0
+TCH000047,2026-01-20,CUST00364,CMP001,Savings Rate Booster,Deposits,Display,Rate,False,,0
+TCH000048,2025-11-24,CUST00349,CMP001,Savings Rate Booster,Deposits,In App,Education,False,,0
+TCH000049,2026-04-17,CUST00164,CMP001,Savings Rate Booster,Deposits,Email,Education,True,TXN0002121,163.64
+TCH000050,2026-02-12,CUST00273,CMP005,CD Maturity Winback,Deposits,Display,Rewards,False,,0
+TCH000051,2026-03-16,CUST00110,CMP005,CD Maturity Winback,Deposits,Email,Education,False,,0
+TCH000052,2025-11-27,CUST00100,CMP002,Debt Consolidation Loan,Lending,In App,Cash Bonus,False,,0
+TCH000053,2026-02-10,CUST00236,CMP005,CD Maturity Winback,Deposits,Email,Cash Bonus,False,,0
+TCH000054,2025-07-10,CUST00026,CMP004,Card Rewards Upgrade,Cards,In App,Rewards,False,,0
+TCH000055,2025-09-29,CUST00278,CMP001,Savings Rate Booster,Deposits,Email,Control,False,,0
+TCH000056,2025-06-17,CUST00096,CMP005,CD Maturity Winback,Deposits,In App,Rewards,True,TXN0001055,100.91
+TCH000057,2025-07-14,CUST00112,CMP002,Debt Consolidation Loan,Lending,Paid Search,Education,False,,0
+TCH000058,2025-05-17,CUST00109,CMP004,Card Rewards Upgrade,Cards,In App,Cash Bonus,True,TXN0002479,306.19
+TCH000059,2025-07-10,CUST00021,CMP003,Invest Starter,Wealth,Paid Search,Cash Bonus,False,,0
+TCH000060,2025-06-17,CUST00391,CMP002,Debt Consolidation Loan,Lending,In App,Rewards,False,,0
+TCH000061,2026-08-31,CUST00441,CMP005,CD Maturity Winback,Deposits,Display,Rate,False,,0
+TCH000062,2025-08-31,CUST00243,CMP004,Card Rewards Upgrade,Cards,Paid Search,Rate,False,,0
+TCH000063,2025-12-13,CUST00445,CMP005,CD Maturity Winback,Deposits,Email,Rate,False,,0
+TCH000064,2025-07-06,CUST00352,CMP002,Debt Consolidation Loan,Lending,Display,Control,True,TXN0000275,109.32
+TCH000065,2026-09-24,CUST00217,CMP001,Savings Rate Booster,Deposits,Paid Search,Education,True,TXN0002188,182.94
+TCH000066,2025-05-22,CUST00151,CMP003,Invest Starter,Wealth,In App,Control,True,TXN0000870,70.3
+TCH000067,2026-06-22,CUST00303,CMP005,CD Maturity Winback,Deposits,Email,Rewards,True,TXN0001766,27.26
+TCH000068,2025-11-25,CUST00420,CMP003,Invest Starter,Wealth,Display,Cash Bonus,False,,0
+TCH000069,2026-02-03,CUST00065,CMP003,Invest Starter,Wealth,Display,Rewards,True,TXN0001290,117.06
+TCH000070,2026-09-16,CUST00354,CMP005,CD Maturity Winback,Deposits,Paid Search,Education,False,,0
+TCH000071,2025-01-31,CUST00064,CMP002,Debt Consolidation Loan,Lending,In App,Cash Bonus,True,TXN0002401,54.01
+TCH000072,2025-06-08,CUST00110,CMP002,Debt Consolidation Loan,Lending,In App,Rate,True,TXN0002182,467.8
+TCH000073,2026-04-06,CUST00253,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rate,False,,0
+TCH000074,2026-06-03,CUST00213,CMP001,Savings Rate Booster,Deposits,Email,Rewards,False,,0
+TCH000075,2025-11-02,CUST00476,CMP004,Card Rewards Upgrade,Cards,Email,Rewards,False,,0
+TCH000076,2026-07-26,CUST00107,CMP001,Savings Rate Booster,Deposits,Paid Search,Rewards,False,,0
+TCH000077,2026-09-22,CUST00172,CMP001,Savings Rate Booster,Deposits,Contact Center,Education,False,,0
+TCH000078,2025-10-22,CUST00070,CMP003,Invest Starter,Wealth,Email,Rewards,True,TXN0002378,119.34
+TCH000079,2025-02-24,CUST00373,CMP003,Invest Starter,Wealth,Display,Control,True,TXN0001444,199.5
+TCH000080,2026-01-11,CUST00243,CMP004,Card Rewards Upgrade,Cards,In App,Rewards,False,,0
+TCH000081,2026-01-16,CUST00071,CMP004,Card Rewards Upgrade,Cards,Email,Rewards,False,,0
+TCH000082,2025-02-10,CUST00008,CMP002,Debt Consolidation Loan,Lending,In App,Rate,False,,0
+TCH000083,2026-01-01,CUST00340,CMP005,CD Maturity Winback,Deposits,In App,Cash Bonus,False,,0
+TCH000084,2025-03-14,CUST00374,CMP004,Card Rewards Upgrade,Cards,In App,Cash Bonus,False,,0
+TCH000085,2026-05-13,CUST00305,CMP003,Invest Starter,Wealth,Paid Search,Control,False,,0
+TCH000086,2025-08-11,CUST00474,CMP005,CD Maturity Winback,Deposits,Contact Center,Rewards,False,,0
+TCH000087,2026-07-09,CUST00430,CMP005,CD Maturity Winback,Deposits,Contact Center,Control,False,,0
+TCH000088,2026-06-03,CUST00307,CMP003,Invest Starter,Wealth,Contact Center,Education,False,,0
+TCH000089,2025-11-18,CUST00417,CMP003,Invest Starter,Wealth,Contact Center,Rate,True,TXN0000834,390.39
+TCH000090,2026-03-03,CUST00422,CMP002,Debt Consolidation Loan,Lending,In App,Cash Bonus,False,,0
+TCH000091,2025-05-15,CUST00066,CMP002,Debt Consolidation Loan,Lending,Contact Center,Cash Bonus,False,,0
+TCH000092,2025-05-14,CUST00052,CMP004,Card Rewards Upgrade,Cards,Contact Center,Education,True,TXN0002075,101.51
+TCH000093,2025-03-18,CUST00413,CMP005,CD Maturity Winback,Deposits,Email,Cash Bonus,False,,0
+TCH000094,2026-07-30,CUST00148,CMP005,CD Maturity Winback,Deposits,Paid Search,Cash Bonus,False,,0
+TCH000095,2025-03-16,CUST00003,CMP001,Savings Rate Booster,Deposits,In App,Rate,True,TXN0001318,141.49
+TCH000096,2025-07-17,CUST00466,CMP002,Debt Consolidation Loan,Lending,Contact Center,Cash Bonus,False,,0
+TCH000097,2025-06-26,CUST00154,CMP004,Card Rewards Upgrade,Cards,Paid Search,Cash Bonus,False,,0
+TCH000098,2026-04-18,CUST00367,CMP004,Card Rewards Upgrade,Cards,In App,Control,False,,0
+TCH000099,2026-05-29,CUST00397,CMP005,CD Maturity Winback,Deposits,Paid Search,Rate,False,,0
+TCH000100,2026-07-14,CUST00270,CMP004,Card Rewards Upgrade,Cards,Email,Cash Bonus,False,,0
+TCH000101,2025-10-25,CUST00498,CMP005,CD Maturity Winback,Deposits,Email,Rewards,True,TXN0001519,134.51
+TCH000102,2025-07-24,CUST00375,CMP001,Savings Rate Booster,Deposits,Display,Education,False,,0
+TCH000103,2025-11-10,CUST00206,CMP003,Invest Starter,Wealth,Contact Center,Education,False,,0
+TCH000104,2025-10-05,CUST00498,CMP005,CD Maturity Winback,Deposits,Display,Education,False,,0
+TCH000105,2026-03-31,CUST00352,CMP004,Card Rewards Upgrade,Cards,Contact Center,Rewards,False,,0
+TCH000106,2026-07-09,CUST00453,CMP002,Debt Consolidation Loan,Lending,Email,Education,False,,0
+TCH000107,2025-07-26,CUST00079,CMP004,Card Rewards Upgrade,Cards,Email,Control,False,,0
+TCH000108,2026-08-11,CUST00031,CMP005,CD Maturity Winback,Deposits,In App,Control,False,,0
+TCH000109,2025-05-16,CUST00206,CMP004,Card Rewards Upgrade,Cards,Display,Cash Bonus,True,TXN0001216,47.56
+TCH000110,2026-04-06,CUST00376,CMP003,Invest Starter,Wealth,In App,Cash Bonus,False,,0
+TCH000111,2026-06-20,CUST00256,CMP003,Invest Starter,Wealth,Display,Cash Bonus,False,,0
+TCH000112,2026-05-21,CUST00455,CMP003,Invest Starter,Wealth,Paid Search,Cash Bonus,False,,0
+TCH000113,2025-10-09,CUST00221,CMP004,Card Rewards Upgrade,Cards,In App,Education,True,TXN0000153,97.98
+TCH000114,2026-06-18,CUST00173,CMP004,Card Rewards Upgrade,Cards,In App,Education,False,,0
+TCH000115,2025-02-28,CUST00150,CMP002,Debt Consolidation Loan,Lending,In App,Rewards,False,,0
+TCH000116,2025-11-29,CUST00131,CMP003,Invest Starter,Wealth,Display,Cash Bonus,True,TXN0000512,143.44
+TCH000117,2026-06-09,CUST00036,CMP003,Invest Starter,Wealth,In App,Cash Bonus,False,,0
+TCH000118,2025-07-26,CUST00074,CMP001,Savings Rate Booster,Deposits,Contact Center,Rewards,True,TXN0001181,422.54
+TCH000119,2025-08-27,CUST00263,CMP001,Savings Rate Booster,Deposits,In App,Control,False,,0
+TCH000120,2025-01-21,CUST00232,CMP001,Savings Rate Booster,Deposits,In App,Rate,False,,0
+TCH000121,2026-09-30,CUST00452,CMP001,Savings Rate Booster,Deposits,Display,Rate,False,,0
+TCH000122,2026-02-26,CUST00263,CMP002,Debt Consolidation Loan,Lending,Display,Control,True,TXN0000131,105.2
+TCH000123,2026-07-02,CUST00314,CMP005,CD Maturity Winback,Deposits,Contact Center,Cash Bonus,False,,0
+TCH000124,2025-10-03,CUST00109,CMP001,Savings Rate Booster,Deposits,Email,Education,False,,0
+TCH000125,2025-03-09,CUST00327,CMP004,Card Rewards Upgrade,Cards,In App,Education,False,,0
+TCH000126,2026-08-13,CUST00445,CMP004,Card Rewards Upgrade,Cards,Paid Search,Cash Bonus,False,,0
+TCH000127,2026-07-23,CUST00079,CMP003,Invest Starter,Wealth,Paid Search,Cash Bonus,False,,0
+TCH000128,2025-10-04,CUST00313,CMP004,Card Rewards Upgrade,Cards,Display,Cash Bonus,False,,0
+TCH000129,2025-07-29,CUST00238,CMP001,Savings Rate Booster,Deposits,In App,Rewards,False,,0
+TCH000130,2025-01-15,CUST00261,CMP003,Invest Starter,Wealth,In App,Rate,False,,0
+TCH000131,2025-01-20,CUST00129,CMP005,CD Maturity Winback,Deposits,Contact Center,Education,False,,0
+TCH000132,2026-03-19,CUST00072,CMP001,Savings Rate Booster,Deposits,Contact Center,Cash Bonus,True,TXN0002070,167.51
+TCH000133,2025-02-15,CUST00076,CMP003,Invest Starter,Wealth,Email,Cash Bonus,False,,0
+TCH000134,2025-05-24,CUST00308,CMP005,CD Maturity Winback,Deposits,Display,Education,False,,0
+TCH000135,2025-07-15,CUST00240,CMP001,Savings Rate Booster,Deposits,Paid Search,Control,False,,0
+TCH000136,2026-08-01,CUST00050,CMP002,Debt Consolidation Loan,Lending,In App,Rewards,False,,0
+TCH000137,2026-03-24,CUST00273,CMP003,Invest Starter,Wealth,Contact Center,Cash Bonus,False,,0
+TCH000138,2025-11-13,CUST00337,CMP001,Savings Rate Booster,Deposits,Display,Education,True,TXN0001239,124.21
+TCH000139,2025-01-04,CUST00104,CMP002,Debt Consolidation Loan,Lending,Paid Search,Education,False,,0
+TCH000140,2026-06-17,CUST00403,CMP003,Invest Starter,Wealth,Contact Center,Cash Bonus,False,,0
+TCH000141,2026-03-07,CUST00293,CMP001,Savings Rate Booster,Deposits,Paid Search,Rate,True,TXN0001872,105.72
+TCH000142,2026-01-05,CUST00016,CMP004,Card Rewards Upgrade,Cards,In App,Education,False,,0
+TCH000143,2026-04-16,CUST00085,CMP003,Invest Starter,Wealth,In App,Cash Bonus,False,,0
+TCH000144,2025-04-12,CUST00108,CMP005,CD Maturity Winback,Deposits,In App,Rate,False,,0
+TCH000145,2026-02-17,CUST00197,CMP001,Savings Rate Booster,Deposits,Paid Search,Control,True,TXN0001714,107.08
+TCH000146,2026-06-27,CUST00048,CMP003,Invest Starter,Wealth,Email,Rewards,False,,0
+TCH000147,2025-06-03,CUST00257,CMP005,CD Maturity Winback,Deposits,Paid Search,Rewards,False,,0
+TCH000148,2025-12-15,CUST00421,CMP003,Invest Starter,Wealth,In App,Education,False,,0
+TCH000149,2025-01-24,CUST00304,CMP005,CD Maturity Winback,Deposits,Paid Search,Rate,False,,0
+TCH000150,2025-05-28,CUST00236,CMP002,Debt Consolidation Loan,Lending,In App,Control,False,,0
+TCH000151,2026-05-30,CUST00320,CMP004,Card Rewards Upgrade,Cards,Email,Rate,False,,0
+TCH000152,2026-04-28,CUST00117,CMP002,Debt Consolidation Loan,Lending,Contact Center,Control,False,,0
+TCH000153,2026-03-15,CUST00363,CMP001,Savings Rate Booster,Deposits,Display,Education,False,,0
+TCH000154,2026-07-20,CUST00029,CMP004,Card Rewards Upgrade,Cards,In App,Rewards,False,,0
+TCH000155,2025-09-23,CUST00166,CMP005,CD Maturity Winback,Deposits,In App,Rewards,True,TXN0002273,112.79
+TCH000156,2025-11-18,CUST00161,CMP004,Card Rewards Upgrade,Cards,Email,Education,True,TXN0001526,490.01
+TCH000157,2025-02-10,CUST00320,CMP005,CD Maturity Winback,Deposits,Paid Search,Rewards,False,,0
+TCH000158,2025-12-28,CUST00034,CMP005,CD Maturity Winback,Deposits,Display,Rewards,False,,0
+TCH000159,2026-07-26,CUST00030,CMP005,CD Maturity Winback,Deposits,Display,Education,False,,0
+TCH000160,2026-02-04,CUST00391,CMP005,CD Maturity Winback,Deposits,Contact Center,Rate,True,TXN0002388,108.67
+TCH000161,2026-07-18,CUST00135,CMP005,CD Maturity Winback,Deposits,In App,Rate,False,,0
+TCH000162,2025-06-09,CUST00012,CMP005,CD Maturity Winback,Deposits,In App,Rewards,False,,0
+TCH000163,2025-09-01,CUST00078,CMP001,Savings Rate Booster,Deposits,Email,Rate,False,,0
+TCH000164,2026-09-10,CUST00480,CMP001,Savings Rate Booster,Deposits,Display,Control,True,TXN0002448,157.26
+TCH000165,2026-07-14,CUST00450,CMP005,CD Maturity Winback,Deposits,Contact Center,Education,True,TXN0001647,142.36
+TCH000166,2025-04-11,CUST00434,CMP004,Card Rewards Upgrade,Cards,Paid Search,Control,False,,0
+TCH000167,2026-02-16,CUST00004,CMP004,Card Rewards Upgrade,Cards,Contact Center,Control,False,,0
+TCH000168,2026-04-11,CUST00025,CMP001,Savings Rate Booster,Deposits,Paid Search,Rewards,False,,0
+TCH000169,2026-07-23,CUST00302,CMP002,Debt Consolidation Loan,Lending,Contact Center,Rate,True,TXN0001611,19.5
+TCH000170,2026-06-08,CUST00141,CMP002,Debt Consolidation Loan,Lending,In App,Cash Bonus,False,,0
+TCH000171,2026-04-11,CUST00462,CMP005,CD Maturity Winback,Deposits,Paid Search,Cash Bonus,False,,0
+TCH000172,2026-05-18,CUST00216,CMP001,Savings Rate Booster,Deposits,Contact Center,Education,False,,0
+TCH000173,2026-06-16,CUST00442,CMP004,Card Rewards Upgrade,Cards,Paid Search,Rate,False,,0
+TCH000174,2026-04-02,CUST00182,CMP003,Invest Starter,Wealth,In App,Rate,True,TXN0001423,156.79
+TCH000175,2025-06-24,CUST00393,CMP001,Savings Rate Booster,Deposits,Paid Search,Control,False,,0
+TCH000176,2025-12-15,CUST00169,CMP003,Invest Starter,Wealth,Display,Rewards,False,,0
+TCH000177,2025-05-11,CUST00184,CMP001,Savings Rate Booster,Deposits,Contact Center,Rewards,False,,0
+TCH000178,2025-08-16,CUST00309,CMP005,CD Maturity Winback,Deposits,Display,Cash Bonus,False,,0
+TCH000179,2026-01-12,CUST00160,CMP001,Savings Rate Booster,Deposits,Contact Center,Rate,False,,0
+TCH000180,2025-03-20,CUST00498,CMP001,Savings Rate Booster,Deposits,Display,Rewards,False,,0
+TCH000181,2025-04-15,CUST00334,CMP001,Savings Rate Booster,Deposits,Paid Search,Cash Bonus,False,,0
+TCH000182,2026-02-15,CUST00102,CMP001,Savings Rate Booster,Deposits,In App,Control,False,,0
+TCH000183,2026-02-07,CUST00322,CMP003,Invest Starter,Wealth,Contact Center,Education,False,,0
+TCH000184,2025-02-08,CUST00381,CMP001,Savings Rate Booster,Deposits,In App,Rewards,False,,0
+TCH000185,2026-07-05,CUST00229,CMP005,CD Maturity Winback,Deposits,Paid Search,Cash Bonus,True,TXN0000419,483.38
+TCH000186,2026-03-13,CUST00183,CMP003,Invest Starter,Wealth,Display,Rewards,False,,0
+TCH000187,2025-10-28,CUST00295,CMP004,Card Rewards Upgrade,Cards,Paid Search,Rewards,True,TXN0002189,105.19
+TCH000188,2025-11-02,CUST00489,CMP004,Card Rewards Upgrade,Cards,Email,Rewards,False,,0
+TCH000189,2025-05-18,CUST00481,CMP002,Debt Consolidation Loan,Lending,In App,Rate,False,,0
+TCH000190,2025-08-02,CUST00260,CMP004,Card Rewards Upgrade,Cards,Display,Education,False,,0
+TCH000191,2026-04-09,CUST00188,CMP004,Card Rewards Upgrade,Cards,Paid Search,Education,False,,0
+TCH000192,2026-03-26,CUST00340,CMP002,Debt Consolidation Loan,Lending,Contact Center,Rewards,False,,0
+TCH000193,2025-08-02,CUST00397,CMP005,CD Maturity Winback,Deposits,Paid Search,Education,False,,0
+TCH000194,2026-07-27,CUST00170,CMP001,Savings Rate Booster,Deposits,Display,Rate,False,,0
+TCH000195,2025-06-29,CUST00117,CMP002,Debt Consolidation Loan,Lending,In App,Cash Bonus,False,,0
+TCH000196,2025-12-22,CUST00282,CMP001,Savings Rate Booster,Deposits,Display,Education,False,,0
+TCH000197,2026-03-20,CUST00299,CMP002,Debt Consolidation Loan,Lending,Email,Rewards,False,,0
+TCH000198,2025-10-26,CUST00154,CMP002,Debt Consolidation Loan,Lending,In App,Cash Bonus,False,,0
+TCH000199,2025-05-06,CUST00091,CMP004,Card Rewards Upgrade,Cards,Contact Center,Cash Bonus,False,,0
+TCH000200,2025-03-26,CUST00146,CMP005,CD Maturity Winback,Deposits,In App,Cash Bonus,False,,0
+TCH000201,2026-03-11,CUST00059,CMP005,CD Maturity Winback,Deposits,Display,Control,True,TXN0000008,106.63
+TCH000202,2025-06-19,CUST00460,CMP002,Debt Consolidation Loan,Lending,Email,Rewards,True,TXN0001923,417.54
+TCH000203,2025-03-15,CUST00283,CMP005,CD Maturity Winback,Deposits,Display,Control,False,,0
+TCH000204,2025-11-04,CUST00404,CMP002,Debt Consolidation Loan,Lending,In App,Rewards,False,,0
+TCH000205,2026-08-28,CUST00362,CMP001,Savings Rate Booster,Deposits,Contact Center,Rate,False,,0
+TCH000206,2026-04-06,CUST00416,CMP004,Card Rewards Upgrade,Cards,Paid Search,Education,False,,0
+TCH000207,2026-02-19,CUST00275,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rate,False,,0
+TCH000208,2025-06-05,CUST00416,CMP001,Savings Rate Booster,Deposits,Display,Control,False,,0
+TCH000209,2026-08-23,CUST00372,CMP005,CD Maturity Winback,Deposits,Paid Search,Control,False,,0
+TCH000210,2025-07-13,CUST00457,CMP005,CD Maturity Winback,Deposits,In App,Rewards,False,,0
+TCH000211,2026-01-22,CUST00308,CMP001,Savings Rate Booster,Deposits,In App,Rewards,False,,0
+TCH000212,2025-05-23,CUST00001,CMP001,Savings Rate Booster,Deposits,In App,Rate,False,,0
+TCH000213,2025-02-02,CUST00090,CMP003,Invest Starter,Wealth,Paid Search,Rate,True,TXN0002446,79.92
+TCH000214,2026-09-21,CUST00138,CMP002,Debt Consolidation Loan,Lending,Email,Control,False,,0
+TCH000215,2026-03-25,CUST00372,CMP002,Debt Consolidation Loan,Lending,Contact Center,Rate,False,,0
+TCH000216,2026-01-02,CUST00250,CMP004,Card Rewards Upgrade,Cards,Email,Control,False,,0
+TCH000217,2026-04-09,CUST00443,CMP004,Card Rewards Upgrade,Cards,Display,Rate,False,,0
+TCH000218,2026-02-18,CUST00142,CMP003,Invest Starter,Wealth,Email,Education,True,TXN0000861,226.54
+TCH000219,2025-09-09,CUST00109,CMP002,Debt Consolidation Loan,Lending,Display,Control,False,,0
+TCH000220,2026-02-09,CUST00156,CMP004,Card Rewards Upgrade,Cards,In App,Cash Bonus,False,,0
+TCH000221,2026-01-21,CUST00445,CMP002,Debt Consolidation Loan,Lending,Email,Education,False,,0
+TCH000222,2026-05-17,CUST00127,CMP004,Card Rewards Upgrade,Cards,In App,Rate,False,,0
+TCH000223,2026-08-22,CUST00291,CMP001,Savings Rate Booster,Deposits,Display,Rewards,False,,0
+TCH000224,2025-12-09,CUST00325,CMP005,CD Maturity Winback,Deposits,Paid Search,Rate,False,,0
+TCH000225,2026-03-26,CUST00351,CMP004,Card Rewards Upgrade,Cards,Display,Control,False,,0
+TCH000226,2025-02-16,CUST00312,CMP003,Invest Starter,Wealth,Contact Center,Cash Bonus,True,TXN0002468,506.61
+TCH000227,2025-07-03,CUST00499,CMP001,Savings Rate Booster,Deposits,Display,Cash Bonus,False,,0
+TCH000228,2025-08-02,CUST00374,CMP001,Savings Rate Booster,Deposits,Display,Cash Bonus,False,,0
+TCH000229,2026-07-17,CUST00449,CMP003,Invest Starter,Wealth,Paid Search,Rate,False,,0
+TCH000230,2026-07-03,CUST00467,CMP005,CD Maturity Winback,Deposits,Email,Cash Bonus,False,,0
+TCH000231,2025-09-04,CUST00387,CMP004,Card Rewards Upgrade,Cards,Email,Cash Bonus,False,,0
+TCH000232,2026-01-23,CUST00142,CMP003,Invest Starter,Wealth,Email,Cash Bonus,False,,0
+TCH000233,2026-08-18,CUST00150,CMP004,Card Rewards Upgrade,Cards,Paid Search,Cash Bonus,False,,0
+TCH000234,2025-09-24,CUST00059,CMP001,Savings Rate Booster,Deposits,Contact Center,Rewards,False,,0
+TCH000235,2026-04-23,CUST00265,CMP005,CD Maturity Winback,Deposits,Display,Rate,False,,0
+TCH000236,2025-01-09,CUST00069,CMP001,Savings Rate Booster,Deposits,Contact Center,Cash Bonus,False,,0
+TCH000237,2026-03-28,CUST00125,CMP003,Invest Starter,Wealth,In App,Rewards,False,,0
+TCH000238,2025-07-18,CUST00264,CMP001,Savings Rate Booster,Deposits,Display,Education,True,TXN0001539,119.71
+TCH000239,2025-04-13,CUST00031,CMP001,Savings Rate Booster,Deposits,Contact Center,Rewards,False,,0
+TCH000240,2025-11-16,CUST00044,CMP002,Debt Consolidation Loan,Lending,Display,Control,True,TXN0000244,57.5
+TCH000241,2025-08-23,CUST00129,CMP001,Savings Rate Booster,Deposits,Contact Center,Rewards,False,,0
+TCH000242,2025-04-17,CUST00324,CMP002,Debt Consolidation Loan,Lending,Email,Rewards,False,,0
+TCH000243,2026-07-16,CUST00040,CMP005,CD Maturity Winback,Deposits,Email,Education,False,,0
+TCH000244,2026-06-22,CUST00324,CMP004,Card Rewards Upgrade,Cards,Display,Rate,False,,0
+TCH000245,2026-04-11,CUST00390,CMP003,Invest Starter,Wealth,In App,Education,False,,0
+TCH000246,2026-03-15,CUST00074,CMP001,Savings Rate Booster,Deposits,Paid Search,Rate,False,,0
+TCH000247,2025-09-27,CUST00191,CMP001,Savings Rate Booster,Deposits,Paid Search,Control,True,TXN0002142,31.26
+TCH000248,2025-02-24,CUST00018,CMP004,Card Rewards Upgrade,Cards,Paid Search,Education,True,TXN0000158,101.02
+TCH000249,2025-12-10,CUST00448,CMP004,Card Rewards Upgrade,Cards,Display,Control,False,,0
+TCH000250,2025-05-22,CUST00469,CMP003,Invest Starter,Wealth,Email,Control,True,TXN0002137,99.42
+TCH000251,2025-06-07,CUST00404,CMP003,Invest Starter,Wealth,In App,Control,True,TXN0001187,132.4
+TCH000252,2025-03-19,CUST00162,CMP001,Savings Rate Booster,Deposits,Contact Center,Education,False,,0
+TCH000253,2025-04-08,CUST00010,CMP002,Debt Consolidation Loan,Lending,In App,Rewards,False,,0
+TCH000254,2026-06-16,CUST00106,CMP002,Debt Consolidation Loan,Lending,Paid Search,Cash Bonus,True,TXN0000399,185.14
+TCH000255,2025-11-24,CUST00017,CMP001,Savings Rate Booster,Deposits,Contact Center,Rate,False,,0
+TCH000256,2025-06-30,CUST00341,CMP002,Debt Consolidation Loan,Lending,Paid Search,Control,True,TXN0001101,235.45
+TCH000257,2026-09-21,CUST00492,CMP001,Savings Rate Booster,Deposits,Email,Control,False,,0
+TCH000258,2026-07-02,CUST00132,CMP002,Debt Consolidation Loan,Lending,Paid Search,Education,False,,0
+TCH000259,2025-08-22,CUST00099,CMP001,Savings Rate Booster,Deposits,Display,Rate,False,,0
+TCH000260,2025-04-30,CUST00194,CMP005,CD Maturity Winback,Deposits,Paid Search,Rate,False,,0
+TCH000261,2025-12-10,CUST00131,CMP005,CD Maturity Winback,Deposits,In App,Cash Bonus,False,,0
+TCH000262,2025-08-10,CUST00065,CMP003,Invest Starter,Wealth,Contact Center,Rewards,False,,0
+TCH000263,2025-11-02,CUST00396,CMP003,Invest Starter,Wealth,In App,Control,False,,0
+TCH000264,2026-08-21,CUST00136,CMP002,Debt Consolidation Loan,Lending,In App,Rate,False,,0
+TCH000265,2025-02-25,CUST00090,CMP003,Invest Starter,Wealth,Contact Center,Cash Bonus,False,,0
+TCH000266,2026-04-10,CUST00224,CMP002,Debt Consolidation Loan,Lending,In App,Rate,False,,0
+TCH000267,2026-08-10,CUST00339,CMP003,Invest Starter,Wealth,Display,Rate,False,,0
+TCH000268,2025-08-26,CUST00242,CMP005,CD Maturity Winback,Deposits,Email,Cash Bonus,False,,0
+TCH000269,2026-02-18,CUST00197,CMP002,Debt Consolidation Loan,Lending,Display,Education,False,,0
+TCH000270,2026-05-15,CUST00137,CMP001,Savings Rate Booster,Deposits,In App,Rate,False,,0
+TCH000271,2025-09-10,CUST00404,CMP003,Invest Starter,Wealth,Contact Center,Control,False,,0
+TCH000272,2026-03-03,CUST00470,CMP005,CD Maturity Winback,Deposits,Email,Cash Bonus,False,,0
+TCH000273,2026-01-14,CUST00401,CMP004,Card Rewards Upgrade,Cards,Contact Center,Cash Bonus,True,TXN0001175,110.01
+TCH000274,2026-03-29,CUST00148,CMP002,Debt Consolidation Loan,Lending,Display,Rewards,False,,0
+TCH000275,2025-11-22,CUST00369,CMP004,Card Rewards Upgrade,Cards,Display,Rate,False,,0
+TCH000276,2026-02-22,CUST00298,CMP005,CD Maturity Winback,Deposits,Contact Center,Education,True,TXN0001835,17.61
+TCH000277,2025-09-13,CUST00383,CMP003,Invest Starter,Wealth,In App,Rewards,True,TXN0000596,83.93
+TCH000278,2025-11-01,CUST00078,CMP005,CD Maturity Winback,Deposits,Email,Rate,True,TXN0001389,416.05
+TCH000279,2026-03-05,CUST00443,CMP004,Card Rewards Upgrade,Cards,Contact Center,Rate,False,,0
+TCH000280,2025-08-06,CUST00139,CMP003,Invest Starter,Wealth,Display,Rewards,False,,0
+TCH000281,2026-05-28,CUST00169,CMP005,CD Maturity Winback,Deposits,Paid Search,Education,False,,0
+TCH000282,2025-04-14,CUST00212,CMP001,Savings Rate Booster,Deposits,Contact Center,Rate,False,,0
+TCH000283,2026-04-27,CUST00290,CMP003,Invest Starter,Wealth,Paid Search,Education,False,,0
+TCH000284,2026-07-14,CUST00386,CMP005,CD Maturity Winback,Deposits,Email,Rewards,False,,0
+TCH000285,2025-08-18,CUST00182,CMP001,Savings Rate Booster,Deposits,Contact Center,Control,False,,0
+TCH000286,2026-06-12,CUST00202,CMP001,Savings Rate Booster,Deposits,In App,Control,False,,0
+TCH000287,2025-01-24,CUST00126,CMP001,Savings Rate Booster,Deposits,Paid Search,Rewards,False,,0
+TCH000288,2025-03-02,CUST00195,CMP002,Debt Consolidation Loan,Lending,Paid Search,Control,False,,0
+TCH000289,2026-07-04,CUST00141,CMP001,Savings Rate Booster,Deposits,In App,Education,False,,0
+TCH000290,2025-05-24,CUST00285,CMP001,Savings Rate Booster,Deposits,Display,Education,False,,0
+TCH000291,2025-05-15,CUST00061,CMP002,Debt Consolidation Loan,Lending,Display,Rewards,False,,0
+TCH000292,2025-11-01,CUST00304,CMP002,Debt Consolidation Loan,Lending,In App,Rewards,False,,0
+TCH000293,2025-10-12,CUST00166,CMP002,Debt Consolidation Loan,Lending,Contact Center,Rate,False,,0
+TCH000294,2025-10-31,CUST00432,CMP004,Card Rewards Upgrade,Cards,In App,Rate,False,,0
+TCH000295,2025-04-22,CUST00307,CMP002,Debt Consolidation Loan,Lending,Contact Center,Education,False,,0
+TCH000296,2025-08-09,CUST00006,CMP003,Invest Starter,Wealth,Contact Center,Cash Bonus,False,,0
+TCH000297,2025-03-23,CUST00434,CMP005,CD Maturity Winback,Deposits,Email,Rate,False,,0
+TCH000298,2026-01-28,CUST00360,CMP004,Card Rewards Upgrade,Cards,Contact Center,Rewards,False,,0
+TCH000299,2026-02-24,CUST00318,CMP001,Savings Rate Booster,Deposits,Email,Rewards,False,,0
+TCH000300,2025-08-12,CUST00115,CMP005,CD Maturity Winback,Deposits,Contact Center,Control,False,,0
+TCH000301,2026-02-03,CUST00054,CMP001,Savings Rate Booster,Deposits,Contact Center,Control,True,TXN0001024,331.66
+TCH000302,2025-09-10,CUST00206,CMP001,Savings Rate Booster,Deposits,Display,Education,False,,0
+TCH000303,2025-03-25,CUST00390,CMP001,Savings Rate Booster,Deposits,Display,Cash Bonus,True,TXN0000686,179.26
+TCH000304,2026-03-06,CUST00244,CMP002,Debt Consolidation Loan,Lending,Paid Search,Cash Bonus,False,,0
+TCH000305,2025-04-13,CUST00407,CMP005,CD Maturity Winback,Deposits,Contact Center,Education,False,,0
+TCH000306,2025-03-05,CUST00046,CMP003,Invest Starter,Wealth,In App,Rewards,False,,0
+TCH000307,2025-02-08,CUST00111,CMP005,CD Maturity Winback,Deposits,Contact Center,Control,True,TXN0000743,60.45
+TCH000308,2025-01-11,CUST00206,CMP001,Savings Rate Booster,Deposits,Contact Center,Education,False,,0
+TCH000309,2025-01-26,CUST00396,CMP001,Savings Rate Booster,Deposits,Paid Search,Control,True,TXN0000914,140.15
+TCH000310,2026-07-30,CUST00272,CMP002,Debt Consolidation Loan,Lending,In App,Rewards,False,,0
+TCH000311,2026-07-12,CUST00207,CMP001,Savings Rate Booster,Deposits,Email,Education,False,,0
+TCH000312,2025-09-10,CUST00021,CMP005,CD Maturity Winback,Deposits,Email,Rate,False,,0
+TCH000313,2025-12-04,CUST00257,CMP003,Invest Starter,Wealth,Display,Rate,False,,0
+TCH000314,2025-11-23,CUST00108,CMP001,Savings Rate Booster,Deposits,Email,Rewards,True,TXN0001239,124.21
+TCH000315,2025-04-09,CUST00344,CMP005,CD Maturity Winback,Deposits,Contact Center,Control,False,,0
+TCH000316,2026-07-11,CUST00472,CMP002,Debt Consolidation Loan,Lending,Email,Cash Bonus,False,,0
+TCH000317,2025-03-30,CUST00051,CMP004,Card Rewards Upgrade,Cards,Email,Rate,False,,0
+TCH000318,2025-04-11,CUST00401,CMP002,Debt Consolidation Loan,Lending,Display,Control,False,,0
+TCH000319,2026-04-21,CUST00156,CMP002,Debt Consolidation Loan,Lending,Email,Rate,False,,0
+TCH000320,2025-04-01,CUST00285,CMP005,CD Maturity Winback,Deposits,Email,Rate,False,,0
+TCH000321,2025-11-03,CUST00236,CMP005,CD Maturity Winback,Deposits,In App,Control,False,,0
+TCH000322,2026-03-23,CUST00110,CMP005,CD Maturity Winback,Deposits,Contact Center,Cash Bonus,False,,0
+TCH000323,2025-10-29,CUST00195,CMP004,Card Rewards Upgrade,Cards,Paid Search,Education,False,,0
+TCH000324,2026-07-22,CUST00123,CMP001,Savings Rate Booster,Deposits,Email,Control,False,,0
+TCH000325,2026-09-22,CUST00155,CMP004,Card Rewards Upgrade,Cards,In App,Control,False,,0
+TCH000326,2025-06-23,CUST00147,CMP005,CD Maturity Winback,Deposits,Paid Search,Control,False,,0
+TCH000327,2025-02-19,CUST00146,CMP003,Invest Starter,Wealth,Email,Cash Bonus,True,TXN0000701,243.97
+TCH000328,2025-02-22,CUST00170,CMP002,Debt Consolidation Loan,Lending,In App,Rate,False,,0
+TCH000329,2026-02-21,CUST00035,CMP004,Card Rewards Upgrade,Cards,Display,Cash Bonus,False,,0
+TCH000330,2025-06-29,CUST00166,CMP002,Debt Consolidation Loan,Lending,In App,Cash Bonus,False,,0
+TCH000331,2025-05-23,CUST00002,CMP001,Savings Rate Booster,Deposits,Display,Rewards,False,,0
+TCH000332,2026-04-23,CUST00479,CMP001,Savings Rate Booster,Deposits,Contact Center,Education,False,,0
+TCH000333,2026-06-23,CUST00267,CMP003,Invest Starter,Wealth,Display,Rewards,False,,0
+TCH000334,2025-10-17,CUST00310,CMP004,Card Rewards Upgrade,Cards,Contact Center,Rate,False,,0
+TCH000335,2026-01-14,CUST00016,CMP001,Savings Rate Booster,Deposits,Display,Rewards,True,TXN0001821,98.64
+TCH000336,2026-02-16,CUST00179,CMP004,Card Rewards Upgrade,Cards,Contact Center,Cash Bonus,True,TXN0001065,144.35
+TCH000337,2025-07-08,CUST00437,CMP002,Debt Consolidation Loan,Lending,Email,Rewards,False,,0
+TCH000338,2026-02-18,CUST00200,CMP002,Debt Consolidation Loan,Lending,Display,Rewards,True,TXN0001893,121.31
+TCH000339,2025-09-23,CUST00014,CMP003,Invest Starter,Wealth,Email,Rewards,False,,0
+TCH000340,2025-02-13,CUST00340,CMP001,Savings Rate Booster,Deposits,Display,Control,True,TXN0002473,58.83
+TCH000341,2026-01-23,CUST00003,CMP002,Debt Consolidation Loan,Lending,In App,Rate,False,,0
+TCH000342,2026-06-09,CUST00021,CMP003,Invest Starter,Wealth,Email,Control,False,,0
+TCH000343,2026-02-26,CUST00496,CMP001,Savings Rate Booster,Deposits,Contact Center,Control,False,,0
+TCH000344,2025-04-13,CUST00498,CMP003,Invest Starter,Wealth,Contact Center,Rate,False,,0
+TCH000345,2026-02-22,CUST00242,CMP001,Savings Rate Booster,Deposits,Email,Control,True,TXN0001460,98.34
+TCH000346,2025-06-15,CUST00446,CMP003,Invest Starter,Wealth,Contact Center,Rate,True,TXN0000421,104.78
+TCH000347,2026-07-24,CUST00090,CMP002,Debt Consolidation Loan,Lending,Contact Center,Cash Bonus,True,TXN0000038,304.77
+TCH000348,2025-06-09,CUST00168,CMP004,Card Rewards Upgrade,Cards,Display,Education,False,,0
+TCH000349,2025-11-01,CUST00305,CMP005,CD Maturity Winback,Deposits,Email,Control,True,TXN0000813,103.79
+TCH000350,2026-04-09,CUST00138,CMP005,CD Maturity Winback,Deposits,Email,Rate,False,,0
+TCH000351,2025-04-15,CUST00456,CMP003,Invest Starter,Wealth,Paid Search,Cash Bonus,False,,0
+TCH000352,2025-11-18,CUST00423,CMP001,Savings Rate Booster,Deposits,In App,Rate,True,TXN0002238,8.32
+TCH000353,2026-06-28,CUST00393,CMP002,Debt Consolidation Loan,Lending,Email,Rewards,False,,0
+TCH000354,2026-01-04,CUST00061,CMP003,Invest Starter,Wealth,Contact Center,Control,False,,0
+TCH000355,2026-04-21,CUST00389,CMP005,CD Maturity Winback,Deposits,Email,Rate,False,,0
+TCH000356,2025-03-16,CUST00009,CMP005,CD Maturity Winback,Deposits,Email,Education,True,TXN0000879,213.05
+TCH000357,2025-12-04,CUST00466,CMP003,Invest Starter,Wealth,Email,Education,False,,0
+TCH000358,2025-05-10,CUST00447,CMP003,Invest Starter,Wealth,Contact Center,Control,False,,0
+TCH000359,2026-04-26,CUST00148,CMP003,Invest Starter,Wealth,In App,Cash Bonus,False,,0
+TCH000360,2025-02-07,CUST00282,CMP002,Debt Consolidation Loan,Lending,Contact Center,Education,True,TXN0001857,172.69
+TCH000361,2025-01-24,CUST00115,CMP005,CD Maturity Winback,Deposits,Display,Rewards,False,,0
+TCH000362,2025-01-26,CUST00329,CMP005,CD Maturity Winback,Deposits,Paid Search,Rewards,False,,0
+TCH000363,2025-04-29,CUST00300,CMP005,CD Maturity Winback,Deposits,Email,Rate,False,,0
+TCH000364,2026-04-01,CUST00372,CMP005,CD Maturity Winback,Deposits,Paid Search,Rewards,False,,0
+TCH000365,2025-01-15,CUST00295,CMP005,CD Maturity Winback,Deposits,Display,Education,False,,0
+TCH000366,2025-12-19,CUST00491,CMP003,Invest Starter,Wealth,Display,Education,False,,0
+TCH000367,2025-01-22,CUST00157,CMP005,CD Maturity Winback,Deposits,Display,Rate,False,,0
+TCH000368,2025-01-01,CUST00459,CMP005,CD Maturity Winback,Deposits,Contact Center,Rewards,False,,0
+TCH000369,2025-02-20,CUST00327,CMP005,CD Maturity Winback,Deposits,Display,Rate,False,,0
+TCH000370,2026-07-11,CUST00312,CMP005,CD Maturity Winback,Deposits,In App,Control,False,,0
+TCH000371,2025-12-06,CUST00199,CMP001,Savings Rate Booster,Deposits,Paid Search,Rate,False,,0
+TCH000372,2025-10-07,CUST00388,CMP004,Card Rewards Upgrade,Cards,Email,Control,False,,0
+TCH000373,2025-05-28,CUST00163,CMP004,Card Rewards Upgrade,Cards,Email,Rate,False,,0
+TCH000374,2026-07-28,CUST00340,CMP004,Card Rewards Upgrade,Cards,Contact Center,Control,True,TXN0001707,101.67
+TCH000375,2025-08-14,CUST00184,CMP002,Debt Consolidation Loan,Lending,Contact Center,Cash Bonus,False,,0
+TCH000376,2026-02-13,CUST00246,CMP002,Debt Consolidation Loan,Lending,Paid Search,Education,False,,0
+TCH000377,2025-10-03,CUST00152,CMP004,Card Rewards Upgrade,Cards,In App,Rate,False,,0
+TCH000378,2025-01-10,CUST00411,CMP003,Invest Starter,Wealth,Paid Search,Rate,False,,0
+TCH000379,2025-09-14,CUST00462,CMP002,Debt Consolidation Loan,Lending,Contact Center,Control,True,TXN0000882,53.44
+TCH000380,2025-03-23,CUST00141,CMP001,Savings Rate Booster,Deposits,Paid Search,Cash Bonus,False,,0
+TCH000381,2025-12-05,CUST00369,CMP001,Savings Rate Booster,Deposits,In App,Education,False,,0
+TCH000382,2026-07-02,CUST00168,CMP001,Savings Rate Booster,Deposits,In App,Cash Bonus,False,,0
+TCH000383,2025-01-30,CUST00476,CMP005,CD Maturity Winback,Deposits,In App,Education,False,,0
+TCH000384,2025-06-16,CUST00008,CMP004,Card Rewards Upgrade,Cards,Display,Rewards,False,,0
+TCH000385,2025-08-07,CUST00123,CMP001,Savings Rate Booster,Deposits,Paid Search,Education,False,,0
+TCH000386,2026-09-07,CUST00346,CMP003,Invest Starter,Wealth,Paid Search,Rate,False,,0
+TCH000387,2026-07-05,CUST00165,CMP001,Savings Rate Booster,Deposits,Paid Search,Education,False,,0
+TCH000388,2025-02-17,CUST00116,CMP004,Card Rewards Upgrade,Cards,Paid Search,Education,False,,0
+TCH000389,2025-07-08,CUST00201,CMP004,Card Rewards Upgrade,Cards,Contact Center,Education,False,,0
+TCH000390,2025-06-11,CUST00227,CMP001,Savings Rate Booster,Deposits,Paid Search,Education,True,TXN0000865,243.04
+TCH000391,2025-05-15,CUST00425,CMP002,Debt Consolidation Loan,Lending,In App,Rewards,True,TXN0000252,93.02
+TCH000392,2025-07-01,CUST00475,CMP005,CD Maturity Winback,Deposits,Display,Rate,False,,0
+TCH000393,2026-02-20,CUST00091,CMP005,CD Maturity Winback,Deposits,Paid Search,Rewards,False,,0
+TCH000394,2025-08-15,CUST00203,CMP001,Savings Rate Booster,Deposits,Display,Control,False,,0
+TCH000395,2025-08-25,CUST00063,CMP002,Debt Consolidation Loan,Lending,Contact Center,Control,False,,0
+TCH000396,2026-01-02,CUST00273,CMP003,Invest Starter,Wealth,Email,Rewards,True,TXN0000445,104.47
+TCH000397,2026-08-23,CUST00344,CMP001,Savings Rate Booster,Deposits,Paid Search,Rate,True,TXN0001671,320.92
+TCH000398,2026-09-26,CUST00192,CMP002,Debt Consolidation Loan,Lending,Contact Center,Rewards,False,,0
+TCH000399,2025-03-05,CUST00310,CMP001,Savings Rate Booster,Deposits,Email,Rate,True,TXN0001868,224.04
+TCH000400,2025-12-16,CUST00332,CMP005,CD Maturity Winback,Deposits,In App,Rate,False,,0
+TCH000401,2025-12-15,CUST00431,CMP002,Debt Consolidation Loan,Lending,Display,Rewards,False,,0
+TCH000402,2026-01-13,CUST00264,CMP001,Savings Rate Booster,Deposits,Contact Center,Cash Bonus,False,,0
+TCH000403,2026-04-06,CUST00373,CMP001,Savings Rate Booster,Deposits,Contact Center,Rate,False,,0
+TCH000404,2025-10-20,CUST00001,CMP002,Debt Consolidation Loan,Lending,Display,Rate,False,,0
+TCH000405,2025-08-28,CUST00381,CMP002,Debt Consolidation Loan,Lending,In App,Rewards,True,TXN0001121,172.98
+TCH000406,2025-03-19,CUST00394,CMP005,CD Maturity Winback,Deposits,In App,Cash Bonus,False,,0
+TCH000407,2025-10-22,CUST00376,CMP004,Card Rewards Upgrade,Cards,In App,Control,False,,0
+TCH000408,2025-10-30,CUST00315,CMP001,Savings Rate Booster,Deposits,Display,Rate,False,,0
+TCH000409,2025-04-17,CUST00359,CMP005,CD Maturity Winback,Deposits,In App,Rewards,False,,0
+TCH000410,2026-03-07,CUST00497,CMP004,Card Rewards Upgrade,Cards,Display,Control,False,,0
+TCH000411,2026-04-28,CUST00091,CMP003,Invest Starter,Wealth,In App,Control,False,,0
+TCH000412,2026-08-13,CUST00014,CMP002,Debt Consolidation Loan,Lending,Display,Rewards,True,TXN0000251,97.36
+TCH000413,2026-02-21,CUST00029,CMP005,CD Maturity Winback,Deposits,Contact Center,Control,False,,0
+TCH000414,2025-09-09,CUST00068,CMP002,Debt Consolidation Loan,Lending,In App,Rewards,True,TXN0000343,111.15
+TCH000415,2026-03-29,CUST00349,CMP005,CD Maturity Winback,Deposits,In App,Rewards,True,TXN0001822,82.14
+TCH000416,2025-09-09,CUST00172,CMP002,Debt Consolidation Loan,Lending,In App,Control,True,TXN0000588,91.41
+TCH000417,2026-08-23,CUST00183,CMP005,CD Maturity Winback,Deposits,In App,Education,True,TXN0000407,274.77
+TCH000418,2026-06-09,CUST00332,CMP003,Invest Starter,Wealth,Paid Search,Rewards,False,,0
+TCH000419,2025-10-20,CUST00043,CMP001,Savings Rate Booster,Deposits,Contact Center,Cash Bonus,False,,0
+TCH000420,2025-02-11,CUST00012,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rewards,True,TXN0002150,140.58
+TCH000421,2025-09-09,CUST00396,CMP003,Invest Starter,Wealth,Contact Center,Education,False,,0
+TCH000422,2025-09-07,CUST00448,CMP002,Debt Consolidation Loan,Lending,Email,Rate,False,,0
+TCH000423,2026-03-24,CUST00133,CMP002,Debt Consolidation Loan,Lending,Contact Center,Rewards,False,,0
+TCH000424,2025-08-02,CUST00314,CMP004,Card Rewards Upgrade,Cards,Contact Center,Cash Bonus,True,TXN0001399,164.98
+TCH000425,2026-07-22,CUST00252,CMP001,Savings Rate Booster,Deposits,In App,Rewards,True,TXN0001967,60.77
+TCH000426,2025-03-15,CUST00292,CMP003,Invest Starter,Wealth,Display,Rate,False,,0
+TCH000427,2025-02-12,CUST00072,CMP005,CD Maturity Winback,Deposits,Display,Control,True,TXN0002237,159.49
+TCH000428,2025-12-28,CUST00412,CMP004,Card Rewards Upgrade,Cards,In App,Cash Bonus,True,TXN0001247,119.55
+TCH000429,2026-04-01,CUST00221,CMP002,Debt Consolidation Loan,Lending,Paid Search,Cash Bonus,False,,0
+TCH000430,2025-05-28,CUST00413,CMP001,Savings Rate Booster,Deposits,Display,Cash Bonus,False,,0
+TCH000431,2025-09-12,CUST00113,CMP003,Invest Starter,Wealth,Display,Rewards,False,,0
+TCH000432,2026-01-31,CUST00477,CMP003,Invest Starter,Wealth,In App,Cash Bonus,False,,0
+TCH000433,2026-06-08,CUST00226,CMP005,CD Maturity Winback,Deposits,In App,Rate,False,,0
+TCH000434,2026-08-15,CUST00143,CMP002,Debt Consolidation Loan,Lending,Display,Control,False,,0
+TCH000435,2026-02-21,CUST00158,CMP001,Savings Rate Booster,Deposits,Display,Control,False,,0
+TCH000436,2025-05-13,CUST00297,CMP004,Card Rewards Upgrade,Cards,In App,Cash Bonus,False,,0
+TCH000437,2025-12-08,CUST00274,CMP004,Card Rewards Upgrade,Cards,Paid Search,Control,False,,0
+TCH000438,2025-05-10,CUST00393,CMP004,Card Rewards Upgrade,Cards,In App,Rewards,False,,0
+TCH000439,2025-08-25,CUST00306,CMP002,Debt Consolidation Loan,Lending,Email,Education,False,,0
+TCH000440,2025-08-09,CUST00300,CMP004,Card Rewards Upgrade,Cards,Display,Rate,False,,0
+TCH000441,2026-08-13,CUST00068,CMP001,Savings Rate Booster,Deposits,Display,Control,True,TXN0001275,114.13
+TCH000442,2025-07-20,CUST00076,CMP002,Debt Consolidation Loan,Lending,In App,Rewards,False,,0
+TCH000443,2025-01-07,CUST00439,CMP005,CD Maturity Winback,Deposits,Display,Rewards,False,,0
+TCH000444,2025-05-21,CUST00238,CMP005,CD Maturity Winback,Deposits,Contact Center,Cash Bonus,False,,0
+TCH000445,2025-01-25,CUST00235,CMP001,Savings Rate Booster,Deposits,Contact Center,Education,True,TXN0001880,73.65
+TCH000446,2025-10-27,CUST00048,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rate,False,,0
+TCH000447,2025-06-09,CUST00228,CMP002,Debt Consolidation Loan,Lending,Contact Center,Cash Bonus,False,,0
+TCH000448,2026-02-09,CUST00033,CMP003,Invest Starter,Wealth,In App,Control,False,,0
+TCH000449,2026-02-21,CUST00101,CMP004,Card Rewards Upgrade,Cards,Paid Search,Education,False,,0
+TCH000450,2025-01-05,CUST00103,CMP004,Card Rewards Upgrade,Cards,Paid Search,Control,True,TXN0000408,211.03
+TCH000451,2026-06-15,CUST00457,CMP001,Savings Rate Booster,Deposits,Display,Rate,False,,0
+TCH000452,2025-09-17,CUST00419,CMP004,Card Rewards Upgrade,Cards,Contact Center,Rate,False,,0
+TCH000453,2025-08-06,CUST00386,CMP002,Debt Consolidation Loan,Lending,In App,Education,False,,0
+TCH000454,2026-06-06,CUST00012,CMP004,Card Rewards Upgrade,Cards,Contact Center,Education,True,TXN0001998,299.81
+TCH000455,2025-03-29,CUST00256,CMP004,Card Rewards Upgrade,Cards,In App,Control,False,,0
+TCH000456,2025-09-17,CUST00328,CMP003,Invest Starter,Wealth,Display,Rewards,False,,0
+TCH000457,2025-01-25,CUST00069,CMP005,CD Maturity Winback,Deposits,Display,Rewards,False,,0
+TCH000458,2025-02-23,CUST00291,CMP003,Invest Starter,Wealth,Paid Search,Cash Bonus,True,TXN0000551,254.73
+TCH000459,2025-04-06,CUST00190,CMP005,CD Maturity Winback,Deposits,Paid Search,Cash Bonus,False,,0
+TCH000460,2025-01-01,CUST00423,CMP001,Savings Rate Booster,Deposits,Display,Rewards,True,TXN0000972,488.08
+TCH000461,2025-12-20,CUST00244,CMP001,Savings Rate Booster,Deposits,Contact Center,Control,False,,0
+TCH000462,2025-02-19,CUST00450,CMP005,CD Maturity Winback,Deposits,Contact Center,Education,True,TXN0001522,852.03
+TCH000463,2025-09-19,CUST00147,CMP001,Savings Rate Booster,Deposits,Email,Cash Bonus,False,,0
+TCH000464,2025-09-05,CUST00140,CMP001,Savings Rate Booster,Deposits,In App,Education,True,TXN0001179,187.1
+TCH000465,2025-08-07,CUST00039,CMP003,Invest Starter,Wealth,Paid Search,Education,False,,0
+TCH000466,2026-06-12,CUST00141,CMP001,Savings Rate Booster,Deposits,In App,Cash Bonus,False,,0
+TCH000467,2025-12-27,CUST00164,CMP004,Card Rewards Upgrade,Cards,Paid Search,Control,False,,0
+TCH000468,2025-01-13,CUST00328,CMP005,CD Maturity Winback,Deposits,Contact Center,Cash Bonus,True,TXN0001171,212.49
+TCH000469,2026-04-04,CUST00145,CMP004,Card Rewards Upgrade,Cards,In App,Education,True,TXN0002422,63.86
+TCH000470,2025-04-04,CUST00019,CMP003,Invest Starter,Wealth,Contact Center,Control,False,,0
+TCH000471,2026-04-19,CUST00455,CMP002,Debt Consolidation Loan,Lending,Email,Rewards,False,,0
+TCH000472,2026-07-27,CUST00270,CMP005,CD Maturity Winback,Deposits,Paid Search,Rewards,False,,0
+TCH000473,2025-04-06,CUST00224,CMP001,Savings Rate Booster,Deposits,In App,Rewards,True,TXN0001506,125.0
+TCH000474,2025-04-26,CUST00217,CMP005,CD Maturity Winback,Deposits,In App,Rewards,True,TXN0001658,135.74
+TCH000475,2026-08-17,CUST00183,CMP004,Card Rewards Upgrade,Cards,Contact Center,Rate,False,,0
+TCH000476,2026-02-28,CUST00082,CMP002,Debt Consolidation Loan,Lending,Display,Control,True,TXN0000122,97.43
+TCH000477,2026-07-04,CUST00497,CMP003,Invest Starter,Wealth,Display,Cash Bonus,True,TXN0000556,33.64
+TCH000478,2026-08-26,CUST00035,CMP005,CD Maturity Winback,Deposits,Display,Rewards,False,,0
+TCH000479,2026-01-14,CUST00280,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rate,False,,0
+TCH000480,2026-08-31,CUST00336,CMP005,CD Maturity Winback,Deposits,Contact Center,Rate,False,,0
+TCH000481,2026-02-02,CUST00082,CMP003,Invest Starter,Wealth,Paid Search,Control,False,,0
+TCH000482,2026-05-09,CUST00464,CMP004,Card Rewards Upgrade,Cards,Email,Control,False,,0
+TCH000483,2025-10-02,CUST00277,CMP003,Invest Starter,Wealth,In App,Education,False,,0
+TCH000484,2025-08-02,CUST00310,CMP004,Card Rewards Upgrade,Cards,Paid Search,Control,True,TXN0002230,232.2
+TCH000485,2026-06-12,CUST00404,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rewards,False,,0
+TCH000486,2026-01-29,CUST00246,CMP002,Debt Consolidation Loan,Lending,Contact Center,Rate,False,,0
+TCH000487,2025-03-13,CUST00163,CMP003,Invest Starter,Wealth,Email,Rate,False,,0
+TCH000488,2026-06-15,CUST00065,CMP003,Invest Starter,Wealth,Display,Rewards,False,,0
+TCH000489,2025-09-02,CUST00496,CMP001,Savings Rate Booster,Deposits,In App,Rate,True,TXN0001581,88.27
+TCH000490,2026-08-01,CUST00275,CMP001,Savings Rate Booster,Deposits,Paid Search,Control,False,,0
+TCH000491,2025-08-18,CUST00392,CMP004,Card Rewards Upgrade,Cards,Paid Search,Rewards,False,,0
+TCH000492,2026-04-12,CUST00241,CMP004,Card Rewards Upgrade,Cards,Email,Control,False,,0
+TCH000493,2025-05-24,CUST00150,CMP005,CD Maturity Winback,Deposits,In App,Education,False,,0
+TCH000494,2025-01-02,CUST00102,CMP004,Card Rewards Upgrade,Cards,Email,Control,False,,0
+TCH000495,2025-03-26,CUST00465,CMP004,Card Rewards Upgrade,Cards,Paid Search,Cash Bonus,True,TXN0000142,98.15
+TCH000496,2025-10-30,CUST00100,CMP002,Debt Consolidation Loan,Lending,In App,Rate,False,,0
+TCH000497,2026-05-11,CUST00179,CMP001,Savings Rate Booster,Deposits,In App,Rewards,False,,0
+TCH000498,2026-09-26,CUST00388,CMP001,Savings Rate Booster,Deposits,In App,Control,False,,0
+TCH000499,2026-05-02,CUST00299,CMP005,CD Maturity Winback,Deposits,Contact Center,Rewards,True,TXN0001068,166.1
+TCH000500,2026-02-13,CUST00396,CMP003,Invest Starter,Wealth,In App,Rewards,False,,0
+TCH000501,2026-09-14,CUST00021,CMP003,Invest Starter,Wealth,In App,Education,False,,0
+TCH000502,2025-10-22,CUST00100,CMP002,Debt Consolidation Loan,Lending,Email,Control,False,,0
+TCH000503,2026-01-11,CUST00366,CMP005,CD Maturity Winback,Deposits,Display,Rate,True,TXN0002378,119.34
+TCH000504,2026-01-09,CUST00350,CMP004,Card Rewards Upgrade,Cards,Contact Center,Rate,True,TXN0001339,566.04
+TCH000505,2025-04-01,CUST00066,CMP002,Debt Consolidation Loan,Lending,Display,Rate,False,,0
+TCH000506,2025-01-14,CUST00361,CMP005,CD Maturity Winback,Deposits,Display,Cash Bonus,False,,0
+TCH000507,2025-09-07,CUST00344,CMP004,Card Rewards Upgrade,Cards,Email,Cash Bonus,False,,0
+TCH000508,2026-08-24,CUST00404,CMP004,Card Rewards Upgrade,Cards,Email,Control,True,TXN0000965,160.73
+TCH000509,2026-02-11,CUST00036,CMP001,Savings Rate Booster,Deposits,Paid Search,Rewards,False,,0
+TCH000510,2026-06-01,CUST00016,CMP001,Savings Rate Booster,Deposits,Display,Education,True,TXN0001165,531.68
+TCH000511,2025-08-02,CUST00368,CMP005,CD Maturity Winback,Deposits,In App,Cash Bonus,False,,0
+TCH000512,2026-07-24,CUST00234,CMP005,CD Maturity Winback,Deposits,Paid Search,Rate,False,,0
+TCH000513,2026-06-04,CUST00148,CMP003,Invest Starter,Wealth,Paid Search,Cash Bonus,False,,0
+TCH000514,2025-04-02,CUST00458,CMP004,Card Rewards Upgrade,Cards,Email,Cash Bonus,False,,0
+TCH000515,2026-04-29,CUST00207,CMP005,CD Maturity Winback,Deposits,Display,Rewards,False,,0
+TCH000516,2026-06-02,CUST00497,CMP002,Debt Consolidation Loan,Lending,In App,Cash Bonus,False,,0
+TCH000517,2025-06-09,CUST00416,CMP002,Debt Consolidation Loan,Lending,Email,Rewards,True,TXN0000613,486.55
+TCH000518,2026-02-22,CUST00419,CMP002,Debt Consolidation Loan,Lending,Paid Search,Education,False,,0
+TCH000519,2026-02-07,CUST00159,CMP002,Debt Consolidation Loan,Lending,Display,Education,False,,0
+TCH000520,2026-05-26,CUST00369,CMP002,Debt Consolidation Loan,Lending,Display,Control,False,,0
+TCH000521,2025-02-05,CUST00416,CMP001,Savings Rate Booster,Deposits,Paid Search,Control,False,,0
+TCH000522,2025-02-20,CUST00201,CMP005,CD Maturity Winback,Deposits,In App,Control,True,TXN0001928,394.76
+TCH000523,2026-08-27,CUST00045,CMP003,Invest Starter,Wealth,Display,Cash Bonus,True,TXN0002200,198.71
+TCH000524,2025-05-27,CUST00422,CMP002,Debt Consolidation Loan,Lending,Email,Rewards,False,,0
+TCH000525,2025-02-28,CUST00374,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rate,False,,0
+TCH000526,2026-03-07,CUST00461,CMP003,Invest Starter,Wealth,Paid Search,Rewards,False,,0
+TCH000527,2025-07-25,CUST00365,CMP005,CD Maturity Winback,Deposits,Email,Control,False,,0
+TCH000528,2025-02-08,CUST00370,CMP001,Savings Rate Booster,Deposits,Contact Center,Education,False,,0
+TCH000529,2025-03-09,CUST00121,CMP005,CD Maturity Winback,Deposits,Contact Center,Control,False,,0
+TCH000530,2025-11-14,CUST00415,CMP001,Savings Rate Booster,Deposits,Contact Center,Control,False,,0
+TCH000531,2025-08-25,CUST00270,CMP002,Debt Consolidation Loan,Lending,Display,Control,False,,0
+TCH000532,2026-09-07,CUST00279,CMP003,Invest Starter,Wealth,Contact Center,Control,False,,0
+TCH000533,2025-08-24,CUST00379,CMP005,CD Maturity Winback,Deposits,Paid Search,Rewards,True,TXN0000780,171.98
+TCH000534,2025-04-01,CUST00218,CMP004,Card Rewards Upgrade,Cards,In App,Rewards,False,,0
+TCH000535,2025-01-26,CUST00274,CMP002,Debt Consolidation Loan,Lending,Email,Rate,False,,0
+TCH000536,2026-03-16,CUST00346,CMP002,Debt Consolidation Loan,Lending,Display,Education,False,,0
+TCH000537,2026-04-15,CUST00400,CMP003,Invest Starter,Wealth,Display,Rewards,False,,0
+TCH000538,2025-12-22,CUST00447,CMP001,Savings Rate Booster,Deposits,Paid Search,Control,False,,0
+TCH000539,2025-12-24,CUST00019,CMP001,Savings Rate Booster,Deposits,Paid Search,Rate,False,,0
+TCH000540,2026-09-20,CUST00442,CMP001,Savings Rate Booster,Deposits,Paid Search,Education,False,,0
+TCH000541,2026-05-31,CUST00317,CMP004,Card Rewards Upgrade,Cards,Paid Search,Control,False,,0
+TCH000542,2025-05-08,CUST00300,CMP005,CD Maturity Winback,Deposits,Paid Search,Rewards,False,,0
+TCH000543,2026-05-01,CUST00120,CMP005,CD Maturity Winback,Deposits,Display,Control,False,,0
+TCH000544,2026-05-13,CUST00208,CMP001,Savings Rate Booster,Deposits,Email,Education,False,,0
+TCH000545,2026-02-12,CUST00246,CMP004,Card Rewards Upgrade,Cards,Paid Search,Education,False,,0
+TCH000546,2025-08-10,CUST00415,CMP005,CD Maturity Winback,Deposits,Paid Search,Rewards,False,,0
+TCH000547,2026-01-02,CUST00270,CMP005,CD Maturity Winback,Deposits,In App,Rate,True,TXN0002106,208.15
+TCH000548,2026-02-16,CUST00474,CMP004,Card Rewards Upgrade,Cards,Paid Search,Rewards,True,TXN0000464,47.86
+TCH000549,2026-03-31,CUST00223,CMP004,Card Rewards Upgrade,Cards,Contact Center,Control,False,,0
+TCH000550,2025-07-19,CUST00359,CMP005,CD Maturity Winback,Deposits,In App,Control,False,,0
+TCH000551,2025-11-29,CUST00419,CMP004,Card Rewards Upgrade,Cards,Contact Center,Education,True,TXN0001602,129.41
+TCH000552,2026-04-20,CUST00001,CMP005,CD Maturity Winback,Deposits,Contact Center,Rate,False,,0
+TCH000553,2026-07-03,CUST00290,CMP003,Invest Starter,Wealth,Display,Education,True,TXN0000948,118.64
+TCH000554,2026-04-22,CUST00246,CMP004,Card Rewards Upgrade,Cards,Contact Center,Rewards,True,TXN0000945,89.74
+TCH000555,2025-01-26,CUST00152,CMP004,Card Rewards Upgrade,Cards,Paid Search,Education,False,,0
+TCH000556,2026-06-29,CUST00492,CMP003,Invest Starter,Wealth,Email,Cash Bonus,True,TXN0000088,192.16
+TCH000557,2026-03-28,CUST00396,CMP001,Savings Rate Booster,Deposits,In App,Cash Bonus,True,TXN0002240,273.17
+TCH000558,2026-08-20,CUST00283,CMP004,Card Rewards Upgrade,Cards,Paid Search,Education,True,TXN0000203,45.8
+TCH000559,2026-02-10,CUST00445,CMP003,Invest Starter,Wealth,Email,Education,False,,0
+TCH000560,2025-03-24,CUST00226,CMP005,CD Maturity Winback,Deposits,Display,Education,False,,0
+TCH000561,2025-02-27,CUST00021,CMP004,Card Rewards Upgrade,Cards,Display,Control,False,,0
+TCH000562,2026-09-10,CUST00368,CMP001,Savings Rate Booster,Deposits,Contact Center,Rate,True,TXN0000803,240.3
+TCH000563,2026-04-03,CUST00486,CMP005,CD Maturity Winback,Deposits,In App,Cash Bonus,False,,0
+TCH000564,2025-08-27,CUST00026,CMP004,Card Rewards Upgrade,Cards,Paid Search,Education,False,,0
+TCH000565,2025-05-07,CUST00010,CMP002,Debt Consolidation Loan,Lending,Display,Control,True,TXN0000443,241.58
+TCH000566,2026-06-04,CUST00330,CMP001,Savings Rate Booster,Deposits,Email,Rewards,False,,0
+TCH000567,2026-08-09,CUST00088,CMP003,Invest Starter,Wealth,Email,Rewards,False,,0
+TCH000568,2025-06-02,CUST00177,CMP005,CD Maturity Winback,Deposits,Paid Search,Rate,False,,0
+TCH000569,2026-09-12,CUST00209,CMP002,Debt Consolidation Loan,Lending,Contact Center,Control,True,TXN0000353,199.0
+TCH000570,2025-02-12,CUST00087,CMP004,Card Rewards Upgrade,Cards,Paid Search,Control,True,TXN0001451,46.35
+TCH000571,2025-09-25,CUST00416,CMP002,Debt Consolidation Loan,Lending,In App,Rewards,False,,0
+TCH000572,2026-08-11,CUST00133,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rewards,False,,0
+TCH000573,2025-12-01,CUST00013,CMP003,Invest Starter,Wealth,Email,Cash Bonus,False,,0
+TCH000574,2026-09-04,CUST00201,CMP003,Invest Starter,Wealth,In App,Rewards,False,,0
+TCH000575,2026-01-25,CUST00026,CMP003,Invest Starter,Wealth,In App,Rate,False,,0
+TCH000576,2025-11-08,CUST00331,CMP003,Invest Starter,Wealth,Display,Rate,False,,0
+TCH000577,2025-03-09,CUST00170,CMP003,Invest Starter,Wealth,In App,Education,False,,0
+TCH000578,2026-03-05,CUST00340,CMP005,CD Maturity Winback,Deposits,Contact Center,Rate,False,,0
+TCH000579,2025-07-23,CUST00260,CMP003,Invest Starter,Wealth,Contact Center,Rate,False,,0
+TCH000580,2026-07-15,CUST00336,CMP003,Invest Starter,Wealth,Paid Search,Rewards,False,,0
+TCH000581,2026-03-21,CUST00111,CMP004,Card Rewards Upgrade,Cards,Display,Education,False,,0
+TCH000582,2025-06-07,CUST00124,CMP003,Invest Starter,Wealth,In App,Rewards,True,TXN0001920,130.53
+TCH000583,2026-04-28,CUST00269,CMP003,Invest Starter,Wealth,Contact Center,Cash Bonus,True,TXN0001479,195.49
+TCH000584,2026-02-23,CUST00082,CMP002,Debt Consolidation Loan,Lending,Contact Center,Education,False,,0
+TCH000585,2025-09-15,CUST00337,CMP002,Debt Consolidation Loan,Lending,In App,Education,False,,0
+TCH000586,2026-07-03,CUST00444,CMP003,Invest Starter,Wealth,Display,Cash Bonus,True,TXN0000072,197.46
+TCH000587,2025-02-02,CUST00185,CMP001,Savings Rate Booster,Deposits,Contact Center,Cash Bonus,False,,0
+TCH000588,2025-06-19,CUST00238,CMP004,Card Rewards Upgrade,Cards,Email,Control,False,,0
+TCH000589,2025-10-15,CUST00101,CMP004,Card Rewards Upgrade,Cards,Contact Center,Rate,True,TXN0002181,71.11
+TCH000590,2026-04-24,CUST00024,CMP005,CD Maturity Winback,Deposits,In App,Rate,False,,0
+TCH000591,2025-10-04,CUST00162,CMP005,CD Maturity Winback,Deposits,Display,Control,False,,0
+TCH000592,2025-01-30,CUST00288,CMP002,Debt Consolidation Loan,Lending,Display,Education,True,TXN0000407,274.77
+TCH000593,2025-12-29,CUST00057,CMP003,Invest Starter,Wealth,Email,Cash Bonus,True,TXN0000391,202.48
+TCH000594,2025-07-09,CUST00012,CMP003,Invest Starter,Wealth,Email,Cash Bonus,False,,0
+TCH000595,2025-08-21,CUST00176,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rewards,False,,0
+TCH000596,2025-08-27,CUST00136,CMP005,CD Maturity Winback,Deposits,In App,Education,False,,0
+TCH000597,2025-03-22,CUST00097,CMP003,Invest Starter,Wealth,Email,Control,False,,0
+TCH000598,2025-12-28,CUST00123,CMP002,Debt Consolidation Loan,Lending,Display,Rate,False,,0
+TCH000599,2025-07-09,CUST00184,CMP004,Card Rewards Upgrade,Cards,Display,Rate,False,,0
+TCH000600,2026-01-25,CUST00223,CMP005,CD Maturity Winback,Deposits,Display,Control,False,,0
+TCH000601,2026-01-08,CUST00269,CMP001,Savings Rate Booster,Deposits,Contact Center,Rate,False,,0
+TCH000602,2025-12-25,CUST00367,CMP005,CD Maturity Winback,Deposits,Display,Control,False,,0
+TCH000603,2026-03-18,CUST00324,CMP003,Invest Starter,Wealth,Contact Center,Control,False,,0
+TCH000604,2025-11-28,CUST00119,CMP005,CD Maturity Winback,Deposits,Display,Cash Bonus,True,TXN0001395,93.55
+TCH000605,2025-08-14,CUST00161,CMP003,Invest Starter,Wealth,Email,Rewards,False,,0
+TCH000606,2025-07-10,CUST00243,CMP002,Debt Consolidation Loan,Lending,Email,Rewards,False,,0
+TCH000607,2025-09-11,CUST00103,CMP004,Card Rewards Upgrade,Cards,In App,Control,False,,0
+TCH000608,2025-03-30,CUST00434,CMP002,Debt Consolidation Loan,Lending,In App,Cash Bonus,False,,0
+TCH000609,2025-06-20,CUST00369,CMP004,Card Rewards Upgrade,Cards,Display,Control,False,,0
+TCH000610,2026-03-11,CUST00386,CMP002,Debt Consolidation Loan,Lending,Contact Center,Control,True,TXN0000764,108.11
+TCH000611,2026-03-29,CUST00500,CMP005,CD Maturity Winback,Deposits,Email,Education,False,,0
+TCH000612,2025-03-02,CUST00478,CMP005,CD Maturity Winback,Deposits,Paid Search,Control,False,,0
+TCH000613,2026-03-18,CUST00427,CMP005,CD Maturity Winback,Deposits,Paid Search,Education,False,,0
+TCH000614,2025-03-17,CUST00173,CMP005,CD Maturity Winback,Deposits,In App,Control,False,,0
+TCH000615,2025-02-03,CUST00172,CMP003,Invest Starter,Wealth,Contact Center,Education,False,,0
+TCH000616,2025-05-09,CUST00074,CMP005,CD Maturity Winback,Deposits,In App,Rewards,False,,0
+TCH000617,2025-04-13,CUST00347,CMP002,Debt Consolidation Loan,Lending,Paid Search,Cash Bonus,False,,0
+TCH000618,2026-06-28,CUST00424,CMP002,Debt Consolidation Loan,Lending,Contact Center,Control,False,,0
+TCH000619,2025-12-19,CUST00258,CMP003,Invest Starter,Wealth,Email,Cash Bonus,False,,0
+TCH000620,2025-05-29,CUST00030,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rewards,False,,0
+TCH000621,2025-02-17,CUST00188,CMP003,Invest Starter,Wealth,Paid Search,Education,False,,0
+TCH000622,2025-09-01,CUST00403,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rewards,True,TXN0000754,200.59
+TCH000623,2026-01-15,CUST00393,CMP003,Invest Starter,Wealth,In App,Rate,False,,0
+TCH000624,2025-03-07,CUST00313,CMP005,CD Maturity Winback,Deposits,Display,Education,True,TXN0000971,77.14
+TCH000625,2025-10-20,CUST00384,CMP001,Savings Rate Booster,Deposits,Paid Search,Control,False,,0
+TCH000626,2025-07-27,CUST00436,CMP005,CD Maturity Winback,Deposits,Paid Search,Rewards,False,,0
+TCH000627,2025-08-19,CUST00191,CMP005,CD Maturity Winback,Deposits,Email,Control,False,,0
+TCH000628,2026-08-23,CUST00341,CMP002,Debt Consolidation Loan,Lending,Email,Control,False,,0
+TCH000629,2026-02-22,CUST00009,CMP003,Invest Starter,Wealth,Email,Rewards,True,TXN0001700,47.95
+TCH000630,2026-02-04,CUST00065,CMP005,CD Maturity Winback,Deposits,Display,Control,False,,0
+TCH000631,2025-06-15,CUST00110,CMP004,Card Rewards Upgrade,Cards,In App,Rate,False,,0
+TCH000632,2025-02-24,CUST00043,CMP005,CD Maturity Winback,Deposits,In App,Rate,False,,0
+TCH000633,2025-06-10,CUST00080,CMP005,CD Maturity Winback,Deposits,Paid Search,Rewards,True,TXN0001601,567.23
+TCH000634,2025-03-19,CUST00461,CMP005,CD Maturity Winback,Deposits,In App,Rate,False,,0
+TCH000635,2026-05-11,CUST00223,CMP004,Card Rewards Upgrade,Cards,Display,Rate,True,TXN0000081,97.68
+TCH000636,2026-04-08,CUST00264,CMP005,CD Maturity Winback,Deposits,In App,Cash Bonus,False,,0
+TCH000637,2026-09-02,CUST00436,CMP003,Invest Starter,Wealth,Email,Cash Bonus,False,,0
+TCH000638,2025-09-18,CUST00029,CMP002,Debt Consolidation Loan,Lending,Email,Control,False,,0
+TCH000639,2025-05-15,CUST00004,CMP002,Debt Consolidation Loan,Lending,In App,Education,False,,0
+TCH000640,2026-05-22,CUST00287,CMP002,Debt Consolidation Loan,Lending,Email,Rate,False,,0
+TCH000641,2025-12-21,CUST00327,CMP003,Invest Starter,Wealth,Paid Search,Education,False,,0
+TCH000642,2026-02-14,CUST00258,CMP003,Invest Starter,Wealth,In App,Control,False,,0
+TCH000643,2025-02-18,CUST00333,CMP002,Debt Consolidation Loan,Lending,Contact Center,Rate,False,,0
+TCH000644,2026-04-16,CUST00209,CMP003,Invest Starter,Wealth,Display,Control,False,,0
+TCH000645,2025-05-30,CUST00365,CMP005,CD Maturity Winback,Deposits,In App,Education,False,,0
+TCH000646,2025-02-15,CUST00050,CMP005,CD Maturity Winback,Deposits,Contact Center,Rate,True,TXN0000720,139.97
+TCH000647,2025-03-15,CUST00089,CMP004,Card Rewards Upgrade,Cards,Display,Control,True,TXN0002158,87.45
+TCH000648,2025-10-15,CUST00126,CMP002,Debt Consolidation Loan,Lending,Email,Education,False,,0
+TCH000649,2025-06-02,CUST00082,CMP003,Invest Starter,Wealth,Contact Center,Education,True,TXN0000696,115.88
+TCH000650,2025-08-30,CUST00186,CMP002,Debt Consolidation Loan,Lending,Contact Center,Rate,True,TXN0002214,158.01
+TCH000651,2026-02-01,CUST00452,CMP001,Savings Rate Booster,Deposits,In App,Rate,False,,0
+TCH000652,2025-01-10,CUST00431,CMP004,Card Rewards Upgrade,Cards,Contact Center,Control,False,,0
+TCH000653,2026-01-25,CUST00126,CMP004,Card Rewards Upgrade,Cards,In App,Education,False,,0
+TCH000654,2025-11-10,CUST00362,CMP005,CD Maturity Winback,Deposits,In App,Rewards,False,,0
+TCH000655,2025-02-13,CUST00024,CMP002,Debt Consolidation Loan,Lending,Email,Cash Bonus,True,TXN0000384,123.8
+TCH000656,2025-02-21,CUST00400,CMP001,Savings Rate Booster,Deposits,Email,Rewards,False,,0
+TCH000657,2025-09-05,CUST00223,CMP001,Savings Rate Booster,Deposits,Display,Control,False,,0
+TCH000658,2026-09-14,CUST00430,CMP005,CD Maturity Winback,Deposits,Paid Search,Rate,False,,0
+TCH000659,2026-06-26,CUST00004,CMP004,Card Rewards Upgrade,Cards,Email,Education,False,,0
+TCH000660,2025-09-29,CUST00319,CMP001,Savings Rate Booster,Deposits,Display,Cash Bonus,False,,0
+TCH000661,2026-01-08,CUST00479,CMP003,Invest Starter,Wealth,In App,Rate,False,,0
+TCH000662,2025-12-19,CUST00203,CMP005,CD Maturity Winback,Deposits,Email,Education,False,,0
+TCH000663,2026-03-15,CUST00233,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rewards,False,,0
+TCH000664,2025-04-30,CUST00376,CMP004,Card Rewards Upgrade,Cards,Contact Center,Education,False,,0
+TCH000665,2025-05-25,CUST00385,CMP004,Card Rewards Upgrade,Cards,Paid Search,Education,False,,0
+TCH000666,2025-04-20,CUST00206,CMP003,Invest Starter,Wealth,In App,Rewards,True,TXN0001167,84.01
+TCH000667,2025-01-26,CUST00113,CMP005,CD Maturity Winback,Deposits,In App,Rate,False,,0
+TCH000668,2025-07-20,CUST00051,CMP004,Card Rewards Upgrade,Cards,Contact Center,Rewards,False,,0
+TCH000669,2025-02-17,CUST00422,CMP003,Invest Starter,Wealth,Paid Search,Cash Bonus,True,TXN0000413,70.68
+TCH000670,2025-03-12,CUST00493,CMP004,Card Rewards Upgrade,Cards,In App,Rewards,False,,0
+TCH000671,2026-03-11,CUST00254,CMP002,Debt Consolidation Loan,Lending,Email,Cash Bonus,True,TXN0000645,69.47
+TCH000672,2026-04-14,CUST00037,CMP001,Savings Rate Booster,Deposits,Email,Cash Bonus,False,,0
+TCH000673,2025-04-15,CUST00321,CMP002,Debt Consolidation Loan,Lending,Display,Education,False,,0
+TCH000674,2026-09-08,CUST00058,CMP002,Debt Consolidation Loan,Lending,Contact Center,Rewards,False,,0
+TCH000675,2026-03-02,CUST00455,CMP002,Debt Consolidation Loan,Lending,Email,Cash Bonus,False,,0
+TCH000676,2026-01-22,CUST00161,CMP004,Card Rewards Upgrade,Cards,Contact Center,Rewards,False,,0
+TCH000677,2026-05-10,CUST00262,CMP005,CD Maturity Winback,Deposits,Paid Search,Rewards,False,,0
+TCH000678,2025-08-25,CUST00287,CMP005,CD Maturity Winback,Deposits,Contact Center,Rate,True,TXN0000824,536.94
+TCH000679,2026-09-10,CUST00350,CMP004,Card Rewards Upgrade,Cards,Paid Search,Rewards,False,,0
+TCH000680,2025-03-22,CUST00354,CMP002,Debt Consolidation Loan,Lending,Contact Center,Rate,False,,0
+TCH000681,2026-09-01,CUST00400,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rewards,True,TXN0001863,150.97
+TCH000682,2025-12-04,CUST00197,CMP001,Savings Rate Booster,Deposits,Display,Control,False,,0
+TCH000683,2025-09-28,CUST00465,CMP001,Savings Rate Booster,Deposits,Paid Search,Education,True,TXN0002142,31.26
+TCH000684,2026-07-11,CUST00042,CMP001,Savings Rate Booster,Deposits,Paid Search,Education,False,,0
+TCH000685,2026-05-07,CUST00144,CMP002,Debt Consolidation Loan,Lending,Email,Control,True,TXN0000565,699.55
+TCH000686,2026-04-03,CUST00059,CMP005,CD Maturity Winback,Deposits,In App,Control,False,,0
+TCH000687,2026-04-04,CUST00172,CMP004,Card Rewards Upgrade,Cards,Contact Center,Cash Bonus,False,,0
+TCH000688,2025-10-19,CUST00245,CMP005,CD Maturity Winback,Deposits,In App,Education,False,,0
+TCH000689,2025-11-20,CUST00030,CMP005,CD Maturity Winback,Deposits,Paid Search,Control,True,TXN0002499,175.51
+TCH000690,2025-04-24,CUST00064,CMP004,Card Rewards Upgrade,Cards,In App,Cash Bonus,False,,0
+TCH000691,2026-06-14,CUST00183,CMP004,Card Rewards Upgrade,Cards,Contact Center,Education,False,,0
+TCH000692,2025-04-15,CUST00340,CMP005,CD Maturity Winback,Deposits,Email,Rewards,False,,0
+TCH000693,2025-08-05,CUST00253,CMP001,Savings Rate Booster,Deposits,Display,Rewards,False,,0
+TCH000694,2026-02-22,CUST00049,CMP002,Debt Consolidation Loan,Lending,Paid Search,Education,True,TXN0000275,109.32
+TCH000695,2026-01-11,CUST00490,CMP004,Card Rewards Upgrade,Cards,In App,Rate,False,,0
+TCH000696,2026-03-05,CUST00053,CMP004,Card Rewards Upgrade,Cards,Contact Center,Rewards,False,,0
+TCH000697,2026-07-29,CUST00250,CMP002,Debt Consolidation Loan,Lending,Email,Education,False,,0
+TCH000698,2026-08-28,CUST00270,CMP002,Debt Consolidation Loan,Lending,Contact Center,Control,False,,0
+TCH000699,2025-06-20,CUST00272,CMP004,Card Rewards Upgrade,Cards,Email,Rate,False,,0
+TCH000700,2025-03-20,CUST00256,CMP001,Savings Rate Booster,Deposits,In App,Cash Bonus,False,,0
+TCH000701,2025-06-25,CUST00408,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rewards,True,TXN0000658,164.2
+TCH000702,2025-09-05,CUST00411,CMP001,Savings Rate Booster,Deposits,Contact Center,Cash Bonus,True,TXN0001782,207.08
+TCH000703,2025-02-07,CUST00297,CMP003,Invest Starter,Wealth,Email,Cash Bonus,False,,0
+TCH000704,2025-02-27,CUST00428,CMP005,CD Maturity Winback,Deposits,Paid Search,Education,False,,0
+TCH000705,2025-10-30,CUST00384,CMP003,Invest Starter,Wealth,Display,Education,False,,0
+TCH000706,2026-03-08,CUST00175,CMP002,Debt Consolidation Loan,Lending,Paid Search,Education,False,,0
+TCH000707,2025-05-07,CUST00281,CMP005,CD Maturity Winback,Deposits,Display,Rate,True,TXN0002450,94.25
+TCH000708,2025-06-07,CUST00324,CMP005,CD Maturity Winback,Deposits,Display,Control,True,TXN0000944,100.12
+TCH000709,2025-10-06,CUST00415,CMP004,Card Rewards Upgrade,Cards,Paid Search,Cash Bonus,True,TXN0001746,109.63
+TCH000710,2025-03-10,CUST00451,CMP005,CD Maturity Winback,Deposits,Display,Rewards,False,,0
+TCH000711,2025-07-03,CUST00460,CMP004,Card Rewards Upgrade,Cards,Email,Rate,False,,0
+TCH000712,2025-02-08,CUST00208,CMP002,Debt Consolidation Loan,Lending,In App,Rate,True,TXN0001576,135.11
+TCH000713,2025-09-25,CUST00307,CMP005,CD Maturity Winback,Deposits,Email,Rate,False,,0
+TCH000714,2025-11-22,CUST00129,CMP005,CD Maturity Winback,Deposits,Display,Rewards,False,,0
+TCH000715,2025-02-23,CUST00398,CMP002,Debt Consolidation Loan,Lending,Email,Rewards,False,,0
+TCH000716,2026-06-18,CUST00205,CMP005,CD Maturity Winback,Deposits,Display,Education,False,,0
+TCH000717,2026-08-25,CUST00334,CMP001,Savings Rate Booster,Deposits,Display,Cash Bonus,False,,0
+TCH000718,2026-04-21,CUST00276,CMP005,CD Maturity Winback,Deposits,Email,Education,True,TXN0000823,453.58
+TCH000719,2025-06-30,CUST00310,CMP005,CD Maturity Winback,Deposits,In App,Rewards,False,,0
+TCH000720,2025-04-06,CUST00169,CMP002,Debt Consolidation Loan,Lending,Contact Center,Control,False,,0
+TCH000721,2025-07-31,CUST00450,CMP001,Savings Rate Booster,Deposits,In App,Rate,True,TXN0001804,131.7
+TCH000722,2025-01-30,CUST00232,CMP004,Card Rewards Upgrade,Cards,Paid Search,Control,False,,0
+TCH000723,2025-08-20,CUST00337,CMP004,Card Rewards Upgrade,Cards,Email,Rate,False,,0
+TCH000724,2025-06-25,CUST00068,CMP003,Invest Starter,Wealth,Display,Control,False,,0
+TCH000725,2025-08-24,CUST00269,CMP005,CD Maturity Winback,Deposits,Email,Rewards,False,,0
+TCH000726,2025-08-29,CUST00095,CMP002,Debt Consolidation Loan,Lending,Display,Control,False,,0
+TCH000727,2026-07-12,CUST00457,CMP001,Savings Rate Booster,Deposits,Display,Cash Bonus,True,TXN0002270,303.71
+TCH000728,2025-10-31,CUST00087,CMP003,Invest Starter,Wealth,Contact Center,Cash Bonus,False,,0
+TCH000729,2025-02-01,CUST00343,CMP002,Debt Consolidation Loan,Lending,Paid Search,Cash Bonus,True,TXN0000827,163.22
+TCH000730,2026-09-08,CUST00358,CMP001,Savings Rate Booster,Deposits,In App,Cash Bonus,False,,0
+TCH000731,2026-06-12,CUST00061,CMP001,Savings Rate Booster,Deposits,Email,Cash Bonus,False,,0
+TCH000732,2025-01-09,CUST00141,CMP004,Card Rewards Upgrade,Cards,Contact Center,Cash Bonus,False,,0
+TCH000733,2026-05-22,CUST00159,CMP001,Savings Rate Booster,Deposits,Contact Center,Education,False,,0
+TCH000734,2025-03-08,CUST00362,CMP005,CD Maturity Winback,Deposits,In App,Control,False,,0
+TCH000735,2025-05-18,CUST00160,CMP003,Invest Starter,Wealth,Display,Control,False,,0
+TCH000736,2026-06-05,CUST00029,CMP005,CD Maturity Winback,Deposits,Paid Search,Rewards,False,,0
+TCH000737,2025-03-14,CUST00342,CMP001,Savings Rate Booster,Deposits,Display,Rewards,True,TXN0000590,52.13
+TCH000738,2025-10-01,CUST00316,CMP003,Invest Starter,Wealth,Contact Center,Rate,True,TXN0001674,121.15
+TCH000739,2025-06-28,CUST00325,CMP001,Savings Rate Booster,Deposits,In App,Rewards,False,,0
+TCH000740,2026-03-10,CUST00299,CMP004,Card Rewards Upgrade,Cards,Paid Search,Education,False,,0
+TCH000741,2025-08-26,CUST00120,CMP003,Invest Starter,Wealth,Email,Education,False,,0
+TCH000742,2025-03-08,CUST00048,CMP003,Invest Starter,Wealth,Contact Center,Rate,False,,0
+TCH000743,2025-01-17,CUST00347,CMP005,CD Maturity Winback,Deposits,Paid Search,Cash Bonus,False,,0
+TCH000744,2025-06-02,CUST00144,CMP002,Debt Consolidation Loan,Lending,In App,Rewards,False,,0
+TCH000745,2025-07-12,CUST00263,CMP002,Debt Consolidation Loan,Lending,Paid Search,Rate,False,,0
+TCH000746,2026-06-14,CUST00346,CMP003,Invest Starter,Wealth,Paid Search,Rate,False,,0
+TCH000747,2026-04-29,CUST00107,CMP003,Invest Starter,Wealth,Contact Center,Rewards,False,,0
+TCH000748,2026-09-19,CUST00463,CMP004,Card Rewards Upgrade,Cards,Email,Education,False,,0
+TCH000749,2026-01-06,CUST00398,CMP004,Card Rewards Upgrade,Cards,Paid Search,Cash Bonus,False,,0
+TCH000750,2026-07-30,CUST00373,CMP002,Debt Consolidation Loan,Lending,Paid Search,Education,True,TXN0001800,51.83
+TCH000751,2025-01-22,CUST00176,CMP003,Invest Starter,Wealth,Paid Search,Cash Bonus,False,,0
+TCH000752,2025-12-22,CUST00296,CMP001,Savings Rate Booster,Deposits,Contact Center,Education,True,TXN0002184,318.51
+TCH000753,2026-09-16,CUST00192,CMP005,CD Maturity Winback,Deposits,In App,Control,False,,0
+TCH000754,2026-03-14,CUST00292,CMP002,Debt Consolidation Loan,Lending,Contact Center,Rewards,False,,0
+TCH000755,2025-08-03,CUST00168,CMP003,Invest Starter,Wealth,Email,Rewards,False,,0
+TCH000756,2025-02-15,CUST00169,CMP004,Card Rewards Upgrade,Cards,Email,Education,False,,0
+TCH000757,2025-01-05,CUST00104,CMP005,CD Maturity Winback,Deposits,Contact Center,Cash Bonus,True,TXN0001720,147.98
+TCH000758,2026-07-18,CUST00070,CMP003,Invest Starter,Wealth,In App,Rate,False,,0
+TCH000759,2026-09-18,CUST00146,CMP003,Invest Starter,Wealth,In App,Education,False,,0
+TCH000760,2026-04-06,CUST00221,CMP004,Card Rewards Upgrade,Cards,Contact Center,Education,False,,0
+TCH000761,2025-01-17,CUST00234,CMP003,Invest Starter,Wealth,Email,Rewards,False,,0
+TCH000762,2026-03-20,CUST00447,CMP001,Savings Rate Booster,Deposits,Email,Cash Bonus,False,,0
+TCH000763,2025-03-26,CUST00226,CMP005,CD Maturity Winback,Deposits,Paid Search,Education,True,TXN0002182,467.8
+TCH000764,2026-04-04,CUST00408,CMP003,Invest Starter,Wealth,In App,Cash Bonus,True,TXN0001142,94.54
+TCH000765,2025-11-30,CUST00222,CMP004,Card Rewards Upgrade,Cards,Email,Education,True,TXN0000991,102.47
+TCH000766,2025-01-21,CUST00217,CMP005,CD Maturity Winback,Deposits,In App,Rewards,False,,0
+TCH000767,2026-07-31,CUST00134,CMP003,Invest Starter,Wealth,Paid Search,Rate,False,,0
+TCH000768,2025-08-01,CUST00356,CMP003,Invest Starter,Wealth,Display,Education,False,,0
+TCH000769,2026-06-14,CUST00295,CMP004,Card Rewards Upgrade,Cards,Display,Cash Bonus,False,,0
+TCH000770,2025-12-10,CUST00331,CMP001,Savings Rate Booster,Deposits,In App,Education,False,,0
+TCH000771,2025-12-18,CUST00249,CMP002,Debt Consolidation Loan,Lending,Paid Search,Cash Bonus,False,,0
+TCH000772,2026-07-29,CUST00408,CMP002,Debt Consolidation Loan,Lending,In App,Education,False,,0
+TCH000773,2025-12-06,CUST00086,CMP005,CD Maturity Winback,Deposits,Email,Cash Bonus,False,,0
+TCH000774,2025-05-14,CUST00433,CMP001,Savings Rate Booster,Deposits,Paid Search,Education,False,,0
+TCH000775,2026-05-18,CUST00447,CMP003,Invest Starter,Wealth,Paid Search,Rewards,False,,0
+TCH000776,2025-03-15,CUST00264,CMP003,Invest Starter,Wealth,Paid Search,Education,False,,0
+TCH000777,2025-09-08,CUST00294,CMP003,Invest Starter,Wealth,In App,Education,False,,0
+TCH000778,2026-01-30,CUST00344,CMP001,Savings Rate Booster,Deposits,Display,Rate,True,TXN0001493,90.57
+TCH000779,2025-03-28,CUST00369,CMP001,Savings Rate Booster,Deposits,Paid Search,Rewards,True,TXN0000228,50.4
+TCH000780,2026-01-22,CUST00296,CMP005,CD Maturity Winback,Deposits,Email,Education,False,,0
+TCH000781,2025-10-29,CUST00001,CMP002,Debt Consolidation Loan,Lending,Contact Center,Cash Bonus,False,,0
+TCH000782,2026-05-17,CUST00465,CMP002,Debt Consolidation Loan,Lending,Contact Center,Rewards,False,,0
+TCH000783,2025-08-10,CUST00025,CMP004,Card Rewards Upgrade,Cards,In App,Rate,False,,0
+TCH000784,2025-07-18,CUST00485,CMP001,Savings Rate Booster,Deposits,Paid Search,Cash Bonus,False,,0
+TCH000785,2025-10-16,CUST00349,CMP003,Invest Starter,Wealth,Display,Rewards,True,TXN0001728,389.1
+TCH000786,2026-09-05,CUST00400,CMP005,CD Maturity Winback,Deposits,Paid Search,Rate,False,,0
+TCH000787,2025-03-15,CUST00276,CMP001,Savings Rate Booster,Deposits,Paid Search,Rate,False,,0
+TCH000788,2026-03-27,CUST00190,CMP002,Debt Consolidation Loan,Lending,Email,Rewards,False,,0
+TCH000789,2025-08-14,CUST00230,CMP001,Savings Rate Booster,Deposits,In App,Cash Bonus,False,,0
+TCH000790,2026-01-01,CUST00444,CMP003,Invest Starter,Wealth,In App,Rate,False,,0
+TCH000791,2025-05-20,CUST00456,CMP004,Card Rewards Upgrade,Cards,In App,Rewards,False,,0
+TCH000792,2025-02-12,CUST00161,CMP005,CD Maturity Winback,Deposits,Contact Center,Education,False,,0
+TCH000793,2026-05-23,CUST00417,CMP004,Card Rewards Upgrade,Cards,In App,Cash Bonus,False,,0
+TCH000794,2025-10-21,CUST00140,CMP005,CD Maturity Winback,Deposits,Display,Education,False,,0
+TCH000795,2026-08-25,CUST00071,CMP003,Invest Starter,Wealth,Paid Search,Rewards,False,,0
+TCH000796,2025-09-17,CUST00404,CMP004,Card Rewards Upgrade,Cards,Email,Rate,False,,0
+TCH000797,2026-04-22,CUST00200,CMP004,Card Rewards Upgrade,Cards,In App,Cash Bonus,False,,0
+TCH000798,2025-06-03,CUST00136,CMP001,Savings Rate Booster,Deposits,In App,Rewards,True,TXN0002495,560.75
+TCH000799,2025-03-24,CUST00182,CMP004,Card Rewards Upgrade,Cards,In App,Cash Bonus,False,,0
+TCH000800,2025-04-01,CUST00153,CMP002,Debt Consolidation Loan,Lending,In App,Rate,True,TXN0002167,164.35
+TCH000801,2026-09-29,CUST00031,CMP002,Debt Consolidation Loan,Lending,Email,Control,False,,0
+TCH000802,2025-10-12,CUST00436,CMP005,CD Maturity Winback,Deposits,In App,Cash Bonus,False,,0
+TCH000803,2026-06-03,CUST00183,CMP004,Card Rewards Upgrade,Cards,Display,Cash Bonus,True,TXN0002147,95.05
+TCH000804,2026-06-22,CUST00126,CMP003,Invest Starter,Wealth,Display,Rewards,False,,0
+TCH000805,2025-12-17,CUST00126,CMP003,Invest Starter,Wealth,Paid Search,Rate,False,,0
+TCH000806,2025-02-02,CUST00221,CMP004,Card Rewards Upgrade,Cards,Email,Control,False,,0
+TCH000807,2025-01-30,CUST00239,CMP003,Invest Starter,Wealth,Contact Center,Control,False,,0
+TCH000808,2025-09-09,CUST00031,CMP001,Savings Rate Booster,Deposits,Contact Center,Cash Bonus,False,,0
+TCH000809,2025-03-22,CUST00040,CMP004,Card Rewards Upgrade,Cards,Contact Center,Education,False,,0
+TCH000810,2026-02-13,CUST00303,CMP005,CD Maturity Winback,Deposits,Email,Control,False,,0
+TCH000811,2025-11-22,CUST00053,CMP005,CD Maturity Winback,Deposits,In App,Cash Bonus,False,,0
+TCH000812,2025-03-20,CUST00219,CMP004,Card Rewards Upgrade,Cards,Display,Rewards,False,,0
+TCH000813,2025-04-06,CUST00218,CMP004,Card Rewards Upgrade,Cards,In App,Education,False,,0
+TCH000814,2025-01-01,CUST00343,CMP004,Card Rewards Upgrade,Cards,In App,Education,False,,0
+TCH000815,2026-01-28,CUST00205,CMP004,Card Rewards Upgrade,Cards,Paid Search,Education,False,,0
+TCH000816,2026-01-17,CUST00380,CMP001,Savings Rate Booster,Deposits,Display,Rewards,False,,0
+TCH000817,2026-08-24,CUST00308,CMP003,Invest Starter,Wealth,Contact Center,Education,False,,0
+TCH000818,2025-06-18,CUST00142,CMP001,Savings Rate Booster,Deposits,Paid Search,Control,False,,0
+TCH000819,2025-07-10,CUST00295,CMP002,Debt Consolidation Loan,Lending,Display,Control,False,,0
+TCH000820,2026-05-08,CUST00143,CMP003,Invest Starter,Wealth,Contact Center,Education,False,,0
+TCH000821,2025-06-09,CUST00090,CMP004,Card Rewards Upgrade,Cards,Display,Control,True,TXN0000159,368.51
+TCH000822,2025-04-01,CUST00449,CMP002,Debt Consolidation Loan,Lending,In App,Control,False,,0
+TCH000823,2025-11-11,CUST00249,CMP003,Invest Starter,Wealth,Paid Search,Rate,False,,0
+TCH000824,2025-04-03,CUST00303,CMP005,CD Maturity Winback,Deposits,Contact Center,Cash Bonus,False,,0
+TCH000825,2026-04-12,CUST00134,CMP002,Debt Consolidation Loan,Lending,Display,Rate,False,,0
+TCH000826,2025-12-02,CUST00097,CMP001,Savings Rate Booster,Deposits,Display,Control,False,,0
+TCH000827,2025-06-20,CUST00477,CMP001,Savings Rate Booster,Deposits,Paid Search,Education,False,,0
+TCH000828,2025-08-20,CUST00331,CMP004,Card Rewards Upgrade,Cards,Email,Education,False,,0
+TCH000829,2025-11-14,CUST00212,CMP004,Card Rewards Upgrade,Cards,In App,Rewards,False,,0
+TCH000830,2025-07-28,CUST00049,CMP003,Invest Starter,Wealth,Display,Control,True,TXN0000598,391.95
+TCH000831,2025-07-12,CUST00346,CMP005,CD Maturity Winback,Deposits,Contact Center,Cash Bonus,True,TXN0001043,255.22
+TCH000832,2026-03-05,CUST00137,CMP002,Debt Consolidation Loan,Lending,Contact Center,Control,False,,0
+TCH000833,2026-09-29,CUST00108,CMP003,Invest Starter,Wealth,Contact Center,Cash Bonus,False,,0
+TCH000834,2025-05-02,CUST00356,CMP002,Debt Consolidation Loan,Lending,Contact Center,Cash Bonus,False,,0
+TCH000835,2026-09-30,CUST00449,CMP003,Invest Starter,Wealth,Email,Education,False,,0
+TCH000836,2025-03-19,CUST00156,CMP005,CD Maturity Winback,Deposits,Contact Center,Rewards,False,,0
+TCH000837,2026-06-16,CUST00185,CMP003,Invest Starter,Wealth,Email,Rewards,False,,0
+TCH000838,2026-09-28,CUST00177,CMP004,Card Rewards Upgrade,Cards,Paid Search,Control,True,TXN0001564,128.61
+TCH000839,2025-11-15,CUST00113,CMP005,CD Maturity Winback,Deposits,Contact Center,Control,False,,0
+TCH000840,2025-02-12,CUST00457,CMP005,CD Maturity Winback,Deposits,Paid Search,Education,False,,0
+TCH000841,2025-09-22,CUST00420,CMP001,Savings Rate Booster,Deposits,Paid Search,Cash Bonus,False,,0
+TCH000842,2026-09-14,CUST00361,CMP002,Debt Consolidation Loan,Lending,Paid Search,Cash Bonus,False,,0
+TCH000843,2026-09-15,CUST00053,CMP002,Debt Consolidation Loan,Lending,Contact Center,Rewards,False,,0
+TCH000844,2025-02-23,CUST00391,CMP002,Debt Consolidation Loan,Lending,Email,Rate,False,,0
+TCH000845,2025-11-18,CUST00264,CMP001,Savings Rate Booster,Deposits,Display,Control,True,TXN0000566,486.26
+TCH000846,2026-02-16,CUST00152,CMP001,Savings Rate Booster,Deposits,Email,Cash Bonus,True,TXN0000737,117.71
+TCH000847,2025-07-20,CUST00186,CMP003,Invest Starter,Wealth,Email,Cash Bonus,False,,0
+TCH000848,2025-07-14,CUST00020,CMP002,Debt Consolidation Loan,Lending,Display,Control,True,TXN0000902,162.81
+TCH000849,2026-06-30,CUST00226,CMP004,Card Rewards Upgrade,Cards,Email,Control,True,TXN0002052,238.88
+TCH000850,2026-02-22,CUST00455,CMP005,CD Maturity Winback,Deposits,Contact Center,Cash Bonus,False,,0
+TCH000851,2026-04-13,CUST00164,CMP003,Invest Starter,Wealth,In App,Rate,False,,0
+TCH000852,2025-11-07,CUST00167,CMP003,Invest Starter,Wealth,Paid Search,Education,True,TXN0001624,122.86
+TCH000853,2025-05-25,CUST00051,CMP005,CD Maturity Winback,Deposits,Contact Center,Education,False,,0
+TCH000854,2025-06-06,CUST00175,CMP003,Invest Starter,Wealth,Email,Education,True,TXN0000901,713.01
+TCH000855,2026-03-06,CUST00012,CMP001,Savings Rate Booster,Deposits,In App,Rewards,False,,0
+TCH000856,2025-01-18,CUST00048,CMP005,CD Maturity Winback,Deposits,Contact Center,Rate,True,TXN0002166,139.98
+TCH000857,2025-09-14,CUST00341,CMP002,Debt Consolidation Loan,Lending,Email,Rewards,True,TXN0002134,165.67
+TCH000858,2026-03-04,CUST00073,CMP005,CD Maturity Winback,Deposits,Paid Search,Rate,False,,0
+TCH000859,2026-05-27,CUST00325,CMP001,Savings Rate Booster,Deposits,In App,Rate,False,,0
+TCH000860,2026-09-26,CUST00428,CMP004,Card Rewards Upgrade,Cards,In App,Rate,False,,0
+TCH000861,2025-07-18,CUST00271,CMP001,Savings Rate Booster,Deposits,In App,Education,False,,0
+TCH000862,2025-01-04,CUST00382,CMP001,Savings Rate Booster,Deposits,Paid Search,Rate,True,TXN0001650,85.81
+TCH000863,2025-05-13,CUST00253,CMP003,Invest Starter,Wealth,Contact Center,Rewards,False,,0
+TCH000864,2025-07-26,CUST00361,CMP001,Savings Rate Booster,Deposits,Email,Rewards,True,TXN0000090,30.12
+TCH000865,2025-12-14,CUST00287,CMP003,Invest Starter,Wealth,Paid Search,Cash Bonus,False,,0
+TCH000866,2026-04-20,CUST00285,CMP002,Debt Consolidation Loan,Lending,Paid Search,Education,False,,0
+TCH000867,2025-10-30,CUST00046,CMP003,Invest Starter,Wealth,Email,Cash Bonus,False,,0
+TCH000868,2025-01-24,CUST00453,CMP005,CD Maturity Winback,Deposits,Paid Search,Education,False,,0
+TCH000869,2026-01-25,CUST00009,CMP004,Card Rewards Upgrade,Cards,Email,Rate,True,TXN0001608,55.31
+TCH000870,2025-01-14,CUST00135,CMP002,Debt Consolidation Loan,Lending,Display,Cash Bonus,False,,0
+TCH000871,2026-04-07,CUST00135,CMP004,Card Rewards Upgrade,Cards,In App,Education,False,,0
+TCH000872,2026-08-17,CUST00022,CMP003,Invest Starter,Wealth,Contact Center,Education,True,TXN0000240,70.74
+TCH000873,2026-03-23,CUST00170,CMP005,CD Maturity Winback,Deposits,Display,Rate,False,,0
+TCH000874,2026-02-03,CUST00049,CMP001,Savings Rate Booster,Deposits,Display,Rewards,False,,0
+TCH000875,2026-06-12,CUST00113,CMP002,Debt Consolidation Loan,Lending,Contact Center,Education,False,,0
+TCH000876,2026-01-26,CUST00227,CMP005,CD Maturity Winback,Deposits,Contact Center,Education,False,,0
+TCH000877,2025-07-30,CUST00038,CMP002,Debt Consolidation Loan,Lending,Email,Rewards,False,,0
+TCH000878,2025-05-22,CUST00454,CMP002,Debt Consolidation Loan,Lending,Email,Control,False,,0
+TCH000879,2025-07-18,CUST00410,CMP001,Savings Rate Booster,Deposits,Email,Cash Bonus,False,,0
+TCH000880,2026-08-27,CUST00426,CMP004,Card Rewards Upgrade,Cards,In App,Control,False,,0
+TCH000881,2025-01-16,CUST00316,CMP005,CD Maturity Winback,Deposits,Paid Search,Cash Bonus,True,TXN0000051,102.21
+TCH000882,2025-09-20,CUST00390,CMP001,Savings Rate Booster,Deposits,Contact Center,Education,False,,0
+TCH000883,2025-09-09,CUST00374,CMP003,Invest Starter,Wealth,Contact Center,Cash Bonus,False,,0
+TCH000884,2026-08-27,CUST00038,CMP003,Invest Starter,Wealth,Email,Cash Bonus,False,,0
+TCH000885,2026-07-31,CUST00415,CMP004,Card Rewards Upgrade,Cards,Display,Rate,False,,0
+TCH000886,2025-05-12,CUST00226,CMP003,Invest Starter,Wealth,Contact Center,Cash Bonus,False,,0
+TCH000887,2026-02-23,CUST00491,CMP001,Savings Rate Booster,Deposits,Email,Education,False,,0
+TCH000888,2025-08-15,CUST00374,CMP003,Invest Starter,Wealth,In App,Rewards,True,TXN0002110,341.02
+TCH000889,2026-07-24,CUST00414,CMP001,Savings Rate Booster,Deposits,Contact Center,Education,False,,0
+TCH000890,2026-06-26,CUST00418,CMP004,Card Rewards Upgrade,Cards,In App,Cash Bonus,False,,0
+TCH000891,2025-06-02,CUST00353,CMP004,Card Rewards Upgrade,Cards,Paid Search,Cash Bonus,False,,0
+TCH000892,2025-07-10,CUST00340,CMP005,CD Maturity Winback,Deposits,Paid Search,Education,False,,0
+TCH000893,2026-07-04,CUST00368,CMP002,Debt Consolidation Loan,Lending,Email,Education,False,,0
+TCH000894,2025-09-09,CUST00079,CMP002,Debt Consolidation Loan,Lending,Email,Rewards,False,,0
+TCH000895,2025-12-18,CUST00264,CMP005,CD Maturity Winback,Deposits,Display,Rewards,False,,0
+TCH000896,2026-02-24,CUST00465,CMP004,Card Rewards Upgrade,Cards,Contact Center,Control,False,,0
+TCH000897,2026-02-13,CUST00486,CMP005,CD Maturity Winback,Deposits,Contact Center,Rate,False,,0
+TCH000898,2025-10-03,CUST00499,CMP004,Card Rewards Upgrade,Cards,Contact Center,Cash Bonus,False,,0
+TCH000899,2025-12-09,CUST00244,CMP005,CD Maturity Winback,Deposits,Display,Rate,True,TXN0000685,85.15
+TCH000900,2026-05-05,CUST00481,CMP001,Savings Rate Booster,Deposits,Display,Cash Bonus,False,,0

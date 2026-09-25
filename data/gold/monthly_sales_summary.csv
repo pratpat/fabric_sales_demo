@@ -1,0 +1,2272 @@
+sales_month,region,segment,product_id,channel_id,applications,funded_sales,sales_amount,estimated_revenue,new_customer_sales,conversion_rate
+2025-02,Northeast,Rate Shopper,P003,C002,1,0,0.0,0.0,0,0.0
+2025-11,West,Emerging Affluent,P001,C001,1,1,11364.07,68.18,0,1.0
+2026-07,Midwest,Mass Affluent,P003,C005,1,1,10037.42,321.2,0,1.0
+2025-08,Midwest,Digital Native,P003,C004,1,1,12394.58,396.63,0,1.0
+2025-01,Midwest,Rate Shopper,P004,C005,2,2,39628.71,317.02,1,1.0
+2025-06,Northeast,Borrower,P002,C002,1,1,26940.33,107.76,0,1.0
+2025-12,Southwest,Digital Native,P002,C004,1,1,24987.52,99.95,1,1.0
+2025-09,Southwest,Mass Affluent,P004,C001,1,1,13328.21,106.63,0,1.0
+2026-08,Southwest,Mass Affluent,P005,C001,1,0,0.0,0.0,0,0.0
+2025-10,Southeast,Digital Native,P005,C001,1,0,0.0,0.0,0,0.0
+2025-08,Northeast,Digital Native,P004,C002,2,1,19035.44,152.28,1,0.5
+2025-06,Northeast,Borrower,P005,C003,2,1,4578.34,187.71,1,0.5
+2025-08,Southwest,Mass Affluent,P005,C001,2,1,2769.81,113.56,0,0.5
+2025-04,Southwest,Digital Native,P002,C005,1,1,30486.12,121.94,0,1.0
+2025-05,Southwest,Digital Native,P005,C005,2,1,3778.25,154.91,0,0.5
+2026-03,West,Borrower,P004,C005,1,1,28245.42,225.96,1,1.0
+2025-12,Northeast,Rate Shopper,P004,C004,1,0,0.0,0.0,0,0.0
+2026-05,West,Borrower,P002,C003,1,0,0.0,0.0,0,0.0
+2026-02,West,Rate Shopper,P005,C005,1,0,0.0,0.0,0,0.0
+2025-07,West,Borrower,P001,C004,1,1,18659.02,111.95,0,1.0
+2026-08,Southwest,Rate Shopper,P002,C004,1,1,26576.16,106.3,0,1.0
+2026-02,Midwest,Rate Shopper,P004,C002,1,1,37127.54,297.02,0,1.0
+2026-05,Midwest,Borrower,P005,C005,1,1,3177.25,130.27,0,1.0
+2026-04,Midwest,Rate Shopper,P001,C002,1,0,0.0,0.0,0,0.0
+2025-12,Midwest,Digital Native,P005,C004,2,2,7004.68,287.19,1,1.0
+2025-05,Southeast,Emerging Affluent,P001,C001,1,1,9746.98,58.48,0,1.0
+2026-01,West,Borrower,P003,C002,1,1,15733.68,503.48,0,1.0
+2025-06,Northeast,Mass Affluent,P005,C001,1,1,3349.76,137.34,0,1.0
+2025-07,West,Borrower,P005,C003,1,1,4681.51,191.94,1,1.0
+2025-09,Northeast,Digital Native,P001,C003,1,1,19786.46,118.72,0,1.0
+2026-02,Southwest,Digital Native,P004,C003,1,1,17733.65,141.87,0,1.0
+2026-08,Midwest,Rate Shopper,P003,C005,1,1,16399.35,524.78,0,1.0
+2026-04,Midwest,Borrower,P005,C002,1,1,4524.42,185.5,0,1.0
+2025-10,Northeast,Borrower,P001,C005,1,1,14477.98,86.87,1,1.0
+2025-09,Midwest,Mass Affluent,P005,C005,1,1,2199.25,90.17,0,1.0
+2026-08,Southeast,Borrower,P004,C004,1,0,0.0,0.0,0,0.0
+2025-08,Northeast,Mass Affluent,P004,C002,2,1,24461.48,195.69,0,0.5
+2026-02,Midwest,Mass Affluent,P003,C001,1,1,9524.13,304.77,0,1.0
+2025-11,Southwest,Emerging Affluent,P002,C004,1,1,14866.68,59.47,0,1.0
+2025-09,Midwest,Borrower,P002,C002,1,0,0.0,0.0,0,0.0
+2025-12,Midwest,Mass Affluent,P002,C005,1,0,0.0,0.0,0,0.0
+2025-02,West,Mass Affluent,P001,C005,1,0,0.0,0.0,0,0.0
+2026-05,Midwest,Emerging Affluent,P005,C003,1,1,3979.48,163.16,0,1.0
+2026-05,Southwest,Emerging Affluent,P005,C004,1,0,0.0,0.0,0,0.0
+2025-05,Northeast,Digital Native,P002,C004,1,1,23648.01,94.59,1,1.0
+2025-11,Midwest,Rate Shopper,P005,C001,1,1,2021.7,82.89,0,1.0
+2025-10,Northeast,Mass Affluent,P003,C002,1,1,7619.31,243.82,0,1.0
+2026-02,Northeast,Mass Affluent,P003,C003,1,1,15752.38,504.08,1,1.0
+2025-10,Northeast,Rate Shopper,P002,C001,1,0,0.0,0.0,0,0.0
+2026-03,Southwest,Borrower,P001,C002,1,1,10437.94,62.63,0,1.0
+2025-09,West,Borrower,P004,C003,1,1,12776.5,102.21,0,1.0
+2025-04,West,Mass Affluent,P003,C004,1,1,11998.11,383.94,0,1.0
+2025-09,Northeast,Borrower,P005,C005,1,1,2556.64,104.82,0,1.0
+2025-06,Southeast,Digital Native,P005,C005,1,0,0.0,0.0,0,0.0
+2026-04,West,Borrower,P005,C004,2,2,7066.18,289.71,1,1.0
+2026-03,Northeast,Digital Native,P002,C003,1,1,21083.04,84.33,0,1.0
+2025-08,West,Mass Affluent,P002,C003,1,0,0.0,0.0,0,0.0
+2026-08,Southeast,Rate Shopper,P004,C003,1,1,32323.82,258.59,0,1.0
+2025-08,West,Mass Affluent,P001,C002,1,0,0.0,0.0,0,0.0
+2025-03,West,Mass Affluent,P001,C001,3,2,17609.06,105.65,0,0.6667
+2025-03,Southwest,Borrower,P004,C005,1,1,30485.82,243.89,0,1.0
+2025-10,West,Rate Shopper,P002,C002,1,1,34966.52,139.87,1,1.0
+2025-11,West,Mass Affluent,P001,C003,1,0,0.0,0.0,0,0.0
+2026-08,Southeast,Digital Native,P005,C002,2,1,2253.31,92.39,0,0.5
+2025-12,Midwest,Emerging Affluent,P005,C003,1,1,2401.36,98.46,0,1.0
+2025-01,Southwest,Borrower,P002,C003,1,1,27780.31,111.12,0,1.0
+2026-07,Southwest,Borrower,P003,C004,2,1,8315.61,266.1,0,0.5
+2026-09,West,Rate Shopper,P004,C003,1,1,22908.69,183.27,1,1.0
+2026-03,Northeast,Emerging Affluent,P004,C005,2,1,16406.85,131.25,0,0.5
+2026-03,Midwest,Digital Native,P003,C001,1,1,16360.95,523.55,0,1.0
+2026-02,West,Rate Shopper,P005,C003,1,1,3360.19,137.77,1,1.0
+2026-09,Midwest,Borrower,P004,C003,1,1,24682.69,197.46,0,1.0
+2025-07,Southeast,Rate Shopper,P005,C001,1,1,4098.14,168.02,0,1.0
+2025-01,Midwest,Rate Shopper,P001,C002,2,2,32784.23,196.71,0,1.0
+2026-04,West,Borrower,P004,C003,1,1,21359.98,170.88,0,1.0
+2025-03,Southwest,Digital Native,P003,C004,1,1,13282.06,425.03,1,1.0
+2025-05,Midwest,Emerging Affluent,P004,C001,1,1,34039.98,272.32,0,1.0
+2026-04,West,Emerging Affluent,P001,C002,2,0,0.0,0.0,0,0.0
+2025-11,Southwest,Borrower,P004,C003,1,0,0.0,0.0,0,0.0
+2025-07,Northeast,Emerging Affluent,P004,C003,1,1,32435.95,259.49,1,1.0
+2026-03,West,Mass Affluent,P001,C002,2,2,36168.16,217.01,1,1.0
+2026-05,Northeast,Rate Shopper,P001,C005,2,1,21402.66,128.42,1,0.5
+2025-04,Midwest,Mass Affluent,P002,C004,1,0,0.0,0.0,0,0.0
+2026-07,Southeast,Mass Affluent,P003,C002,1,0,0.0,0.0,0,0.0
+2026-03,West,Emerging Affluent,P005,C003,1,1,3175.47,130.19,0,1.0
+2026-03,West,Rate Shopper,P001,C004,1,1,16698.35,100.19,0,1.0
+2026-07,Southwest,Mass Affluent,P005,C002,1,1,2152.76,88.26,0,1.0
+2026-04,Midwest,Digital Native,P005,C002,1,1,4686.8,192.16,1,1.0
+2026-01,Northeast,Borrower,P001,C005,1,1,16662.49,99.97,0,1.0
+2026-02,Southwest,Digital Native,P001,C005,1,1,5019.96,30.12,0,1.0
+2026-02,West,Rate Shopper,P003,C003,1,1,12945.55,414.26,1,1.0
+2025-04,Midwest,Emerging Affluent,P001,C002,1,1,15640.28,93.84,1,1.0
+2026-08,Southeast,Rate Shopper,P004,C005,1,1,21725.61,173.8,1,1.0
+2026-04,Southeast,Borrower,P004,C001,1,0,0.0,0.0,0,0.0
+2026-09,West,Borrower,P003,C001,1,1,14354.94,459.36,0,1.0
+2025-04,Southeast,Digital Native,P005,C001,1,0,0.0,0.0,0,0.0
+2026-08,West,Rate Shopper,P005,C002,1,0,0.0,0.0,0,0.0
+2026-04,West,Rate Shopper,P005,C003,1,0,0.0,0.0,0,0.0
+2026-02,West,Mass Affluent,P002,C005,2,1,13171.67,52.69,0,0.5
+2025-11,Southeast,Emerging Affluent,P003,C005,1,0,0.0,0.0,0,0.0
+2025-09,West,Emerging Affluent,P003,C005,1,0,0.0,0.0,0,0.0
+2026-02,Northeast,Borrower,P004,C004,1,1,19935.51,159.48,1,1.0
+2025-05,Southwest,Mass Affluent,P001,C005,1,1,23336.02,140.02,1,1.0
+2026-06,Southeast,Emerging Affluent,P003,C005,1,1,14321.97,458.3,0,1.0
+2025-12,West,Emerging Affluent,P001,C004,1,0,0.0,0.0,0,0.0
+2026-08,West,Digital Native,P003,C001,1,1,17809.17,569.89,0,1.0
+2025-06,Southwest,Emerging Affluent,P003,C004,1,0,0.0,0.0,0,0.0
+2026-08,Midwest,Borrower,P003,C001,1,1,15299.81,489.59,0,1.0
+2025-05,Southwest,Rate Shopper,P004,C004,1,1,25774.4,206.2,0,1.0
+2025-11,Northeast,Borrower,P004,C001,1,1,17969.85,143.76,0,1.0
+2025-06,Southeast,Borrower,P005,C002,1,1,4925.72,201.95,0,1.0
+2026-02,Southeast,Emerging Affluent,P004,C003,1,1,25897.85,207.18,0,1.0
+2026-02,Southeast,Rate Shopper,P001,C005,1,1,17499.28,105.0,0,1.0
+2026-05,Southwest,Borrower,P005,C002,2,2,6833.2,280.16,0,1.0
+2026-03,Midwest,Borrower,P001,C003,1,1,11632.02,69.79,0,1.0
+2025-11,Midwest,Mass Affluent,P003,C002,1,1,24821.09,794.27,0,1.0
+2026-03,Southwest,Borrower,P003,C005,1,0,0.0,0.0,0,0.0
+2025-02,Midwest,Digital Native,P001,C001,1,1,13254.53,79.53,0,1.0
+2025-12,Northeast,Digital Native,P003,C001,1,1,13647.44,436.72,1,1.0
+2025-07,West,Emerging Affluent,P005,C002,1,1,2689.55,110.27,0,1.0
+2026-01,Southeast,Borrower,P002,C001,1,1,14906.4,59.63,1,1.0
+2025-02,West,Digital Native,P005,C003,1,1,2376.41,97.43,0,1.0
+2025-04,Southeast,Rate Shopper,P003,C003,1,1,24628.67,788.12,1,1.0
+2026-05,Midwest,Emerging Affluent,P001,C003,1,0,0.0,0.0,0,0.0
+2026-07,Northeast,Emerging Affluent,P005,C004,1,1,3408.9,139.76,0,1.0
+2025-01,Northeast,Emerging Affluent,P004,C002,2,2,41131.99,329.06,0,1.0
+2025-03,Southeast,Emerging Affluent,P005,C003,2,1,4268.04,174.99,0,0.5
+2025-08,West,Mass Affluent,P005,C003,1,1,1565.3,64.18,0,1.0
+2026-09,Midwest,Digital Native,P004,C005,1,1,30172.63,241.38,0,1.0
+2025-12,Southwest,Borrower,P003,C005,1,1,8955.62,286.58,1,1.0
+2025-05,West,Mass Affluent,P005,C002,2,2,5956.69,244.22,1,1.0
+2025-11,Southeast,Borrower,P005,C002,3,2,7776.66,318.84,0,0.6667
+2025-01,West,Mass Affluent,P003,C002,1,1,15512.2,496.39,0,1.0
+2025-07,Southeast,Emerging Affluent,P003,C002,1,1,4095.7,131.06,1,1.0
+2025-08,West,Rate Shopper,P005,C005,2,2,5104.97,209.3,2,1.0
+2026-04,Southwest,Mass Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2025-06,Southwest,Borrower,P004,C002,1,0,0.0,0.0,0,0.0
+2025-07,West,Emerging Affluent,P004,C002,1,0,0.0,0.0,0,0.0
+2025-11,Northeast,Mass Affluent,P005,C004,1,1,4768.03,195.49,0,1.0
+2026-09,Southeast,Digital Native,P003,C004,1,0,0.0,0.0,0,0.0
+2026-04,West,Borrower,P001,C004,1,0,0.0,0.0,0,0.0
+2026-02,Northeast,Mass Affluent,P001,C005,1,1,16358.08,98.15,0,1.0
+2026-02,Southwest,Mass Affluent,P003,C004,1,1,21040.35,673.29,1,1.0
+2025-05,West,Rate Shopper,P001,C005,1,1,10787.29,64.72,0,1.0
+2025-07,Southwest,Rate Shopper,P005,C001,1,1,3674.0,150.63,1,1.0
+2025-07,Southwest,Digital Native,P004,C001,2,2,29454.89,235.64,1,1.0
+2025-09,West,Emerging Affluent,P004,C001,1,0,0.0,0.0,0,0.0
+2026-01,West,Digital Native,P001,C004,1,1,26141.98,156.85,0,1.0
+2025-02,Northeast,Emerging Affluent,P005,C004,1,1,3482.86,142.8,0,1.0
+2025-02,Southeast,Rate Shopper,P002,C002,1,1,6290.03,25.16,0,1.0
+2025-05,Southeast,Borrower,P002,C001,1,0,0.0,0.0,0,0.0
+2026-02,Northeast,Emerging Affluent,P004,C004,1,1,12247.57,97.98,0,1.0
+2025-02,Midwest,Mass Affluent,P005,C002,1,1,3742.39,153.44,1,1.0
+2026-08,Southeast,Emerging Affluent,P002,C001,2,1,16816.94,67.27,0,0.5
+2026-09,Midwest,Emerging Affluent,P002,C003,1,1,20229.4,80.92,0,1.0
+2026-01,Southwest,Digital Native,P004,C005,1,1,25093.94,200.75,0,1.0
+2026-07,Southeast,Mass Affluent,P001,C004,1,1,16837.44,101.02,0,1.0
+2026-06,Northeast,Emerging Affluent,P003,C003,1,1,11515.84,368.51,1,1.0
+2026-03,Southeast,Borrower,P005,C003,1,1,3596.45,147.45,0,1.0
+2026-07,Southeast,Emerging Affluent,P002,C005,1,1,11729.26,46.92,0,1.0
+2025-01,Midwest,Rate Shopper,P003,C002,1,1,14685.69,469.94,0,1.0
+2026-03,West,Emerging Affluent,P002,C005,1,1,19695.22,78.78,0,1.0
+2025-09,Southeast,Digital Native,P002,C003,1,0,0.0,0.0,0,0.0
+2025-12,West,Rate Shopper,P001,C001,1,1,12507.49,75.04,1,1.0
+2026-05,Southwest,Mass Affluent,P003,C003,1,0,0.0,0.0,0,0.0
+2026-07,Southwest,Borrower,P002,C004,1,0,0.0,0.0,0,0.0
+2026-08,Midwest,Mass Affluent,P005,C003,2,1,3718.05,152.44,1,0.5
+2025-12,West,Rate Shopper,P005,C003,2,1,631.28,25.88,0,0.5
+2026-08,Midwest,Borrower,P005,C002,1,1,3457.4,141.75,1,1.0
+2025-02,Northeast,Mass Affluent,P003,C003,1,0,0.0,0.0,0,0.0
+2025-06,West,Mass Affluent,P005,C003,1,1,3672.93,150.59,0,1.0
+2026-06,Northeast,Borrower,P001,C004,1,1,25144.41,150.87,1,1.0
+2025-12,West,Mass Affluent,P005,C003,3,3,10109.65,414.5,0,1.0
+2026-02,Midwest,Digital Native,P001,C004,1,1,16267.32,97.6,0,1.0
+2025-04,Southeast,Emerging Affluent,P004,C001,2,2,24381.84,195.06,0,1.0
+2025-08,Southeast,Emerging Affluent,P005,C003,1,1,2884.46,118.26,0,1.0
+2025-06,Midwest,Emerging Affluent,P001,C003,1,1,21718.4,130.31,1,1.0
+2026-07,Midwest,Digital Native,P005,C003,1,0,0.0,0.0,0,0.0
+2026-09,Southwest,Digital Native,P001,C003,1,0,0.0,0.0,0,0.0
+2025-02,Midwest,Rate Shopper,P001,C004,1,1,19648.02,117.89,1,1.0
+2025-12,Southeast,Rate Shopper,P003,C003,1,0,0.0,0.0,0,0.0
+2025-05,West,Mass Affluent,P004,C005,1,1,33568.85,268.55,1,1.0
+2025-08,Northeast,Emerging Affluent,P004,C004,1,0,0.0,0.0,0,0.0
+2025-07,Northeast,Borrower,P003,C004,1,0,0.0,0.0,0,0.0
+2026-05,Midwest,Rate Shopper,P001,C001,1,1,9143.54,54.86,0,1.0
+2026-08,Northeast,Emerging Affluent,P003,C005,1,0,0.0,0.0,0,0.0
+2026-06,Southwest,Digital Native,P001,C003,1,1,20107.36,120.64,0,1.0
+2025-06,Midwest,Mass Affluent,P002,C005,2,2,81002.59,324.01,0,1.0
+2025-12,Midwest,Borrower,P004,C005,2,2,37143.11,297.14,2,1.0
+2025-04,West,Emerging Affluent,P005,C004,1,1,2154.82,88.35,0,1.0
+2026-09,Midwest,Emerging Affluent,P004,C001,1,1,17301.66,138.41,0,1.0
+2025-04,Southeast,Borrower,P004,C001,1,1,22851.11,182.81,0,1.0
+2026-04,Midwest,Mass Affluent,P002,C002,1,1,32061.8,128.25,0,1.0
+2025-11,Northeast,Mass Affluent,P002,C003,1,1,8110.31,32.44,0,1.0
+2026-08,Southwest,Rate Shopper,P003,C001,1,1,9704.84,310.55,0,1.0
+2025-03,Southeast,Emerging Affluent,P002,C003,1,1,18880.18,75.52,0,1.0
+2025-08,Southeast,Mass Affluent,P003,C001,1,1,19189.29,614.06,0,1.0
+2026-01,Northeast,Mass Affluent,P004,C004,1,1,17129.53,137.04,1,1.0
+2025-06,West,Borrower,P003,C004,1,1,15884.58,508.31,0,1.0
+2025-01,Southwest,Mass Affluent,P001,C001,1,1,26094.18,156.57,0,1.0
+2026-04,Midwest,Emerging Affluent,P002,C004,1,0,0.0,0.0,0,0.0
+2026-06,Northeast,Borrower,P002,C004,1,1,11448.97,45.8,1,1.0
+2026-05,Midwest,Mass Affluent,P001,C005,1,0,0.0,0.0,0,0.0
+2026-01,West,Mass Affluent,P005,C005,3,3,11507.37,471.81,1,1.0
+2026-06,Southeast,Borrower,P001,C002,2,0,0.0,0.0,0,0.0
+2026-06,Northeast,Emerging Affluent,P005,C001,1,1,3571.23,146.42,0,1.0
+2025-11,Northeast,Emerging Affluent,P005,C005,1,1,2892.56,118.59,0,1.0
+2026-04,Southeast,Mass Affluent,P004,C005,1,1,15822.31,126.58,0,1.0
+2026-09,Southwest,Digital Native,P002,C001,1,0,0.0,0.0,0,0.0
+2025-06,Southwest,Mass Affluent,P004,C005,1,1,11904.98,95.24,0,1.0
+2025-05,Southwest,Digital Native,P004,C001,2,2,34130.19,273.04,0,1.0
+2025-10,Northeast,Emerging Affluent,P002,C005,1,0,0.0,0.0,0,0.0
+2025-06,Southwest,Borrower,P004,C003,1,1,27860.16,222.88,0,1.0
+2025-12,Southwest,Digital Native,P005,C001,1,1,6115.28,250.73,0,1.0
+2025-09,Southeast,Rate Shopper,P004,C004,1,1,19987.4,159.9,0,1.0
+2025-02,Southwest,Emerging Affluent,P005,C003,1,1,2022.48,82.92,1,1.0
+2026-06,West,Rate Shopper,P003,C004,2,1,7860.48,251.54,0,0.5
+2026-06,Southwest,Borrower,P003,C002,1,0,0.0,0.0,0,0.0
+2025-04,Southeast,Borrower,P005,C001,1,0,0.0,0.0,0,0.0
+2025-10,West,Mass Affluent,P003,C003,1,1,14252.63,456.08,0,1.0
+2026-06,West,Mass Affluent,P005,C002,1,1,3706.51,151.97,0,1.0
+2025-01,Southwest,Mass Affluent,P005,C001,2,2,6289.12,257.86,1,1.0
+2025-09,West,Borrower,P002,C003,1,1,25722.88,102.89,1,1.0
+2026-09,West,Borrower,P005,C002,1,1,2063.46,84.6,0,1.0
+2025-04,West,Rate Shopper,P005,C002,1,1,1859.38,76.23,1,1.0
+2025-10,Southwest,Digital Native,P001,C004,2,1,19173.52,115.04,0,0.5
+2025-03,Midwest,Mass Affluent,P001,C003,1,1,8399.88,50.4,0,1.0
+2026-03,Midwest,Emerging Affluent,P003,C002,1,1,27320.31,874.25,0,1.0
+2026-03,Northeast,Mass Affluent,P002,C005,1,1,38123.45,152.49,0,1.0
+2025-02,Southeast,Mass Affluent,P003,C001,1,1,20424.42,653.58,0,1.0
+2026-02,West,Digital Native,P001,C001,1,1,21626.98,129.76,0,1.0
+2026-01,Southwest,Digital Native,P002,C001,3,2,44825.57,179.3,1,0.6667
+2026-01,Southwest,Rate Shopper,P005,C005,1,1,2723.8,111.68,0,1.0
+2025-03,Midwest,Mass Affluent,P005,C003,2,0,0.0,0.0,0,0.0
+2026-07,Southwest,Mass Affluent,P002,C002,1,1,36022.31,144.09,0,1.0
+2025-03,Midwest,Rate Shopper,P003,C004,1,0,0.0,0.0,0,0.0
+2025-01,Midwest,Borrower,P001,C002,1,1,16403.64,98.42,1,1.0
+2025-01,Midwest,Borrower,P005,C004,1,1,1725.42,70.74,1,1.0
+2026-06,Southwest,Borrower,P001,C002,1,0,0.0,0.0,0,0.0
+2025-05,West,Emerging Affluent,P001,C001,1,1,20452.87,122.72,1,1.0
+2025-06,Midwest,Borrower,P002,C001,2,1,37089.14,148.36,0,0.5
+2025-04,Midwest,Mass Affluent,P005,C001,1,1,1402.32,57.5,0,1.0
+2025-12,West,Borrower,P002,C004,1,1,37111.91,148.45,0,1.0
+2026-08,Southwest,Digital Native,P002,C001,1,1,2156.55,8.63,1,1.0
+2026-01,Southwest,Mass Affluent,P004,C002,1,0,0.0,0.0,0,0.0
+2025-06,Northeast,Rate Shopper,P005,C004,1,1,2803.64,114.95,0,1.0
+2026-08,Northeast,Emerging Affluent,P002,C001,1,0,0.0,0.0,0,0.0
+2026-06,Midwest,Digital Native,P002,C003,1,1,20605.03,82.42,1,1.0
+2025-07,West,Mass Affluent,P001,C005,1,1,16225.84,97.36,0,1.0
+2026-07,Southwest,Rate Shopper,P004,C001,2,1,11627.98,93.02,1,0.5
+2026-06,Midwest,Borrower,P003,C005,1,1,16170.05,517.44,1,1.0
+2026-05,Southwest,Borrower,P002,C004,1,1,42908.44,171.63,0,1.0
+2025-08,Southwest,Emerging Affluent,P003,C003,1,0,0.0,0.0,0,0.0
+2025-06,Midwest,Emerging Affluent,P001,C005,1,1,20267.88,121.61,1,1.0
+2026-08,Midwest,Mass Affluent,P002,C004,2,1,28585.25,114.34,0,0.5
+2025-08,Northeast,Borrower,P001,C003,1,1,14845.41,89.07,0,1.0
+2026-04,West,Rate Shopper,P002,C001,1,1,24281.9,97.13,1,1.0
+2025-05,Midwest,Emerging Affluent,P004,C003,2,1,20688.47,165.51,1,0.5
+2025-12,West,Emerging Affluent,P003,C002,1,1,19931.89,637.82,1,1.0
+2025-12,Southwest,Rate Shopper,P004,C002,1,1,30473.8,243.79,0,1.0
+2026-08,Midwest,Rate Shopper,P005,C002,1,1,5362.41,219.86,0,1.0
+2026-04,West,Mass Affluent,P002,C005,1,0,0.0,0.0,0,0.0
+2025-12,Northeast,Mass Affluent,P002,C002,2,0,0.0,0.0,0,0.0
+2026-04,Southwest,Mass Affluent,P001,C001,1,0,0.0,0.0,0,0.0
+2025-04,Northeast,Mass Affluent,P004,C004,1,1,16541.5,132.33,1,1.0
+2026-01,West,Emerging Affluent,P002,C002,1,1,29063.61,116.25,0,1.0
+2025-06,West,Emerging Affluent,P004,C003,1,0,0.0,0.0,0,0.0
+2025-07,Midwest,Borrower,P002,C004,1,0,0.0,0.0,0,0.0
+2026-01,Midwest,Emerging Affluent,P001,C001,1,1,22444.82,134.67,0,1.0
+2026-08,Northeast,Rate Shopper,P005,C005,1,0,0.0,0.0,0,0.0
+2026-06,Midwest,Mass Affluent,P003,C001,1,0,0.0,0.0,0,0.0
+2026-01,Northeast,Emerging Affluent,P005,C001,1,1,2634.66,108.02,0,1.0
+2025-12,Northeast,Borrower,P002,C002,1,1,27331.11,109.32,0,1.0
+2025-12,Southeast,Rate Shopper,P002,C003,1,0,0.0,0.0,0,0.0
+2026-01,Southwest,Digital Native,P001,C001,1,1,13904.63,83.43,1,1.0
+2025-10,Northeast,Digital Native,P004,C002,2,2,46135.18,369.08,1,1.0
+2026-06,Southwest,Rate Shopper,P002,C002,1,0,0.0,0.0,0,0.0
+2025-12,Southeast,Emerging Affluent,P002,C005,2,2,70482.88,281.93,1,1.0
+2026-07,Northeast,Rate Shopper,P005,C005,1,1,2302.18,94.39,0,1.0
+2026-05,Midwest,Rate Shopper,P003,C002,1,1,15957.26,510.63,0,1.0
+2026-04,Southwest,Digital Native,P003,C003,1,1,21281.71,681.01,0,1.0
+2025-06,West,Mass Affluent,P002,C002,1,1,23435.44,93.74,1,1.0
+2025-09,Northeast,Rate Shopper,P002,C004,1,0,0.0,0.0,0,0.0
+2026-07,Southwest,Digital Native,P003,C004,1,0,0.0,0.0,0,0.0
+2026-05,Midwest,Emerging Affluent,P001,C004,1,0,0.0,0.0,0,0.0
+2025-10,Southwest,Mass Affluent,P003,C004,1,0,0.0,0.0,0,0.0
+2025-12,West,Mass Affluent,P005,C004,1,0,0.0,0.0,0,0.0
+2026-09,Midwest,Emerging Affluent,P001,C004,1,0,0.0,0.0,0,0.0
+2025-07,Southeast,Borrower,P001,C005,1,0,0.0,0.0,0,0.0
+2025-03,Southeast,Emerging Affluent,P005,C004,1,0,0.0,0.0,0,0.0
+2026-06,West,Emerging Affluent,P005,C005,1,1,5495.87,225.33,1,1.0
+2025-01,Midwest,Borrower,P004,C003,1,1,16137.7,129.1,0,1.0
+2025-08,Southeast,Rate Shopper,P005,C001,1,0,0.0,0.0,0,0.0
+2025-05,Southeast,Rate Shopper,P004,C004,1,0,0.0,0.0,0,0.0
+2026-03,Northeast,Emerging Affluent,P004,C003,2,2,46947.74,375.58,1,1.0
+2025-10,West,Digital Native,P002,C004,1,0,0.0,0.0,0,0.0
+2025-08,Midwest,Emerging Affluent,P005,C004,1,1,3090.75,126.72,1,1.0
+2025-10,Southwest,Digital Native,P004,C001,1,1,14226.51,113.81,1,1.0
+2025-03,West,Rate Shopper,P003,C004,1,1,17437.02,557.98,0,1.0
+2026-05,Southwest,Mass Affluent,P004,C003,1,1,36034.6,288.28,0,1.0
+2026-08,West,Borrower,P003,C002,1,1,12990.74,415.7,0,1.0
+2025-10,Southwest,Emerging Affluent,P002,C001,1,0,0.0,0.0,0,0.0
+2025-07,Northeast,Mass Affluent,P001,C005,1,0,0.0,0.0,0,0.0
+2025-11,Southeast,Digital Native,P002,C005,1,1,39310.8,157.24,0,1.0
+2025-12,Midwest,Borrower,P005,C005,1,0,0.0,0.0,0,0.0
+2025-12,West,Digital Native,P004,C004,1,1,26038.15,208.31,0,1.0
+2026-06,West,Mass Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2025-04,Southwest,Mass Affluent,P004,C001,2,2,55570.81,444.57,0,1.0
+2026-06,Midwest,Borrower,P004,C005,2,1,27411.38,219.29,0,0.5
+2025-05,West,Mass Affluent,P001,C002,1,1,20171.27,121.03,1,1.0
+2025-03,West,Mass Affluent,P004,C001,3,3,43994.55,351.97,0,1.0
+2025-02,Northeast,Emerging Affluent,P002,C001,1,1,30031.46,120.13,1,1.0
+2025-01,Southeast,Borrower,P001,C003,1,0,0.0,0.0,0,0.0
+2025-12,West,Emerging Affluent,P002,C002,1,0,0.0,0.0,0,0.0
+2026-09,Southeast,Rate Shopper,P002,C005,2,2,64266.26,257.07,0,1.0
+2026-06,Southeast,Mass Affluent,P005,C001,1,1,3350.37,137.37,0,1.0
+2026-06,West,Mass Affluent,P001,C002,1,0,0.0,0.0,0,0.0
+2025-12,Southwest,Borrower,P001,C002,2,2,30702.92,184.22,0,1.0
+2026-06,Northeast,Rate Shopper,P004,C001,3,3,75751.29,606.01,2,1.0
+2025-12,West,Borrower,P001,C001,2,2,18458.65,110.75,0,1.0
+2025-10,Midwest,Borrower,P005,C004,2,1,3683.75,151.03,1,0.5
+2025-07,Southwest,Emerging Affluent,P004,C003,2,2,46498.21,371.98,0,1.0
+2026-02,Southeast,Rate Shopper,P002,C004,1,1,28135.69,112.54,0,1.0
+2025-12,Southeast,Digital Native,P003,C002,1,1,17507.79,560.25,1,1.0
+2026-08,Southwest,Digital Native,P004,C003,2,2,45828.44,366.63,0,1.0
+2026-02,Southwest,Emerging Affluent,P004,C005,1,1,31187.54,249.5,0,1.0
+2025-08,Midwest,Borrower,P004,C004,1,1,21278.27,170.23,1,1.0
+2026-05,West,Emerging Affluent,P001,C001,1,1,10643.4,63.86,0,1.0
+2025-04,Southwest,Digital Native,P005,C005,1,0,0.0,0.0,0,0.0
+2025-10,Northeast,Rate Shopper,P004,C002,1,1,17309.99,138.48,0,1.0
+2025-05,Northeast,Digital Native,P001,C004,1,1,11773.9,70.64,0,1.0
+2025-02,Midwest,Borrower,P004,C001,1,0,0.0,0.0,0,0.0
+2025-11,Southwest,Borrower,P004,C002,1,0,0.0,0.0,0,0.0
+2026-07,Midwest,Rate Shopper,P004,C005,1,0,0.0,0.0,0,0.0
+2026-01,Northeast,Rate Shopper,P004,C005,1,1,18163.56,145.31,0,1.0
+2026-08,Southwest,Digital Native,P001,C001,1,1,29519.58,177.12,0,1.0
+2025-04,West,Rate Shopper,P003,C004,1,1,17203.48,550.51,0,1.0
+2025-09,West,Borrower,P001,C002,1,1,18525.72,111.15,0,1.0
+2025-01,West,Rate Shopper,P003,C002,1,1,18869.39,603.82,1,1.0
+2025-10,Southeast,Digital Native,P005,C004,1,1,4451.14,182.5,0,1.0
+2026-05,Southwest,Digital Native,P005,C001,1,1,3361.27,137.81,0,1.0
+2025-06,Southwest,Rate Shopper,P005,C003,1,1,2400.89,98.44,0,1.0
+2025-10,Northeast,Mass Affluent,P005,C002,1,1,2497.02,102.38,0,1.0
+2025-04,Northeast,Emerging Affluent,P002,C005,2,1,24497.86,97.99,1,0.5
+2025-03,Midwest,Emerging Affluent,P002,C003,1,1,14838.07,59.35,0,1.0
+2025-07,Midwest,Digital Native,P005,C003,1,1,2468.49,101.21,0,1.0
+2025-07,West,Emerging Affluent,P001,C005,2,2,39994.77,239.96,1,1.0
+2026-03,Midwest,Rate Shopper,P005,C005,1,1,4853.78,199.0,1,1.0
+2025-11,Southwest,Digital Native,P002,C002,1,0,0.0,0.0,0,0.0
+2025-10,Northeast,Borrower,P002,C004,1,1,33084.69,132.34,0,1.0
+2025-07,Northeast,Rate Shopper,P001,C002,2,2,35080.4,210.48,0,1.0
+2026-03,Midwest,Borrower,P004,C005,2,2,27199.06,217.6,1,1.0
+2025-06,Midwest,Emerging Affluent,P003,C005,1,1,19689.56,630.07,1,1.0
+2025-03,West,Digital Native,P001,C001,2,2,31471.55,188.83,0,1.0
+2025-05,Midwest,Emerging Affluent,P001,C004,1,1,22877.95,137.27,0,1.0
+2025-09,West,Emerging Affluent,P005,C005,1,1,2712.99,111.23,0,1.0
+2025-08,Southeast,Digital Native,P005,C004,1,0,0.0,0.0,0,0.0
+2026-03,Midwest,Mass Affluent,P002,C003,1,1,11197.83,44.79,0,1.0
+2026-05,West,Emerging Affluent,P005,C004,2,2,6871.5,281.73,1,1.0
+2025-11,Southwest,Rate Shopper,P004,C003,1,1,41919.06,335.35,0,1.0
+2026-07,Southeast,Emerging Affluent,P002,C003,1,1,30256.04,121.02,0,1.0
+2025-08,Southeast,Emerging Affluent,P001,C005,1,0,0.0,0.0,0,0.0
+2025-11,Midwest,Mass Affluent,P001,C002,1,1,13127.42,78.76,0,1.0
+2025-02,Midwest,Rate Shopper,P003,C004,1,0,0.0,0.0,0,0.0
+2025-04,Southeast,Emerging Affluent,P003,C004,1,0,0.0,0.0,0,0.0
+2026-07,Southeast,Rate Shopper,P004,C005,1,1,21351.25,170.81,1,1.0
+2025-01,Midwest,Rate Shopper,P004,C002,1,1,13563.42,108.51,0,1.0
+2025-06,Northeast,Rate Shopper,P001,C001,1,0,0.0,0.0,0,0.0
+2025-11,Southeast,Emerging Affluent,P005,C004,1,1,4971.04,203.81,0,1.0
+2025-12,Southwest,Borrower,P002,C005,1,1,28925.81,115.7,1,1.0
+2025-01,West,Mass Affluent,P005,C002,2,0,0.0,0.0,0,0.0
+2025-07,Midwest,Borrower,P001,C004,1,1,17089.35,102.54,0,1.0
+2025-06,West,Digital Native,P001,C003,1,0,0.0,0.0,0,0.0
+2025-05,Northeast,Digital Native,P004,C004,1,0,0.0,0.0,0,0.0
+2025-05,Southeast,Borrower,P004,C004,1,1,27122.63,216.98,1,1.0
+2026-03,West,Digital Native,P003,C002,2,2,30585.29,978.73,0,1.0
+2026-01,Midwest,Borrower,P004,C002,1,1,34368.95,274.95,0,1.0
+2025-11,West,Mass Affluent,P004,C002,1,1,29651.79,237.21,0,1.0
+2025-03,Northeast,Mass Affluent,P005,C003,1,1,3019.41,123.8,1,1.0
+2025-12,Northeast,Digital Native,P002,C004,2,1,33513.12,134.05,0,0.5
+2026-09,West,Mass Affluent,P003,C005,1,1,14253.88,456.12,0,1.0
+2026-08,Northeast,Mass Affluent,P005,C001,1,1,3493.42,143.23,0,1.0
+2026-06,Northeast,Mass Affluent,P001,C003,1,1,21471.88,128.83,1,1.0
+2025-10,Southeast,Borrower,P002,C004,1,1,26704.91,106.82,0,1.0
+2025-06,Midwest,Digital Native,P003,C004,1,1,2912.96,93.21,0,1.0
+2025-02,Northeast,Borrower,P001,C004,1,1,21660.39,129.96,0,1.0
+2025-06,Southwest,Rate Shopper,P004,C001,2,1,28176.29,225.41,0,0.5
+2026-07,Southeast,Mass Affluent,P005,C003,1,0,0.0,0.0,0,0.0
+2026-03,Northeast,Mass Affluent,P005,C002,1,1,3938.88,161.49,1,1.0
+2026-02,Southwest,Borrower,P003,C001,1,1,12670.71,405.46,0,1.0
+2025-01,Southwest,Mass Affluent,P003,C002,1,1,22850.85,731.23,0,1.0
+2025-02,Midwest,Borrower,P001,C003,2,2,53511.56,321.07,0,1.0
+2025-08,Southeast,Rate Shopper,P005,C002,1,1,4515.66,185.14,0,1.0
+2025-04,Northeast,Mass Affluent,P005,C004,1,1,1674.74,68.66,1,1.0
+2025-06,Northeast,Digital Native,P001,C002,1,1,13112.86,78.68,0,1.0
+2026-03,Southeast,Rate Shopper,P003,C004,1,0,0.0,0.0,0,0.0
+2026-06,Northeast,Rate Shopper,P001,C003,2,1,20119.29,120.72,1,0.5
+2026-09,West,Digital Native,P004,C003,1,1,29950.07,239.6,0,1.0
+2026-04,Southeast,Mass Affluent,P005,C003,1,0,0.0,0.0,0,0.0
+2025-03,Southwest,Digital Native,P004,C004,1,0,0.0,0.0,0,0.0
+2026-06,Northeast,Digital Native,P003,C002,1,1,8586.6,274.77,0,1.0
+2025-04,Northeast,Digital Native,P004,C004,1,1,26379.17,211.03,0,1.0
+2025-03,West,Emerging Affluent,P003,C005,1,0,0.0,0.0,0,0.0
+2025-03,West,Borrower,P004,C001,1,1,20614.93,164.92,0,1.0
+2025-09,West,Emerging Affluent,P004,C004,1,0,0.0,0.0,0,0.0
+2025-04,West,Mass Affluent,P005,C003,1,1,5304.22,217.47,1,1.0
+2026-05,Midwest,Digital Native,P001,C002,1,1,11779.35,70.68,0,1.0
+2026-01,Southwest,Digital Native,P005,C005,1,1,3482.74,142.79,0,1.0
+2025-05,Northeast,Emerging Affluent,P003,C001,1,0,0.0,0.0,0,0.0
+2026-05,Southeast,Digital Native,P001,C002,1,1,21077.0,126.46,0,1.0
+2025-03,West,Borrower,P005,C002,1,1,2806.96,115.09,1,1.0
+2026-05,Southeast,Emerging Affluent,P002,C004,1,1,37009.64,148.04,0,1.0
+2026-02,Southwest,Emerging Affluent,P003,C005,1,1,15105.75,483.38,0,1.0
+2026-09,West,Borrower,P004,C005,2,1,30773.9,246.19,0,0.5
+2026-06,Midwest,Rate Shopper,P004,C004,1,1,13097.27,104.78,0,1.0
+2025-01,West,Digital Native,P001,C005,1,1,13310.4,79.86,0,1.0
+2025-04,Midwest,Rate Shopper,P004,C004,1,1,3800.28,30.4,0,1.0
+2026-04,Midwest,Mass Affluent,P003,C002,1,1,14892.9,476.57,1,1.0
+2026-04,West,Emerging Affluent,P003,C005,1,0,0.0,0.0,0,0.0
+2026-09,West,Mass Affluent,P004,C002,1,1,26709.81,213.68,0,1.0
+2025-06,West,Emerging Affluent,P004,C002,1,1,25278.81,202.23,0,1.0
+2026-07,Southwest,Digital Native,P002,C002,1,1,39249.37,157.0,1,1.0
+2026-05,Southwest,Emerging Affluent,P002,C002,1,1,30358.77,121.44,0,1.0
+2025-09,Northeast,Borrower,P002,C004,1,0,0.0,0.0,0,0.0
+2025-04,Southeast,Emerging Affluent,P004,C004,1,0,0.0,0.0,0,0.0
+2026-06,West,Digital Native,P005,C001,1,0,0.0,0.0,0,0.0
+2026-06,West,Emerging Affluent,P003,C004,2,2,29904.85,956.95,0,1.0
+2025-05,Southwest,Mass Affluent,P003,C003,1,0,0.0,0.0,0,0.0
+2025-10,Northeast,Mass Affluent,P004,C003,1,1,25609.94,204.88,1,1.0
+2025-09,Southeast,Mass Affluent,P004,C003,1,1,29468.57,235.75,1,1.0
+2026-06,Southeast,Mass Affluent,P004,C004,1,0,0.0,0.0,0,0.0
+2026-06,Midwest,Borrower,P002,C001,1,1,30730.95,122.92,0,1.0
+2025-02,West,Emerging Affluent,P001,C004,1,1,17080.48,102.48,0,1.0
+2026-03,Midwest,Rate Shopper,P005,C003,1,1,1818.11,74.54,0,1.0
+2025-10,Northeast,Rate Shopper,P003,C001,1,0,0.0,0.0,0,0.0
+2025-07,Midwest,Rate Shopper,P004,C004,1,1,30197.01,241.58,0,1.0
+2025-11,Southeast,Rate Shopper,P004,C002,1,1,15006.19,120.05,0,1.0
+2026-07,Southwest,Digital Native,P002,C005,1,1,26117.53,104.47,0,1.0
+2026-08,Southeast,Emerging Affluent,P001,C005,1,1,20717.83,124.31,0,1.0
+2025-04,Southwest,Digital Native,P004,C005,1,1,20330.56,162.64,0,1.0
+2025-11,Northeast,Rate Shopper,P001,C004,1,1,5983.59,35.9,1,1.0
+2026-07,Southeast,Emerging Affluent,P005,C005,1,1,3657.34,149.95,0,1.0
+2025-09,West,Borrower,P004,C005,1,1,17341.77,138.73,0,1.0
+2025-04,West,Digital Native,P003,C004,1,1,17734.54,567.51,1,1.0
+2025-08,Southeast,Rate Shopper,P002,C004,1,1,34923.18,139.69,0,1.0
+2026-02,Northeast,Emerging Affluent,P005,C005,1,1,4229.47,173.41,0,1.0
+2025-05,Southwest,Digital Native,P004,C002,1,1,14651.76,117.21,0,1.0
+2025-05,Midwest,Rate Shopper,P005,C005,1,1,2777.86,113.89,1,1.0
+2026-02,Midwest,Emerging Affluent,P001,C005,1,1,11472.68,68.84,0,1.0
+2025-05,Southeast,Mass Affluent,P005,C002,1,1,823.16,33.75,0,1.0
+2025-02,Southwest,Mass Affluent,P005,C004,1,0,0.0,0.0,0,0.0
+2025-01,West,Mass Affluent,P002,C004,2,0,0.0,0.0,0,0.0
+2026-01,Southwest,Mass Affluent,P004,C003,2,1,26956.28,215.65,0,0.5
+2026-04,West,Digital Native,P002,C005,1,1,28027.74,112.11,0,1.0
+2026-02,West,Mass Affluent,P005,C005,2,2,5786.07,237.22,0,1.0
+2025-03,Northeast,Borrower,P001,C005,2,2,32424.66,194.55,0,1.0
+2025-07,Southwest,Digital Native,P005,C005,1,1,3204.65,131.39,0,1.0
+2025-07,Southeast,Borrower,P001,C003,1,1,10554.1,63.32,0,1.0
+2025-11,Midwest,Emerging Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2026-06,Southwest,Digital Native,P004,C001,1,1,23351.75,186.81,1,1.0
+2025-10,Southeast,Rate Shopper,P005,C002,1,1,3731.5,152.99,0,1.0
+2026-09,West,Mass Affluent,P002,C001,1,0,0.0,0.0,0,0.0
+2025-11,Northeast,Rate Shopper,P004,C001,1,1,32181.93,257.46,0,1.0
+2026-09,Northeast,Mass Affluent,P002,C002,2,2,58607.8,234.43,0,1.0
+2025-03,West,Emerging Affluent,P001,C003,1,1,14671.22,88.03,1,1.0
+2026-07,Northeast,Borrower,P001,C003,1,0,0.0,0.0,0,0.0
+2025-11,West,Digital Native,P005,C002,1,0,0.0,0.0,0,0.0
+2025-09,West,Rate Shopper,P005,C002,1,1,2693.91,110.45,0,1.0
+2026-09,Northeast,Emerging Affluent,P001,C004,1,1,13885.59,83.31,0,1.0
+2026-01,Midwest,Digital Native,P005,C003,1,0,0.0,0.0,0,0.0
+2025-02,West,Borrower,P005,C003,2,2,8425.19,345.43,1,1.0
+2025-10,West,Digital Native,P002,C005,1,0,0.0,0.0,0,0.0
+2026-04,West,Rate Shopper,P003,C003,2,2,17158.43,549.07,1,1.0
+2026-09,West,Emerging Affluent,P002,C001,1,1,40778.81,163.12,0,1.0
+2026-02,Southeast,Mass Affluent,P005,C004,1,1,1285.66,52.71,1,1.0
+2025-12,Northeast,Digital Native,P004,C001,1,0,0.0,0.0,0,0.0
+2025-05,Southeast,Rate Shopper,P002,C001,1,1,5433.1,21.73,1,1.0
+2025-07,West,Mass Affluent,P003,C003,1,1,17265.83,552.51,0,1.0
+2026-05,Southeast,Borrower,P002,C002,1,1,29533.21,118.13,0,1.0
+2025-04,Northeast,Emerging Affluent,P002,C004,1,0,0.0,0.0,0,0.0
+2026-08,Southwest,Digital Native,P005,C002,1,1,2484.91,101.88,0,1.0
+2025-08,Northeast,Digital Native,P003,C005,1,0,0.0,0.0,0,0.0
+2026-09,West,Rate Shopper,P001,C005,1,1,17851.82,107.11,0,1.0
+2026-02,Midwest,Rate Shopper,P003,C004,1,1,21003.0,672.1,0,1.0
+2025-02,Northeast,Mass Affluent,P003,C005,1,1,17196.84,550.3,0,1.0
+2025-07,Southwest,Rate Shopper,P001,C004,1,1,15003.45,90.02,0,1.0
+2025-03,West,Emerging Affluent,P002,C004,1,1,32425.76,129.7,1,1.0
+2025-01,West,Mass Affluent,P004,C004,1,1,19459.69,155.68,0,1.0
+2025-04,Northeast,Mass Affluent,P003,C002,1,0,0.0,0.0,0,0.0
+2026-09,West,Mass Affluent,P001,C005,1,1,20629.55,123.78,1,1.0
+2025-03,West,Rate Shopper,P001,C001,1,0,0.0,0.0,0,0.0
+2025-11,Southwest,Mass Affluent,P004,C001,1,1,18254.0,146.03,0,1.0
+2025-02,West,Digital Native,P001,C005,1,1,16280.28,97.68,0,1.0
+2025-01,Northeast,Mass Affluent,P005,C005,1,1,4254.38,174.43,0,1.0
+2025-04,Southwest,Emerging Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2025-04,West,Emerging Affluent,P002,C001,1,1,45822.16,183.29,0,1.0
+2026-06,West,Digital Native,P005,C002,1,0,0.0,0.0,0,0.0
+2025-05,Northeast,Borrower,P001,C001,1,1,24581.09,147.49,0,1.0
+2025-02,Midwest,Digital Native,P005,C002,1,1,3969.24,162.74,0,1.0
+2025-07,West,Emerging Affluent,P003,C002,1,1,12340.44,394.89,1,1.0
+2025-12,Northeast,Emerging Affluent,P004,C005,1,0,0.0,0.0,0,0.0
+2025-12,Southeast,Rate Shopper,P003,C004,1,0,0.0,0.0,0,0.0
+2025-08,Midwest,Emerging Affluent,P001,C002,1,1,23907.15,143.44,1,1.0
+2025-07,Northeast,Mass Affluent,P003,C004,1,1,6809.67,217.91,1,1.0
+2025-05,Southwest,Mass Affluent,P005,C001,1,1,4427.99,181.55,1,1.0
+2025-07,Southeast,Borrower,P001,C002,1,1,17058.29,102.35,1,1.0
+2025-06,Midwest,Emerging Affluent,P002,C001,1,0,0.0,0.0,0,0.0
+2025-04,West,Digital Native,P002,C004,1,1,23576.91,94.31,0,1.0
+2026-03,Southwest,Digital Native,P002,C005,2,0,0.0,0.0,0,0.0
+2025-07,West,Emerging Affluent,P002,C002,1,1,12753.23,51.01,0,1.0
+2026-08,Midwest,Emerging Affluent,P001,C005,2,2,35805.33,214.83,0,1.0
+2025-10,Southeast,Borrower,P002,C001,1,0,0.0,0.0,0,0.0
+2026-09,West,Emerging Affluent,P001,C004,1,1,9182.98,55.1,0,1.0
+2025-07,Midwest,Borrower,P005,C004,1,1,2727.33,111.82,0,1.0
+2026-02,Southwest,Borrower,P003,C005,1,1,18919.38,605.42,0,1.0
+2026-04,West,Rate Shopper,P002,C002,1,1,33192.12,132.77,0,1.0
+2026-07,Midwest,Borrower,P003,C003,1,1,10639.4,340.46,0,1.0
+2025-08,Midwest,Emerging Affluent,P005,C003,2,2,6426.39,263.49,0,1.0
+2026-05,Midwest,Digital Native,P004,C003,2,2,41766.28,334.13,0,1.0
+2025-03,Midwest,Borrower,P002,C003,1,0,0.0,0.0,0,0.0
+2025-04,West,Borrower,P003,C002,1,1,16129.49,516.14,0,1.0
+2025-09,Southeast,Emerging Affluent,P002,C003,1,1,21349.36,85.4,1,1.0
+2025-01,Midwest,Rate Shopper,P005,C003,1,0,0.0,0.0,0,0.0
+2026-08,West,Digital Native,P004,C004,1,1,22058.39,176.47,0,1.0
+2026-04,Midwest,Digital Native,P005,C005,1,0,0.0,0.0,0,0.0
+2026-03,Southwest,Borrower,P004,C002,1,1,13561.51,108.49,0,1.0
+2025-11,Midwest,Borrower,P005,C002,1,0,0.0,0.0,0,0.0
+2026-02,Midwest,Borrower,P004,C004,1,0,0.0,0.0,0,0.0
+2026-08,Southwest,Emerging Affluent,P005,C001,1,1,3757.62,154.06,0,1.0
+2026-08,Southeast,Digital Native,P005,C005,1,0,0.0,0.0,0,0.0
+2026-07,Southeast,Rate Shopper,P004,C001,1,1,15393.52,123.15,0,1.0
+2026-07,Northeast,Rate Shopper,P002,C001,2,2,64623.27,258.5,1,1.0
+2025-03,Southwest,Borrower,P002,C002,1,1,34921.23,139.68,0,1.0
+2026-06,Northeast,Borrower,P001,C003,1,1,14710.97,88.27,0,1.0
+2025-05,Northeast,Digital Native,P002,C001,1,1,16502.14,66.01,0,1.0
+2026-03,Midwest,Rate Shopper,P002,C003,1,0,0.0,0.0,0,0.0
+2026-09,West,Borrower,P001,C004,1,0,0.0,0.0,0,0.0
+2025-02,Midwest,Digital Native,P004,C005,2,1,31915.73,255.33,0,0.5
+2026-03,Northeast,Digital Native,P005,C002,1,1,2279.97,93.48,0,1.0
+2026-08,Southwest,Rate Shopper,P004,C002,1,1,31841.32,254.73,0,1.0
+2025-03,Southwest,Mass Affluent,P005,C003,1,1,4179.86,171.37,0,1.0
+2026-07,Northeast,Rate Shopper,P004,C004,2,1,33176.53,265.41,1,0.5
+2025-09,West,Emerging Affluent,P004,C002,1,1,27097.39,216.78,1,1.0
+2025-12,West,Emerging Affluent,P004,C004,1,1,21615.15,172.92,1,1.0
+2026-04,Southwest,Borrower,P002,C003,1,1,8409.09,33.64,1,1.0
+2026-04,West,Borrower,P004,C002,1,1,28329.18,226.63,1,1.0
+2026-07,Midwest,Borrower,P003,C001,1,0,0.0,0.0,0,0.0
+2025-04,Midwest,Borrower,P001,C005,2,1,21425.93,128.56,0,0.5
+2026-01,Southeast,Digital Native,P001,C001,1,1,19554.42,117.33,1,1.0
+2025-01,West,Emerging Affluent,P004,C001,1,1,4400.45,35.2,1,1.0
+2025-06,Midwest,Digital Native,P001,C002,1,0,0.0,0.0,0,0.0
+2026-02,Northeast,Borrower,P002,C005,1,0,0.0,0.0,0,0.0
+2025-06,Southwest,Rate Shopper,P003,C003,1,1,21861.04,699.55,1,1.0
+2026-01,Southeast,Digital Native,P003,C005,1,1,15195.57,486.26,0,1.0
+2025-04,Midwest,Mass Affluent,P005,C004,1,0,0.0,0.0,0,0.0
+2025-11,Southeast,Digital Native,P001,C005,1,0,0.0,0.0,0,0.0
+2026-05,Southeast,Emerging Affluent,P002,C003,2,1,33273.17,133.09,0,0.5
+2025-08,West,Rate Shopper,P005,C001,2,2,5951.8,244.03,0,1.0
+2025-09,West,Rate Shopper,P002,C004,1,1,24574.92,98.3,0,1.0
+2025-09,West,Rate Shopper,P002,C001,1,0,0.0,0.0,0,0.0
+2025-10,West,Emerging Affluent,P003,C002,1,1,10825.31,346.41,0,1.0
+2025-08,Southwest,Mass Affluent,P003,C001,1,0,0.0,0.0,0,0.0
+2025-09,Midwest,Digital Native,P005,C001,1,1,3749.28,153.72,0,1.0
+2025-03,Southwest,Digital Native,P004,C001,1,0,0.0,0.0,0,0.0
+2025-05,Northeast,Mass Affluent,P002,C002,1,0,0.0,0.0,0,0.0
+2026-04,Midwest,Emerging Affluent,P001,C004,1,1,22602.57,135.62,0,1.0
+2025-09,West,Borrower,P002,C005,1,0,0.0,0.0,0,0.0
+2026-01,West,Mass Affluent,P003,C004,1,1,20785.18,665.13,0,1.0
+2025-01,Southeast,Mass Affluent,P002,C004,1,1,27747.28,110.99,0,1.0
+2026-07,Midwest,Borrower,P005,C002,1,0,0.0,0.0,0,0.0
+2026-01,West,Borrower,P004,C003,1,1,13846.81,110.77,0,1.0
+2025-01,Midwest,Digital Native,P002,C001,1,0,0.0,0.0,0,0.0
+2026-02,Southwest,Borrower,P004,C004,1,1,29314.35,234.51,0,1.0
+2026-01,West,Emerging Affluent,P001,C001,1,0,0.0,0.0,0,0.0
+2026-06,Southwest,Digital Native,P003,C003,1,1,12669.98,405.44,1,1.0
+2025-09,Southeast,Emerging Affluent,P004,C002,1,1,11426.65,91.41,0,1.0
+2025-09,Midwest,Rate Shopper,P001,C002,1,1,6063.48,36.38,1,1.0
+2026-01,Northeast,Mass Affluent,P001,C001,1,1,8688.64,52.13,0,1.0
+2025-06,Midwest,Digital Native,P002,C004,1,1,30466.24,121.86,0,1.0
+2025-04,West,Emerging Affluent,P003,C004,1,1,11101.29,355.24,0,1.0
+2025-08,Southwest,Digital Native,P002,C003,1,1,35614.5,142.46,0,1.0
+2026-03,Northeast,Mass Affluent,P001,C001,1,1,15298.29,91.79,0,1.0
+2025-07,Southwest,Digital Native,P002,C003,2,1,25212.44,100.85,0,0.5
+2025-07,Southeast,Digital Native,P002,C002,1,1,20981.88,83.93,1,1.0
+2025-04,Midwest,Emerging Affluent,P004,C004,1,1,25142.28,201.14,0,1.0
+2026-08,West,Borrower,P003,C001,1,1,12248.56,391.95,0,1.0
+2025-01,Northeast,Rate Shopper,P001,C003,1,1,12360.43,74.16,1,1.0
+2025-09,West,Rate Shopper,P005,C005,1,0,0.0,0.0,0,0.0
+2026-01,Midwest,Mass Affluent,P004,C003,1,1,19069.37,152.55,1,1.0
+2026-09,Southwest,Rate Shopper,P004,C004,1,1,15578.36,124.63,0,1.0
+2026-04,Midwest,Digital Native,P001,C001,1,0,0.0,0.0,0,0.0
+2025-10,Midwest,Digital Native,P001,C005,1,0,0.0,0.0,0,0.0
+2026-05,Midwest,Rate Shopper,P004,C005,1,1,10735.71,85.89,0,1.0
+2025-11,West,Emerging Affluent,P003,C001,1,1,13802.25,441.67,1,1.0
+2025-12,Midwest,Borrower,P005,C001,2,1,2812.64,115.32,1,0.5
+2026-09,West,Mass Affluent,P004,C003,1,1,29801.79,238.41,1,1.0
+2025-11,Northeast,Digital Native,P004,C001,2,1,22071.01,176.57,0,0.5
+2026-07,Southeast,Borrower,P001,C004,1,1,250.0,1.5,1,1.0
+2025-05,Southwest,Rate Shopper,P004,C001,1,0,0.0,0.0,0,0.0
+2026-08,West,Digital Native,P003,C002,1,1,15204.64,486.55,0,1.0
+2025-08,Southwest,Digital Native,P005,C004,1,1,1690.41,69.31,1,1.0
+2026-08,Southwest,Borrower,P001,C003,1,1,27609.67,165.66,0,1.0
+2025-01,Southeast,Borrower,P004,C005,1,1,17109.96,136.88,0,1.0
+2025-11,Southeast,Emerging Affluent,P004,C004,1,0,0.0,0.0,0,0.0
+2026-04,Southwest,Mass Affluent,P002,C004,1,0,0.0,0.0,0,0.0
+2026-05,Southeast,Digital Native,P003,C003,1,0,0.0,0.0,0,0.0
+2025-10,Midwest,Rate Shopper,P002,C004,1,0,0.0,0.0,0,0.0
+2025-07,West,Borrower,P002,C001,1,0,0.0,0.0,0,0.0
+2026-07,Midwest,Mass Affluent,P002,C001,1,1,19280.78,77.12,0,1.0
+2025-10,Northeast,Digital Native,P001,C005,1,1,22134.24,132.81,0,1.0
+2026-08,Midwest,Borrower,P002,C003,1,0,0.0,0.0,0,0.0
+2026-05,Southeast,Digital Native,P002,C004,1,1,24646.53,98.59,1,1.0
+2026-01,Northeast,Emerging Affluent,P002,C001,1,1,25137.86,100.55,0,1.0
+2025-02,West,Rate Shopper,P004,C002,1,1,12032.39,96.26,0,1.0
+2026-06,West,Mass Affluent,P001,C001,1,0,0.0,0.0,0,0.0
+2025-09,Northeast,Mass Affluent,P001,C001,1,1,11159.22,66.96,0,1.0
+2026-04,Southwest,Digital Native,P004,C001,1,1,29376.17,235.01,0,1.0
+2026-08,Southeast,Emerging Affluent,P005,C005,1,1,1491.31,61.14,0,1.0
+2026-08,Southeast,Borrower,P004,C003,1,1,23521.65,188.17,0,1.0
+2026-07,Southwest,Borrower,P001,C004,1,1,22532.82,135.2,1,1.0
+2025-07,Southeast,Rate Shopper,P002,C001,1,0,0.0,0.0,0,0.0
+2025-05,Southwest,Digital Native,P004,C003,1,1,31770.95,254.17,1,1.0
+2025-05,West,Borrower,P001,C001,1,1,20006.8,120.04,0,1.0
+2025-11,West,Emerging Affluent,P001,C002,2,1,8639.3,51.84,0,0.5
+2025-11,Midwest,Borrower,P005,C004,1,1,3973.48,162.91,0,1.0
+2026-09,Southwest,Digital Native,P002,C002,1,1,14115.46,56.46,0,1.0
+2025-03,Northeast,Digital Native,P005,C004,1,1,2371.89,97.25,1,1.0
+2025-05,Southeast,Emerging Affluent,P003,C004,1,1,13284.72,425.11,1,1.0
+2026-08,Northeast,Borrower,P002,C003,1,1,17367.12,69.47,0,1.0
+2025-01,Southwest,Rate Shopper,P004,C004,1,0,0.0,0.0,0,0.0
+2026-07,Northeast,Rate Shopper,P005,C001,1,1,2365.72,96.99,0,1.0
+2025-01,Northeast,Digital Native,P002,C003,1,1,31669.57,126.68,0,1.0
+2025-06,Northeast,Emerging Affluent,P001,C001,1,1,5317.06,31.9,0,1.0
+2025-10,Northeast,Emerging Affluent,P003,C005,1,1,12784.56,409.11,0,1.0
+2025-07,Southwest,Digital Native,P003,C004,1,0,0.0,0.0,0,0.0
+2025-09,West,Emerging Affluent,P005,C002,1,1,4722.16,193.61,0,1.0
+2026-01,Southeast,Rate Shopper,P002,C002,1,0,0.0,0.0,0,0.0
+2026-03,Midwest,Rate Shopper,P002,C005,1,0,0.0,0.0,0,0.0
+2025-10,Northeast,Borrower,P004,C005,1,0,0.0,0.0,0,0.0
+2026-02,West,Borrower,P001,C003,1,0,0.0,0.0,0,0.0
+2025-06,Southeast,Rate Shopper,P002,C001,1,1,23463.63,93.85,0,1.0
+2025-05,Southeast,Borrower,P004,C005,1,1,20524.58,164.2,0,1.0
+2025-07,Southwest,Borrower,P001,C005,2,0,0.0,0.0,0,0.0
+2025-02,Northeast,Mass Affluent,P005,C005,2,2,5172.88,212.09,0,1.0
+2025-05,Midwest,Mass Affluent,P001,C003,1,1,2506.07,15.04,0,1.0
+2025-09,Southwest,Borrower,P001,C003,1,0,0.0,0.0,0,0.0
+2025-10,Southwest,Digital Native,P003,C004,1,1,14468.58,462.99,0,1.0
+2026-04,Southwest,Borrower,P005,C001,1,0,0.0,0.0,0,0.0
+2026-04,Southwest,Emerging Affluent,P001,C005,1,1,15210.35,91.26,0,1.0
+2025-04,West,Borrower,P003,C001,1,1,18677.27,597.67,1,1.0
+2025-01,West,Mass Affluent,P001,C004,1,1,23147.48,138.88,0,1.0
+2026-07,Northeast,Emerging Affluent,P004,C002,1,0,0.0,0.0,0,0.0
+2025-05,Southeast,Rate Shopper,P004,C002,1,1,17016.73,136.13,0,1.0
+2025-02,Southeast,Mass Affluent,P002,C003,1,1,35014.93,140.06,0,1.0
+2025-07,West,Rate Shopper,P001,C002,1,0,0.0,0.0,0,0.0
+2025-11,Midwest,Rate Shopper,P004,C002,1,0,0.0,0.0,0,0.0
+2025-04,Southeast,Rate Shopper,P004,C002,1,1,35180.17,281.44,0,1.0
+2025-12,West,Rate Shopper,P002,C001,1,1,22594.34,90.38,0,1.0
+2025-10,West,Emerging Affluent,P004,C003,1,1,9025.02,72.2,1,1.0
+2025-09,Midwest,Mass Affluent,P003,C001,1,0,0.0,0.0,0,0.0
+2026-05,Northeast,Emerging Affluent,P004,C001,2,1,8787.06,70.3,0,0.5
+2026-02,Northeast,Rate Shopper,P001,C002,1,1,15381.55,92.29,0,1.0
+2025-07,Midwest,Emerging Affluent,P001,C005,1,1,19713.9,118.28,0,1.0
+2026-05,Southeast,Emerging Affluent,P003,C004,1,1,15387.61,492.4,0,1.0
+2026-01,Southwest,Digital Native,P001,C003,1,1,16882.15,101.29,0,1.0
+2025-02,Southwest,Digital Native,P001,C001,2,2,44531.9,267.19,0,1.0
+2025-04,Midwest,Mass Affluent,P003,C005,1,1,10989.26,351.66,0,1.0
+2025-05,Midwest,Borrower,P001,C005,1,1,20020.52,120.12,0,1.0
+2026-09,Southeast,Borrower,P005,C005,1,1,2076.89,85.15,0,1.0
+2025-02,Midwest,Rate Shopper,P005,C001,1,1,4372.26,179.26,0,1.0
+2025-03,West,Rate Shopper,P004,C001,1,1,31990.23,255.92,0,1.0
+2025-05,West,Borrower,P002,C001,1,1,22306.91,89.23,0,1.0
+2026-01,Northeast,Digital Native,P005,C003,1,0,0.0,0.0,0,0.0
+2025-06,Midwest,Emerging Affluent,P005,C001,1,1,3766.29,154.42,0,1.0
+2025-03,Southwest,Digital Native,P001,C005,1,0,0.0,0.0,0,0.0
+2026-01,Southeast,Mass Affluent,P004,C005,1,1,10611.18,84.89,0,1.0
+2025-06,Midwest,Digital Native,P002,C001,1,1,15613.86,62.46,0,1.0
+2025-11,West,Rate Shopper,P005,C003,1,0,0.0,0.0,0,0.0
+2025-08,West,Rate Shopper,P001,C002,2,2,24810.22,148.86,1,1.0
+2025-02,Southeast,Emerging Affluent,P002,C003,1,1,28970.64,115.88,1,1.0
+2026-09,Southwest,Rate Shopper,P002,C004,1,1,8268.93,33.08,0,1.0
+2025-10,West,Digital Native,P003,C002,2,2,36221.68,1159.09,0,1.0
+2026-09,Southwest,Rate Shopper,P004,C003,1,1,40411.33,323.29,0,1.0
+2026-08,Southwest,Emerging Affluent,P003,C002,2,2,13833.56,442.68,0,1.0
+2025-04,Midwest,Rate Shopper,P002,C004,1,1,13399.67,53.6,0,1.0
+2025-07,Northeast,Emerging Affluent,P005,C004,1,1,3061.37,125.52,1,1.0
+2025-03,Midwest,Mass Affluent,P005,C002,1,1,3015.21,123.62,0,1.0
+2025-02,Southeast,Borrower,P001,C001,1,1,25972.97,155.84,0,1.0
+2025-01,Midwest,Borrower,P005,C001,1,0,0.0,0.0,0,0.0
+2026-07,Southwest,Emerging Affluent,P002,C004,1,0,0.0,0.0,0,0.0
+2025-09,Northeast,Borrower,P004,C002,1,1,33097.03,264.78,1,1.0
+2025-04,West,Rate Shopper,P005,C003,1,1,3791.17,155.44,0,1.0
+2025-08,Northeast,Mass Affluent,P002,C001,3,2,47830.7,191.32,1,0.6667
+2025-06,Midwest,Mass Affluent,P001,C004,1,0,0.0,0.0,0,0.0
+2025-12,Southwest,Emerging Affluent,P001,C005,1,0,0.0,0.0,0,0.0
+2025-12,Midwest,Emerging Affluent,P004,C005,1,1,33813.37,270.51,0,1.0
+2025-10,Southeast,Rate Shopper,P003,C005,1,0,0.0,0.0,0,0.0
+2025-06,West,Digital Native,P001,C001,1,0,0.0,0.0,0,0.0
+2025-03,Southeast,Digital Native,P004,C004,1,0,0.0,0.0,0,0.0
+2025-09,Midwest,Digital Native,P003,C002,1,1,9742.26,311.75,0,1.0
+2026-03,Northeast,Emerging Affluent,P001,C005,1,1,23327.89,139.97,0,1.0
+2026-01,Southeast,Mass Affluent,P001,C002,1,1,38117.99,228.71,0,1.0
+2025-12,Midwest,Emerging Affluent,P001,C001,1,1,18362.33,110.17,0,1.0
+2026-07,Midwest,Emerging Affluent,P004,C002,2,2,49761.68,398.1,0,1.0
+2025-05,West,Mass Affluent,P002,C001,1,1,23321.98,93.29,1,1.0
+2026-08,West,Digital Native,P001,C001,1,0,0.0,0.0,0,0.0
+2025-03,Southwest,Mass Affluent,P001,C002,1,1,23369.0,140.21,0,1.0
+2025-05,West,Digital Native,P002,C004,1,1,26825.95,107.3,0,1.0
+2025-04,Midwest,Emerging Affluent,P001,C003,1,1,8244.04,49.46,0,1.0
+2025-11,Southeast,Emerging Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2026-01,Midwest,Digital Native,P001,C005,1,1,21226.3,127.36,0,1.0
+2026-09,Northeast,Digital Native,P002,C005,1,0,0.0,0.0,0,0.0
+2026-01,West,Emerging Affluent,P003,C004,1,1,19167.78,613.37,1,1.0
+2026-09,Midwest,Emerging Affluent,P001,C003,1,0,0.0,0.0,0,0.0
+2025-10,Southwest,Mass Affluent,P001,C002,1,1,21389.37,128.34,0,1.0
+2025-02,Midwest,Rate Shopper,P004,C001,1,1,14713.47,117.71,0,1.0
+2025-07,Southwest,Digital Native,P004,C005,1,1,38960.75,311.69,0,1.0
+2025-12,West,Mass Affluent,P002,C001,1,1,14020.26,56.08,0,1.0
+2026-05,Southeast,Borrower,P005,C004,1,1,4213.46,172.75,0,1.0
+2025-03,Midwest,Mass Affluent,P002,C004,1,0,0.0,0.0,0,0.0
+2026-06,Northeast,Rate Shopper,P002,C005,1,0,0.0,0.0,0,0.0
+2025-10,Northeast,Digital Native,P002,C003,1,1,15113.61,60.45,0,1.0
+2026-09,Northeast,Rate Shopper,P002,C005,2,2,78306.94,313.23,2,1.0
+2025-11,Midwest,Borrower,P001,C002,1,0,0.0,0.0,0,0.0
+2025-10,Northeast,Borrower,P003,C002,1,1,10596.89,339.1,0,1.0
+2025-07,Southeast,Rate Shopper,P001,C001,2,1,9741.53,58.45,0,0.5
+2025-05,West,Borrower,P004,C005,1,1,13400.73,107.21,0,1.0
+2026-04,Southeast,Rate Shopper,P004,C005,1,1,25353.07,202.82,0,1.0
+2026-07,Midwest,Mass Affluent,P001,C002,1,1,30322.76,181.94,1,1.0
+2026-02,Midwest,Rate Shopper,P001,C002,1,0,0.0,0.0,0,0.0
+2026-04,Northeast,Emerging Affluent,P004,C005,1,1,25757.98,206.06,0,1.0
+2026-02,Northeast,Rate Shopper,P004,C002,2,1,25073.99,200.59,0,0.5
+2025-10,Northeast,Borrower,P004,C001,1,0,0.0,0.0,0,0.0
+2026-09,Northeast,Emerging Affluent,P005,C001,1,0,0.0,0.0,0,0.0
+2025-08,Midwest,Rate Shopper,P004,C004,1,0,0.0,0.0,0,0.0
+2025-05,Northeast,Emerging Affluent,P002,C001,1,1,33338.39,133.35,0,1.0
+2026-06,Southeast,Rate Shopper,P004,C004,2,2,64069.08,512.55,2,1.0
+2025-07,Southeast,Rate Shopper,P003,C002,1,1,24959.45,798.7,0,1.0
+2025-12,Southwest,Borrower,P002,C004,1,0,0.0,0.0,0,0.0
+2025-05,Southeast,Rate Shopper,P005,C005,1,1,2440.14,100.05,0,1.0
+2025-06,Southwest,Digital Native,P002,C004,2,1,35372.77,141.49,0,0.5
+2025-05,West,Borrower,P001,C004,1,1,18019.14,108.11,0,1.0
+2026-03,Southeast,Emerging Affluent,P002,C002,1,1,21615.72,86.46,1,1.0
+2025-01,Northeast,Digital Native,P002,C005,2,2,28115.76,112.46,0,1.0
+2025-05,West,Borrower,P003,C005,1,1,12200.99,390.43,0,1.0
+2026-06,West,Borrower,P005,C004,1,0,0.0,0.0,0,0.0
+2025-07,Southwest,Rate Shopper,P004,C003,1,1,17661.65,141.29,0,1.0
+2025-04,Northeast,Borrower,P003,C005,1,0,0.0,0.0,0,0.0
+2026-02,Northeast,Digital Native,P001,C005,1,1,26341.42,158.05,0,1.0
+2025-10,West,Rate Shopper,P005,C001,1,0,0.0,0.0,0,0.0
+2025-07,West,Rate Shopper,P004,C001,1,1,33698.68,269.59,0,1.0
+2026-01,Southeast,Mass Affluent,P004,C001,1,0,0.0,0.0,0,0.0
+2026-03,Southwest,Emerging Affluent,P003,C003,1,0,0.0,0.0,0,0.0
+2026-09,Southeast,Rate Shopper,P003,C005,2,2,23864.5,763.66,1,1.0
+2025-07,West,Rate Shopper,P005,C004,1,1,2366.01,97.01,0,1.0
+2026-02,Northeast,Digital Native,P004,C002,1,0,0.0,0.0,0,0.0
+2026-06,West,Digital Native,P001,C002,1,1,24081.32,144.49,0,1.0
+2025-11,Southwest,Mass Affluent,P005,C002,1,1,4194.64,171.98,1,1.0
+2026-01,Southeast,Borrower,P002,C004,2,1,19000.36,76.0,0,0.5
+2025-09,Northeast,Rate Shopper,P002,C005,1,1,24457.87,97.83,1,1.0
+2025-01,Southwest,Mass Affluent,P001,C002,1,1,6697.21,40.18,0,1.0
+2025-05,Southeast,Mass Affluent,P004,C005,2,1,21183.83,169.47,1,0.5
+2026-02,West,Borrower,P003,C002,1,1,17076.78,546.46,0,1.0
+2025-08,West,Emerging Affluent,P004,C001,1,1,19134.77,153.08,0,1.0
+2025-07,Southwest,Digital Native,P003,C001,1,1,9954.1,318.53,0,1.0
+2026-05,Southeast,Mass Affluent,P003,C003,2,2,46144.64,1476.63,0,1.0
+2026-09,Southeast,Emerging Affluent,P001,C002,1,1,17727.62,106.37,1,1.0
+2025-08,West,Mass Affluent,P003,C001,1,1,17224.39,551.18,0,1.0
+2025-07,Midwest,Rate Shopper,P003,C004,1,0,0.0,0.0,0,0.0
+2026-08,Southeast,Borrower,P004,C001,1,0,0.0,0.0,0,0.0
+2026-03,Southwest,Mass Affluent,P002,C004,1,0,0.0,0.0,0,0.0
+2025-07,West,Rate Shopper,P004,C004,1,1,16572.42,132.58,0,1.0
+2026-06,West,Digital Native,P002,C001,1,1,26813.2,107.25,0,1.0
+2025-07,West,Mass Affluent,P001,C001,1,0,0.0,0.0,0,0.0
+2025-08,Northeast,Rate Shopper,P002,C001,1,0,0.0,0.0,0,0.0
+2025-08,Midwest,Borrower,P001,C003,1,1,12932.65,77.6,0,1.0
+2025-10,Northeast,Borrower,P001,C004,1,1,11812.7,70.88,1,1.0
+2025-11,Midwest,Rate Shopper,P004,C004,1,0,0.0,0.0,0,0.0
+2025-02,Northeast,Digital Native,P004,C004,1,1,30037.69,240.3,1,1.0
+2026-08,Midwest,Rate Shopper,P004,C002,1,1,21507.48,172.06,1,1.0
+2026-04,Southeast,Digital Native,P001,C001,2,2,25984.54,155.91,0,1.0
+2026-02,Southwest,Mass Affluent,P003,C003,2,1,22183.16,709.86,1,0.5
+2025-05,Southwest,Mass Affluent,P004,C004,1,0,0.0,0.0,0,0.0
+2025-01,West,Mass Affluent,P002,C001,1,0,0.0,0.0,0,0.0
+2026-01,Southwest,Digital Native,P001,C002,1,0,0.0,0.0,0,0.0
+2026-08,Southeast,Rate Shopper,P002,C002,2,2,80537.31,322.15,2,1.0
+2026-04,Southeast,Rate Shopper,P005,C004,1,1,2531.46,103.79,0,1.0
+2026-05,West,Emerging Affluent,P003,C003,1,1,9131.53,292.21,1,1.0
+2026-07,Northeast,Mass Affluent,P001,C003,1,1,20403.17,122.42,0,1.0
+2025-08,Northeast,Rate Shopper,P004,C001,2,2,38753.47,310.02,1,1.0
+2025-12,Northeast,Emerging Affluent,P004,C001,2,2,44340.59,354.72,0,1.0
+2026-06,Midwest,Rate Shopper,P004,C002,1,1,31944.52,255.56,1,1.0
+2026-06,Southeast,Borrower,P004,C005,1,1,24264.9,194.12,0,1.0
+2025-05,Northeast,Digital Native,P005,C001,1,1,4283.46,175.62,1,1.0
+2025-07,West,Rate Shopper,P001,C004,2,1,17247.03,103.48,0,0.5
+2025-12,Southeast,Emerging Affluent,P005,C001,1,1,4466.72,183.14,1,1.0
+2026-03,Midwest,Emerging Affluent,P003,C001,1,1,14174.28,453.58,0,1.0
+2026-02,Southwest,Mass Affluent,P003,C002,1,1,16779.5,536.94,1,1.0
+2025-02,Midwest,Digital Native,P004,C001,1,1,10203.29,81.63,1,1.0
+2025-03,Northeast,Rate Shopper,P003,C002,1,1,4299.58,137.59,1,1.0
+2025-08,Northeast,Digital Native,P004,C001,1,1,20402.62,163.22,1,1.0
+2025-10,Midwest,Mass Affluent,P003,C005,1,0,0.0,0.0,0,0.0
+2025-06,West,Emerging Affluent,P003,C002,1,1,13734.0,439.49,0,1.0
+2026-03,Southeast,Borrower,P001,C004,1,1,20193.15,121.16,1,1.0
+2025-01,West,Emerging Affluent,P001,C002,2,2,22019.72,132.12,1,1.0
+2025-01,Midwest,Mass Affluent,P001,C001,1,1,8728.84,52.37,0,1.0
+2025-05,Midwest,Emerging Affluent,P005,C002,1,0,0.0,0.0,0,0.0
+2025-09,Northeast,Mass Affluent,P003,C005,1,1,12199.72,390.39,1,1.0
+2025-12,Northeast,Mass Affluent,P003,C003,1,0,0.0,0.0,0,0.0
+2025-01,Southwest,Borrower,P003,C005,1,1,8974.9,287.2,0,1.0
+2026-05,Southwest,Borrower,P002,C003,1,1,39173.11,156.69,0,1.0
+2026-01,Southeast,Emerging Affluent,P001,C002,1,1,19595.96,117.58,0,1.0
+2025-09,Southwest,Digital Native,P005,C002,1,1,4077.09,167.16,0,1.0
+2026-08,West,Rate Shopper,P002,C001,1,1,22324.88,89.3,0,1.0
+2025-12,Midwest,Digital Native,P004,C005,1,1,17138.81,137.11,0,1.0
+2025-10,Midwest,Rate Shopper,P002,C005,1,1,51239.78,204.96,0,1.0
+2025-10,Midwest,Rate Shopper,P003,C001,1,1,15960.6,510.74,0,1.0
+2026-03,Northeast,Emerging Affluent,P003,C001,1,1,14643.55,468.59,0,1.0
+2025-10,Midwest,Borrower,P002,C003,1,0,0.0,0.0,0,0.0
+2025-07,West,Borrower,P003,C002,1,1,8653.94,276.93,0,1.0
+2025-12,Midwest,Digital Native,P001,C004,1,1,18075.82,108.45,0,1.0
+2026-09,Southeast,Rate Shopper,P003,C003,1,1,22145.2,708.65,0,1.0
+2025-07,Northeast,Emerging Affluent,P005,C002,1,1,3199.85,131.19,0,1.0
+2025-07,Southeast,Digital Native,P004,C005,1,1,29990.13,239.92,0,1.0
+2026-03,Midwest,Borrower,P002,C005,1,1,23153.0,92.61,0,1.0
+2026-02,Midwest,Emerging Affluent,P004,C004,1,1,13439.86,107.52,0,1.0
+2025-10,Midwest,Mass Affluent,P005,C005,1,1,2570.5,105.39,0,1.0
+2026-06,Northeast,Mass Affluent,P001,C004,1,1,15959.34,95.76,0,1.0
+2025-10,Southeast,Emerging Affluent,P005,C001,1,1,3292.61,135.0,0,1.0
+2025-02,Southwest,Rate Shopper,P005,C005,1,1,2795.6,114.62,0,1.0
+2025-11,Midwest,Rate Shopper,P002,C003,2,0,0.0,0.0,0,0.0
+2025-03,Northeast,Borrower,P002,C001,1,1,39859.03,159.44,1,1.0
+2026-06,Midwest,Emerging Affluent,P004,C001,1,1,22002.35,176.02,1,1.0
+2025-07,Southwest,Digital Native,P004,C004,1,1,28317.82,226.54,0,1.0
+2026-03,Southeast,Digital Native,P005,C001,1,1,1255.72,51.48,1,1.0
+2026-06,Southeast,Mass Affluent,P002,C002,2,2,51780.58,207.12,0,1.0
+2026-01,Southeast,Digital Native,P005,C004,1,1,1793.08,73.52,0,1.0
+2025-06,Midwest,Borrower,P004,C004,2,2,45012.41,360.1,1,1.0
+2025-02,Midwest,Emerging Affluent,P005,C004,1,0,0.0,0.0,0,0.0
+2025-01,Southeast,Rate Shopper,P004,C003,1,0,0.0,0.0,0,0.0
+2026-06,Southeast,Emerging Affluent,P005,C004,1,1,3079.43,126.26,0,1.0
+2026-04,Southeast,Borrower,P005,C003,1,1,2772.72,113.68,0,1.0
+2025-09,Northeast,Rate Shopper,P005,C005,2,1,3212.1,131.7,0,0.5
+2025-06,Northeast,Mass Affluent,P001,C001,1,1,22050.8,132.3,0,1.0
+2025-08,Midwest,Borrower,P004,C003,1,0,0.0,0.0,0,0.0
+2025-03,West,Emerging Affluent,P004,C004,1,1,20361.19,162.89,1,1.0
+2026-01,Southeast,Emerging Affluent,P001,C004,1,0,0.0,0.0,0,0.0
+2026-07,Northeast,Emerging Affluent,P002,C005,1,1,15761.26,63.05,1,1.0
+2025-07,West,Mass Affluent,P003,C002,1,1,14233.15,455.46,0,1.0
+2025-07,Midwest,Rate Shopper,P001,C001,2,2,37452.55,224.72,1,1.0
+2026-07,Northeast,Borrower,P004,C005,1,1,26631.15,213.05,0,1.0
+2026-05,Southwest,Mass Affluent,P002,C005,1,1,20511.43,82.05,0,1.0
+2026-03,Northeast,Digital Native,P001,C004,1,1,8959.91,53.76,1,1.0
+2025-08,Southeast,Rate Shopper,P001,C004,2,1,8906.28,53.44,0,0.5
+2026-02,Midwest,Rate Shopper,P003,C003,1,0,0.0,0.0,0,0.0
+2026-06,West,Borrower,P005,C002,1,0,0.0,0.0,0,0.0
+2026-09,Midwest,Mass Affluent,P001,C004,1,0,0.0,0.0,0,0.0
+2025-02,Midwest,Rate Shopper,P002,C003,1,1,35788.43,143.15,0,1.0
+2025-02,Southwest,Digital Native,P002,C001,1,1,33734.35,134.94,0,1.0
+2025-01,West,Borrower,P005,C004,1,0,0.0,0.0,0,0.0
+2026-03,Southeast,Rate Shopper,P002,C003,1,1,33067.0,132.27,1,1.0
+2025-02,West,Mass Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2026-02,Southwest,Borrower,P002,C005,1,1,31262.67,125.05,1,1.0
+2025-07,Southeast,Rate Shopper,P003,C005,1,1,6230.7,199.38,0,1.0
+2026-07,Midwest,Emerging Affluent,P003,C003,1,1,14763.55,472.43,0,1.0
+2025-04,Northeast,Emerging Affluent,P005,C005,2,0,0.0,0.0,0,0.0
+2026-06,West,Mass Affluent,P002,C002,1,1,33755.32,135.02,0,1.0
+2025-02,Southwest,Rate Shopper,P003,C002,1,1,22281.55,713.01,0,1.0
+2025-10,Southeast,Borrower,P004,C001,1,1,20350.68,162.81,0,1.0
+2026-01,Southeast,Mass Affluent,P003,C005,2,2,16031.35,513.01,1,1.0
+2026-06,Midwest,Rate Shopper,P002,C004,1,1,27549.31,110.2,0,1.0
+2025-12,Southeast,Emerging Affluent,P001,C005,1,0,0.0,0.0,0,0.0
+2026-03,Northeast,Borrower,P005,C004,1,0,0.0,0.0,0,0.0
+2026-02,Southeast,Borrower,P001,C005,1,1,31979.6,191.88,0,1.0
+2026-06,West,Borrower,P005,C005,2,1,2434.98,99.83,0,0.5
+2025-01,Southeast,Emerging Affluent,P002,C002,1,1,24255.5,97.02,0,1.0
+2025-02,Southeast,Digital Native,P005,C004,1,1,4865.31,199.48,0,1.0
+2025-05,West,Digital Native,P005,C001,1,0,0.0,0.0,0,0.0
+2025-01,Northeast,Digital Native,P001,C004,1,1,26678.12,160.07,0,1.0
+2026-02,Southwest,Mass Affluent,P005,C002,1,1,5670.28,232.48,0,1.0
+2025-07,Southeast,Borrower,P001,C004,1,1,23359.13,140.15,0,1.0
+2025-09,Southwest,Emerging Affluent,P002,C001,1,0,0.0,0.0,0,0.0
+2025-04,Northeast,Digital Native,P002,C003,1,1,26736.48,106.95,0,1.0
+2026-08,Midwest,Mass Affluent,P002,C003,1,1,14858.46,59.43,0,1.0
+2026-09,Midwest,Borrower,P001,C003,1,0,0.0,0.0,0,0.0
+2025-10,West,Borrower,P003,C004,1,1,12337.94,394.81,0,1.0
+2025-11,Southwest,Rate Shopper,P005,C002,1,1,2741.0,112.38,0,1.0
+2026-08,Midwest,Borrower,P002,C004,1,1,41893.73,167.57,0,1.0
+2026-08,West,Mass Affluent,P001,C002,1,1,20062.7,120.38,0,1.0
+2025-02,Southwest,Rate Shopper,P001,C005,2,2,25482.4,152.9,0,1.0
+2025-09,Southwest,Mass Affluent,P005,C003,2,1,2175.72,89.2,0,0.5
+2025-04,West,Digital Native,P004,C003,2,0,0.0,0.0,0,0.0
+2025-03,Southeast,Rate Shopper,P005,C005,1,0,0.0,0.0,0,0.0
+2026-08,Northeast,Digital Native,P004,C002,1,0,0.0,0.0,0,0.0
+2026-09,Northeast,Digital Native,P005,C002,1,1,292.52,11.99,0,1.0
+2026-03,Southeast,Mass Affluent,P001,C004,1,1,14430.88,86.59,0,1.0
+2025-01,West,Rate Shopper,P002,C004,1,1,26830.88,107.32,0,1.0
+2025-02,Southeast,Borrower,P001,C002,1,1,18697.28,112.18,1,1.0
+2025-05,Southeast,Emerging Affluent,P004,C003,1,1,20535.08,164.28,0,1.0
+2026-08,Southeast,Mass Affluent,P003,C003,1,0,0.0,0.0,0,0.0
+2026-04,West,Emerging Affluent,P004,C004,1,0,0.0,0.0,0,0.0
+2026-08,Midwest,Rate Shopper,P002,C002,1,1,46200.44,184.8,0,1.0
+2025-11,Northeast,Digital Native,P004,C004,1,1,12924.85,103.4,0,1.0
+2025-11,West,Mass Affluent,P001,C002,1,1,16019.66,96.12,0,1.0
+2025-11,Southwest,Digital Native,P003,C004,1,0,0.0,0.0,0,0.0
+2026-06,Southwest,Digital Native,P002,C004,1,1,23566.03,94.26,0,1.0
+2025-04,Southeast,Mass Affluent,P003,C005,1,1,21190.22,678.09,1,1.0
+2026-07,West,Mass Affluent,P005,C001,1,1,2442.04,100.12,1,1.0
+2025-07,West,Rate Shopper,P001,C003,1,1,14957.05,89.74,0,1.0
+2025-09,Midwest,Emerging Affluent,P004,C004,3,2,38974.94,311.8,0,0.6667
+2025-03,Northeast,Emerging Affluent,P001,C002,1,1,19773.97,118.64,0,1.0
+2025-11,Northeast,Borrower,P005,C001,1,1,3444.19,141.21,0,1.0
+2026-04,West,Borrower,P002,C003,2,1,47660.96,190.64,0,0.5
+2025-08,Midwest,Digital Native,P001,C005,1,1,27406.99,164.44,1,1.0
+2026-03,Southwest,Borrower,P002,C001,1,1,22050.83,88.2,1,1.0
+2026-01,Northeast,Emerging Affluent,P004,C005,1,1,15794.58,126.36,0,1.0
+2025-09,Northeast,Mass Affluent,P004,C003,1,1,20264.05,162.11,1,1.0
+2025-12,West,Mass Affluent,P003,C001,2,1,24636.16,788.36,0,0.5
+2025-01,Northeast,Digital Native,P004,C002,1,1,10632.99,85.06,0,1.0
+2026-05,Northeast,Borrower,P001,C003,1,0,0.0,0.0,0,0.0
+2025-08,Midwest,Emerging Affluent,P004,C004,1,1,17826.32,142.61,0,1.0
+2025-01,Midwest,Rate Shopper,P005,C005,1,0,0.0,0.0,0,0.0
+2026-07,West,Digital Native,P003,C003,1,1,15985.84,511.55,0,1.0
+2025-08,Northeast,Mass Affluent,P005,C004,1,1,3338.16,136.86,1,1.0
+2026-07,Northeast,Borrower,P004,C002,1,1,20090.81,160.73,1,1.0
+2025-02,Southeast,Rate Shopper,P004,C004,1,1,3834.19,30.67,0,1.0
+2025-10,Midwest,Rate Shopper,P002,C001,2,2,46492.33,185.97,0,1.0
+2026-09,Southeast,Borrower,P001,C005,1,1,20465.5,122.79,0,1.0
+2026-06,Midwest,Borrower,P003,C004,1,0,0.0,0.0,0,0.0
+2026-08,Southwest,Emerging Affluent,P001,C003,1,1,12856.79,77.14,0,1.0
+2026-06,Southeast,Borrower,P003,C005,1,1,15252.63,488.08,1,1.0
+2026-07,West,Emerging Affluent,P004,C003,2,2,50637.41,405.1,1,1.0
+2026-07,West,Borrower,P003,C004,1,1,9068.82,290.2,0,1.0
+2026-07,West,Mass Affluent,P001,C001,1,1,24123.51,144.74,1,1.0
+2026-06,Northeast,Mass Affluent,P005,C004,1,0,0.0,0.0,0,0.0
+2026-02,Southeast,Mass Affluent,P004,C003,1,1,19366.71,154.93,0,1.0
+2025-08,Southwest,Borrower,P001,C003,1,0,0.0,0.0,0,0.0
+2026-04,Southwest,Mass Affluent,P002,C003,2,1,45078.82,180.32,1,0.5
+2025-03,Midwest,Emerging Affluent,P001,C004,2,2,29301.96,175.81,1,1.0
+2025-07,West,Borrower,P001,C002,1,1,2437.65,14.63,0,1.0
+2025-05,Midwest,Borrower,P005,C004,1,0,0.0,0.0,0,0.0
+2026-03,Northeast,Rate Shopper,P003,C001,1,0,0.0,0.0,0,0.0
+2025-06,West,Mass Affluent,P003,C005,2,2,26454.41,846.54,0,1.0
+2026-06,Northeast,Emerging Affluent,P005,C003,1,1,2197.31,90.09,0,1.0
+2025-01,Southeast,Mass Affluent,P005,C004,1,1,2427.09,99.51,1,1.0
+2025-07,Northeast,Mass Affluent,P001,C003,1,1,18876.53,113.26,1,1.0
+2025-12,Midwest,Borrower,P002,C001,1,1,30984.03,123.94,0,1.0
+2025-10,Southeast,Emerging Affluent,P001,C002,1,1,15042.65,90.26,0,1.0
+2026-07,Northeast,Borrower,P004,C003,1,1,38567.34,308.54,0,1.0
+2026-09,Northeast,Borrower,P005,C005,1,1,4059.39,166.43,0,1.0
+2025-08,Southwest,Emerging Affluent,P002,C001,1,0,0.0,0.0,0,0.0
+2025-03,West,Rate Shopper,P001,C003,1,0,0.0,0.0,0,0.0
+2025-11,West,Borrower,P004,C003,1,1,18153.62,145.23,0,1.0
+2025-11,Midwest,Borrower,P004,C003,1,0,0.0,0.0,0,0.0
+2025-06,West,Rate Shopper,P005,C002,1,0,0.0,0.0,0,0.0
+2026-07,Northeast,Emerging Affluent,P003,C001,1,0,0.0,0.0,0,0.0
+2025-12,Southeast,Borrower,P003,C004,1,1,14025.77,448.82,0,1.0
+2025-01,Northeast,Borrower,P003,C002,1,1,11012.23,352.39,0,1.0
+2026-02,Midwest,Emerging Affluent,P003,C004,1,1,17214.2,550.85,0,1.0
+2025-02,Southwest,Mass Affluent,P001,C005,2,1,9254.46,55.53,1,0.5
+2025-04,Southeast,Emerging Affluent,P004,C005,1,1,8633.17,69.07,1,1.0
+2025-03,Midwest,Borrower,P002,C002,1,1,11010.85,44.04,0,1.0
+2025-10,Southwest,Mass Affluent,P001,C005,1,0,0.0,0.0,0,0.0
+2026-08,Southeast,Emerging Affluent,P003,C002,1,1,13655.7,436.98,0,1.0
+2025-07,Southwest,Mass Affluent,P001,C001,1,0,0.0,0.0,0,0.0
+2025-02,Southeast,Emerging Affluent,P002,C004,1,1,25995.56,103.98,1,1.0
+2025-12,Southwest,Digital Native,P003,C005,1,1,17834.48,570.7,0,1.0
+2025-08,West,Rate Shopper,P002,C001,1,1,24044.41,96.18,0,1.0
+2025-11,Midwest,Emerging Affluent,P002,C002,2,2,62164.96,248.66,1,1.0
+2025-10,Southeast,Mass Affluent,P002,C002,1,0,0.0,0.0,0,0.0
+2025-04,Midwest,Emerging Affluent,P004,C003,1,1,11896.18,95.17,0,1.0
+2026-08,West,Borrower,P002,C001,1,1,27789.1,111.16,0,1.0
+2025-10,Southeast,Mass Affluent,P004,C003,1,1,25155.22,201.24,0,1.0
+2025-09,West,Digital Native,P005,C002,1,1,4875.41,199.89,1,1.0
+2025-05,Midwest,Digital Native,P002,C004,1,1,18829.35,75.32,0,1.0
+2025-01,Southwest,Digital Native,P001,C003,1,1,19137.08,114.82,0,1.0
+2026-01,Southwest,Mass Affluent,P001,C002,1,1,15553.35,93.32,1,1.0
+2026-02,Northeast,Mass Affluent,P005,C004,2,2,7484.67,306.88,1,1.0
+2026-02,Northeast,Digital Native,P003,C004,1,0,0.0,0.0,0,0.0
+2026-08,Southeast,Digital Native,P004,C003,1,1,41457.8,331.66,1,1.0
+2026-06,Northeast,Emerging Affluent,P003,C005,1,0,0.0,0.0,0,0.0
+2025-11,Midwest,Rate Shopper,P001,C001,1,0,0.0,0.0,0,0.0
+2026-04,Southwest,Rate Shopper,P004,C002,1,0,0.0,0.0,0,0.0
+2026-03,West,Mass Affluent,P002,C002,1,1,27028.28,108.11,1,1.0
+2025-12,West,Mass Affluent,P004,C002,1,1,29873.56,238.99,1,1.0
+2025-09,Southeast,Mass Affluent,P004,C004,1,0,0.0,0.0,0,0.0
+2025-12,West,Emerging Affluent,P002,C004,2,1,16355.47,65.42,0,0.5
+2026-05,West,Borrower,P001,C003,1,1,11027.81,66.17,0,1.0
+2025-08,Southeast,Emerging Affluent,P005,C002,1,0,0.0,0.0,0,0.0
+2025-05,Southwest,Rate Shopper,P001,C002,1,1,22206.79,133.24,1,1.0
+2026-01,West,Emerging Affluent,P001,C003,1,1,14237.6,85.43,0,1.0
+2025-07,Midwest,Emerging Affluent,P003,C004,1,1,10097.34,323.11,0,1.0
+2025-04,Northeast,Emerging Affluent,P001,C003,2,1,20073.03,120.44,1,0.5
+2026-04,Northeast,Rate Shopper,P005,C004,1,1,2253.38,92.39,0,1.0
+2026-03,West,Emerging Affluent,P001,C003,1,1,17514.75,105.09,0,1.0
+2025-12,West,Rate Shopper,P003,C004,1,0,0.0,0.0,0,0.0
+2026-06,West,Borrower,P002,C004,1,1,28152.7,112.61,1,1.0
+2026-04,Northeast,Emerging Affluent,P005,C005,1,1,940.37,38.56,0,1.0
+2026-01,Southwest,Rate Shopper,P004,C004,1,1,31902.97,255.22,0,1.0
+2025-10,West,Rate Shopper,P001,C005,1,1,20636.78,123.82,0,1.0
+2025-02,West,Borrower,P003,C003,1,1,10566.73,338.14,0,1.0
+2025-04,Midwest,Mass Affluent,P001,C005,1,1,14646.69,87.88,1,1.0
+2026-04,West,Digital Native,P003,C003,2,1,9953.42,318.51,1,0.5
+2026-01,Southeast,Mass Affluent,P001,C003,2,1,13628.85,81.77,0,0.5
+2025-12,Northeast,Borrower,P005,C001,1,1,4872.68,199.78,1,1.0
+2025-04,Southwest,Rate Shopper,P001,C004,1,0,0.0,0.0,0,0.0
+2025-09,Southeast,Rate Shopper,P005,C005,1,1,3078.4,126.21,1,1.0
+2026-05,Southwest,Mass Affluent,P002,C003,1,1,24191.28,96.77,0,1.0
+2025-01,West,Mass Affluent,P003,C003,1,1,13676.48,437.65,1,1.0
+2025-04,Northeast,Digital Native,P005,C003,1,1,3319.9,136.12,1,1.0
+2025-10,Southeast,Emerging Affluent,P001,C005,1,1,16818.66,100.91,0,1.0
+2026-07,Southwest,Digital Native,P004,C004,1,1,11542.3,92.34,0,1.0
+2026-04,West,Digital Native,P004,C002,1,1,27519.44,220.16,1,1.0
+2026-08,Southeast,Mass Affluent,P004,C001,1,0,0.0,0.0,0,0.0
+2026-01,Southeast,Emerging Affluent,P002,C005,1,1,21753.45,87.01,0,1.0
+2025-12,Northeast,Borrower,P005,C002,1,1,4960.65,203.39,0,1.0
+2026-05,Midwest,Digital Native,P003,C005,1,1,19412.45,621.2,0,1.0
+2025-08,Midwest,Borrower,P004,C002,2,0,0.0,0.0,0,0.0
+2026-07,Northeast,Mass Affluent,P002,C004,1,1,13769.0,55.08,0,1.0
+2025-11,Northeast,Borrower,P003,C001,1,1,19102.79,611.29,0,1.0
+2026-04,Southeast,Digital Native,P004,C004,1,1,18043.64,144.35,0,1.0
+2025-12,Southeast,Borrower,P001,C005,1,0,0.0,0.0,0,0.0
+2026-03,Northeast,Emerging Affluent,P005,C004,1,1,1853.25,75.98,1,1.0
+2025-01,Southeast,Digital Native,P005,C004,1,1,4051.19,166.1,1,1.0
+2025-01,Northeast,Emerging Affluent,P001,C003,1,1,17422.77,104.54,0,1.0
+2026-01,West,Borrower,P002,C004,1,0,0.0,0.0,0,0.0
+2025-05,Southeast,Emerging Affluent,P002,C003,1,1,21653.5,86.61,0,1.0
+2025-09,Northeast,Emerging Affluent,P005,C004,1,0,0.0,0.0,0,0.0
+2025-06,Northeast,Emerging Affluent,P005,C003,1,1,3257.83,133.57,0,1.0
+2026-01,Northeast,Mass Affluent,P005,C004,1,1,4991.28,204.64,0,1.0
+2026-09,West,Rate Shopper,P005,C001,1,1,2365.92,97.0,0,1.0
+2026-01,Southwest,Borrower,P004,C001,1,1,14403.57,115.23,0,1.0
+2025-05,Southwest,Borrower,P001,C001,1,1,24078.27,144.47,0,1.0
+2025-05,Midwest,Mass Affluent,P004,C003,1,0,0.0,0.0,0,0.0
+2025-03,Northeast,Rate Shopper,P001,C003,1,0,0.0,0.0,0,0.0
+2026-04,Southwest,Emerging Affluent,P004,C003,1,1,25138.44,201.11,0,1.0
+2025-11,Midwest,Emerging Affluent,P002,C005,1,1,33485.34,133.94,0,1.0
+2026-09,Midwest,Digital Native,P002,C002,1,1,24553.83,98.22,1,1.0
+2026-08,Midwest,Rate Shopper,P003,C002,1,1,19321.91,618.3,0,1.0
+2025-12,West,Emerging Affluent,P005,C002,1,1,2278.45,93.42,0,1.0
+2026-06,Northeast,Mass Affluent,P004,C002,2,2,31322.66,250.58,0,1.0
+2025-08,Southwest,Digital Native,P001,C003,1,1,16365.17,98.19,0,1.0
+2025-07,Northeast,Mass Affluent,P005,C002,1,1,3010.56,123.43,0,1.0
+2026-07,Southeast,Rate Shopper,P005,C005,1,0,0.0,0.0,0,0.0
+2025-09,West,Borrower,P005,C005,1,1,3266.72,133.94,0,1.0
+2025-02,Southwest,Mass Affluent,P004,C002,1,0,0.0,0.0,0,0.0
+2025-05,West,Digital Native,P002,C001,1,1,23684.6,94.74,0,1.0
+2025-02,Midwest,Borrower,P001,C005,1,1,17684.61,106.11,0,1.0
+2025-03,West,Emerging Affluent,P001,C004,1,1,15142.62,90.86,0,1.0
+2026-03,Midwest,Rate Shopper,P001,C005,1,0,0.0,0.0,0,0.0
+2026-09,Northeast,Borrower,P002,C005,1,1,28025.74,112.1,0,1.0
+2026-06,Midwest,Emerging Affluent,P002,C003,1,1,250.0,1.0,0,1.0
+2025-12,Northeast,Rate Shopper,P005,C002,1,1,2972.53,121.87,0,1.0
+2026-06,Midwest,Rate Shopper,P001,C003,1,1,25985.03,155.91,1,1.0
+2025-04,Southeast,Mass Affluent,P004,C003,2,2,59972.36,479.78,0,1.0
+2025-08,Southwest,Mass Affluent,P001,C002,1,1,14916.12,89.5,0,1.0
+2025-08,West,Rate Shopper,P003,C005,1,1,11846.67,379.09,0,1.0
+2025-06,Southwest,Rate Shopper,P002,C005,1,1,24636.74,98.55,0,1.0
+2025-10,Southwest,Digital Native,P005,C004,1,0,0.0,0.0,0,0.0
+2025-12,Northeast,Digital Native,P003,C003,1,0,0.0,0.0,0,0.0
+2026-03,West,Borrower,P005,C004,2,1,5854.96,240.05,0,0.5
+2025-01,West,Emerging Affluent,P004,C003,1,0,0.0,0.0,0,0.0
+2025-11,Midwest,Emerging Affluent,P003,C001,1,1,10025.67,320.82,0,1.0
+2026-04,Southwest,Emerging Affluent,P004,C005,1,0,0.0,0.0,0,0.0
+2026-08,Midwest,Mass Affluent,P003,C005,1,1,10852.88,347.29,1,1.0
+2026-03,Southwest,Digital Native,P005,C003,1,1,3681.98,150.96,0,1.0
+2025-06,Southeast,Mass Affluent,P004,C002,1,1,20274.91,162.2,0,1.0
+2026-08,Southwest,Emerging Affluent,P002,C003,1,1,13696.92,54.79,0,1.0
+2026-01,Midwest,Borrower,P001,C003,2,1,18837.6,113.03,1,0.5
+2025-08,West,Mass Affluent,P003,C004,1,1,10070.41,322.25,0,1.0
+2025-05,Midwest,Mass Affluent,P001,C002,1,1,19382.29,116.29,0,1.0
+2026-07,Southeast,Digital Native,P005,C003,1,1,2502.22,102.59,0,1.0
+2025-04,Northeast,Mass Affluent,P001,C005,1,1,28829.32,172.98,0,1.0
+2025-07,Midwest,Rate Shopper,P004,C005,2,1,14546.74,116.37,0,0.5
+2026-04,Midwest,Emerging Affluent,P003,C004,1,1,27039.2,865.25,0,1.0
+2026-04,Southwest,Mass Affluent,P005,C003,1,1,891.78,36.56,0,1.0
+2026-08,West,Borrower,P001,C004,1,1,15605.75,93.63,1,1.0
+2025-08,Midwest,Emerging Affluent,P002,C003,1,1,39714.56,158.86,0,1.0
+2025-12,Southwest,Digital Native,P002,C005,1,1,38727.59,154.91,1,1.0
+2025-04,Midwest,Digital Native,P003,C002,1,1,9502.36,304.08,0,1.0
+2026-03,Southwest,Emerging Affluent,P003,C002,1,0,0.0,0.0,0,0.0
+2025-05,Northeast,Digital Native,P003,C001,2,2,35724.21,1143.17,0,1.0
+2025-02,Midwest,Emerging Affluent,P002,C004,2,2,41726.15,166.9,1,1.0
+2025-05,Northeast,Borrower,P004,C005,1,0,0.0,0.0,0,0.0
+2026-05,Southeast,Rate Shopper,P002,C001,1,0,0.0,0.0,0,0.0
+2025-04,Midwest,Borrower,P002,C002,2,2,51112.48,204.45,2,1.0
+2026-03,West,Emerging Affluent,P001,C004,1,1,12338.31,74.03,0,1.0
+2026-03,Northeast,Borrower,P003,C001,1,1,21452.52,686.48,0,1.0
+2025-10,Midwest,Mass Affluent,P004,C001,1,0,0.0,0.0,0,0.0
+2026-08,Southwest,Mass Affluent,P002,C002,1,1,38407.7,153.63,0,1.0
+2025-10,Southwest,Mass Affluent,P005,C002,1,1,3278.87,134.43,0,1.0
+2026-06,Northeast,Mass Affluent,P002,C002,1,0,0.0,0.0,0,0.0
+2026-05,West,Borrower,P002,C001,1,1,23635.47,94.54,0,1.0
+2025-11,Northeast,Rate Shopper,P003,C005,2,2,32257.39,1032.24,1,1.0
+2026-07,Northeast,Borrower,P004,C001,1,1,22313.53,178.51,0,1.0
+2025-12,Midwest,Mass Affluent,P001,C001,1,0,0.0,0.0,0,0.0
+2025-09,Southwest,Digital Native,P004,C004,1,1,29796.71,238.37,0,1.0
+2025-07,West,Emerging Affluent,P004,C005,1,1,30116.57,240.93,0,1.0
+2026-02,Midwest,Borrower,P001,C001,1,1,16245.52,97.47,1,1.0
+2026-06,Southeast,Digital Native,P004,C005,1,1,32420.76,259.37,0,1.0
+2026-03,Southeast,Mass Affluent,P002,C003,1,0,0.0,0.0,0,0.0
+2025-07,Midwest,Rate Shopper,P001,C002,2,2,40450.35,242.7,1,1.0
+2025-01,Midwest,Mass Affluent,P004,C003,1,1,14037.29,112.3,0,1.0
+2026-09,Southeast,Emerging Affluent,P002,C004,1,1,22243.97,88.98,0,1.0
+2025-12,Southeast,Borrower,P005,C003,1,1,3919.07,160.68,0,1.0
+2026-06,Northeast,Digital Native,P001,C003,1,1,17915.76,107.49,0,1.0
+2025-05,Southeast,Mass Affluent,P001,C005,2,1,16358.98,98.15,0,0.5
+2026-04,Northeast,Rate Shopper,P003,C003,1,1,22221.99,711.1,0,1.0
+2026-02,Southwest,Digital Native,P005,C002,1,1,4193.41,171.93,1,1.0
+2026-07,West,Mass Affluent,P005,C003,1,1,3533.25,144.86,0,1.0
+2025-08,Midwest,Rate Shopper,P002,C005,1,0,0.0,0.0,0,0.0
+2025-07,Southwest,Digital Native,P005,C004,1,0,0.0,0.0,0,0.0
+2025-11,Southeast,Rate Shopper,P004,C004,1,1,41156.58,329.25,0,1.0
+2025-06,Midwest,Borrower,P002,C004,1,0,0.0,0.0,0,0.0
+2026-02,Northeast,Digital Native,P002,C004,1,1,21002.12,84.01,1,1.0
+2026-08,Midwest,Borrower,P004,C001,1,0,0.0,0.0,0,0.0
+2025-01,Southwest,Mass Affluent,P003,C003,1,1,10481.35,335.4,0,1.0
+2025-05,West,Digital Native,P004,C003,1,1,14928.17,119.43,0,1.0
+2025-02,Midwest,Mass Affluent,P003,C003,1,1,6640.38,212.49,0,1.0
+2025-08,Midwest,Mass Affluent,P004,C003,1,1,32988.38,263.91,1,1.0
+2026-03,West,Rate Shopper,P004,C004,1,0,0.0,0.0,0,0.0
+2025-12,West,Digital Native,P003,C005,1,1,15333.84,490.68,0,1.0
+2026-05,Southeast,Emerging Affluent,P001,C001,1,1,18335.6,110.01,0,1.0
+2026-09,Southeast,Emerging Affluent,P004,C005,1,0,0.0,0.0,0,0.0
+2026-08,Northeast,Emerging Affluent,P005,C001,1,1,4045.62,165.87,1,1.0
+2026-03,Northeast,Borrower,P005,C005,1,0,0.0,0.0,0,0.0
+2026-08,Midwest,Mass Affluent,P004,C004,1,1,23387.63,187.1,0,1.0
+2026-08,Southeast,Mass Affluent,P001,C002,1,1,16686.01,100.12,0,1.0
+2025-01,Southeast,Rate Shopper,P003,C004,1,1,13204.25,422.54,0,1.0
+2026-04,Southeast,Rate Shopper,P002,C003,1,0,0.0,0.0,0,0.0
+2026-07,Northeast,Rate Shopper,P002,C002,1,1,28551.07,114.2,0,1.0
+2025-04,Southeast,Emerging Affluent,P002,C004,1,1,15204.47,60.82,0,1.0
+2025-04,West,Emerging Affluent,P003,C001,1,1,11685.66,373.94,1,1.0
+2025-12,Southwest,Emerging Affluent,P003,C004,1,1,11121.8,355.9,0,1.0
+2025-11,West,Emerging Affluent,P002,C002,1,1,33100.35,132.4,0,1.0
+2025-07,Midwest,Mass Affluent,P005,C005,1,1,3272.6,134.18,0,1.0
+2026-02,Northeast,Rate Shopper,P001,C005,1,1,20118.16,120.71,0,1.0
+2025-10,Midwest,Emerging Affluent,P004,C001,1,1,18538.79,148.31,0,1.0
+2025-09,Midwest,Borrower,P004,C001,1,1,11088.43,88.71,0,1.0
+2025-08,Northeast,Mass Affluent,P002,C004,1,1,22835.33,91.34,0,1.0
+2026-03,Southeast,Digital Native,P005,C004,1,1,1981.8,81.25,0,1.0
+2025-09,Southeast,Emerging Affluent,P005,C004,1,0,0.0,0.0,0,0.0
+2025-08,West,Digital Native,P003,C003,1,0,0.0,0.0,0,0.0
+2025-05,West,Mass Affluent,P005,C005,1,1,4152.09,170.24,0,1.0
+2026-09,Southwest,Borrower,P003,C001,1,0,0.0,0.0,0,0.0
+2025-02,Northeast,Emerging Affluent,P003,C005,1,1,19151.18,612.84,0,1.0
+2026-07,Southeast,Digital Native,P002,C001,1,0,0.0,0.0,0,0.0
+2025-10,West,Borrower,P003,C001,1,1,16840.52,538.9,0,1.0
+2025-11,Midwest,Borrower,P005,C005,1,1,5137.84,210.65,0,1.0
+2025-03,Southeast,Mass Affluent,P001,C005,1,1,5275.25,31.65,0,1.0
+2025-07,Midwest,Mass Affluent,P005,C002,1,0,0.0,0.0,0,0.0
+2026-02,Midwest,Rate Shopper,P004,C005,1,0,0.0,0.0,0,0.0
+2025-04,Northeast,Borrower,P003,C002,1,1,13310.28,425.93,1,1.0
+2025-07,West,Mass Affluent,P003,C004,1,1,17440.18,558.09,0,1.0
+2026-06,Southwest,Emerging Affluent,P004,C001,1,1,21227.48,169.82,0,1.0
+2026-06,West,Emerging Affluent,P002,C001,1,1,46410.15,185.64,0,1.0
+2025-04,Southwest,Borrower,P002,C003,1,0,0.0,0.0,0,0.0
+2025-07,Midwest,Rate Shopper,P002,C004,1,1,9675.88,38.7,0,1.0
+2025-04,Southeast,Borrower,P003,C003,1,1,14071.28,450.28,1,1.0
+2026-07,Midwest,Borrower,P004,C001,1,1,5944.77,47.56,1,1.0
+2025-11,West,Borrower,P005,C001,1,0,0.0,0.0,0,0.0
+2025-10,Midwest,Mass Affluent,P005,C002,1,1,2678.02,109.8,0,1.0
+2025-03,Northeast,Mass Affluent,P004,C004,1,1,29586.99,236.7,0,1.0
+2026-02,Northeast,Borrower,P004,C005,2,1,38183.73,305.47,0,0.5
+2025-04,Northeast,Emerging Affluent,P001,C002,1,1,36451.74,218.71,0,1.0
+2026-07,Southeast,Mass Affluent,P003,C001,1,1,27538.38,881.23,0,1.0
+2026-06,West,Digital Native,P004,C005,1,0,0.0,0.0,0,0.0
+2026-04,Midwest,Emerging Affluent,P002,C001,1,0,0.0,0.0,0,0.0
+2026-09,Northeast,Mass Affluent,P002,C005,1,1,20830.12,83.32,0,1.0
+2025-01,West,Rate Shopper,P001,C003,1,0,0.0,0.0,0,0.0
+2026-02,Southeast,Digital Native,P002,C003,1,1,19158.56,76.63,1,1.0
+2026-08,Southeast,Borrower,P003,C004,1,1,11790.68,377.3,0,1.0
+2026-02,West,Emerging Affluent,P001,C004,1,1,4841.65,29.05,0,1.0
+2026-09,Midwest,Emerging Affluent,P004,C003,1,1,33800.35,270.4,0,1.0
+2025-04,Northeast,Digital Native,P002,C001,1,1,27950.41,111.8,0,1.0
+2025-12,Northeast,Mass Affluent,P002,C005,1,0,0.0,0.0,0,0.0
+2025-10,West,Rate Shopper,P005,C003,2,1,4505.57,184.73,0,0.5
+2025-02,Northeast,Mass Affluent,P001,C002,1,0,0.0,0.0,0,0.0
+2026-01,West,Rate Shopper,P004,C005,1,1,18045.28,144.36,1,1.0
+2025-02,Northeast,Rate Shopper,P002,C003,1,1,28988.69,115.95,0,1.0
+2025-12,Midwest,Emerging Affluent,P003,C002,1,1,3881.47,124.21,0,1.0
+2025-07,Southwest,Emerging Affluent,P001,C002,1,1,21205.35,127.23,0,1.0
+2025-09,Southeast,Borrower,P004,C001,1,1,16906.74,135.25,0,1.0
+2026-02,West,Borrower,P001,C001,1,1,14905.43,89.43,1,1.0
+2025-02,Southwest,Emerging Affluent,P003,C003,1,1,15973.98,511.17,0,1.0
+2025-05,Southwest,Digital Native,P004,C005,1,0,0.0,0.0,0,0.0
+2025-01,Midwest,Rate Shopper,P005,C001,3,2,7263.36,297.8,0,0.6667
+2026-04,Midwest,Mass Affluent,P005,C004,1,0,0.0,0.0,0,0.0
+2026-02,Midwest,Borrower,P003,C002,1,0,0.0,0.0,0,0.0
+2025-11,West,Emerging Affluent,P001,C004,1,0,0.0,0.0,0,0.0
+2025-08,West,Borrower,P002,C003,1,0,0.0,0.0,0,0.0
+2026-02,Midwest,Digital Native,P004,C004,1,1,15191.64,121.53,1,1.0
+2026-08,Northeast,Mass Affluent,P002,C002,1,1,28949.64,115.8,0,1.0
+2026-02,West,Rate Shopper,P004,C005,1,1,17343.35,138.75,0,1.0
+2025-02,Southwest,Digital Native,P005,C004,1,1,3878.89,159.03,0,1.0
+2026-03,Southwest,Borrower,P004,C005,1,1,25531.77,204.25,0,1.0
+2026-02,Midwest,Digital Native,P005,C002,1,1,4297.33,176.19,0,1.0
+2025-09,West,Mass Affluent,P003,C004,1,0,0.0,0.0,0,0.0
+2026-01,Northeast,Borrower,P001,C003,1,1,19047.46,114.28,0,1.0
+2026-04,Northeast,Borrower,P003,C005,1,1,17274.19,552.77,0,1.0
+2025-06,Southwest,Digital Native,P001,C005,1,1,20937.84,125.63,0,1.0
+2026-04,West,Borrower,P005,C005,1,1,2824.62,115.81,0,1.0
+2026-01,Southwest,Digital Native,P001,C005,2,1,22748.48,136.49,1,0.5
+2026-08,Northeast,Digital Native,P001,C004,1,1,14808.22,88.85,0,1.0
+2026-02,Southeast,Digital Native,P005,C003,1,0,0.0,0.0,0,0.0
+2025-03,Southeast,Borrower,P003,C003,1,1,5604.25,179.34,0,1.0
+2025-07,Southwest,Borrower,P003,C003,1,1,26011.3,832.36,0,1.0
+2025-02,Northeast,Emerging Affluent,P003,C002,1,1,9844.0,315.01,0,1.0
+2025-03,Southeast,Mass Affluent,P003,C004,1,1,8141.68,260.53,1,1.0
+2025-11,Northeast,Mass Affluent,P005,C001,1,1,1423.38,58.36,1,1.0
+2025-12,Northeast,Mass Affluent,P003,C002,1,1,13259.21,424.29,1,1.0
+2026-06,Southeast,Emerging Affluent,P001,C003,1,0,0.0,0.0,0,0.0
+2025-03,Midwest,Digital Native,P001,C002,1,1,19020.94,114.13,1,1.0
+2025-01,Northeast,Mass Affluent,P001,C001,2,0,0.0,0.0,0,0.0
+2025-04,Southeast,Emerging Affluent,P001,C002,1,0,0.0,0.0,0,0.0
+2025-02,Northeast,Rate Shopper,P002,C002,1,1,25074.47,100.3,1,1.0
+2025-01,Midwest,Borrower,P002,C005,1,1,49429.84,197.72,0,1.0
+2025-10,Southeast,Rate Shopper,P004,C005,1,1,14647.74,117.18,0,1.0
+2025-01,Northeast,Mass Affluent,P002,C005,1,1,20308.67,81.23,0,1.0
+2025-03,Northeast,Emerging Affluent,P002,C001,1,0,0.0,0.0,0,0.0
+2025-04,West,Mass Affluent,P004,C001,2,2,46906.59,375.25,0,1.0
+2026-08,Northeast,Rate Shopper,P005,C001,1,1,3032.69,124.34,0,1.0
+2026-05,Midwest,Borrower,P004,C003,1,1,36689.48,293.52,0,1.0
+2025-02,Southwest,Mass Affluent,P005,C002,1,0,0.0,0.0,0,0.0
+2026-08,Northeast,Rate Shopper,P002,C002,1,0,0.0,0.0,0,0.0
+2026-09,Southwest,Mass Affluent,P002,C004,1,0,0.0,0.0,0,0.0
+2025-04,Midwest,Rate Shopper,P001,C003,1,1,23082.83,138.5,0,1.0
+2026-03,Midwest,Digital Native,P004,C002,1,1,24777.12,198.22,0,1.0
+2026-03,Southwest,Emerging Affluent,P003,C005,1,1,9257.8,296.25,0,1.0
+2026-08,Southeast,Borrower,P002,C003,1,0,0.0,0.0,0,0.0
+2025-12,West,Borrower,P003,C005,1,1,11855.8,379.39,0,1.0
+2026-08,West,Rate Shopper,P002,C003,1,1,33702.37,134.81,1,1.0
+2025-01,Northeast,Emerging Affluent,P005,C004,1,1,3054.34,125.23,0,1.0
+2025-11,Midwest,Digital Native,P002,C005,1,1,36579.33,146.32,0,1.0
+2025-07,Northeast,Mass Affluent,P004,C004,1,0,0.0,0.0,0,0.0
+2025-09,Northeast,Emerging Affluent,P001,C004,1,1,18082.16,108.49,0,1.0
+2026-05,Midwest,Borrower,P003,C003,1,0,0.0,0.0,0,0.0
+2026-09,West,Digital Native,P002,C005,1,0,0.0,0.0,0,0.0
+2025-01,Midwest,Mass Affluent,P004,C004,1,1,30591.89,244.74,1,1.0
+2025-03,Southeast,Borrower,P001,C004,1,0,0.0,0.0,0,0.0
+2026-09,Midwest,Mass Affluent,P003,C002,1,1,11602.72,371.29,0,1.0
+2026-05,Northeast,Mass Affluent,P003,C005,1,1,15374.74,491.99,0,1.0
+2025-11,Midwest,Rate Shopper,P001,C004,1,0,0.0,0.0,0,0.0
+2025-02,Southwest,Digital Native,P005,C005,1,0,0.0,0.0,0,0.0
+2025-05,Southwest,Rate Shopper,P001,C001,1,0,0.0,0.0,0,0.0
+2025-03,Midwest,Rate Shopper,P003,C003,1,1,19529.68,624.95,0,1.0
+2026-06,West,Borrower,P005,C001,1,1,1489.04,61.05,0,1.0
+2026-07,Southwest,Mass Affluent,P002,C001,1,1,40404.84,161.62,0,1.0
+2025-05,Midwest,Digital Native,P002,C002,2,1,29056.27,116.23,0,0.5
+2026-05,Southeast,Digital Native,P005,C003,2,2,7555.89,309.79,1,1.0
+2025-08,Northeast,Emerging Affluent,P001,C002,1,1,19468.85,116.81,1,1.0
+2026-06,Midwest,Borrower,P005,C003,1,1,3587.54,147.09,0,1.0
+2025-09,Southwest,Borrower,P002,C003,1,1,16299.56,65.2,0,1.0
+2025-02,Midwest,Mass Affluent,P002,C001,1,1,35558.06,142.23,1,1.0
+2025-08,West,Digital Native,P005,C003,1,1,4764.58,195.35,1,1.0
+2026-06,Southeast,Digital Native,P003,C002,1,1,8379.39,268.14,1,1.0
+2026-05,Midwest,Emerging Affluent,P003,C002,1,1,19255.34,616.17,0,1.0
+2026-07,Midwest,Emerging Affluent,P004,C004,1,1,19494.0,155.95,0,1.0
+2025-01,Southeast,Rate Shopper,P005,C001,1,0,0.0,0.0,0,0.0
+2026-08,Southwest,Digital Native,P004,C004,1,0,0.0,0.0,0,0.0
+2026-01,West,Mass Affluent,P002,C004,1,1,35722.58,142.89,0,1.0
+2026-04,Midwest,Mass Affluent,P002,C003,1,0,0.0,0.0,0,0.0
+2025-06,Southeast,Rate Shopper,P001,C004,1,1,20662.44,123.97,0,1.0
+2026-05,Southeast,Rate Shopper,P001,C005,1,1,18240.61,109.44,0,1.0
+2025-01,Southeast,Digital Native,P004,C004,1,1,29973.62,239.79,1,1.0
+2025-10,Southeast,Digital Native,P001,C001,1,0,0.0,0.0,0,0.0
+2025-10,Northeast,Digital Native,P003,C001,1,1,17688.73,566.04,0,1.0
+2026-07,Southeast,Rate Shopper,P005,C004,1,0,0.0,0.0,0,0.0
+2026-07,Southwest,Borrower,P003,C005,1,1,17060.97,545.95,0,1.0
+2026-02,Northeast,Mass Affluent,P002,C005,1,0,0.0,0.0,0,0.0
+2026-01,Northeast,Digital Native,P005,C004,1,0,0.0,0.0,0,0.0
+2026-01,Northeast,Rate Shopper,P002,C003,1,1,20683.12,82.73,0,1.0
+2026-09,Southeast,Rate Shopper,P005,C002,1,1,2228.99,91.39,0,1.0
+2025-07,West,Borrower,P005,C002,1,0,0.0,0.0,0,0.0
+2025-01,West,Borrower,P001,C005,1,1,12354.33,74.13,0,1.0
+2026-05,West,Emerging Affluent,P002,C003,1,0,0.0,0.0,0,0.0
+2026-08,West,Emerging Affluent,P004,C002,1,1,30374.38,243.0,0,1.0
+2025-07,Midwest,Borrower,P004,C002,2,0,0.0,0.0,0,0.0
+2025-09,Midwest,Borrower,P001,C003,1,0,0.0,0.0,0,0.0
+2025-01,Southwest,Digital Native,P001,C002,1,1,23248.63,139.49,0,1.0
+2025-05,Northeast,Mass Affluent,P003,C004,1,1,14932.39,477.84,0,1.0
+2025-02,Midwest,Digital Native,P005,C005,1,1,3696.45,151.55,0,1.0
+2025-09,Northeast,Emerging Affluent,P003,C001,1,1,11421.59,365.49,0,1.0
+2025-12,West,Emerging Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2025-03,Midwest,Rate Shopper,P001,C004,1,1,10205.89,61.24,0,1.0
+2025-09,Northeast,Borrower,P004,C003,1,1,23516.66,188.13,0,1.0
+2025-08,West,Rate Shopper,P005,C004,1,1,2822.06,115.7,0,1.0
+2025-03,Midwest,Borrower,P005,C004,1,1,2872.18,117.76,0,1.0
+2025-09,Northeast,Digital Native,P005,C001,1,1,1711.42,70.17,0,1.0
+2026-05,West,Emerging Affluent,P001,C002,1,0,0.0,0.0,0,0.0
+2025-04,Northeast,Rate Shopper,P004,C001,1,0,0.0,0.0,0,0.0
+2026-03,Southwest,Emerging Affluent,P004,C003,1,1,25519.12,204.15,0,1.0
+2026-03,Midwest,Digital Native,P005,C001,1,1,2306.66,94.57,0,1.0
+2026-05,Midwest,Digital Native,P003,C003,1,1,15176.17,485.64,0,1.0
+2025-03,Southeast,Rate Shopper,P001,C002,2,1,9584.1,57.5,0,0.5
+2025-03,West,Borrower,P003,C004,1,0,0.0,0.0,0,0.0
+2025-08,Midwest,Digital Native,P005,C001,1,0,0.0,0.0,0,0.0
+2025-04,Southeast,Mass Affluent,P005,C001,2,2,6019.48,246.8,2,1.0
+2025-09,Southwest,Digital Native,P002,C003,1,1,37875.88,151.5,0,1.0
+2026-02,Midwest,Digital Native,P001,C002,1,1,9300.92,55.81,0,1.0
+2025-05,Northeast,Digital Native,P002,C005,1,1,29280.82,117.12,0,1.0
+2025-08,Southwest,Rate Shopper,P004,C003,1,0,0.0,0.0,0,0.0
+2025-01,Northeast,Emerging Affluent,P003,C004,1,1,17383.51,556.27,0,1.0
+2026-09,Southeast,Mass Affluent,P002,C004,1,0,0.0,0.0,0,0.0
+2025-05,Southeast,Digital Native,P005,C001,2,1,3068.64,125.81,0,0.5
+2025-12,Northeast,Digital Native,P003,C004,1,1,12427.65,397.68,0,1.0
+2026-08,Northeast,Digital Native,P004,C004,1,1,30999.26,247.99,0,1.0
+2026-05,Southeast,Mass Affluent,P003,C001,1,1,20684.76,661.91,1,1.0
+2026-09,Midwest,Borrower,P003,C003,1,1,13529.46,432.94,0,1.0
+2025-07,Midwest,Borrower,P002,C005,1,0,0.0,0.0,0,0.0
+2026-03,West,Borrower,P003,C005,1,1,18035.41,577.13,1,1.0
+2026-01,Northeast,Digital Native,P003,C002,1,1,13001.52,416.05,0,1.0
+2025-07,Southeast,Mass Affluent,P003,C002,1,1,8237.41,263.6,0,1.0
+2025-09,Southwest,Digital Native,P004,C003,1,0,0.0,0.0,0,0.0
+2025-03,Northeast,Digital Native,P003,C005,1,1,19576.37,626.44,0,1.0
+2025-09,Northeast,Borrower,P001,C002,1,0,0.0,0.0,0,0.0
+2025-07,Northeast,Digital Native,P005,C004,1,1,2659.44,109.04,0,1.0
+2026-03,Midwest,Borrower,P001,C004,1,1,15591.71,93.55,0,1.0
+2025-02,West,Emerging Affluent,P004,C002,2,2,61637.3,493.1,1,1.0
+2025-08,West,Rate Shopper,P004,C002,1,1,15716.82,125.73,0,1.0
+2025-08,Southwest,Borrower,P005,C003,1,1,4023.88,164.98,1,1.0
+2025-01,Midwest,Mass Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2025-04,Southeast,Digital Native,P002,C003,1,1,36648.77,146.6,0,1.0
+2026-04,West,Rate Shopper,P005,C004,1,1,3317.46,136.02,0,1.0
+2026-01,West,Digital Native,P004,C005,1,1,25448.17,203.59,0,1.0
+2026-06,West,Emerging Affluent,P004,C004,1,1,21136.75,169.09,0,1.0
+2025-05,West,Rate Shopper,P002,C003,1,0,0.0,0.0,0,0.0
+2025-08,Southwest,Borrower,P004,C002,1,1,18919.01,151.35,0,1.0
+2025-01,Midwest,Rate Shopper,P005,C004,1,1,4249.83,174.24,0,1.0
+2026-08,Southeast,Emerging Affluent,P001,C004,1,1,14525.95,87.16,0,1.0
+2025-12,Northeast,Digital Native,P004,C003,1,1,28232.36,225.86,0,1.0
+2025-08,West,Rate Shopper,P002,C002,1,1,35244.2,140.98,0,1.0
+2025-08,Northeast,Borrower,P003,C001,1,1,8690.87,278.11,0,1.0
+2025-09,Southeast,Rate Shopper,P005,C001,1,1,5481.64,224.75,0,1.0
+2026-02,West,Borrower,P002,C002,1,1,37466.51,149.87,0,1.0
+2025-02,Southwest,Borrower,P001,C005,1,0,0.0,0.0,0,0.0
+2026-03,Southeast,Borrower,P005,C004,1,0,0.0,0.0,0,0.0
+2025-04,Midwest,Digital Native,P001,C001,2,1,16685.09,100.11,0,0.5
+2026-07,Southwest,Emerging Affluent,P002,C002,1,0,0.0,0.0,0,0.0
+2026-06,Southwest,Emerging Affluent,P002,C003,1,0,0.0,0.0,0,0.0
+2025-05,Northeast,Rate Shopper,P004,C002,1,1,13630.71,109.05,0,1.0
+2025-09,Midwest,Rate Shopper,P003,C004,1,0,0.0,0.0,0,0.0
+2025-01,Northeast,Mass Affluent,P004,C002,2,2,48063.33,384.5,0,1.0
+2026-07,West,Digital Native,P004,C005,1,1,19599.17,156.79,0,1.0
+2026-02,West,Borrower,P005,C005,1,0,0.0,0.0,0,0.0
+2025-05,West,Mass Affluent,P005,C004,1,1,3457.59,141.76,0,1.0
+2026-01,Midwest,Digital Native,P005,C004,1,1,2482.24,101.77,0,1.0
+2025-08,Midwest,Rate Shopper,P002,C001,1,1,14610.79,58.44,0,1.0
+2025-09,Southeast,Emerging Affluent,P003,C004,1,1,17352.57,555.28,0,1.0
+2026-04,Northeast,Emerging Affluent,P004,C004,1,1,20285.11,162.28,1,1.0
+2025-10,Northeast,Mass Affluent,P002,C001,1,1,18137.88,72.55,0,1.0
+2026-09,Southeast,Rate Shopper,P004,C001,1,1,18105.08,144.84,1,1.0
+2025-07,Northeast,Mass Affluent,P003,C003,1,1,23558.45,753.87,0,1.0
+2025-10,Southeast,Rate Shopper,P002,C005,1,1,37490.4,149.96,0,1.0
+2026-04,Northeast,Mass Affluent,P003,C005,1,1,16725.93,535.23,0,1.0
+2025-05,Northeast,Mass Affluent,P005,C005,2,2,9478.53,388.62,0,1.0
+2026-03,Southeast,Borrower,P002,C002,1,1,21913.25,87.65,0,1.0
+2025-09,Midwest,Emerging Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2025-12,West,Rate Shopper,P001,C004,1,0,0.0,0.0,0,0.0
+2025-12,Southeast,Digital Native,P005,C005,1,1,1109.0,45.47,0,1.0
+2025-10,West,Emerging Affluent,P005,C005,1,1,3872.17,158.76,0,1.0
+2026-06,Southeast,Borrower,P003,C003,1,1,6234.37,199.5,0,1.0
+2025-09,Northeast,Mass Affluent,P005,C003,1,1,3697.15,151.58,0,1.0
+2026-07,Midwest,Borrower,P002,C001,1,1,30317.42,121.27,0,1.0
+2025-11,Northeast,Mass Affluent,P005,C003,1,1,3782.1,155.07,0,1.0
+2026-03,Southeast,Mass Affluent,P003,C001,1,1,15974.52,511.18,0,1.0
+2026-01,Southwest,Borrower,P001,C003,1,0,0.0,0.0,0,0.0
+2026-03,Northeast,Emerging Affluent,P002,C004,1,0,0.0,0.0,0,0.0
+2025-12,Southeast,Digital Native,P002,C005,2,2,27909.71,111.64,1,1.0
+2026-05,West,Digital Native,P005,C004,1,0,0.0,0.0,0,0.0
+2025-07,Northeast,Mass Affluent,P001,C004,1,0,0.0,0.0,0,0.0
+2025-02,West,Emerging Affluent,P005,C001,1,1,3389.58,138.97,0,1.0
+2025-02,Southeast,Digital Native,P005,C001,1,1,1635.06,67.04,1,1.0
+2025-10,West,Digital Native,P004,C001,2,2,30763.33,246.11,0,1.0
+2025-05,West,Digital Native,P005,C003,1,1,4603.45,188.74,0,1.0
+2025-10,Southwest,Rate Shopper,P005,C002,1,1,3806.72,156.08,0,1.0
+2026-01,Northeast,Emerging Affluent,P004,C004,1,1,28285.68,226.29,0,1.0
+2025-12,Southeast,Borrower,P002,C003,1,1,24584.52,98.34,0,1.0
+2026-08,Southeast,Emerging Affluent,P001,C001,1,0,0.0,0.0,0,0.0
+2026-08,Northeast,Emerging Affluent,P003,C003,2,1,12473.12,399.14,0,0.5
+2025-11,Southwest,Rate Shopper,P005,C005,1,1,3909.92,160.31,1,1.0
+2025-03,Northeast,Digital Native,P002,C003,1,1,24516.06,98.06,0,1.0
+2026-04,Southeast,Digital Native,P002,C004,1,0,0.0,0.0,0,0.0
+2025-11,Midwest,Mass Affluent,P003,C004,1,0,0.0,0.0,0,0.0
+2026-03,Northeast,Emerging Affluent,P002,C003,1,1,43075.77,172.3,1,1.0
+2026-05,Northeast,Rate Shopper,P005,C005,1,0,0.0,0.0,0,0.0
+2026-01,Southwest,Mass Affluent,P001,C001,2,1,15282.2,91.69,1,0.5
+2025-08,Northeast,Digital Native,P005,C002,1,1,1248.87,51.2,0,1.0
+2026-08,Northeast,Mass Affluent,P004,C005,1,1,13939.05,111.51,0,1.0
+2025-10,Northeast,Borrower,P005,C005,1,1,2199.05,90.16,0,1.0
+2026-02,West,Rate Shopper,P003,C001,1,1,3370.62,107.86,0,1.0
+2026-08,Southwest,Borrower,P004,C005,1,1,11384.74,91.08,0,1.0
+2025-02,West,Digital Native,P003,C003,1,1,17570.15,562.24,0,1.0
+2025-03,Northeast,Borrower,P004,C001,1,0,0.0,0.0,0,0.0
+2026-09,West,Emerging Affluent,P005,C003,1,1,2352.5,96.45,0,1.0
+2025-04,West,Borrower,P005,C003,2,2,10406.03,426.65,1,1.0
+2026-03,Southeast,Borrower,P002,C001,1,1,9996.41,39.99,0,1.0
+2025-09,Southeast,Borrower,P001,C002,1,1,20552.02,123.31,1,1.0
+2025-04,Midwest,Mass Affluent,P002,C003,1,0,0.0,0.0,0,0.0
+2025-01,Southeast,Rate Shopper,P002,C001,1,0,0.0,0.0,0,0.0
+2026-04,Southwest,Digital Native,P002,C001,1,1,25996.1,103.98,0,1.0
+2026-09,Northeast,Digital Native,P001,C004,1,0,0.0,0.0,0,0.0
+2025-09,Midwest,Digital Native,P002,C005,1,0,0.0,0.0,0,0.0
+2025-12,West,Borrower,P002,C002,1,1,36274.0,145.1,0,1.0
+2026-03,Southwest,Mass Affluent,P003,C004,1,1,22385.15,716.32,0,1.0
+2026-09,Northeast,Borrower,P002,C002,1,0,0.0,0.0,0,0.0
+2026-04,Midwest,Mass Affluent,P004,C005,1,1,11910.56,95.28,0,1.0
+2026-04,West,Rate Shopper,P001,C001,2,2,35551.1,213.3,0,1.0
+2025-01,Southeast,Emerging Affluent,P003,C004,1,0,0.0,0.0,0,0.0
+2026-06,Southwest,Mass Affluent,P001,C005,1,1,15094.98,90.57,0,1.0
+2025-11,Southeast,Rate Shopper,P005,C001,2,2,6355.27,260.57,0,1.0
+2025-02,Midwest,Emerging Affluent,P001,C001,1,0,0.0,0.0,0,0.0
+2026-02,Southeast,Rate Shopper,P003,C003,1,0,0.0,0.0,0,0.0
+2025-11,Northeast,Rate Shopper,P004,C003,1,1,20522.36,164.18,1,1.0
+2026-09,Southwest,Rate Shopper,P002,C005,1,1,28201.51,112.81,1,1.0
+2025-11,West,Emerging Affluent,P003,C003,1,1,16962.64,542.8,0,1.0
+2026-07,Southeast,Rate Shopper,P003,C003,1,0,0.0,0.0,0,0.0
+2026-07,West,Digital Native,P005,C005,1,1,2784.95,114.18,0,1.0
+2025-12,Southwest,Digital Native,P004,C001,1,1,31336.5,250.69,1,1.0
+2025-04,West,Emerging Affluent,P005,C001,1,0,0.0,0.0,0,0.0
+2026-07,Northeast,Rate Shopper,P002,C005,1,0,0.0,0.0,0,0.0
+2025-04,Southwest,Borrower,P002,C005,1,1,25814.28,103.26,0,1.0
+2026-02,West,Emerging Affluent,P005,C002,1,1,3048.76,125.0,0,1.0
+2026-07,Southeast,Digital Native,P002,C004,1,1,27759.98,111.04,0,1.0
+2026-08,Southwest,Borrower,P002,C004,1,1,36986.64,147.95,0,1.0
+2026-03,Midwest,Mass Affluent,P005,C001,1,1,3152.04,129.23,1,1.0
+2026-08,West,Mass Affluent,P003,C002,1,1,21416.17,685.32,0,1.0
+2025-02,West,Emerging Affluent,P002,C002,2,2,60641.3,242.56,2,1.0
+2025-04,Southwest,Mass Affluent,P002,C003,1,1,34116.22,136.46,0,1.0
+2025-04,West,Borrower,P001,C004,1,1,14275.94,85.66,0,1.0
+2026-02,Northeast,Digital Native,P003,C003,1,1,19139.23,612.46,0,1.0
+2025-07,Midwest,Emerging Affluent,P002,C002,1,1,22320.11,89.28,0,1.0
+2026-04,West,Borrower,P001,C001,1,1,13795.58,82.77,0,1.0
+2025-01,Midwest,Mass Affluent,P002,C004,1,1,26030.27,104.12,0,1.0
+2025-11,West,Emerging Affluent,P004,C003,1,1,16813.39,134.51,1,1.0
+2025-06,Southeast,Emerging Affluent,P004,C003,1,1,15378.14,123.03,0,1.0
+2026-01,West,Emerging Affluent,P002,C004,1,1,31473.15,125.89,0,1.0
+2025-09,Midwest,Rate Shopper,P003,C005,1,1,26625.83,852.03,1,1.0
+2026-08,Midwest,Mass Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2025-01,Southeast,Emerging Affluent,P004,C005,1,0,0.0,0.0,0,0.0
+2026-05,Southeast,Digital Native,P003,C001,1,1,15312.91,490.01,1,1.0
+2025-10,Southwest,Rate Shopper,P004,C003,1,1,12710.21,101.68,0,1.0
+2025-07,Midwest,Borrower,P004,C004,1,0,0.0,0.0,0,0.0
+2026-06,Southwest,Emerging Affluent,P004,C002,1,0,0.0,0.0,0,0.0
+2025-08,West,Rate Shopper,P005,C002,1,1,3896.8,159.77,1,1.0
+2025-02,Northeast,Rate Shopper,P003,C001,1,1,1928.09,61.7,0,1.0
+2026-04,Southeast,Rate Shopper,P003,C005,1,0,0.0,0.0,0,0.0
+2026-07,Midwest,Digital Native,P003,C005,1,0,0.0,0.0,0,0.0
+2026-07,Southeast,Borrower,P004,C003,1,0,0.0,0.0,0,0.0
+2025-12,Midwest,Emerging Affluent,P002,C004,1,1,40791.07,163.16,0,1.0
+2025-01,West,Emerging Affluent,P005,C003,1,1,2269.29,93.04,0,1.0
+2025-01,Southwest,Borrower,P001,C005,1,1,20580.82,123.48,1,1.0
+2025-02,Midwest,Borrower,P005,C002,1,1,2542.64,104.25,0,1.0
+2025-06,Midwest,Mass Affluent,P003,C004,1,1,10845.06,347.04,0,1.0
+2025-06,West,Rate Shopper,P001,C005,2,2,25153.54,150.92,0,1.0
+2025-03,Midwest,Emerging Affluent,P002,C002,1,1,29574.56,118.3,0,1.0
+2026-09,Northeast,Rate Shopper,P004,C002,1,0,0.0,0.0,0,0.0
+2026-09,West,Borrower,P003,C003,1,1,13153.85,420.92,0,1.0
+2026-01,Northeast,Mass Affluent,P004,C003,1,1,23216.34,185.73,0,1.0
+2026-07,West,Rate Shopper,P001,C002,1,0,0.0,0.0,0,0.0
+2025-02,Northeast,Rate Shopper,P005,C002,1,1,1815.0,74.42,1,1.0
+2025-03,Midwest,Emerging Affluent,P005,C005,1,1,3043.09,124.77,0,1.0
+2025-09,Midwest,Emerging Affluent,P005,C001,1,0,0.0,0.0,0,0.0
+2025-08,West,Borrower,P002,C002,1,1,38894.91,155.58,1,1.0
+2026-03,Northeast,Borrower,P004,C001,1,0,0.0,0.0,0,0.0
+2025-01,Midwest,Rate Shopper,P003,C003,2,1,8222.02,263.1,1,0.5
+2025-03,Southeast,Mass Affluent,P001,C001,1,0,0.0,0.0,0,0.0
+2025-04,Midwest,Borrower,P002,C004,1,1,41286.48,165.15,0,1.0
+2025-06,West,Borrower,P005,C001,1,1,4167.62,170.87,0,1.0
+2025-06,Southeast,Rate Shopper,P003,C003,2,1,14179.95,453.76,0,0.5
+2025-03,Southeast,Borrower,P004,C005,1,1,30399.15,243.19,0,1.0
+2025-02,Southwest,Mass Affluent,P004,C004,1,1,33649.06,269.19,0,1.0
+2025-09,Southeast,Digital Native,P001,C001,1,1,22624.5,135.75,1,1.0
+2026-01,Northeast,Mass Affluent,P002,C004,1,1,20945.58,83.78,1,1.0
+2025-08,Northeast,Borrower,P003,C005,1,1,19366.51,619.73,0,1.0
+2025-02,Midwest,Borrower,P005,C004,1,1,3136.95,128.61,1,1.0
+2025-09,Southwest,Emerging Affluent,P004,C002,1,1,9190.73,73.53,0,1.0
+2025-07,Northeast,Digital Native,P005,C005,2,2,7164.59,293.74,1,1.0
+2025-09,Southwest,Borrower,P001,C004,2,1,19650.29,117.9,0,0.5
+2026-07,Southwest,Borrower,P003,C002,1,0,0.0,0.0,0,0.0
+2025-07,Midwest,Digital Native,P002,C004,3,3,60677.86,242.71,1,1.0
+2025-10,Southwest,Mass Affluent,P004,C005,1,0,0.0,0.0,0,0.0
+2025-01,Northeast,Mass Affluent,P003,C002,2,1,8820.75,282.26,0,0.5
+2025-09,Midwest,Digital Native,P001,C003,1,1,24566.78,147.4,0,1.0
+2025-12,Southwest,Borrower,P004,C002,1,1,29026.06,232.21,0,1.0
+2025-12,Northeast,Mass Affluent,P002,C003,1,1,23965.26,95.86,1,1.0
+2026-01,Northeast,Digital Native,P002,C001,1,1,33778.62,135.11,0,1.0
+2025-05,West,Digital Native,P003,C003,1,1,5140.14,164.48,0,1.0
+2025-09,Southwest,Digital Native,P001,C003,1,1,20544.9,123.27,1,1.0
+2026-08,Southwest,Mass Affluent,P005,C003,1,1,2500.46,102.52,1,1.0
+2026-02,Midwest,Emerging Affluent,P002,C002,1,1,23100.36,92.4,0,1.0
+2025-03,West,Emerging Affluent,P004,C001,1,1,38578.84,308.63,0,1.0
+2026-05,Southeast,Digital Native,P001,C004,2,1,19409.48,116.46,0,0.5
+2025-01,West,Mass Affluent,P002,C002,1,1,29308.21,117.23,0,1.0
+2026-06,Midwest,Rate Shopper,P002,C005,2,1,11922.55,47.69,0,0.5
+2025-09,Southeast,Emerging Affluent,P004,C004,1,1,20137.94,161.1,0,1.0
+2025-08,Southeast,Digital Native,P001,C005,1,1,6374.5,38.25,0,1.0
+2025-11,Southwest,Mass Affluent,P001,C001,1,0,0.0,0.0,0,0.0
+2025-08,Northeast,Mass Affluent,P005,C003,1,1,1965.15,80.57,0,1.0
+2025-05,Northeast,Mass Affluent,P001,C005,1,1,18263.94,109.58,0,1.0
+2025-06,West,Rate Shopper,P005,C005,1,1,2055.46,84.27,0,1.0
+2025-04,Southeast,Digital Native,P004,C001,1,0,0.0,0.0,0,0.0
+2025-02,West,Borrower,P005,C004,1,0,0.0,0.0,0,0.0
+2026-03,Midwest,Mass Affluent,P004,C004,1,1,9488.57,75.91,0,1.0
+2026-02,West,Borrower,P002,C003,1,0,0.0,0.0,0,0.0
+2025-11,Southeast,Rate Shopper,P004,C001,1,0,0.0,0.0,0,0.0
+2025-12,Northeast,Rate Shopper,P002,C003,1,1,16250.06,65.0,1,1.0
+2025-02,Midwest,Emerging Affluent,P003,C003,1,1,17726.08,567.23,0,1.0
+2025-11,Southeast,Emerging Affluent,P002,C003,1,1,32351.89,129.41,0,1.0
+2025-08,Northeast,Mass Affluent,P001,C002,1,1,12674.34,76.05,1,1.0
+2025-02,Southeast,Emerging Affluent,P001,C005,1,1,11122.12,66.73,0,1.0
+2026-03,Northeast,Mass Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2026-09,Southwest,Rate Shopper,P003,C005,1,1,15000.95,480.03,0,1.0
+2025-05,Northeast,Digital Native,P005,C003,1,1,1349.03,55.31,0,1.0
+2025-05,Southwest,Mass Affluent,P005,C002,1,1,2947.48,120.85,0,1.0
+2025-06,Midwest,Rate Shopper,P005,C002,1,0,0.0,0.0,0,0.0
+2026-02,Midwest,Emerging Affluent,P002,C004,1,1,4876.21,19.5,0,1.0
+2026-02,West,Borrower,P004,C002,2,1,14344.57,114.76,0,0.5
+2025-06,Midwest,Rate Shopper,P001,C004,1,0,0.0,0.0,0,0.0
+2025-09,Southwest,Emerging Affluent,P005,C003,1,0,0.0,0.0,0,0.0
+2025-12,Southwest,Mass Affluent,P003,C001,1,1,24771.09,792.67,1,1.0
+2025-05,Northeast,Borrower,P001,C005,2,1,14728.03,88.37,0,0.5
+2026-07,West,Emerging Affluent,P003,C001,1,1,10841.68,346.93,1,1.0
+2026-03,Southwest,Digital Native,P005,C004,1,1,3935.25,161.35,0,1.0
+2025-11,West,Rate Shopper,P002,C005,1,0,0.0,0.0,0,0.0
+2026-09,Northeast,Emerging Affluent,P005,C004,1,1,1524.02,62.48,0,1.0
+2026-05,Southwest,Digital Native,P001,C004,1,1,18769.32,112.62,0,1.0
+2026-06,Northeast,Rate Shopper,P001,C004,1,1,20476.25,122.86,0,1.0
+2025-11,Midwest,Emerging Affluent,P005,C001,1,1,4280.31,175.49,0,1.0
+2026-02,Southwest,Borrower,P005,C004,1,1,3583.76,146.93,1,1.0
+2025-01,Midwest,Digital Native,P003,C003,1,1,18837.68,602.81,0,1.0
+2025-01,Southwest,Mass Affluent,P002,C003,1,0,0.0,0.0,0,0.0
+2025-06,Northeast,Emerging Affluent,P004,C001,2,1,20844.33,166.75,0,0.5
+2026-02,Northeast,Rate Shopper,P003,C001,1,1,21509.11,688.29,0,1.0
+2025-04,Southwest,Emerging Affluent,P004,C002,1,0,0.0,0.0,0,0.0
+2025-12,Northeast,Rate Shopper,P002,C002,1,1,35264.17,141.06,0,1.0
+2025-04,West,Mass Affluent,P002,C002,1,1,22169.83,88.68,1,1.0
+2025-09,Southwest,Borrower,P002,C004,1,1,38990.44,155.96,0,1.0
+2025-02,Midwest,Emerging Affluent,P003,C005,1,1,14036.3,449.16,1,1.0
+2025-04,Midwest,Emerging Affluent,P005,C001,1,1,2526.91,103.6,0,1.0
+2025-09,Midwest,Mass Affluent,P004,C002,1,1,25824.61,206.6,0,1.0
+2025-06,Midwest,Digital Native,P004,C005,1,0,0.0,0.0,0,0.0
+2026-08,Southeast,Digital Native,P001,C004,1,1,14105.11,84.63,1,1.0
+2025-12,Southwest,Digital Native,P005,C005,1,0,0.0,0.0,0,0.0
+2026-07,Midwest,Rate Shopper,P004,C002,1,1,22166.64,177.33,0,1.0
+2025-08,West,Emerging Affluent,P001,C003,1,1,21110.91,126.67,0,1.0
+2026-03,Midwest,Emerging Affluent,P005,C005,1,1,1100.33,45.11,0,1.0
+2026-02,Northeast,Mass Affluent,P004,C002,1,1,32107.16,256.86,0,1.0
+2026-07,Northeast,Emerging Affluent,P001,C004,2,1,23726.07,142.36,1,0.5
+2026-02,Southeast,Borrower,P002,C001,1,1,37878.27,151.51,0,1.0
+2026-04,Southwest,Borrower,P003,C005,1,1,21635.66,692.34,1,1.0
+2026-08,West,Emerging Affluent,P002,C001,1,1,21453.1,85.81,0,1.0
+2026-07,West,Emerging Affluent,P005,C001,1,1,1576.66,64.64,0,1.0
+2025-06,Midwest,Borrower,P005,C001,1,1,2160.72,88.59,0,1.0
+2025-08,Northeast,Borrower,P001,C005,1,0,0.0,0.0,0,0.0
+2025-11,Midwest,Emerging Affluent,P003,C002,1,0,0.0,0.0,0,0.0
+2025-12,Southwest,Mass Affluent,P001,C003,1,1,10445.35,62.67,0,1.0
+2026-01,Northeast,Emerging Affluent,P004,C001,1,0,0.0,0.0,0,0.0
+2025-07,Northeast,Digital Native,P004,C004,1,1,2021.69,16.17,0,1.0
+2026-09,Southwest,Mass Affluent,P004,C001,1,1,16967.99,135.74,0,1.0
+2026-05,Northeast,Mass Affluent,P005,C005,1,1,2722.57,111.63,0,1.0
+2025-11,Southwest,Rate Shopper,P002,C002,1,1,30575.17,122.3,1,1.0
+2026-06,Midwest,Rate Shopper,P005,C003,1,1,4808.71,197.16,0,1.0
+2026-01,Northeast,Mass Affluent,P003,C001,1,0,0.0,0.0,0,0.0
+2025-02,Midwest,Mass Affluent,P004,C005,1,1,25902.81,207.22,0,1.0
+2025-09,Southwest,Rate Shopper,P003,C003,1,1,15001.32,480.04,0,1.0
+2025-05,Northeast,Mass Affluent,P004,C002,1,1,13466.82,107.73,0,1.0
+2025-10,Southeast,Rate Shopper,P005,C005,1,0,0.0,0.0,0,0.0
+2026-08,Northeast,Mass Affluent,P002,C005,1,1,34898.86,139.6,1,1.0
+2026-05,West,Rate Shopper,P005,C003,1,1,2791.64,114.46,0,1.0
+2026-02,West,Mass Affluent,P005,C002,1,1,3947.79,161.86,0,1.0
+2025-04,West,Rate Shopper,P002,C005,1,1,24776.03,99.1,0,1.0
+2025-09,Southwest,Borrower,P004,C005,1,1,40114.79,320.92,1,1.0
+2025-09,Midwest,Mass Affluent,P004,C003,1,1,16892.2,135.14,1,1.0
+2025-03,Southwest,Digital Native,P005,C005,1,1,3691.2,151.34,0,1.0
+2026-08,Northeast,Emerging Affluent,P005,C003,1,1,2954.83,121.15,0,1.0
+2026-02,Northeast,Mass Affluent,P003,C002,1,1,12906.65,413.01,0,1.0
+2025-06,Southwest,Emerging Affluent,P001,C002,1,1,23226.51,139.36,0,1.0
+2025-09,West,Rate Shopper,P005,C001,1,1,3568.18,146.3,1,1.0
+2025-10,Northeast,Digital Native,P002,C001,1,0,0.0,0.0,0,0.0
+2026-04,Southwest,Borrower,P003,C002,1,0,0.0,0.0,0,0.0
+2025-03,West,Borrower,P004,C004,1,0,0.0,0.0,0,0.0
+2026-03,Northeast,Rate Shopper,P004,C005,1,1,19169.06,153.35,0,1.0
+2025-12,Midwest,Digital Native,P003,C005,1,0,0.0,0.0,0,0.0
+2025-10,West,Mass Affluent,P003,C005,2,1,20609.21,659.49,0,0.5
+2025-01,West,Digital Native,P004,C003,1,1,25635.75,205.09,0,1.0
+2026-01,Northeast,Emerging Affluent,P002,C003,1,0,0.0,0.0,0,0.0
+2025-11,Northeast,Mass Affluent,P001,C003,1,1,11578.38,69.47,1,1.0
+2026-06,Southwest,Digital Native,P003,C005,1,1,10526.15,336.84,0,1.0
+2026-03,Midwest,Borrower,P004,C002,1,1,11591.45,92.73,0,1.0
+2026-01,West,Digital Native,P001,C002,1,0,0.0,0.0,0,0.0
+2025-08,Southeast,Emerging Affluent,P003,C003,1,1,16332.15,522.63,0,1.0
+2025-03,West,Emerging Affluent,P002,C002,1,1,25884.47,103.54,0,1.0
+2025-04,Midwest,Borrower,P003,C005,1,0,0.0,0.0,0,0.0
+2025-07,Northeast,Rate Shopper,P004,C002,2,1,25255.04,202.04,0,0.5
+2026-02,Northeast,Borrower,P002,C004,1,1,22993.59,91.97,0,1.0
+2025-09,West,Rate Shopper,P004,C003,1,0,0.0,0.0,0,0.0
+2025-06,Southeast,Borrower,P002,C004,1,1,41677.38,166.71,0,1.0
+2025-04,Northeast,Borrower,P005,C002,1,1,1169.41,47.95,0,1.0
+2026-04,Southwest,Rate Shopper,P004,C001,1,1,25837.99,206.7,0,1.0
+2025-07,Southeast,Emerging Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2026-08,Southwest,Digital Native,P002,C002,1,1,46905.26,187.62,0,1.0
+2025-12,West,Mass Affluent,P001,C004,1,1,14162.08,84.97,0,1.0
+2025-05,Southeast,Emerging Affluent,P005,C005,1,1,3257.47,133.56,0,1.0
+2025-07,Midwest,Rate Shopper,P005,C005,1,1,3873.64,158.82,0,1.0
+2026-04,Southwest,Mass Affluent,P001,C004,1,1,16945.63,101.67,0,1.0
+2025-12,Southwest,Rate Shopper,P001,C005,1,1,5004.99,30.03,1,1.0
+2026-04,West,Mass Affluent,P001,C002,1,1,8273.15,49.64,1,1.0
+2025-02,Southwest,Borrower,P001,C002,1,1,10590.48,63.54,0,1.0
+2025-04,West,Mass Affluent,P005,C004,1,0,0.0,0.0,0,0.0
+2025-04,Midwest,Rate Shopper,P002,C001,1,1,41453.37,165.81,0,1.0
+2025-02,Northeast,Mass Affluent,P002,C002,1,1,32515.78,130.06,0,1.0
+2026-08,Midwest,Digital Native,P005,C005,2,2,5544.13,227.31,0,1.0
+2025-07,West,Emerging Affluent,P005,C003,1,0,0.0,0.0,0,0.0
+2025-11,Southwest,Emerging Affluent,P001,C003,1,1,25769.4,154.62,0,1.0
+2025-11,Midwest,Mass Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2025-01,Southwest,Borrower,P005,C001,1,0,0.0,0.0,0,0.0
+2025-01,Northeast,Borrower,P005,C003,1,1,3823.39,156.76,0,1.0
+2025-01,West,Borrower,P005,C002,1,1,3609.35,147.98,0,1.0
+2025-04,Southwest,Emerging Affluent,P005,C004,1,1,2770.22,113.58,0,1.0
+2025-07,Northeast,Mass Affluent,P001,C002,1,1,25165.9,151.0,0,1.0
+2026-06,West,Borrower,P002,C003,1,1,28370.78,113.48,0,1.0
+2025-07,Southeast,Emerging Affluent,P003,C005,1,1,2742.5,87.76,0,1.0
+2025-11,Southwest,Digital Native,P002,C004,1,0,0.0,0.0,0,0.0
+2026-07,West,Digital Native,P003,C001,1,1,12159.3,389.1,0,1.0
+2026-08,Northeast,Emerging Affluent,P003,C001,1,1,7172.09,229.51,0,1.0
+2026-01,West,Emerging Affluent,P005,C002,1,0,0.0,0.0,0,0.0
+2025-08,Northeast,Mass Affluent,P001,C001,1,1,16251.03,97.51,0,1.0
+2025-08,West,Digital Native,P001,C001,1,0,0.0,0.0,0,0.0
+2026-07,Southwest,Mass Affluent,P004,C003,1,1,18591.36,148.73,0,1.0
+2025-03,Southeast,Emerging Affluent,P001,C003,1,0,0.0,0.0,0,0.0
+2026-03,Southwest,Mass Affluent,P004,C001,1,1,29603.75,236.83,0,1.0
+2026-09,Southeast,Mass Affluent,P002,C005,1,1,36113.16,144.45,0,1.0
+2025-01,West,Digital Native,P004,C005,1,0,0.0,0.0,0,0.0
+2025-09,Southeast,Emerging Affluent,P003,C001,1,1,15373.06,491.94,0,1.0
+2026-03,Midwest,Rate Shopper,P004,C003,1,0,0.0,0.0,0,0.0
+2025-09,Northeast,Mass Affluent,P001,C002,1,1,22776.21,136.66,1,1.0
+2026-06,Southwest,Digital Native,P001,C001,1,0,0.0,0.0,0,0.0
+2026-04,Southwest,Emerging Affluent,P002,C001,1,1,31485.66,125.94,0,1.0
+2026-06,Northeast,Emerging Affluent,P002,C004,1,1,28481.6,113.93,0,1.0
+2026-08,Northeast,Digital Native,P001,C002,1,1,18271.04,109.63,0,1.0
+2025-03,Northeast,Mass Affluent,P002,C003,1,0,0.0,0.0,0,0.0
+2026-05,Northeast,Borrower,P005,C003,1,1,2575.22,105.58,0,1.0
+2025-07,West,Emerging Affluent,P005,C004,1,1,5113.2,209.64,0,1.0
+2026-09,West,Borrower,P004,C004,1,1,21955.34,175.64,1,1.0
+2026-02,Midwest,Emerging Affluent,P002,C005,1,1,29319.27,117.28,0,1.0
+2026-02,Northeast,Emerging Affluent,P003,C004,1,1,11842.22,378.95,1,1.0
+2025-01,West,Digital Native,P002,C004,1,1,29075.15,116.3,0,1.0
+2025-11,Midwest,Borrower,P004,C001,1,1,32552.35,260.42,1,1.0
+2026-05,Southeast,Rate Shopper,P004,C005,1,1,19646.9,157.18,1,1.0
+2026-08,Southeast,Digital Native,P001,C003,1,1,18949.71,113.7,0,1.0
+2025-09,Midwest,Rate Shopper,P001,C003,1,1,28731.59,172.39,0,1.0
+2025-09,Midwest,Borrower,P002,C001,1,0,0.0,0.0,0,0.0
+2026-06,Southwest,Borrower,P004,C005,1,0,0.0,0.0,0,0.0
+2025-04,West,Rate Shopper,P004,C004,1,1,9040.21,72.32,0,1.0
+2025-09,Northeast,Rate Shopper,P004,C005,1,0,0.0,0.0,0,0.0
+2026-09,West,Emerging Affluent,P005,C005,1,1,5311.52,217.77,0,1.0
+2025-02,Southwest,Borrower,P002,C004,1,1,6816.09,27.26,0,1.0
+2025-02,Southwest,Rate Shopper,P001,C004,1,1,23014.02,138.08,0,1.0
+2025-08,West,Emerging Affluent,P005,C001,1,1,1815.25,74.43,0,1.0
+2025-03,West,Rate Shopper,P002,C001,1,0,0.0,0.0,0,0.0
+2025-03,Southwest,Borrower,P005,C001,1,0,0.0,0.0,0,0.0
+2025-06,Southwest,Digital Native,P005,C002,1,0,0.0,0.0,0,0.0
+2026-01,Southeast,Rate Shopper,P004,C005,1,1,13573.97,108.59,1,1.0
+2026-07,Southwest,Mass Affluent,P001,C003,1,1,24837.58,149.03,1,1.0
+2026-07,West,Borrower,P002,C004,1,1,30107.53,120.43,0,1.0
+2026-06,West,Rate Shopper,P001,C002,1,1,25308.6,151.85,0,1.0
+2026-04,Northeast,Borrower,P005,C002,1,0,0.0,0.0,0,0.0
+2025-02,Southwest,Rate Shopper,P001,C003,1,1,14142.87,84.86,0,1.0
+2025-04,Midwest,Rate Shopper,P005,C004,1,1,2771.8,113.64,1,1.0
+2026-07,Midwest,Borrower,P004,C003,1,1,15524.62,124.2,1,1.0
+2025-10,West,Mass Affluent,P004,C002,2,2,46458.09,371.67,1,1.0
+2025-11,Midwest,Borrower,P004,C005,1,1,25885.16,207.08,0,1.0
+2026-01,Northeast,Borrower,P003,C001,1,1,23458.39,750.67,0,1.0
+2025-05,Southwest,Mass Affluent,P005,C005,1,1,5662.64,232.17,0,1.0
+2026-06,Midwest,Borrower,P005,C004,1,1,2935.15,120.34,0,1.0
+2026-06,Northeast,Rate Shopper,P004,C002,1,1,16769.1,134.15,0,1.0
+2025-04,Southeast,Emerging Affluent,P005,C001,1,0,0.0,0.0,0,0.0
+2025-07,Northeast,Rate Shopper,P005,C002,1,0,0.0,0.0,0,0.0
+2025-12,West,Rate Shopper,P004,C001,1,0,0.0,0.0,0,0.0
+2025-06,West,Borrower,P003,C001,1,1,18036.62,577.17,0,1.0
+2025-05,Northeast,Mass Affluent,P002,C003,1,1,19550.12,78.2,0,1.0
+2026-03,Southwest,Mass Affluent,P001,C005,1,1,13549.89,81.3,1,1.0
+2025-05,West,Borrower,P001,C005,2,2,34944.63,209.66,0,1.0
+2026-02,Southeast,Borrower,P005,C001,1,1,1768.16,72.49,0,1.0
+2025-10,Midwest,Digital Native,P001,C004,1,1,7529.25,45.18,1,1.0
+2026-09,Northeast,Rate Shopper,P005,C004,1,1,2278.65,93.42,0,1.0
+2025-09,Southeast,Borrower,P003,C005,1,0,0.0,0.0,0,0.0
+2025-02,Northeast,Borrower,P002,C004,1,1,12957.79,51.83,1,1.0
+2026-09,West,Emerging Affluent,P001,C002,1,0,0.0,0.0,0,0.0
+2025-04,Midwest,Mass Affluent,P004,C002,1,1,18886.67,151.09,1,1.0
+2026-09,West,Rate Shopper,P003,C005,1,1,9037.2,289.19,0,1.0
+2025-11,Midwest,Mass Affluent,P001,C003,1,1,20939.23,125.64,0,1.0
+2026-08,Northeast,Borrower,P005,C001,1,0,0.0,0.0,0,0.0
+2025-01,West,Digital Native,P005,C005,1,1,4045.55,165.87,1,1.0
+2025-05,Midwest,Emerging Affluent,P004,C004,1,1,24995.18,199.96,0,1.0
+2026-09,Northeast,Mass Affluent,P004,C003,1,1,18102.77,144.82,1,1.0
+2025-11,Southwest,Borrower,P004,C004,2,2,49828.14,398.63,0,1.0
+2025-03,Southeast,Digital Native,P001,C001,1,1,22390.53,134.34,0,1.0
+2025-03,West,Borrower,P005,C004,1,1,4777.63,195.88,0,1.0
+2026-06,Northeast,Mass Affluent,P004,C005,2,2,43988.02,351.91,0,1.0
+2026-08,Southeast,Rate Shopper,P001,C002,1,1,17184.49,103.11,0,1.0
+2026-04,Northeast,Digital Native,P001,C003,1,0,0.0,0.0,0,0.0
+2025-06,Northeast,Rate Shopper,P002,C001,2,2,63744.76,254.98,0,1.0
+2025-08,Northeast,Mass Affluent,P004,C003,1,0,0.0,0.0,0,0.0
+2025-06,Northeast,Digital Native,P005,C003,1,1,3935.53,161.36,1,1.0
+2026-07,West,Rate Shopper,P002,C001,1,1,24659.39,98.64,1,1.0
+2025-09,Northeast,Rate Shopper,P001,C004,1,1,13689.93,82.14,0,1.0
+2025-03,Southwest,Emerging Affluent,P002,C002,1,1,44379.35,177.52,0,1.0
+2026-05,Southwest,Digital Native,P005,C005,1,1,4934.82,202.33,0,1.0
+2025-07,West,Digital Native,P004,C004,1,1,22286.38,178.29,0,1.0
+2026-07,Southwest,Borrower,P001,C002,2,2,39099.23,234.6,1,1.0
+2025-01,West,Borrower,P004,C003,1,0,0.0,0.0,0,0.0
+2025-09,Southeast,Borrower,P002,C001,1,1,24231.51,96.93,0,1.0
+2025-01,Northeast,Borrower,P002,C003,1,1,16033.41,64.13,0,1.0
+2026-03,Southwest,Emerging Affluent,P001,C004,1,0,0.0,0.0,0,0.0
+2025-09,Southeast,Emerging Affluent,P003,C003,1,0,0.0,0.0,0,0.0
+2025-01,West,Digital Native,P005,C001,1,1,4543.19,186.27,0,1.0
+2025-05,West,Rate Shopper,P005,C001,2,2,4343.55,178.09,1,1.0
+2026-08,Northeast,Emerging Affluent,P005,C005,1,1,2550.84,104.58,0,1.0
+2025-11,Northeast,Rate Shopper,P005,C001,1,1,4172.43,171.07,1,1.0
+2025-05,Midwest,Emerging Affluent,P003,C004,1,1,14311.83,457.98,1,1.0
+2026-05,Southwest,Borrower,P001,C005,1,1,31905.63,191.43,0,1.0
+2025-02,Southeast,Emerging Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2025-02,West,Mass Affluent,P002,C001,1,1,27661.82,110.65,0,1.0
+2026-05,Midwest,Emerging Affluent,P005,C005,1,1,3075.06,126.08,0,1.0
+2025-03,Southwest,Borrower,P003,C002,1,0,0.0,0.0,0,0.0
+2025-01,Midwest,Emerging Affluent,P001,C002,1,0,0.0,0.0,0,0.0
+2026-01,West,Mass Affluent,P003,C005,1,1,16758.38,536.27,1,1.0
+2026-03,Southeast,Emerging Affluent,P001,C004,1,1,27221.22,163.33,1,1.0
+2025-11,West,Digital Native,P004,C003,1,0,0.0,0.0,0,0.0
+2025-02,Northeast,Digital Native,P005,C004,1,1,4210.16,172.62,1,1.0
+2025-07,West,Digital Native,P004,C005,1,1,20836.85,166.69,0,1.0
+2026-04,West,Borrower,P004,C005,1,0,0.0,0.0,0,0.0
+2026-08,West,Borrower,P005,C005,1,1,4211.98,172.69,0,1.0
+2026-08,Northeast,Emerging Affluent,P001,C003,1,1,23233.09,139.4,0,1.0
+2025-01,Midwest,Rate Shopper,P004,C004,1,1,20023.06,160.18,1,1.0
+2025-03,Midwest,Rate Shopper,P001,C003,1,0,0.0,0.0,0,0.0
+2026-04,Midwest,Borrower,P002,C001,1,1,26663.74,106.65,0,1.0
+2025-10,Midwest,Digital Native,P004,C004,2,2,45348.46,362.79,0,1.0
+2026-07,Midwest,Borrower,P001,C001,1,1,8962.12,53.77,0,1.0
+2026-08,Midwest,Mass Affluent,P001,C005,1,1,15189.64,91.14,1,1.0
+2025-03,Southwest,Borrower,P005,C005,2,2,7799.92,319.8,1,1.0
+2025-05,Southwest,Rate Shopper,P003,C003,1,1,19586.83,626.78,0,1.0
+2025-05,Northeast,Emerging Affluent,P004,C005,1,1,28004.99,224.04,0,1.0
+2025-01,West,Borrower,P003,C004,1,0,0.0,0.0,0,0.0
+2025-10,Midwest,Digital Native,P003,C004,1,0,0.0,0.0,0,0.0
+2026-04,Southwest,Digital Native,P002,C003,1,0,0.0,0.0,0,0.0
+2026-05,West,Mass Affluent,P001,C001,1,1,17620.0,105.72,0,1.0
+2025-09,Midwest,Mass Affluent,P003,C004,1,1,28133.11,900.26,0,1.0
+2025-03,Northeast,Emerging Affluent,P004,C001,1,0,0.0,0.0,0,0.0
+2026-01,West,Digital Native,P001,C005,1,0,0.0,0.0,0,0.0
+2025-07,Midwest,Mass Affluent,P001,C003,1,1,16631.99,99.79,0,1.0
+2026-03,Southeast,Borrower,P003,C002,1,1,20723.81,663.16,1,1.0
+2025-11,West,Mass Affluent,P004,C005,1,1,25282.21,202.26,1,1.0
+2026-04,Northeast,Borrower,P005,C005,1,1,1796.37,73.65,0,1.0
+2025-05,Northeast,Mass Affluent,P004,C003,1,1,16852.45,134.82,1,1.0
+2025-05,Southeast,Digital Native,P005,C005,1,0,0.0,0.0,0,0.0
+2025-08,West,Digital Native,P005,C001,1,1,4667.89,191.38,1,1.0
+2026-01,Southeast,Rate Shopper,P003,C002,1,0,0.0,0.0,0,0.0
+2026-02,Southeast,Digital Native,P005,C001,1,0,0.0,0.0,0,0.0
+2025-07,Southeast,Digital Native,P004,C004,1,0,0.0,0.0,0,0.0
+2025-11,West,Mass Affluent,P002,C004,1,1,22726.02,90.9,0,1.0
+2025-02,Midwest,Mass Affluent,P004,C003,1,1,24338.27,194.71,0,1.0
+2026-02,Southeast,Rate Shopper,P001,C003,1,0,0.0,0.0,0,0.0
+2025-04,Southwest,Digital Native,P003,C003,1,1,20013.5,640.43,0,1.0
+2025-04,Southwest,Digital Native,P001,C005,1,1,20219.14,121.31,1,1.0
+2025-05,West,Emerging Affluent,P005,C001,1,1,2871.47,117.73,0,1.0
+2025-07,Southeast,Rate Shopper,P004,C001,1,0,0.0,0.0,0,0.0
+2025-07,Southwest,Rate Shopper,P003,C001,1,0,0.0,0.0,0,0.0
+2025-09,Midwest,Borrower,P003,C005,1,1,4569.78,146.23,0,1.0
+2026-03,West,Mass Affluent,P004,C001,1,0,0.0,0.0,0,0.0
+2025-01,West,Emerging Affluent,P001,C001,1,0,0.0,0.0,0,0.0
+2025-07,Southwest,Borrower,P003,C001,1,1,12043.77,385.4,0,1.0
+2025-02,Southwest,Digital Native,P002,C004,3,3,67222.71,268.89,0,1.0
+2025-11,West,Borrower,P001,C005,1,0,0.0,0.0,0,0.0
+2025-06,Southwest,Emerging Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2025-12,Northeast,Rate Shopper,P003,C005,1,1,17409.5,557.1,1,1.0
+2026-03,West,Emerging Affluent,P005,C004,1,1,2867.02,117.55,1,1.0
+2025-08,Southeast,Rate Shopper,P003,C002,1,1,14714.73,470.87,0,1.0
+2025-08,Southwest,Borrower,P003,C001,1,1,15151.33,484.84,0,1.0
+2026-01,West,Emerging Affluent,P004,C002,1,1,20430.61,163.44,0,1.0
+2026-08,Southwest,Rate Shopper,P003,C002,1,1,16970.65,543.06,1,1.0
+2025-12,Midwest,Digital Native,P002,C003,1,0,0.0,0.0,0,0.0
+2025-01,Northeast,Digital Native,P003,C002,1,1,20859.56,667.51,0,1.0
+2025-01,Southwest,Mass Affluent,P002,C005,1,1,43619.0,174.48,0,1.0
+2026-07,Southwest,Borrower,P005,C005,1,0,0.0,0.0,0,0.0
+2025-05,Midwest,Emerging Affluent,P002,C001,1,1,18482.05,73.93,1,1.0
+2025-08,Northeast,Digital Native,P003,C002,1,1,13048.18,417.54,0,1.0
+2025-03,Southeast,Rate Shopper,P005,C002,1,1,1819.89,74.62,0,1.0
+2025-01,West,Emerging Affluent,P005,C004,1,1,2637.31,108.13,0,1.0
+2025-12,Northeast,Borrower,P005,C003,1,1,1867.76,76.58,1,1.0
+2025-06,Midwest,Rate Shopper,P004,C004,1,1,21023.32,168.19,1,1.0
+2026-05,Midwest,Digital Native,P003,C002,1,1,12336.26,394.76,0,1.0
+2026-09,Northeast,Mass Affluent,P005,C004,1,1,4449.08,182.41,0,1.0
+2025-04,Northeast,Borrower,P003,C001,1,0,0.0,0.0,0,0.0
+2025-09,Southeast,Digital Native,P002,C001,2,2,57864.93,231.46,1,1.0
+2026-06,Southeast,Borrower,P002,C002,1,0,0.0,0.0,0,0.0
+2025-05,Southwest,Digital Native,P002,C002,1,1,33927.23,135.71,0,1.0
+2025-02,Midwest,Borrower,P003,C002,1,0,0.0,0.0,0,0.0
+2026-02,Southwest,Mass Affluent,P003,C001,1,1,14426.79,461.66,0,1.0
+2026-03,Southeast,Mass Affluent,P005,C002,1,1,3941.82,161.61,0,1.0
+2025-11,Midwest,Borrower,P001,C004,1,1,8500.45,51.0,0,1.0
+2025-05,Midwest,Rate Shopper,P005,C002,1,1,3455.9,141.69,0,1.0
+2026-05,Southeast,Mass Affluent,P001,C004,2,2,28857.03,173.14,1,1.0
+2025-02,Northeast,Mass Affluent,P004,C004,1,1,22229.27,177.83,0,1.0
+2026-02,Midwest,Emerging Affluent,P005,C005,1,1,2943.99,120.7,0,1.0
+2026-03,Southwest,Digital Native,P001,C004,1,1,19695.73,118.17,1,1.0
+2026-08,Midwest,Mass Affluent,P002,C002,1,1,25927.74,103.71,0,1.0
+2026-01,Southwest,Mass Affluent,P002,C002,2,2,52996.25,211.98,0,1.0
+2025-09,Northeast,Digital Native,P003,C002,1,1,15592.75,498.97,0,1.0
+2025-09,Midwest,Borrower,P005,C003,1,1,4326.74,177.4,1,1.0
+2026-08,Midwest,Borrower,P001,C005,1,1,23084.84,138.51,1,1.0
+2025-05,Northeast,Borrower,P003,C002,1,1,12077.29,386.47,0,1.0
+2026-01,West,Borrower,P003,C001,1,1,1727.61,55.28,1,1.0
+2025-09,West,Emerging Affluent,P002,C001,1,1,40073.17,160.29,0,1.0
+2025-10,Southwest,Borrower,P001,C003,1,1,22617.98,135.71,0,1.0
+2026-01,Southwest,Rate Shopper,P003,C002,1,0,0.0,0.0,0,0.0
+2026-01,Midwest,Mass Affluent,P003,C004,1,1,20692.66,662.17,0,1.0
+2025-05,West,Digital Native,P002,C003,1,1,21679.08,86.72,0,1.0
+2026-08,Southeast,Emerging Affluent,P005,C001,1,1,2145.23,87.95,0,1.0
+2026-02,Midwest,Mass Affluent,P003,C002,1,1,22935.74,733.94,0,1.0
+2025-11,Northeast,Rate Shopper,P004,C004,1,0,0.0,0.0,0,0.0
+2025-09,Southwest,Rate Shopper,P003,C002,1,1,11833.02,378.66,0,1.0
+2025-05,Midwest,Borrower,P002,C004,1,0,0.0,0.0,0,0.0
+2025-04,Southwest,Rate Shopper,P002,C004,1,1,23836.34,95.35,0,1.0
+2026-08,Midwest,Digital Native,P001,C004,1,1,10128.96,60.77,1,1.0
+2026-05,Southwest,Mass Affluent,P005,C001,1,0,0.0,0.0,0,0.0
+2025-10,Midwest,Mass Affluent,P002,C003,1,0,0.0,0.0,0,0.0
+2025-02,Midwest,Emerging Affluent,P003,C004,1,0,0.0,0.0,0,0.0
+2025-12,Midwest,Mass Affluent,P005,C004,1,0,0.0,0.0,0,0.0
+2026-04,West,Digital Native,P004,C004,1,1,27511.26,220.09,0,1.0
+2025-10,Southeast,Rate Shopper,P001,C001,1,0,0.0,0.0,0,0.0
+2026-03,West,Emerging Affluent,P003,C002,1,0,0.0,0.0,0,0.0
+2026-05,Southeast,Emerging Affluent,P001,C002,1,0,0.0,0.0,0,0.0
+2025-11,Southeast,Digital Native,P003,C002,1,1,4934.44,157.9,0,1.0
+2025-07,Northeast,Mass Affluent,P002,C001,1,1,33649.32,134.6,0,1.0
+2025-07,Midwest,Borrower,P001,C005,1,1,22248.65,133.49,0,1.0
+2025-05,Midwest,Borrower,P002,C003,1,1,22256.74,89.03,0,1.0
+2025-06,Northeast,Rate Shopper,P002,C002,1,1,2847.61,11.39,0,1.0
+2026-06,Southwest,Mass Affluent,P005,C002,1,1,2648.0,108.57,0,1.0
+2025-05,West,Digital Native,P003,C002,1,1,12600.05,403.2,0,1.0
+2026-02,Midwest,Rate Shopper,P001,C004,1,0,0.0,0.0,0,0.0
+2025-05,Southeast,Digital Native,P005,C004,1,0,0.0,0.0,0,0.0
+2025-01,Northeast,Borrower,P001,C001,1,1,14336.53,86.02,0,1.0
+2025-07,Southeast,Rate Shopper,P005,C005,1,0,0.0,0.0,0,0.0
+2025-08,Northeast,Mass Affluent,P002,C002,1,0,0.0,0.0,0,0.0
+2025-07,Northeast,Borrower,P005,C002,1,1,1794.23,73.56,0,1.0
+2026-09,West,Borrower,P004,C002,1,1,28980.87,231.85,1,1.0
+2025-03,Midwest,Borrower,P004,C002,1,0,0.0,0.0,0,0.0
+2025-11,Northeast,Digital Native,P001,C005,1,1,20824.83,124.95,0,1.0
+2026-02,Midwest,Digital Native,P004,C002,1,1,17134.53,137.08,0,1.0
+2025-03,Southeast,Rate Shopper,P003,C004,1,1,9368.97,299.81,1,1.0
+2025-09,Northeast,Rate Shopper,P003,C003,1,0,0.0,0.0,0,0.0
+2025-03,Midwest,Digital Native,P004,C003,1,1,16228.51,129.83,0,1.0
+2025-01,Southeast,Digital Native,P004,C003,1,1,11604.96,92.84,0,1.0
+2026-07,Midwest,Rate Shopper,P003,C004,1,1,11298.33,361.55,0,1.0
+2026-02,Midwest,Digital Native,P004,C005,1,1,12315.2,98.52,1,1.0
+2025-05,Northeast,Borrower,P005,C002,1,0,0.0,0.0,0,0.0
+2026-07,Southwest,Mass Affluent,P005,C005,1,1,3623.48,148.56,0,1.0
+2025-11,Midwest,Rate Shopper,P004,C003,1,1,15000.12,120.0,0,1.0
+2025-05,Southwest,Digital Native,P002,C001,1,1,31604.16,126.42,0,1.0
+2025-10,Northeast,Rate Shopper,P004,C003,1,1,23107.34,184.86,0,1.0
+2025-01,West,Rate Shopper,P001,C001,1,1,28522.01,171.13,0,1.0
+2026-08,Southwest,Rate Shopper,P004,C003,1,1,37601.25,300.81,0,1.0
+2025-07,Northeast,Rate Shopper,P001,C004,1,1,13616.85,81.7,1,1.0
+2025-09,Southeast,Borrower,P001,C004,1,1,21832.23,130.99,0,1.0
+2026-01,Northeast,Emerging Affluent,P001,C005,1,1,26029.6,156.18,0,1.0
+2026-01,West,Mass Affluent,P001,C005,1,1,16730.9,100.39,0,1.0
+2026-02,Northeast,Emerging Affluent,P002,C004,2,2,36868.11,147.48,0,1.0
+2025-10,West,Rate Shopper,P004,C003,1,1,16609.44,132.88,0,1.0
+2025-10,Midwest,Rate Shopper,P003,C003,1,1,14372.36,459.92,1,1.0
+2026-08,West,Rate Shopper,P001,C004,1,0,0.0,0.0,0,0.0
+2026-08,West,Rate Shopper,P003,C003,1,0,0.0,0.0,0,0.0
+2025-06,West,Emerging Affluent,P005,C005,1,1,3443.72,141.19,1,1.0
+2026-09,Southeast,Rate Shopper,P004,C002,1,1,19911.52,159.29,0,1.0
+2025-04,Southeast,Rate Shopper,P002,C002,1,0,0.0,0.0,0,0.0
+2025-04,Midwest,Rate Shopper,P001,C002,1,1,24822.88,148.94,0,1.0
+2026-01,West,Rate Shopper,P003,C004,1,1,7891.91,252.54,0,1.0
+2026-09,Southwest,Borrower,P001,C002,2,2,28721.93,172.33,1,1.0
+2025-05,Southwest,Mass Affluent,P003,C001,1,0,0.0,0.0,0,0.0
+2026-09,Northeast,Mass Affluent,P003,C005,1,1,11127.34,356.07,0,1.0
+2026-07,Southeast,Emerging Affluent,P004,C001,1,1,41033.4,328.27,0,1.0
+2026-01,West,Mass Affluent,P001,C003,1,1,11825.3,70.95,1,1.0
+2025-03,West,Mass Affluent,P004,C002,1,1,38148.13,305.19,1,1.0
+2026-02,Southwest,Emerging Affluent,P002,C002,1,1,36705.57,146.82,0,1.0
+2025-02,West,Digital Native,P005,C001,1,0,0.0,0.0,0,0.0
+2026-08,Midwest,Rate Shopper,P003,C004,1,0,0.0,0.0,0,0.0
+2025-10,Southwest,Mass Affluent,P004,C004,1,0,0.0,0.0,0,0.0
+2026-07,West,Borrower,P002,C002,1,0,0.0,0.0,0,0.0
+2025-07,Southeast,Mass Affluent,P002,C002,1,1,23607.83,94.43,0,1.0
+2025-05,Northeast,Rate Shopper,P002,C001,1,1,21042.9,84.17,1,1.0
+2026-04,West,Mass Affluent,P001,C004,1,1,10325.75,61.95,0,1.0
+2025-11,West,Mass Affluent,P005,C003,1,1,4743.59,194.49,0,1.0
+2025-02,West,Borrower,P003,C002,1,0,0.0,0.0,0,0.0
+2025-08,Midwest,Mass Affluent,P004,C002,2,2,54700.32,437.6,1,1.0
+2025-10,Northeast,Rate Shopper,P002,C005,1,0,0.0,0.0,0,0.0
+2025-06,West,Digital Native,P004,C002,1,1,26809.97,214.48,1,1.0
+2026-03,West,Emerging Affluent,P003,C001,1,0,0.0,0.0,0,0.0
+2025-09,Southeast,Borrower,P005,C002,1,1,4205.83,172.44,0,1.0
+2025-12,Southeast,Rate Shopper,P004,C002,1,1,24249.07,193.99,0,1.0
+2025-02,Midwest,Digital Native,P003,C005,1,1,16686.58,533.97,0,1.0
+2025-05,Northeast,Mass Affluent,P003,C005,1,0,0.0,0.0,0,0.0
+2025-07,Southeast,Emerging Affluent,P005,C001,1,0,0.0,0.0,0,0.0
+2025-08,Southwest,Digital Native,P005,C001,1,1,3476.04,142.52,0,1.0
+2025-03,Southeast,Borrower,P005,C001,1,0,0.0,0.0,0,0.0
+2025-06,Northeast,Borrower,P002,C005,1,1,27850.58,111.4,0,1.0
+2026-09,Northeast,Emerging Affluent,P003,C002,1,0,0.0,0.0,0,0.0
+2026-02,Midwest,Mass Affluent,P002,C004,1,0,0.0,0.0,0,0.0
+2026-01,Northeast,Emerging Affluent,P003,C005,1,0,0.0,0.0,0,0.0
+2026-05,West,Borrower,P005,C005,1,1,4085.54,167.51,0,1.0
+2025-01,Northeast,Mass Affluent,P003,C004,1,1,14745.25,471.85,0,1.0
+2025-07,Midwest,Mass Affluent,P005,C003,1,0,0.0,0.0,0,0.0
+2026-03,Northeast,Borrower,P002,C004,1,0,0.0,0.0,0,0.0
+2025-07,Midwest,Borrower,P002,C003,1,1,22152.43,88.61,0,1.0
+2025-01,Southwest,Mass Affluent,P005,C002,1,1,3113.62,127.66,0,1.0
+2025-04,Southwest,Borrower,P005,C003,1,0,0.0,0.0,0,0.0
+2025-11,Northeast,Emerging Affluent,P002,C005,1,1,36298.67,145.19,0,1.0
+2026-04,Midwest,Rate Shopper,P004,C002,1,1,15088.37,120.71,1,1.0
+2026-03,Southwest,Rate Shopper,P002,C001,1,1,11936.83,47.75,0,1.0
+2026-07,Northeast,Borrower,P005,C001,1,0,0.0,0.0,0,0.0
+2026-07,Southeast,Borrower,P003,C005,1,0,0.0,0.0,0,0.0
+2025-06,West,Borrower,P001,C002,1,0,0.0,0.0,0,0.0
+2026-07,Northeast,Digital Native,P001,C003,1,1,24614.07,147.68,0,1.0
+2026-02,Southwest,Digital Native,P005,C001,1,1,2874.77,117.87,0,1.0
+2026-02,Southwest,Mass Affluent,P001,C001,1,0,0.0,0.0,0,0.0
+2025-12,Northeast,Mass Affluent,P003,C005,1,0,0.0,0.0,0,0.0
+2025-05,Northeast,Emerging Affluent,P004,C003,1,1,11812.72,94.5,0,1.0
+2025-05,West,Mass Affluent,P002,C004,1,1,18411.85,73.65,1,1.0
+2025-10,West,Borrower,P001,C001,1,1,20498.48,122.99,0,1.0
+2026-08,West,Mass Affluent,P004,C005,1,0,0.0,0.0,0,0.0
+2026-04,West,Digital Native,P004,C005,1,1,29421.97,235.38,0,1.0
+2025-06,Northeast,Rate Shopper,P005,C001,1,1,4755.18,194.96,1,1.0
+2026-03,West,Borrower,P002,C004,1,0,0.0,0.0,0,0.0
+2025-06,West,Mass Affluent,P003,C002,1,1,18955.44,606.57,1,1.0
+2025-11,Northeast,Emerging Affluent,P001,C001,2,1,14211.2,85.27,1,0.5
+2026-07,Midwest,Rate Shopper,P001,C003,1,1,13872.35,83.23,0,1.0
+2026-01,West,Emerging Affluent,P005,C005,1,1,2123.57,87.07,0,1.0
+2025-12,West,Rate Shopper,P001,C005,1,1,6446.03,38.68,0,1.0
+2025-04,Midwest,Borrower,P004,C004,1,0,0.0,0.0,0,0.0
+2025-06,Southwest,Mass Affluent,P002,C005,1,1,38976.9,155.91,1,1.0
+2025-08,Southeast,Rate Shopper,P005,C005,1,0,0.0,0.0,0,0.0
+2025-01,Northeast,Emerging Affluent,P004,C003,1,1,26018.72,208.15,0,1.0
+2026-03,Southeast,Borrower,P001,C001,1,0,0.0,0.0,0,0.0
+2025-03,Midwest,Mass Affluent,P003,C002,1,1,6369.02,203.81,0,1.0
+2026-04,West,Mass Affluent,P004,C001,1,1,32330.95,258.65,0,1.0
+2026-05,Southwest,Digital Native,P003,C003,1,1,10656.97,341.02,0,1.0
+2026-01,Southeast,Mass Affluent,P004,C004,1,1,17232.99,137.86,0,1.0
+2025-11,Northeast,Rate Shopper,P001,C002,1,1,6964.4,41.79,0,1.0
+2026-09,Southeast,Rate Shopper,P003,C002,1,1,13724.61,439.19,0,1.0
+2026-03,Midwest,Borrower,P005,C004,1,1,250.0,10.25,0,1.0
+2025-01,Northeast,Rate Shopper,P001,C005,1,1,6458.18,38.75,0,1.0
+2026-07,Midwest,Mass Affluent,P004,C003,1,1,15617.67,124.94,0,1.0
+2026-09,Southeast,Borrower,P005,C002,1,0,0.0,0.0,0,0.0
+2026-07,Midwest,Rate Shopper,P003,C005,1,1,9293.16,297.38,0,1.0
+2026-06,Northeast,Rate Shopper,P005,C002,1,1,3991.2,163.64,1,1.0
+2026-04,Southeast,Rate Shopper,P004,C002,1,1,7242.3,57.94,0,1.0
+2025-10,Southeast,Digital Native,P005,C002,1,1,2365.38,96.98,0,1.0
+2026-07,Southwest,Digital Native,P005,C005,1,1,3015.41,123.63,0,1.0
+2026-07,Southeast,Digital Native,P004,C003,1,0,0.0,0.0,0,0.0
+2025-08,Southwest,Emerging Affluent,P003,C004,1,1,12276.96,392.86,0,1.0
+2025-02,Midwest,Rate Shopper,P003,C001,1,1,16056.16,513.8,0,1.0
+2025-12,West,Rate Shopper,P005,C005,1,1,3201.36,131.26,1,1.0
+2026-07,Southeast,Rate Shopper,P003,C001,1,0,0.0,0.0,0,0.0
+2026-04,Southwest,Digital Native,P001,C005,1,0,0.0,0.0,0,0.0
+2025-02,Midwest,Emerging Affluent,P003,C001,1,1,23361.84,747.58,0,1.0
+2026-09,West,Emerging Affluent,P003,C002,1,1,13253.23,424.1,0,1.0
+2025-06,Northeast,Borrower,P004,C003,1,1,20709.11,165.67,1,1.0
+2025-11,Midwest,Rate Shopper,P002,C001,1,1,37975.64,151.9,0,1.0
+2025-10,Northeast,Borrower,P002,C002,1,1,24855.78,99.42,0,1.0
+2025-11,Southwest,Digital Native,P005,C003,1,1,3301.4,135.36,1,1.0
+2025-08,Southeast,Borrower,P002,C001,1,1,19008.89,76.04,1,1.0
+2025-08,Southeast,Borrower,P003,C003,1,1,13558.34,433.87,0,1.0
+2025-05,Northeast,Borrower,P002,C004,1,0,0.0,0.0,0,0.0
+2026-05,Midwest,Mass Affluent,P002,C004,1,1,7814.4,31.26,0,1.0
+2025-11,Midwest,Borrower,P003,C005,1,1,13453.4,430.51,1,1.0
+2025-11,Southwest,Digital Native,P003,C002,1,1,10156.76,325.02,1,1.0
+2025-03,Northeast,Emerging Affluent,P003,C005,1,0,0.0,0.0,0,0.0
+2025-04,Southwest,Rate Shopper,P003,C005,1,1,15040.17,481.29,0,1.0
+2025-08,Midwest,Mass Affluent,P002,C003,1,1,23763.07,95.05,0,1.0
+2025-12,Southwest,Borrower,P004,C001,1,1,25329.61,202.64,0,1.0
+2026-09,West,Digital Native,P003,C003,1,1,15825.37,506.41,0,1.0
+2025-08,Southwest,Mass Affluent,P001,C005,1,1,23429.85,140.58,0,1.0
+2026-06,Midwest,Borrower,P002,C002,1,1,50097.75,200.39,1,1.0
+2026-07,Midwest,Emerging Affluent,P005,C002,1,1,1660.0,68.06,0,1.0
+2025-11,Southwest,Digital Native,P001,C004,1,1,25819.67,154.92,0,1.0
+2026-05,Southeast,Emerging Affluent,P003,C002,1,1,17884.2,572.29,0,1.0
+2025-07,Southwest,Emerging Affluent,P004,C004,1,1,9530.31,76.24,0,1.0
+2026-01,Midwest,Digital Native,P004,C004,1,1,31430.18,251.44,0,1.0
+2025-05,Midwest,Rate Shopper,P002,C004,1,1,21863.04,87.45,0,1.0
+2025-12,Midwest,Rate Shopper,P004,C003,1,1,31691.96,253.54,1,1.0
+2026-09,Southwest,Borrower,P001,C005,1,1,20723.79,124.34,0,1.0
+2025-06,Northeast,Borrower,P002,C003,1,1,30291.28,121.17,0,1.0
+2026-08,Midwest,Mass Affluent,P005,C004,1,0,0.0,0.0,0,0.0
+2026-06,Southeast,Digital Native,P005,C003,1,1,3697.42,151.59,0,1.0
+2025-07,West,Borrower,P005,C001,1,1,3949.69,161.94,0,1.0
+2026-06,Southeast,Mass Affluent,P002,C003,1,1,34993.76,139.98,0,1.0
+2025-01,West,Rate Shopper,P001,C004,1,1,27391.66,164.35,0,1.0
+2025-09,West,Emerging Affluent,P003,C001,1,0,0.0,0.0,0,0.0
+2026-02,Southeast,Mass Affluent,P002,C005,1,1,31418.66,125.67,1,1.0
+2025-12,Southwest,Emerging Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2025-09,Southeast,Mass Affluent,P001,C005,1,0,0.0,0.0,0,0.0
+2026-09,Southeast,Digital Native,P001,C001,1,1,6303.87,37.82,0,1.0
+2026-04,West,Rate Shopper,P001,C004,1,1,12636.84,75.82,0,1.0
+2026-01,West,Borrower,P002,C002,1,1,22766.88,91.07,0,1.0
+2025-01,Southeast,Emerging Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2025-01,Southwest,Mass Affluent,P002,C004,1,0,0.0,0.0,0,0.0
+2025-12,Midwest,Emerging Affluent,P002,C003,1,1,45658.97,182.64,0,1.0
+2025-12,Midwest,Rate Shopper,P001,C005,1,0,0.0,0.0,0,0.0
+2025-05,West,Rate Shopper,P003,C001,1,1,6452.61,206.48,0,1.0
+2026-06,West,Borrower,P001,C003,1,1,11850.89,71.11,0,1.0
+2026-09,Northeast,Rate Shopper,P003,C005,1,1,14618.62,467.8,1,1.0
+2025-01,West,Rate Shopper,P005,C001,1,0,0.0,0.0,0,0.0
+2025-09,Southeast,Rate Shopper,P004,C003,1,1,16932.63,135.46,0,1.0
+2025-09,Southwest,Borrower,P002,C005,1,1,21110.69,84.44,1,1.0
+2025-01,West,Rate Shopper,P004,C004,1,1,22867.46,182.94,1,1.0
+2025-09,West,Borrower,P001,C004,1,1,17531.43,105.19,1,1.0
+2025-07,Northeast,Borrower,P004,C003,1,1,36179.31,289.43,0,1.0
+2026-01,West,Emerging Affluent,P003,C001,1,1,15865.58,507.7,0,1.0
+2025-09,Southwest,Borrower,P002,C001,1,1,26403.61,105.61,0,1.0
+2025-09,Southwest,Mass Affluent,P005,C001,1,1,2077.55,85.18,0,1.0
+2025-09,Northeast,Mass Affluent,P004,C004,1,1,16838.11,134.7,0,1.0
+2026-06,Midwest,Rate Shopper,P002,C002,1,1,9343.69,37.37,0,1.0
+2025-12,West,Rate Shopper,P003,C003,1,0,0.0,0.0,0,0.0
+2026-04,Southeast,Digital Native,P004,C001,1,1,29799.24,238.39,1,1.0
+2025-05,Midwest,Digital Native,P005,C005,1,0,0.0,0.0,0,0.0
+2025-01,Midwest,Rate Shopper,P001,C005,1,0,0.0,0.0,0,0.0
+2025-09,Midwest,Rate Shopper,P002,C001,1,0,0.0,0.0,0,0.0
+2026-04,West,Mass Affluent,P001,C003,1,1,23049.26,138.3,1,1.0
+2026-05,Southeast,Digital Native,P001,C001,1,1,13531.12,81.19,0,1.0
+2026-07,Southeast,Rate Shopper,P003,C002,1,1,5495.83,175.87,1,1.0
+2026-05,West,Mass Affluent,P005,C005,1,1,2487.53,101.99,0,1.0
+2025-07,Northeast,Mass Affluent,P005,C004,1,0,0.0,0.0,0,0.0
+2025-09,West,Mass Affluent,P003,C001,1,0,0.0,0.0,0,0.0
+2025-02,Southeast,Rate Shopper,P004,C002,1,1,19751.75,158.01,1,1.0
+2025-06,Northeast,Digital Native,P002,C001,1,1,27435.86,109.74,0,1.0
+2025-03,Southeast,Rate Shopper,P004,C002,1,1,20074.99,160.6,1,1.0
+2026-05,West,Mass Affluent,P003,C004,1,1,13509.43,432.3,1,1.0
+2025-01,West,Mass Affluent,P005,C001,1,0,0.0,0.0,0,0.0
+2026-04,Northeast,Digital Native,P002,C001,1,1,28978.97,115.92,0,1.0
+2025-03,Southeast,Borrower,P005,C004,1,1,3637.41,149.13,0,1.0
+2025-11,Southeast,Rate Shopper,P001,C003,1,1,24791.52,148.75,0,1.0
+2025-06,Northeast,Mass Affluent,P001,C005,1,1,10780.39,64.68,0,1.0
+2025-05,West,Mass Affluent,P003,C003,1,1,19366.43,619.73,1,1.0
+2026-04,Midwest,Rate Shopper,P003,C003,1,0,0.0,0.0,0,0.0
+2025-05,Southwest,Borrower,P004,C001,1,1,29024.84,232.2,0,1.0
+2026-01,Northeast,Rate Shopper,P002,C004,1,1,47636.15,190.54,1,1.0
+2025-08,Midwest,Emerging Affluent,P001,C005,1,1,17924.56,107.55,0,1.0
+2026-08,Southeast,Borrower,P001,C004,1,0,0.0,0.0,0,0.0
+2025-07,Northeast,Digital Native,P005,C002,1,1,3889.98,159.49,1,1.0
+2026-06,Southeast,Rate Shopper,P004,C001,1,1,1040.19,8.32,1,1.0
+2025-07,Northeast,Emerging Affluent,P003,C004,1,1,20468.73,655.0,0,1.0
+2025-01,Southeast,Borrower,P004,C002,1,1,34146.16,273.17,0,1.0
+2025-03,Southeast,Mass Affluent,P002,C001,1,1,38818.17,155.27,0,1.0
+2025-04,Northeast,Borrower,P002,C005,1,1,28539.87,114.16,1,1.0
+2026-02,Southwest,Rate Shopper,P003,C001,1,0,0.0,0.0,0,0.0
+2025-05,Southeast,Digital Native,P002,C002,1,1,25048.54,100.19,1,1.0
+2026-07,Southwest,Digital Native,P005,C001,1,1,1381.19,56.63,0,1.0
+2025-04,Midwest,Mass Affluent,P004,C001,1,0,0.0,0.0,0,0.0
+2025-03,Southeast,Emerging Affluent,P001,C005,1,1,14136.03,84.82,0,1.0
+2025-03,Northeast,Emerging Affluent,P003,C001,1,1,11572.48,370.32,0,1.0
+2026-08,West,Borrower,P003,C004,1,1,17905.15,572.96,1,1.0
+2026-03,West,Mass Affluent,P004,C004,1,1,23525.7,188.21,1,1.0
+2025-04,West,Mass Affluent,P002,C005,1,1,29519.16,118.08,1,1.0
+2026-04,Southwest,Digital Native,P002,C005,1,0,0.0,0.0,0,0.0
+2025-12,Southwest,Mass Affluent,P001,C005,2,2,35980.27,215.88,1,1.0
+2026-04,Midwest,Borrower,P003,C002,1,1,16086.16,514.76,1,1.0
+2025-05,Midwest,Mass Affluent,P001,C005,1,1,12636.11,75.82,0,1.0
+2025-12,Southeast,Emerging Affluent,P002,C003,1,1,24292.62,97.17,0,1.0
+2025-09,Midwest,Emerging Affluent,P002,C005,1,1,23039.54,92.16,0,1.0
+2025-05,Northeast,Digital Native,P002,C002,1,1,824.97,3.3,1,1.0
+2025-09,West,Emerging Affluent,P003,C002,1,0,0.0,0.0,0,0.0
+2026-03,Southeast,Rate Shopper,P002,C004,1,0,0.0,0.0,0,0.0
+2026-09,Northeast,Emerging Affluent,P001,C001,1,1,21937.77,131.63,0,1.0
+2025-06,Southeast,Emerging Affluent,P003,C004,1,1,16460.7,526.74,0,1.0
+2026-07,Southeast,Emerging Affluent,P004,C004,1,0,0.0,0.0,0,0.0
+2026-02,West,Emerging Affluent,P004,C002,1,1,37964.06,303.71,1,1.0
+2025-12,Southeast,Emerging Affluent,P004,C004,1,0,0.0,0.0,0,0.0
+2026-02,Southeast,Rate Shopper,P005,C004,1,0,0.0,0.0,0,0.0
+2026-04,Midwest,Rate Shopper,P005,C003,1,1,2750.86,112.79,1,1.0
+2026-02,Southwest,Rate Shopper,P001,C001,2,0,0.0,0.0,0,0.0
+2025-11,Southeast,Rate Shopper,P005,C004,1,1,3772.18,154.66,1,1.0
+2026-03,Midwest,Emerging Affluent,P001,C003,1,0,0.0,0.0,0,0.0
+2026-08,Southeast,Rate Shopper,P003,C003,1,0,0.0,0.0,0,0.0
+2025-04,Southwest,Borrower,P003,C003,1,0,0.0,0.0,0,0.0
+2026-06,Southeast,Borrower,P005,C001,1,1,2685.71,110.11,1,1.0
+2025-12,Midwest,Rate Shopper,P003,C002,1,1,10544.99,337.44,0,1.0
+2026-06,Southwest,Emerging Affluent,P001,C005,1,1,8030.78,48.18,0,1.0
+2025-01,Southwest,Borrower,P004,C003,1,1,19988.73,159.91,1,1.0
+2025-07,Midwest,Mass Affluent,P003,C003,1,1,16390.78,524.5,1,1.0
+2026-06,Southwest,Rate Shopper,P002,C001,1,1,31088.79,124.36,0,1.0
+2025-04,Southeast,Rate Shopper,P001,C002,1,1,11399.09,68.39,0,1.0
+2025-02,Northeast,Digital Native,P001,C003,1,0,0.0,0.0,0,0.0
+2025-04,Southwest,Digital Native,P001,C002,1,1,18009.85,108.06,0,1.0
+2025-06,Northeast,Rate Shopper,P001,C004,1,0,0.0,0.0,0,0.0
+2025-04,Southwest,Rate Shopper,P005,C003,1,0,0.0,0.0,0,0.0
+2025-06,Midwest,Rate Shopper,P003,C005,1,0,0.0,0.0,0,0.0
+2025-05,West,Emerging Affluent,P001,C004,1,0,0.0,0.0,0,0.0
+2025-04,Southeast,Mass Affluent,P002,C004,1,1,31209.2,124.84,0,1.0
+2025-06,Northeast,Borrower,P005,C004,1,1,3022.14,123.91,1,1.0
+2025-05,Midwest,Borrower,P004,C004,1,0,0.0,0.0,0,0.0
+2025-07,Northeast,Borrower,P001,C001,1,0,0.0,0.0,0,0.0
+2026-05,Midwest,Borrower,P003,C004,1,1,17534.89,561.12,0,1.0
+2026-02,Northeast,Borrower,P002,C002,1,0,0.0,0.0,0,0.0
+2026-01,Northeast,Digital Native,P005,C001,1,1,1679.01,68.84,0,1.0
+2026-02,West,Mass Affluent,P004,C001,1,0,0.0,0.0,0,0.0
+2025-05,Southeast,Digital Native,P004,C005,1,0,0.0,0.0,0,0.0
+2025-04,Northeast,Digital Native,P003,C001,1,0,0.0,0.0,0,0.0
+2026-05,Southeast,Rate Shopper,P001,C001,1,1,21966.26,131.8,0,1.0
+2025-08,Southeast,Rate Shopper,P002,C003,1,0,0.0,0.0,0,0.0
+2026-07,Southeast,Digital Native,P002,C003,1,1,33868.4,135.47,1,1.0
+2025-03,West,Emerging Affluent,P004,C005,1,0,0.0,0.0,0,0.0
+2026-01,Northeast,Rate Shopper,P002,C001,1,0,0.0,0.0,0,0.0
+2025-09,Northeast,Rate Shopper,P003,C004,1,1,11896.11,380.68,0,1.0
+2025-04,Midwest,Rate Shopper,P003,C005,1,0,0.0,0.0,0,0.0
+2026-04,Midwest,Mass Affluent,P001,C003,1,0,0.0,0.0,0,0.0
+2026-04,Northeast,Borrower,P005,C001,1,0,0.0,0.0,0,0.0
+2026-01,Southwest,Mass Affluent,P002,C005,1,1,28049.03,112.2,0,1.0
+2026-04,West,Rate Shopper,P001,C005,1,1,10639.52,63.84,0,1.0
+2026-03,Southeast,Rate Shopper,P003,C003,1,1,15013.5,480.43,0,1.0
+2026-01,Southeast,Rate Shopper,P002,C001,1,1,8853.58,35.41,1,1.0
+2026-04,Midwest,Mass Affluent,P001,C005,1,1,22455.52,134.73,0,1.0
+2025-04,Southwest,Borrower,P001,C002,1,1,22317.86,133.91,0,1.0
+2026-03,Northeast,Mass Affluent,P001,C002,1,1,17293.89,103.76,0,1.0
+2026-03,Northeast,Rate Shopper,P004,C004,1,1,20086.09,160.69,1,1.0
+2026-05,Southeast,Rate Shopper,P002,C002,1,0,0.0,0.0,0,0.0
+2026-06,Northeast,Rate Shopper,P005,C004,1,1,3987.01,163.47,0,1.0
+2026-06,Northeast,Borrower,P003,C005,1,0,0.0,0.0,0,0.0
+2026-03,Southwest,Borrower,P002,C005,1,0,0.0,0.0,0,0.0
+2025-09,Southwest,Mass Affluent,P004,C004,1,1,23109.02,184.87,0,1.0
+2026-05,West,Digital Native,P001,C004,1,1,12603.29,75.62,0,1.0
+2026-03,Southwest,Borrower,P003,C002,1,0,0.0,0.0,0,0.0
+2025-08,Southwest,Digital Native,P002,C004,1,0,0.0,0.0,0,0.0
+2025-03,Midwest,Mass Affluent,P002,C002,1,1,25403.75,101.62,0,1.0
+2026-01,Southeast,Mass Affluent,P001,C004,1,1,14234.3,85.41,0,1.0
+2026-03,West,Emerging Affluent,P004,C001,1,1,28859.84,230.88,0,1.0
+2026-07,West,Rate Shopper,P003,C003,1,1,22077.69,706.49,0,1.0
+2026-03,West,Rate Shopper,P002,C001,1,1,28141.03,112.56,0,1.0
+2026-08,Southwest,Mass Affluent,P002,C004,1,0,0.0,0.0,0,0.0
+2026-05,West,Mass Affluent,P004,C003,1,1,23293.46,186.35,0,1.0
+2025-03,Midwest,Borrower,P001,C002,1,1,16040.88,96.25,1,1.0
+2025-02,Southeast,Rate Shopper,P003,C001,1,1,13636.19,436.36,0,1.0
+2026-08,Northeast,Emerging Affluent,P003,C004,1,1,17761.58,568.37,1,1.0
+2026-03,West,Borrower,P005,C003,1,1,2439.17,100.01,0,1.0
+2025-09,Midwest,Digital Native,P004,C003,1,1,24332.89,194.66,0,1.0
+2026-09,Northeast,Mass Affluent,P005,C002,1,1,3396.13,139.24,0,1.0
+2026-08,Southwest,Digital Native,P001,C002,1,1,24927.69,149.57,0,1.0
+2026-07,Southeast,Rate Shopper,P001,C003,1,0,0.0,0.0,0,0.0
+2026-04,Northeast,Rate Shopper,P003,C002,1,0,0.0,0.0,0,0.0
+2026-05,Southwest,Emerging Affluent,P002,C005,1,1,25543.6,102.17,1,1.0
+2025-11,Southwest,Emerging Affluent,P005,C004,1,0,0.0,0.0,0,0.0
+2025-07,Midwest,Borrower,P001,C002,1,0,0.0,0.0,0,0.0
+2025-02,West,Emerging Affluent,P002,C005,1,0,0.0,0.0,0,0.0
+2025-07,West,Rate Shopper,P002,C003,1,1,38611.03,154.44,1,1.0
+2025-02,Northeast,Mass Affluent,P003,C001,1,1,17288.49,553.23,0,1.0
+2025-12,West,Rate Shopper,P005,C002,1,1,4092.97,167.81,0,1.0
+2025-06,West,Emerging Affluent,P002,C002,1,1,11152.66,44.61,1,1.0
+2025-10,Southwest,Rate Shopper,P002,C003,1,1,24967.22,99.87,0,1.0
+2026-02,Midwest,Emerging Affluent,P003,C005,1,1,10509.27,336.3,1,1.0
+2026-05,Southeast,Mass Affluent,P002,C002,1,1,44763.99,179.06,1,1.0
+2025-07,Southeast,Mass Affluent,P001,C005,1,0,0.0,0.0,0,0.0
+2026-02,West,Emerging Affluent,P002,C002,1,1,13104.09,52.42,0,1.0
+2026-04,Northeast,Digital Native,P004,C003,1,1,25969.14,207.75,0,1.0
+2025-05,Midwest,Borrower,P004,C001,1,1,17115.08,136.92,0,1.0
+2026-08,Southwest,Borrower,P001,C005,1,1,5370.79,32.22,0,1.0
+2025-03,Southwest,Rate Shopper,P002,C003,1,1,32346.02,129.38,0,1.0
+2025-04,West,Emerging Affluent,P001,C003,1,1,27178.44,163.07,0,1.0
+2025-04,Midwest,Emerging Affluent,P002,C002,1,0,0.0,0.0,0,0.0
+2026-08,Midwest,Rate Shopper,P005,C001,1,1,3191.12,130.84,0,1.0
+2026-05,Midwest,Mass Affluent,P005,C004,1,1,4460.86,182.9,0,1.0
+2026-08,Southwest,Emerging Affluent,P002,C002,1,1,29834.87,119.34,0,1.0
+2025-02,West,Emerging Affluent,P003,C005,1,1,17370.58,555.86,0,1.0
+2025-07,Northeast,Mass Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2026-02,Southwest,Borrower,P004,C002,1,0,0.0,0.0,0,0.0
+2026-08,West,Mass Affluent,P004,C002,1,0,0.0,0.0,0,0.0
+2026-08,West,Emerging Affluent,P003,C001,1,1,9764.35,312.46,0,1.0
+2025-04,Southwest,Digital Native,P003,C001,1,0,0.0,0.0,0,0.0
+2025-06,Southwest,Borrower,P003,C004,1,1,13517.38,432.56,1,1.0
+2025-04,Southwest,Emerging Affluent,P002,C001,1,1,30417.24,121.67,0,1.0
+2025-06,Southeast,Borrower,P005,C005,1,1,2650.45,108.67,0,1.0
+2025-02,Northeast,Digital Native,P002,C004,1,1,33329.1,133.32,0,1.0
+2025-01,Southwest,Mass Affluent,P003,C001,1,1,13065.03,418.08,0,1.0
+2026-07,Northeast,Mass Affluent,P003,C002,1,1,7641.05,244.51,1,1.0
+2025-03,Southwest,Mass Affluent,P004,C001,1,0,0.0,0.0,0,0.0
+2025-05,Southwest,Digital Native,P001,C005,1,1,16610.22,99.66,0,1.0
+2025-04,Midwest,Borrower,P003,C004,1,0,0.0,0.0,0,0.0
+2025-10,Southwest,Rate Shopper,P002,C004,1,1,19738.95,78.96,0,1.0
+2025-11,West,Mass Affluent,P001,C005,1,1,18529.33,111.18,1,1.0
+2025-04,Southwest,Borrower,P002,C002,1,1,32778.93,131.12,0,1.0
+2025-01,West,Borrower,P004,C001,2,2,53586.43,428.69,0,1.0
+2025-04,Southwest,Digital Native,P002,C002,1,1,13891.92,55.57,1,1.0
+2026-03,Northeast,Borrower,P001,C003,1,0,0.0,0.0,0,0.0
+2026-09,Southeast,Borrower,P001,C004,1,1,11347.5,68.09,1,1.0
+2025-08,Northeast,Rate Shopper,P004,C002,1,1,27270.67,218.17,0,1.0
+2026-01,Southeast,Rate Shopper,P003,C005,1,0,0.0,0.0,0,0.0
+2026-09,West,Borrower,P001,C001,1,1,24941.18,149.65,0,1.0
+2025-10,Midwest,Borrower,P003,C004,1,1,16811.41,537.97,0,1.0
+2025-08,Midwest,Mass Affluent,P001,C005,1,1,23577.66,141.47,1,1.0
+2026-02,Southeast,Rate Shopper,P003,C004,1,1,14155.8,452.99,0,1.0
+2025-09,West,Borrower,P003,C004,1,1,22339.99,714.88,0,1.0
+2026-01,Northeast,Mass Affluent,P005,C001,1,1,1876.92,76.95,0,1.0
+2026-09,Midwest,Digital Native,P003,C005,1,1,3699.49,118.38,0,1.0
+2026-06,Southeast,Digital Native,P001,C001,1,1,11561.45,69.37,1,1.0
+2025-01,Southeast,Emerging Affluent,P005,C004,1,1,2995.26,122.81,0,1.0
+2025-09,Southeast,Digital Native,P001,C002,1,1,22478.98,134.87,0,1.0
+2026-05,Northeast,Borrower,P001,C004,1,1,12264.62,73.59,0,1.0
+2025-07,Northeast,Mass Affluent,P002,C002,1,1,15964.63,63.86,0,1.0
+2025-03,Midwest,Emerging Affluent,P005,C003,1,1,1751.79,71.82,0,1.0
+2026-08,Southeast,Rate Shopper,P004,C002,1,0,0.0,0.0,0,0.0
+2025-11,Midwest,Borrower,P001,C003,1,0,0.0,0.0,0,0.0
+2025-05,Southeast,Rate Shopper,P002,C002,1,1,25876.43,103.51,0,1.0
+2025-01,Southeast,Borrower,P004,C004,1,1,19483.46,155.87,1,1.0
+2025-06,West,Digital Native,P001,C004,1,0,0.0,0.0,0,0.0
+2025-07,West,Mass Affluent,P005,C005,1,0,0.0,0.0,0,0.0
+2025-06,West,Borrower,P005,C005,1,1,1763.7,72.31,0,1.0
+2025-04,Northeast,Digital Native,P002,C004,1,1,27721.32,110.89,0,1.0
+2026-09,West,Borrower,P004,C003,1,1,21388.36,171.11,1,1.0
+2025-12,Midwest,Rate Shopper,P001,C002,1,1,24402.59,146.42,0,1.0
+2026-08,Southwest,Borrower,P003,C003,1,1,10438.39,334.03,0,1.0
+2026-07,West,Borrower,P005,C003,1,1,2453.76,100.6,1,1.0
+2025-10,West,Rate Shopper,P005,C002,1,0,0.0,0.0,0,0.0
+2025-03,West,Digital Native,P001,C002,1,1,31816.03,190.9,0,1.0
+2026-01,Midwest,Mass Affluent,P005,C001,1,1,1350.13,55.36,1,1.0
+2025-02,Southeast,Rate Shopper,P005,C005,1,1,1127.66,46.23,0,1.0
+2026-06,West,Emerging Affluent,P005,C002,1,0,0.0,0.0,0,0.0
+2025-02,Southwest,Emerging Affluent,P001,C002,1,1,10182.06,61.09,0,1.0
+2025-06,Northeast,Borrower,P002,C004,1,1,26026.83,104.11,0,1.0
+2026-06,Southwest,Rate Shopper,P002,C005,1,1,19979.18,79.92,0,1.0
+2025-04,Southeast,Digital Native,P005,C004,1,1,3835.56,157.26,0,1.0
+2025-02,Northeast,Mass Affluent,P001,C005,1,1,6144.42,36.87,1,1.0
+2026-09,Midwest,Rate Shopper,P002,C003,1,1,16917.88,67.67,0,1.0
+2025-07,West,Rate Shopper,P001,C001,1,1,24194.81,145.17,0,1.0
+2025-08,Northeast,Rate Shopper,P002,C003,1,1,25468.79,101.88,0,1.0
+2025-01,Southwest,Rate Shopper,P003,C002,1,1,15037.78,481.21,0,1.0
+2025-05,Midwest,Borrower,P004,C003,1,0,0.0,0.0,0,0.0
+2025-08,Northeast,Emerging Affluent,P003,C003,1,1,12799.44,409.58,1,1.0
+2026-02,Midwest,Digital Native,P003,C003,1,1,21520.67,688.66,0,1.0
+2026-01,West,Digital Native,P004,C001,1,0,0.0,0.0,0,0.0
+2025-01,Midwest,Rate Shopper,P005,C002,1,1,2983.62,122.33,0,1.0
+2026-02,Southeast,Rate Shopper,P005,C005,1,1,4248.46,174.19,0,1.0
+2025-09,Northeast,Emerging Affluent,P005,C005,1,1,5320.6,218.14,0,1.0
+2025-09,Northeast,Mass Affluent,P003,C001,1,1,15831.59,506.61,1,1.0
+2025-04,Southwest,Emerging Affluent,P005,C002,1,0,0.0,0.0,0,0.0
+2025-01,Midwest,Digital Native,P002,C004,1,1,38358.91,153.44,0,1.0
+2026-02,Northeast,Rate Shopper,P001,C004,1,0,0.0,0.0,0,0.0
+2025-10,Midwest,Digital Native,P002,C001,1,0,0.0,0.0,0,0.0
+2025-07,Southwest,Digital Native,P001,C001,1,1,9804.18,58.83,0,1.0
+2026-09,Northeast,Mass Affluent,P001,C005,1,1,17142.77,102.86,0,1.0
+2025-10,Northeast,Rate Shopper,P002,C002,1,0,0.0,0.0,0,0.0
+2025-12,Midwest,Digital Native,P002,C002,1,0,0.0,0.0,0,0.0
+2025-04,Midwest,Emerging Affluent,P004,C005,1,0,0.0,0.0,0,0.0
+2026-07,Southeast,Emerging Affluent,P003,C004,1,1,11755.06,376.16,1,1.0
+2025-01,Southwest,Borrower,P003,C002,1,1,9568.46,306.19,0,1.0
+2025-01,West,Rate Shopper,P002,C003,1,1,30075.19,120.3,0,1.0
+2025-06,Southwest,Borrower,P003,C001,1,1,9070.22,290.25,0,1.0
+2026-05,Southeast,Mass Affluent,P002,C001,1,1,35750.11,143.0,1,1.0
+2025-12,Southwest,Digital Native,P001,C002,1,0,0.0,0.0,0,0.0
+2026-05,Midwest,Rate Shopper,P002,C005,1,1,30652.02,122.61,0,1.0
+2026-04,Southwest,Rate Shopper,P003,C003,1,1,19778.06,632.9,0,1.0
+2026-03,Midwest,Emerging Affluent,P004,C001,1,0,0.0,0.0,0,0.0
+2026-02,Southeast,Digital Native,P001,C004,1,1,10208.66,61.25,0,1.0
+2026-07,West,Borrower,P004,C001,1,1,34644.11,277.15,0,1.0
+2025-12,Northeast,Mass Affluent,P005,C005,1,1,776.98,31.86,0,1.0
+2026-09,Midwest,Rate Shopper,P003,C001,1,1,17037.16,545.19,1,1.0
+2026-01,Southwest,Rate Shopper,P005,C004,1,0,0.0,0.0,0,0.0
+2025-02,West,Borrower,P004,C001,1,1,33409.39,267.28,0,1.0
+2025-11,Southwest,Rate Shopper,P003,C003,1,1,17523.32,560.75,0,1.0
+2025-01,Midwest,Emerging Affluent,P001,C005,1,1,21403.41,128.42,0,1.0
+2025-09,Northeast,Rate Shopper,P002,C001,1,1,6078.4,24.31,0,1.0
+2026-07,Southeast,Emerging Affluent,P001,C004,1,1,16792.74,100.76,1,1.0
+2025-04,Midwest,Mass Affluent,P005,C003,1,1,4280.66,175.51,0,1.0

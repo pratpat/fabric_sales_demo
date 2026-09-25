@@ -1,0 +1,6 @@
+product_id,product_name,product_family,base_amount,revenue_rate
+P001,Marcus High Yield Savings,Deposits,18000,0.006
+P002,Marcus Certificate of Deposit,Deposits,27000,0.004
+P003,Marcus Personal Loan,Lending,14500,0.032
+P004,Marcus Invest Account,Wealth,22000,0.008
+P005,Marcus Credit Card,Cards,3200,0.041

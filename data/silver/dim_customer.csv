@@ -1,0 +1,501 @@
+customer_id,first_name,last_name,region,segment,age_band,annual_income_band,credit_tier,digital_engagement_score,customer_since
+CUST00001,Jamie,Johnson,Northeast,Mass Affluent,30-39,<75K,Near Prime,94,2024-10-08
+CUST00002,Avery,Adams,Northeast,Borrower,18-29,75K-125K,Prime,89,2025-03-08
+CUST00003,Harper,Singh,West,Mass Affluent,30-39,250K+,Near Prime,60,2025-07-28
+CUST00004,Morgan,Kim,Northeast,Emerging Affluent,30-39,75K-125K,Super Prime,38,2025-03-08
+CUST00005,Parker,Patel,Northeast,Rate Shopper,65+,125K-250K,Prime,83,2024-04-09
+CUST00006,Blake,Lopez,West,Mass Affluent,65+,125K-250K,Near Prime,49,2025-01-22
+CUST00007,Kendall,Chen,Northeast,Mass Affluent,30-39,<75K,Super Prime,60,2024-08-21
+CUST00008,Parker,Patel,Southwest,Digital Native,30-39,125K-250K,Near Prime,34,2024-06-15
+CUST00009,Jamie,Garcia,West,Emerging Affluent,50-64,250K+,Super Prime,96,2025-06-30
+CUST00010,Jamie,Baker,Southeast,Digital Native,40-49,250K+,Super Prime,33,2024-02-27
+CUST00011,Harper,Wilson,Southeast,Borrower,50-64,250K+,Prime,58,2024-11-18
+CUST00012,Jordan,Singh,Southeast,Emerging Affluent,65+,250K+,Super Prime,53,2025-07-28
+CUST00013,Blake,Baker,Southeast,Borrower,18-29,75K-125K,Near Prime,45,2025-05-20
+CUST00014,Quinn,Rivera,Southwest,Borrower,65+,250K+,Near Prime,57,2024-03-06
+CUST00015,Jordan,Miller,West,Mass Affluent,18-29,125K-250K,Super Prime,45,2024-04-27
+CUST00016,Emerson,Diaz,Southwest,Mass Affluent,40-49,75K-125K,Prime,72,2024-09-26
+CUST00017,Alex,Miller,Southeast,Borrower,50-64,<75K,Prime,71,2025-06-27
+CUST00018,Jamie,Chen,Midwest,Emerging Affluent,18-29,250K+,Prime,93,2024-02-29
+CUST00019,Emerson,Kim,Southeast,Emerging Affluent,65+,250K+,Prime,94,2025-05-01
+CUST00020,Parker,Smith,Southeast,Digital Native,65+,250K+,Prime,56,2025-02-12
+CUST00021,Alex,Johnson,Southeast,Mass Affluent,65+,75K-125K,Prime,34,2024-12-12
+CUST00022,Avery,Miller,Northeast,Emerging Affluent,18-29,75K-125K,Super Prime,87,2024-03-10
+CUST00023,Taylor,Johnson,Southeast,Borrower,50-64,250K+,Prime,37,2024-05-15
+CUST00024,Reese,Singh,Northeast,Rate Shopper,50-64,<75K,Near Prime,37,2024-12-28
+CUST00025,Casey,Johnson,Northeast,Rate Shopper,30-39,75K-125K,Near Prime,82,2024-12-13
+CUST00026,Jordan,Smith,Southeast,Rate Shopper,30-39,<75K,Super Prime,95,2024-07-06
+CUST00027,Alex,Chen,Northeast,Mass Affluent,30-39,75K-125K,Super Prime,87,2025-07-07
+CUST00028,Avery,Garcia,Southwest,Emerging Affluent,50-64,<75K,Super Prime,58,2025-02-14
+CUST00029,Taylor,Evans,Southwest,Digital Native,30-39,125K-250K,Prime,32,2025-03-09
+CUST00030,Morgan,Baker,West,Borrower,18-29,250K+,Near Prime,92,2024-03-03
+CUST00031,Blake,Garcia,Southeast,Mass Affluent,18-29,<75K,Near Prime,55,2025-06-04
+CUST00032,Jamie,Baker,Southwest,Mass Affluent,65+,<75K,Super Prime,99,2025-08-06
+CUST00033,Jordan,Hill,West,Borrower,40-49,75K-125K,Super Prime,75,2024-11-19
+CUST00034,Morgan,Chen,Southeast,Digital Native,18-29,250K+,Near Prime,97,2025-04-13
+CUST00035,Harper,Kim,Northeast,Mass Affluent,30-39,125K-250K,Prime,56,2025-07-04
+CUST00036,Riley,Lopez,Midwest,Digital Native,65+,<75K,Near Prime,95,2024-06-10
+CUST00037,Jordan,Diaz,Midwest,Mass Affluent,18-29,75K-125K,Super Prime,61,2024-05-17
+CUST00038,Harper,Kim,West,Emerging Affluent,65+,250K+,Super Prime,31,2024-12-17
+CUST00039,Avery,Adams,Northeast,Rate Shopper,40-49,75K-125K,Near Prime,58,2024-10-10
+CUST00040,Reese,Adams,Southeast,Rate Shopper,18-29,<75K,Near Prime,44,2025-07-18
+CUST00041,Devon,Singh,West,Mass Affluent,30-39,<75K,Super Prime,71,2025-01-13
+CUST00042,Jamie,Diaz,Northeast,Digital Native,40-49,250K+,Near Prime,44,2024-08-03
+CUST00043,Reese,Adams,Southeast,Emerging Affluent,30-39,125K-250K,Super Prime,56,2024-06-30
+CUST00044,Quinn,Baker,Midwest,Emerging Affluent,50-64,75K-125K,Prime,83,2024-04-20
+CUST00045,Jamie,Adams,Midwest,Digital Native,30-39,250K+,Super Prime,60,2024-08-21
+CUST00046,Quinn,Miller,Northeast,Digital Native,18-29,<75K,Super Prime,47,2024-12-25
+CUST00047,Casey,Singh,West,Digital Native,40-49,125K-250K,Super Prime,90,2024-02-09
+CUST00048,Harper,Kim,Northeast,Rate Shopper,18-29,250K+,Prime,91,2025-08-13
+CUST00049,Reese,Chen,West,Emerging Affluent,40-49,125K-250K,Near Prime,40,2025-01-07
+CUST00050,Reese,Miller,Midwest,Borrower,50-64,125K-250K,Near Prime,41,2024-11-12
+CUST00051,Emerson,Lopez,Southeast,Rate Shopper,50-64,<75K,Super Prime,61,2025-01-23
+CUST00052,Morgan,Smith,Southeast,Rate Shopper,50-64,250K+,Near Prime,52,2025-08-16
+CUST00053,Blake,Lopez,West,Rate Shopper,65+,125K-250K,Prime,55,2024-06-22
+CUST00054,Devon,Adams,Midwest,Emerging Affluent,18-29,75K-125K,Super Prime,34,2024-07-22
+CUST00055,Harper,Rivera,Southwest,Rate Shopper,50-64,250K+,Prime,43,2025-08-12
+CUST00056,Jamie,Garcia,Northeast,Mass Affluent,65+,250K+,Prime,96,2025-03-11
+CUST00057,Devon,Smith,Southeast,Mass Affluent,65+,125K-250K,Super Prime,89,2025-04-12
+CUST00058,Emerson,Wilson,Southwest,Borrower,50-64,125K-250K,Prime,60,2025-04-01
+CUST00059,Jordan,Smith,West,Rate Shopper,18-29,125K-250K,Prime,59,2024-09-01
+CUST00060,Blake,Evans,Midwest,Digital Native,30-39,75K-125K,Super Prime,44,2025-07-07
+CUST00061,Reese,Miller,Southeast,Mass Affluent,65+,250K+,Super Prime,32,2025-02-28
+CUST00062,Alex,Rivera,Southeast,Rate Shopper,50-64,<75K,Super Prime,63,2025-02-02
+CUST00063,Jamie,Wilson,Southwest,Rate Shopper,30-39,125K-250K,Super Prime,87,2025-07-05
+CUST00064,Quinn,Garcia,Northeast,Rate Shopper,50-64,75K-125K,Near Prime,93,2024-12-10
+CUST00065,Alex,Chen,Northeast,Rate Shopper,50-64,75K-125K,Super Prime,48,2025-08-29
+CUST00066,Morgan,Hill,Northeast,Digital Native,50-64,125K-250K,Super Prime,73,2025-01-23
+CUST00067,Blake,Wilson,Midwest,Rate Shopper,18-29,<75K,Super Prime,53,2024-09-15
+CUST00068,Jamie,Hill,Northeast,Mass Affluent,18-29,75K-125K,Prime,41,2024-02-01
+CUST00069,Harper,Smith,Southwest,Mass Affluent,40-49,125K-250K,Prime,39,2025-07-31
+CUST00070,Alex,Lopez,Southeast,Digital Native,65+,250K+,Super Prime,50,2024-04-20
+CUST00071,Casey,Lopez,Northeast,Borrower,65+,<75K,Near Prime,30,2024-09-05
+CUST00072,Parker,Chen,Midwest,Borrower,65+,125K-250K,Prime,78,2025-03-14
+CUST00073,Parker,Smith,Southwest,Mass Affluent,30-39,250K+,Prime,91,2025-03-19
+CUST00074,Taylor,Smith,Midwest,Borrower,50-64,125K-250K,Super Prime,56,2025-07-05
+CUST00075,Jamie,Smith,Northeast,Digital Native,65+,250K+,Super Prime,28,2025-04-06
+CUST00076,Taylor,Hill,Southwest,Digital Native,40-49,125K-250K,Super Prime,60,2024-07-05
+CUST00077,Alex,Hill,West,Digital Native,18-29,75K-125K,Near Prime,77,2025-07-23
+CUST00078,Taylor,Wilson,Southwest,Borrower,50-64,<75K,Prime,62,2024-09-03
+CUST00079,Kendall,Patel,Southeast,Rate Shopper,50-64,125K-250K,Super Prime,95,2024-09-06
+CUST00080,Jordan,Lopez,Midwest,Digital Native,40-49,75K-125K,Prime,49,2025-04-09
+CUST00081,Emerson,Hill,Midwest,Mass Affluent,30-39,250K+,Super Prime,100,2025-07-02
+CUST00082,Casey,Hill,West,Borrower,40-49,75K-125K,Super Prime,47,2024-10-16
+CUST00083,Devon,Kim,Midwest,Mass Affluent,18-29,<75K,Near Prime,62,2025-06-30
+CUST00084,Alex,Lopez,Southeast,Rate Shopper,50-64,250K+,Super Prime,68,2024-04-15
+CUST00085,Taylor,Diaz,Southeast,Mass Affluent,18-29,250K+,Super Prime,34,2024-09-15
+CUST00086,Devon,Lopez,West,Mass Affluent,18-29,75K-125K,Prime,96,2024-06-04
+CUST00087,Jamie,Rivera,Southwest,Borrower,50-64,250K+,Super Prime,100,2025-09-02
+CUST00088,Avery,Diaz,Southwest,Digital Native,30-39,75K-125K,Super Prime,35,2025-08-05
+CUST00089,Blake,Garcia,Southeast,Emerging Affluent,18-29,250K+,Super Prime,85,2024-06-26
+CUST00090,Kendall,Lopez,Midwest,Mass Affluent,50-64,<75K,Near Prime,54,2024-08-25
+CUST00091,Reese,Diaz,Midwest,Borrower,65+,75K-125K,Near Prime,44,2024-07-21
+CUST00092,Avery,Garcia,Midwest,Emerging Affluent,40-49,125K-250K,Super Prime,40,2024-03-14
+CUST00093,Jordan,Wilson,Southwest,Digital Native,50-64,<75K,Near Prime,30,2025-02-16
+CUST00094,Jordan,Adams,Southwest,Digital Native,18-29,75K-125K,Near Prime,98,2025-09-10
+CUST00095,Avery,Garcia,West,Mass Affluent,50-64,250K+,Super Prime,48,2024-10-02
+CUST00096,Blake,Wilson,West,Rate Shopper,40-49,250K+,Super Prime,66,2025-05-18
+CUST00097,Reese,Wilson,Northeast,Emerging Affluent,40-49,250K+,Near Prime,29,2024-12-03
+CUST00098,Jordan,Miller,Southwest,Mass Affluent,18-29,250K+,Near Prime,25,2024-11-18
+CUST00099,Avery,Hill,West,Rate Shopper,65+,125K-250K,Near Prime,88,2025-02-27
+CUST00100,Jordan,Evans,Southwest,Mass Affluent,40-49,250K+,Near Prime,87,2024-07-27
+CUST00101,Emerson,Lopez,Northeast,Mass Affluent,65+,<75K,Near Prime,77,2024-09-02
+CUST00102,Riley,Diaz,Northeast,Emerging Affluent,30-39,250K+,Near Prime,62,2024-04-26
+CUST00103,Taylor,Wilson,West,Digital Native,30-39,250K+,Near Prime,43,2025-03-01
+CUST00104,Devon,Chen,Southwest,Emerging Affluent,40-49,250K+,Super Prime,89,2025-09-05
+CUST00105,Kendall,Wilson,Midwest,Mass Affluent,30-39,250K+,Near Prime,86,2024-10-16
+CUST00106,Quinn,Smith,Midwest,Digital Native,40-49,75K-125K,Near Prime,55,2025-07-19
+CUST00107,Reese,Baker,West,Rate Shopper,40-49,250K+,Near Prime,73,2024-08-27
+CUST00108,Avery,Evans,Southwest,Emerging Affluent,65+,125K-250K,Prime,81,2025-05-22
+CUST00109,Alex,Evans,Northeast,Borrower,50-64,75K-125K,Prime,85,2025-04-12
+CUST00110,Blake,Miller,Midwest,Digital Native,65+,250K+,Super Prime,87,2025-02-11
+CUST00111,Jamie,Lopez,West,Mass Affluent,30-39,<75K,Super Prime,37,2024-03-11
+CUST00112,Kendall,Adams,Northeast,Rate Shopper,18-29,125K-250K,Prime,62,2024-06-19
+CUST00113,Devon,Johnson,Midwest,Digital Native,65+,250K+,Near Prime,48,2025-03-17
+CUST00114,Quinn,Johnson,Southeast,Emerging Affluent,50-64,75K-125K,Prime,84,2024-03-21
+CUST00115,Alex,Smith,Midwest,Rate Shopper,40-49,75K-125K,Prime,81,2024-09-18
+CUST00116,Reese,Kim,Midwest,Borrower,50-64,125K-250K,Prime,74,2024-11-02
+CUST00117,Quinn,Patel,Southwest,Mass Affluent,65+,125K-250K,Near Prime,62,2024-08-30
+CUST00118,Alex,Baker,Northeast,Rate Shopper,65+,250K+,Super Prime,54,2024-10-08
+CUST00119,Harper,Kim,West,Digital Native,30-39,<75K,Near Prime,30,2024-08-12
+CUST00120,Parker,Evans,Midwest,Rate Shopper,18-29,125K-250K,Super Prime,78,2024-02-04
+CUST00121,Parker,Kim,Southeast,Emerging Affluent,30-39,125K-250K,Super Prime,62,2024-05-15
+CUST00122,Blake,Evans,Midwest,Mass Affluent,30-39,250K+,Near Prime,71,2025-04-24
+CUST00123,Jordan,Diaz,Northeast,Rate Shopper,50-64,125K-250K,Near Prime,58,2024-01-15
+CUST00124,Casey,Johnson,West,Rate Shopper,50-64,<75K,Near Prime,96,2025-01-15
+CUST00125,Blake,Smith,Midwest,Borrower,40-49,250K+,Prime,42,2024-08-14
+CUST00126,Taylor,Diaz,Northeast,Mass Affluent,18-29,75K-125K,Near Prime,42,2024-11-07
+CUST00127,Reese,Evans,Southwest,Rate Shopper,50-64,<75K,Super Prime,77,2025-01-14
+CUST00128,Harper,Smith,Midwest,Mass Affluent,50-64,75K-125K,Super Prime,37,2025-01-14
+CUST00129,Avery,Rivera,Midwest,Borrower,40-49,75K-125K,Prime,83,2025-01-02
+CUST00130,Alex,Baker,Northeast,Emerging Affluent,40-49,75K-125K,Prime,97,2025-09-03
+CUST00131,Harper,Hill,Southeast,Mass Affluent,30-39,125K-250K,Prime,25,2025-07-21
+CUST00132,Jordan,Garcia,Midwest,Emerging Affluent,18-29,<75K,Prime,26,2024-05-13
+CUST00133,Morgan,Adams,Midwest,Emerging Affluent,30-39,125K-250K,Prime,41,2025-08-25
+CUST00134,Blake,Wilson,Southwest,Borrower,50-64,125K-250K,Near Prime,100,2024-04-26
+CUST00135,Jamie,Baker,Northeast,Rate Shopper,65+,125K-250K,Super Prime,28,2025-05-30
+CUST00136,Reese,Diaz,Northeast,Rate Shopper,50-64,250K+,Prime,35,2025-02-15
+CUST00137,Blake,Evans,Midwest,Borrower,40-49,125K-250K,Super Prime,92,2024-05-31
+CUST00138,Reese,Diaz,Midwest,Rate Shopper,18-29,75K-125K,Super Prime,82,2025-06-01
+CUST00139,Riley,Rivera,Southeast,Rate Shopper,50-64,<75K,Super Prime,79,2024-12-13
+CUST00140,Devon,Wilson,Midwest,Digital Native,18-29,<75K,Prime,36,2025-01-18
+CUST00141,Devon,Baker,Southwest,Mass Affluent,65+,125K-250K,Near Prime,40,2025-01-16
+CUST00142,Avery,Lopez,Southwest,Digital Native,65+,125K-250K,Super Prime,38,2025-03-09
+CUST00143,Devon,Wilson,West,Borrower,30-39,<75K,Super Prime,96,2024-08-05
+CUST00144,Jamie,Singh,Midwest,Mass Affluent,65+,<75K,Near Prime,59,2024-10-12
+CUST00145,Kendall,Miller,Northeast,Emerging Affluent,40-49,<75K,Prime,43,2024-10-06
+CUST00146,Devon,Adams,West,Rate Shopper,18-29,75K-125K,Super Prime,78,2024-03-12
+CUST00147,Parker,Lopez,Southwest,Digital Native,40-49,<75K,Prime,44,2024-06-10
+CUST00148,Blake,Kim,Southeast,Borrower,50-64,250K+,Super Prime,81,2024-02-20
+CUST00149,Casey,Patel,Southwest,Digital Native,50-64,<75K,Super Prime,100,2024-08-08
+CUST00150,Avery,Johnson,Southwest,Borrower,50-64,<75K,Prime,51,2024-11-11
+CUST00151,Jordan,Lopez,Midwest,Emerging Affluent,40-49,<75K,Prime,88,2024-05-20
+CUST00152,Quinn,Johnson,Southwest,Emerging Affluent,65+,125K-250K,Prime,75,2024-05-12
+CUST00153,Riley,Chen,Northeast,Rate Shopper,40-49,250K+,Near Prime,76,2024-01-20
+CUST00154,Quinn,Adams,Southwest,Digital Native,40-49,75K-125K,Near Prime,83,2024-04-27
+CUST00155,Casey,Johnson,Midwest,Mass Affluent,50-64,250K+,Near Prime,35,2025-03-23
+CUST00156,Jamie,Miller,Southwest,Digital Native,30-39,<75K,Near Prime,39,2024-12-13
+CUST00157,Parker,Patel,West,Borrower,30-39,75K-125K,Prime,43,2024-07-17
+CUST00158,Devon,Chen,Midwest,Emerging Affluent,30-39,250K+,Super Prime,97,2024-06-26
+CUST00159,Morgan,Miller,West,Rate Shopper,30-39,250K+,Prime,85,2025-08-01
+CUST00160,Avery,Patel,Southwest,Digital Native,65+,<75K,Super Prime,84,2024-10-08
+CUST00161,Parker,Lopez,Southwest,Mass Affluent,18-29,<75K,Near Prime,89,2024-02-28
+CUST00162,Avery,Smith,Southwest,Rate Shopper,65+,75K-125K,Super Prime,85,2025-08-17
+CUST00163,Riley,Diaz,West,Emerging Affluent,40-49,<75K,Near Prime,47,2024-03-04
+CUST00164,Riley,Garcia,Northeast,Emerging Affluent,40-49,125K-250K,Super Prime,74,2025-03-24
+CUST00165,Avery,Miller,Southwest,Digital Native,18-29,125K-250K,Prime,96,2025-09-04
+CUST00166,Devon,Miller,Southwest,Digital Native,18-29,75K-125K,Super Prime,64,2024-09-15
+CUST00167,Blake,Lopez,Southwest,Emerging Affluent,65+,250K+,Near Prime,67,2025-09-01
+CUST00168,Reese,Patel,Southeast,Borrower,18-29,125K-250K,Super Prime,48,2024-04-05
+CUST00169,Harper,Johnson,Southeast,Digital Native,30-39,75K-125K,Prime,62,2025-05-12
+CUST00170,Avery,Miller,Northeast,Borrower,65+,75K-125K,Near Prime,73,2025-07-06
+CUST00171,Emerson,Smith,Southeast,Emerging Affluent,18-29,250K+,Super Prime,55,2024-07-04
+CUST00172,Riley,Johnson,Southwest,Borrower,65+,75K-125K,Super Prime,85,2024-10-18
+CUST00173,Riley,Smith,Southeast,Digital Native,40-49,250K+,Near Prime,92,2025-08-07
+CUST00174,Devon,Kim,Southwest,Emerging Affluent,18-29,250K+,Super Prime,95,2024-07-23
+CUST00175,Kendall,Chen,Northeast,Borrower,30-39,125K-250K,Super Prime,90,2024-05-07
+CUST00176,Jamie,Smith,Southeast,Rate Shopper,40-49,<75K,Super Prime,31,2024-04-03
+CUST00177,Jamie,Rivera,Southwest,Borrower,18-29,125K-250K,Prime,28,2025-01-17
+CUST00178,Devon,Evans,Midwest,Mass Affluent,18-29,125K-250K,Super Prime,42,2024-12-09
+CUST00179,Blake,Adams,Southwest,Rate Shopper,40-49,75K-125K,Prime,95,2024-01-06
+CUST00180,Casey,Lopez,West,Borrower,30-39,125K-250K,Prime,31,2025-03-09
+CUST00181,Blake,Diaz,Southeast,Rate Shopper,50-64,<75K,Near Prime,90,2025-04-13
+CUST00182,Kendall,Singh,West,Emerging Affluent,18-29,125K-250K,Prime,98,2024-05-27
+CUST00183,Parker,Chen,Southwest,Emerging Affluent,65+,<75K,Super Prime,85,2024-03-28
+CUST00184,Jordan,Adams,Northeast,Rate Shopper,40-49,<75K,Super Prime,55,2025-01-17
+CUST00185,Devon,Baker,Northeast,Borrower,40-49,125K-250K,Near Prime,47,2024-12-06
+CUST00186,Devon,Chen,Southwest,Rate Shopper,50-64,<75K,Super Prime,50,2024-07-05
+CUST00187,Morgan,Lopez,Northeast,Emerging Affluent,65+,250K+,Near Prime,85,2024-02-12
+CUST00188,Kendall,Patel,Midwest,Mass Affluent,18-29,125K-250K,Super Prime,40,2024-07-14
+CUST00189,Riley,Rivera,Midwest,Rate Shopper,40-49,75K-125K,Super Prime,88,2025-02-13
+CUST00190,Blake,Singh,Midwest,Borrower,18-29,250K+,Near Prime,48,2024-09-30
+CUST00191,Casey,Chen,West,Digital Native,40-49,125K-250K,Super Prime,82,2024-11-24
+CUST00192,Riley,Patel,West,Rate Shopper,50-64,<75K,Near Prime,70,2024-06-19
+CUST00193,Avery,Chen,West,Rate Shopper,50-64,125K-250K,Near Prime,45,2024-10-08
+CUST00194,Avery,Evans,Northeast,Emerging Affluent,18-29,75K-125K,Near Prime,71,2025-03-24
+CUST00195,Avery,Evans,Midwest,Rate Shopper,50-64,125K-250K,Super Prime,81,2025-08-03
+CUST00196,Parker,Rivera,Northeast,Borrower,40-49,125K-250K,Prime,39,2024-05-20
+CUST00197,Quinn,Diaz,Northeast,Emerging Affluent,40-49,125K-250K,Near Prime,82,2025-05-26
+CUST00198,Taylor,Hill,Southeast,Borrower,18-29,75K-125K,Prime,82,2024-10-19
+CUST00199,Morgan,Patel,Southeast,Rate Shopper,18-29,125K-250K,Super Prime,45,2024-03-30
+CUST00200,Jamie,Diaz,Southeast,Digital Native,30-39,75K-125K,Prime,88,2025-06-04
+CUST00201,Parker,Smith,Northeast,Digital Native,65+,75K-125K,Near Prime,36,2025-07-21
+CUST00202,Taylor,Singh,Northeast,Digital Native,50-64,<75K,Prime,65,2025-02-11
+CUST00203,Parker,Evans,Northeast,Rate Shopper,65+,75K-125K,Prime,80,2025-04-22
+CUST00204,Devon,Lopez,West,Mass Affluent,30-39,75K-125K,Super Prime,53,2024-05-07
+CUST00205,Blake,Kim,Midwest,Borrower,30-39,125K-250K,Prime,63,2024-10-17
+CUST00206,Emerson,Evans,West,Borrower,30-39,125K-250K,Near Prime,30,2024-04-05
+CUST00207,Jordan,Hill,Northeast,Mass Affluent,65+,250K+,Near Prime,28,2024-02-16
+CUST00208,Kendall,Wilson,Southwest,Borrower,30-39,250K+,Super Prime,83,2024-10-23
+CUST00209,Riley,Singh,Northeast,Mass Affluent,50-64,250K+,Prime,68,2024-06-10
+CUST00210,Morgan,Patel,West,Emerging Affluent,50-64,75K-125K,Super Prime,90,2024-11-16
+CUST00211,Jamie,Smith,West,Mass Affluent,18-29,125K-250K,Super Prime,56,2024-11-22
+CUST00212,Kendall,Rivera,Southeast,Mass Affluent,65+,250K+,Prime,45,2024-02-21
+CUST00213,Harper,Garcia,Midwest,Borrower,50-64,250K+,Super Prime,64,2024-11-16
+CUST00214,Quinn,Smith,Southwest,Mass Affluent,30-39,75K-125K,Near Prime,70,2024-04-02
+CUST00215,Taylor,Wilson,Northeast,Mass Affluent,40-49,<75K,Prime,80,2024-10-15
+CUST00216,Quinn,Patel,Southeast,Digital Native,18-29,250K+,Prime,97,2025-01-09
+CUST00217,Kendall,Chen,West,Emerging Affluent,50-64,250K+,Near Prime,60,2025-01-06
+CUST00218,Devon,Diaz,West,Borrower,50-64,125K-250K,Super Prime,96,2024-05-01
+CUST00219,Quinn,Baker,Midwest,Emerging Affluent,18-29,<75K,Prime,67,2024-07-22
+CUST00220,Devon,Evans,Southwest,Borrower,40-49,125K-250K,Prime,75,2025-04-12
+CUST00221,Morgan,Wilson,West,Digital Native,65+,125K-250K,Super Prime,27,2025-08-30
+CUST00222,Reese,Lopez,Midwest,Digital Native,18-29,250K+,Super Prime,99,2024-04-22
+CUST00223,Taylor,Garcia,West,Emerging Affluent,65+,250K+,Prime,56,2024-02-22
+CUST00224,Harper,Adams,Northeast,Borrower,50-64,125K-250K,Super Prime,44,2024-04-22
+CUST00225,Taylor,Baker,Southwest,Emerging Affluent,30-39,75K-125K,Near Prime,66,2025-02-24
+CUST00226,Morgan,Garcia,Southwest,Borrower,50-64,125K-250K,Near Prime,70,2025-01-20
+CUST00227,Harper,Johnson,Midwest,Borrower,40-49,125K-250K,Prime,63,2025-05-10
+CUST00228,Morgan,Wilson,Midwest,Emerging Affluent,40-49,125K-250K,Super Prime,40,2025-05-15
+CUST00229,Quinn,Patel,West,Borrower,30-39,125K-250K,Prime,61,2025-01-23
+CUST00230,Jordan,Wilson,Northeast,Digital Native,30-39,75K-125K,Near Prime,59,2025-03-28
+CUST00231,Casey,Johnson,West,Digital Native,30-39,<75K,Near Prime,92,2024-05-20
+CUST00232,Casey,Singh,Southeast,Emerging Affluent,40-49,250K+,Prime,42,2024-02-23
+CUST00233,Reese,Wilson,Northeast,Borrower,50-64,75K-125K,Super Prime,66,2024-06-10
+CUST00234,Jamie,Baker,Midwest,Mass Affluent,30-39,250K+,Prime,29,2024-04-01
+CUST00235,Kendall,Baker,Southwest,Rate Shopper,18-29,125K-250K,Near Prime,38,2024-07-09
+CUST00236,Taylor,Evans,Midwest,Digital Native,65+,250K+,Super Prime,49,2025-04-10
+CUST00237,Riley,Kim,Northeast,Digital Native,30-39,<75K,Near Prime,68,2024-06-15
+CUST00238,Emerson,Rivera,Midwest,Borrower,50-64,125K-250K,Prime,76,2024-07-16
+CUST00239,Taylor,Miller,Northeast,Emerging Affluent,30-39,<75K,Super Prime,74,2024-05-23
+CUST00240,Morgan,Lopez,Southeast,Rate Shopper,65+,<75K,Super Prime,71,2024-09-30
+CUST00241,Riley,Lopez,Southeast,Mass Affluent,30-39,250K+,Near Prime,89,2024-05-01
+CUST00242,Parker,Johnson,Midwest,Mass Affluent,30-39,75K-125K,Super Prime,44,2024-10-29
+CUST00243,Reese,Wilson,Southwest,Borrower,65+,75K-125K,Prime,35,2025-01-17
+CUST00244,Parker,Chen,West,Rate Shopper,65+,<75K,Prime,95,2025-06-24
+CUST00245,Devon,Garcia,West,Emerging Affluent,40-49,250K+,Prime,51,2025-08-09
+CUST00246,Riley,Baker,West,Rate Shopper,50-64,75K-125K,Near Prime,78,2024-04-03
+CUST00247,Riley,Lopez,Southwest,Borrower,18-29,250K+,Super Prime,25,2024-02-29
+CUST00248,Avery,Singh,Southeast,Borrower,40-49,<75K,Near Prime,32,2024-03-15
+CUST00249,Kendall,Singh,Northeast,Rate Shopper,30-39,75K-125K,Near Prime,78,2024-02-02
+CUST00250,Quinn,Rivera,Midwest,Rate Shopper,18-29,75K-125K,Near Prime,69,2025-04-04
+CUST00251,Quinn,Evans,Northeast,Emerging Affluent,30-39,<75K,Prime,63,2025-07-04
+CUST00252,Quinn,Johnson,Southwest,Borrower,30-39,250K+,Super Prime,44,2025-03-10
+CUST00253,Avery,Singh,Midwest,Emerging Affluent,65+,<75K,Prime,51,2024-04-25
+CUST00254,Avery,Smith,Northeast,Mass Affluent,65+,<75K,Prime,30,2025-08-31
+CUST00255,Harper,Baker,Southwest,Rate Shopper,30-39,125K-250K,Prime,98,2024-08-27
+CUST00256,Morgan,Johnson,Midwest,Borrower,40-49,75K-125K,Near Prime,91,2025-09-04
+CUST00257,Jordan,Baker,Southeast,Rate Shopper,65+,75K-125K,Near Prime,79,2024-11-03
+CUST00258,Parker,Rivera,West,Rate Shopper,65+,125K-250K,Near Prime,78,2024-02-18
+CUST00259,Quinn,Garcia,Southwest,Emerging Affluent,65+,250K+,Prime,53,2024-11-03
+CUST00260,Avery,Singh,Midwest,Emerging Affluent,50-64,75K-125K,Super Prime,56,2025-04-19
+CUST00261,Blake,Smith,Midwest,Emerging Affluent,40-49,<75K,Near Prime,49,2024-12-04
+CUST00262,Avery,Chen,Northeast,Digital Native,30-39,75K-125K,Super Prime,51,2025-01-21
+CUST00263,Harper,Hill,Midwest,Digital Native,18-29,250K+,Prime,51,2024-01-16
+CUST00264,Morgan,Lopez,Southwest,Emerging Affluent,50-64,250K+,Near Prime,70,2025-07-19
+CUST00265,Taylor,Smith,Midwest,Digital Native,18-29,250K+,Super Prime,51,2025-01-03
+CUST00266,Avery,Johnson,Midwest,Digital Native,30-39,<75K,Super Prime,95,2025-02-27
+CUST00267,Kendall,Evans,West,Borrower,30-39,125K-250K,Prime,73,2025-03-03
+CUST00268,Morgan,Kim,West,Emerging Affluent,50-64,250K+,Super Prime,46,2025-05-26
+CUST00269,Taylor,Garcia,Midwest,Emerging Affluent,65+,<75K,Near Prime,29,2024-05-23
+CUST00270,Reese,Evans,Northeast,Mass Affluent,30-39,<75K,Near Prime,44,2024-01-07
+CUST00271,Riley,Patel,Northeast,Emerging Affluent,18-29,250K+,Near Prime,87,2025-06-01
+CUST00272,Reese,Adams,Northeast,Mass Affluent,18-29,125K-250K,Near Prime,61,2025-06-28
+CUST00273,Emerson,Diaz,Northeast,Borrower,18-29,75K-125K,Prime,49,2025-03-16
+CUST00274,Parker,Kim,West,Borrower,50-64,<75K,Super Prime,76,2024-09-15
+CUST00275,Jamie,Lopez,Southwest,Borrower,18-29,<75K,Prime,76,2024-09-06
+CUST00276,Taylor,Baker,Southwest,Rate Shopper,18-29,75K-125K,Prime,88,2025-07-19
+CUST00277,Casey,Baker,Southwest,Digital Native,30-39,75K-125K,Near Prime,97,2025-08-02
+CUST00278,Blake,Kim,Southwest,Digital Native,65+,<75K,Prime,65,2024-02-17
+CUST00279,Devon,Rivera,Northeast,Emerging Affluent,18-29,125K-250K,Prime,97,2025-08-24
+CUST00280,Morgan,Rivera,Southeast,Borrower,30-39,<75K,Near Prime,69,2025-02-02
+CUST00281,Jamie,Chen,Northeast,Mass Affluent,40-49,250K+,Super Prime,28,2025-03-23
+CUST00282,Jamie,Patel,Midwest,Rate Shopper,65+,250K+,Super Prime,48,2025-05-17
+CUST00283,Kendall,Johnson,West,Rate Shopper,18-29,<75K,Super Prime,44,2024-03-28
+CUST00284,Morgan,Patel,Southwest,Emerging Affluent,18-29,<75K,Prime,64,2025-02-02
+CUST00285,Casey,Evans,Southwest,Digital Native,18-29,75K-125K,Super Prime,82,2024-10-03
+CUST00286,Reese,Diaz,West,Borrower,18-29,<75K,Super Prime,95,2025-06-08
+CUST00287,Morgan,Rivera,Northeast,Borrower,18-29,125K-250K,Super Prime,74,2025-09-04
+CUST00288,Emerson,Rivera,Northeast,Borrower,30-39,75K-125K,Super Prime,63,2024-09-05
+CUST00289,Blake,Garcia,Midwest,Rate Shopper,50-64,125K-250K,Super Prime,63,2024-05-29
+CUST00290,Jordan,Johnson,Southwest,Mass Affluent,50-64,75K-125K,Super Prime,38,2025-01-04
+CUST00291,Quinn,Miller,Southeast,Digital Native,65+,250K+,Super Prime,81,2024-01-07
+CUST00292,Devon,Lopez,Midwest,Rate Shopper,40-49,75K-125K,Super Prime,65,2025-08-31
+CUST00293,Kendall,Wilson,Southeast,Rate Shopper,65+,75K-125K,Super Prime,73,2024-11-22
+CUST00294,Casey,Hill,Midwest,Rate Shopper,65+,75K-125K,Near Prime,95,2025-01-08
+CUST00295,Riley,Lopez,Northeast,Rate Shopper,18-29,250K+,Near Prime,88,2024-08-02
+CUST00296,Jordan,Evans,Southeast,Digital Native,50-64,250K+,Prime,82,2024-09-04
+CUST00297,Quinn,Singh,West,Rate Shopper,65+,<75K,Super Prime,93,2025-08-19
+CUST00298,Jamie,Patel,West,Mass Affluent,30-39,<75K,Near Prime,76,2024-04-21
+CUST00299,Alex,Diaz,Midwest,Rate Shopper,40-49,75K-125K,Near Prime,91,2024-04-18
+CUST00300,Jamie,Smith,West,Borrower,40-49,250K+,Super Prime,100,2025-08-12
+CUST00301,Alex,Wilson,West,Emerging Affluent,18-29,125K-250K,Super Prime,35,2024-12-19
+CUST00302,Kendall,Miller,Northeast,Emerging Affluent,50-64,75K-125K,Near Prime,86,2024-12-22
+CUST00303,Riley,Smith,Midwest,Rate Shopper,40-49,<75K,Super Prime,30,2024-04-09
+CUST00304,Casey,Garcia,Northeast,Mass Affluent,30-39,75K-125K,Near Prime,45,2024-12-17
+CUST00305,Riley,Johnson,Midwest,Borrower,50-64,75K-125K,Prime,80,2025-03-12
+CUST00306,Riley,Singh,Southwest,Mass Affluent,50-64,<75K,Near Prime,52,2024-07-21
+CUST00307,Casey,Garcia,Southeast,Digital Native,40-49,125K-250K,Prime,83,2024-03-05
+CUST00308,Morgan,Rivera,Northeast,Digital Native,65+,250K+,Near Prime,39,2025-05-16
+CUST00309,Emerson,Lopez,Midwest,Digital Native,65+,<75K,Near Prime,42,2025-04-13
+CUST00310,Kendall,Diaz,Midwest,Mass Affluent,30-39,125K-250K,Near Prime,43,2024-09-01
+CUST00311,Devon,Rivera,West,Rate Shopper,50-64,75K-125K,Super Prime,93,2025-03-04
+CUST00312,Taylor,Lopez,Southeast,Borrower,30-39,75K-125K,Super Prime,82,2024-06-19
+CUST00313,Alex,Wilson,West,Mass Affluent,30-39,75K-125K,Super Prime,96,2025-01-02
+CUST00314,Taylor,Singh,West,Rate Shopper,50-64,250K+,Prime,35,2025-02-22
+CUST00315,Kendall,Baker,West,Mass Affluent,40-49,75K-125K,Near Prime,61,2024-08-13
+CUST00316,Taylor,Diaz,Southeast,Rate Shopper,65+,<75K,Super Prime,94,2025-08-02
+CUST00317,Riley,Hill,Midwest,Borrower,50-64,<75K,Near Prime,56,2024-02-12
+CUST00318,Jordan,Patel,Midwest,Mass Affluent,18-29,250K+,Prime,55,2025-04-05
+CUST00319,Reese,Garcia,Southeast,Borrower,65+,75K-125K,Prime,51,2024-12-25
+CUST00320,Jordan,Garcia,Northeast,Borrower,40-49,125K-250K,Super Prime,98,2024-12-25
+CUST00321,Devon,Singh,Midwest,Borrower,18-29,125K-250K,Near Prime,41,2024-04-07
+CUST00322,Morgan,Johnson,Southeast,Emerging Affluent,50-64,250K+,Prime,98,2024-05-29
+CUST00323,Riley,Chen,Midwest,Rate Shopper,18-29,250K+,Near Prime,60,2025-01-19
+CUST00324,Morgan,Adams,Midwest,Rate Shopper,18-29,250K+,Near Prime,70,2025-05-14
+CUST00325,Harper,Singh,Northeast,Borrower,30-39,250K+,Super Prime,66,2025-02-11
+CUST00326,Devon,Wilson,Midwest,Digital Native,40-49,<75K,Prime,37,2025-07-14
+CUST00327,Emerson,Smith,Southwest,Mass Affluent,50-64,<75K,Super Prime,50,2024-05-07
+CUST00328,Jordan,Chen,Southeast,Digital Native,40-49,125K-250K,Prime,72,2024-06-11
+CUST00329,Kendall,Johnson,Southeast,Mass Affluent,50-64,<75K,Near Prime,37,2025-02-09
+CUST00330,Blake,Evans,Northeast,Emerging Affluent,65+,75K-125K,Near Prime,81,2025-05-03
+CUST00331,Casey,Singh,Northeast,Mass Affluent,30-39,250K+,Prime,54,2024-12-17
+CUST00332,Casey,Miller,Southwest,Mass Affluent,40-49,125K-250K,Prime,73,2024-04-14
+CUST00333,Alex,Garcia,Southeast,Emerging Affluent,50-64,125K-250K,Near Prime,52,2024-03-11
+CUST00334,Harper,Chen,Southeast,Rate Shopper,18-29,75K-125K,Prime,100,2025-03-29
+CUST00335,Morgan,Evans,Southwest,Digital Native,30-39,125K-250K,Near Prime,35,2025-03-15
+CUST00336,Kendall,Adams,Southeast,Borrower,40-49,75K-125K,Near Prime,90,2025-09-07
+CUST00337,Avery,Johnson,Southeast,Rate Shopper,50-64,250K+,Prime,55,2024-10-29
+CUST00338,Alex,Patel,Southwest,Borrower,40-49,75K-125K,Super Prime,97,2024-03-13
+CUST00339,Emerson,Wilson,Southwest,Digital Native,18-29,<75K,Near Prime,33,2025-07-13
+CUST00340,Avery,Baker,Northeast,Digital Native,50-64,125K-250K,Near Prime,89,2024-08-08
+CUST00341,Blake,Evans,Southwest,Rate Shopper,40-49,<75K,Super Prime,35,2025-02-15
+CUST00342,Morgan,Rivera,West,Emerging Affluent,65+,<75K,Super Prime,80,2024-06-08
+CUST00343,Blake,Singh,Southeast,Mass Affluent,18-29,250K+,Near Prime,32,2024-09-07
+CUST00344,Alex,Evans,Midwest,Emerging Affluent,18-29,75K-125K,Super Prime,69,2024-05-02
+CUST00345,Emerson,Patel,West,Borrower,30-39,125K-250K,Near Prime,40,2024-09-22
+CUST00346,Jordan,Chen,Northeast,Digital Native,40-49,<75K,Super Prime,83,2025-03-15
+CUST00347,Taylor,Garcia,West,Digital Native,40-49,75K-125K,Super Prime,38,2024-02-26
+CUST00348,Alex,Baker,West,Mass Affluent,18-29,75K-125K,Prime,85,2024-08-21
+CUST00349,Emerson,Baker,Midwest,Rate Shopper,65+,250K+,Prime,66,2024-06-02
+CUST00350,Jordan,Chen,Southeast,Rate Shopper,65+,125K-250K,Prime,89,2024-11-23
+CUST00351,Avery,Rivera,Northeast,Emerging Affluent,18-29,250K+,Super Prime,64,2024-08-16
+CUST00352,Riley,Adams,Midwest,Mass Affluent,40-49,75K-125K,Super Prime,97,2025-07-20
+CUST00353,Riley,Patel,Midwest,Borrower,65+,250K+,Prime,94,2024-09-05
+CUST00354,Reese,Adams,Southeast,Emerging Affluent,30-39,125K-250K,Near Prime,26,2024-01-07
+CUST00355,Kendall,Diaz,Midwest,Mass Affluent,30-39,75K-125K,Super Prime,87,2025-01-20
+CUST00356,Blake,Baker,Northeast,Emerging Affluent,30-39,250K+,Near Prime,72,2024-10-13
+CUST00357,Casey,Evans,Southwest,Mass Affluent,50-64,<75K,Near Prime,97,2025-08-17
+CUST00358,Jamie,Lopez,Northeast,Rate Shopper,40-49,125K-250K,Super Prime,66,2024-05-13
+CUST00359,Jamie,Chen,Midwest,Rate Shopper,30-39,75K-125K,Near Prime,38,2024-10-05
+CUST00360,Riley,Smith,Southeast,Mass Affluent,40-49,250K+,Prime,93,2024-06-17
+CUST00361,Kendall,Smith,Midwest,Emerging Affluent,40-49,<75K,Prime,45,2025-04-07
+CUST00362,Harper,Miller,Midwest,Borrower,30-39,<75K,Near Prime,56,2024-02-11
+CUST00363,Avery,Lopez,Midwest,Rate Shopper,40-49,75K-125K,Prime,76,2025-06-09
+CUST00364,Jamie,Diaz,Southwest,Borrower,50-64,<75K,Prime,40,2025-07-17
+CUST00365,Devon,Hill,Northeast,Mass Affluent,50-64,125K-250K,Near Prime,35,2024-08-15
+CUST00366,Blake,Adams,West,Borrower,18-29,75K-125K,Near Prime,81,2024-09-22
+CUST00367,Casey,Baker,Southeast,Mass Affluent,50-64,<75K,Prime,98,2024-12-05
+CUST00368,Alex,Rivera,Southwest,Rate Shopper,50-64,75K-125K,Super Prime,52,2025-05-23
+CUST00369,Riley,Evans,Southeast,Digital Native,18-29,75K-125K,Near Prime,62,2024-10-13
+CUST00370,Taylor,Baker,Southwest,Rate Shopper,18-29,125K-250K,Super Prime,42,2025-07-17
+CUST00371,Jamie,Adams,Southwest,Emerging Affluent,50-64,125K-250K,Super Prime,94,2025-06-22
+CUST00372,Morgan,Rivera,Southwest,Digital Native,40-49,75K-125K,Prime,65,2025-08-02
+CUST00373,Jordan,Baker,West,Emerging Affluent,50-64,125K-250K,Near Prime,54,2024-01-31
+CUST00374,Jamie,Kim,Southeast,Mass Affluent,65+,<75K,Prime,98,2024-09-10
+CUST00375,Emerson,Johnson,Southwest,Digital Native,65+,125K-250K,Near Prime,70,2024-06-26
+CUST00376,Devon,Hill,West,Mass Affluent,50-64,125K-250K,Prime,87,2024-12-26
+CUST00377,Jamie,Johnson,Northeast,Mass Affluent,18-29,250K+,Prime,67,2024-02-27
+CUST00378,Morgan,Garcia,West,Emerging Affluent,40-49,<75K,Prime,43,2024-05-13
+CUST00379,Parker,Chen,West,Emerging Affluent,40-49,250K+,Near Prime,37,2024-04-23
+CUST00380,Devon,Garcia,Midwest,Digital Native,50-64,250K+,Near Prime,65,2024-11-26
+CUST00381,Jamie,Garcia,Southeast,Borrower,50-64,125K-250K,Near Prime,62,2024-12-31
+CUST00382,Quinn,Baker,Southeast,Emerging Affluent,30-39,125K-250K,Near Prime,53,2024-01-02
+CUST00383,Devon,Miller,West,Mass Affluent,18-29,75K-125K,Super Prime,65,2025-05-23
+CUST00384,Riley,Adams,Southeast,Mass Affluent,40-49,75K-125K,Prime,33,2024-12-09
+CUST00385,Alex,Baker,Midwest,Digital Native,50-64,250K+,Near Prime,78,2024-04-20
+CUST00386,Quinn,Patel,Southeast,Rate Shopper,65+,250K+,Prime,86,2025-05-19
+CUST00387,Riley,Chen,West,Emerging Affluent,18-29,125K-250K,Prime,65,2024-06-15
+CUST00388,Morgan,Garcia,Midwest,Mass Affluent,50-64,75K-125K,Near Prime,34,2024-03-16
+CUST00389,Taylor,Adams,West,Mass Affluent,50-64,75K-125K,Near Prime,80,2024-12-12
+CUST00390,Morgan,Hill,Southeast,Mass Affluent,30-39,250K+,Near Prime,95,2024-04-13
+CUST00391,Kendall,Johnson,West,Digital Native,18-29,<75K,Super Prime,98,2024-10-15
+CUST00392,Avery,Patel,West,Rate Shopper,18-29,250K+,Prime,62,2024-06-06
+CUST00393,Casey,Adams,West,Rate Shopper,30-39,75K-125K,Near Prime,62,2024-07-23
+CUST00394,Kendall,Rivera,Northeast,Rate Shopper,50-64,250K+,Near Prime,58,2024-04-28
+CUST00395,Emerson,Patel,Northeast,Borrower,50-64,125K-250K,Prime,82,2025-01-31
+CUST00396,Riley,Kim,Northeast,Digital Native,30-39,125K-250K,Near Prime,32,2025-03-26
+CUST00397,Parker,Singh,Southeast,Mass Affluent,65+,75K-125K,Near Prime,32,2024-03-28
+CUST00398,Taylor,Johnson,Southwest,Borrower,50-64,125K-250K,Prime,75,2025-03-04
+CUST00399,Devon,Diaz,Northeast,Borrower,50-64,75K-125K,Prime,52,2025-08-07
+CUST00400,Reese,Chen,Southeast,Emerging Affluent,50-64,75K-125K,Near Prime,43,2024-02-13
+CUST00401,Blake,Chen,West,Digital Native,50-64,250K+,Near Prime,66,2024-11-23
+CUST00402,Alex,Singh,Midwest,Borrower,18-29,250K+,Prime,43,2025-04-14
+CUST00403,Casey,Diaz,West,Borrower,65+,<75K,Super Prime,93,2025-08-19
+CUST00404,Quinn,Wilson,Midwest,Rate Shopper,65+,250K+,Prime,47,2024-09-27
+CUST00405,Quinn,Baker,Midwest,Rate Shopper,50-64,125K-250K,Near Prime,55,2024-05-27
+CUST00406,Parker,Adams,Northeast,Rate Shopper,40-49,125K-250K,Super Prime,60,2024-10-02
+CUST00407,Devon,Lopez,Southwest,Mass Affluent,50-64,125K-250K,Super Prime,78,2024-08-21
+CUST00408,Riley,Hill,West,Mass Affluent,50-64,250K+,Near Prime,72,2024-07-11
+CUST00409,Blake,Lopez,Northeast,Borrower,65+,250K+,Prime,92,2024-06-11
+CUST00410,Harper,Hill,West,Mass Affluent,18-29,75K-125K,Prime,83,2024-06-26
+CUST00411,Jordan,Patel,Northeast,Digital Native,50-64,250K+,Near Prime,40,2024-07-22
+CUST00412,Taylor,Smith,Northeast,Emerging Affluent,30-39,250K+,Near Prime,95,2025-01-16
+CUST00413,Jordan,Chen,Midwest,Digital Native,40-49,<75K,Super Prime,31,2024-06-16
+CUST00414,Jamie,Johnson,Southeast,Borrower,30-39,125K-250K,Near Prime,77,2024-08-07
+CUST00415,Taylor,Evans,West,Mass Affluent,30-39,<75K,Prime,57,2024-01-10
+CUST00416,Reese,Rivera,West,Digital Native,40-49,250K+,Super Prime,52,2024-10-08
+CUST00417,Quinn,Diaz,Southwest,Digital Native,18-29,125K-250K,Near Prime,61,2025-06-17
+CUST00418,Blake,Miller,Midwest,Mass Affluent,40-49,125K-250K,Super Prime,58,2025-05-08
+CUST00419,Jamie,Baker,Midwest,Emerging Affluent,65+,250K+,Near Prime,65,2024-06-02
+CUST00420,Kendall,Kim,Southeast,Mass Affluent,50-64,250K+,Super Prime,29,2025-05-24
+CUST00421,Morgan,Johnson,West,Borrower,65+,250K+,Near Prime,70,2024-07-13
+CUST00422,Emerson,Lopez,West,Digital Native,18-29,250K+,Prime,58,2024-06-23
+CUST00423,Blake,Johnson,West,Emerging Affluent,40-49,75K-125K,Near Prime,64,2024-12-09
+CUST00424,Jordan,Lopez,Southwest,Digital Native,50-64,<75K,Super Prime,31,2025-01-15
+CUST00425,Taylor,Hill,West,Borrower,65+,<75K,Near Prime,73,2024-03-13
+CUST00426,Avery,Evans,West,Digital Native,30-39,75K-125K,Super Prime,77,2025-02-27
+CUST00427,Morgan,Garcia,West,Rate Shopper,18-29,250K+,Super Prime,47,2024-05-26
+CUST00428,Riley,Kim,Midwest,Mass Affluent,30-39,75K-125K,Near Prime,45,2024-01-05
+CUST00429,Reese,Singh,Southwest,Mass Affluent,50-64,250K+,Super Prime,74,2024-05-12
+CUST00430,Harper,Patel,Northeast,Mass Affluent,18-29,125K-250K,Near Prime,49,2025-06-30
+CUST00431,Jamie,Patel,Northeast,Mass Affluent,40-49,75K-125K,Prime,74,2024-09-11
+CUST00432,Emerson,Chen,West,Borrower,18-29,125K-250K,Super Prime,83,2024-11-09
+CUST00433,Morgan,Singh,West,Borrower,30-39,125K-250K,Super Prime,70,2025-06-20
+CUST00434,Alex,Johnson,Southeast,Emerging Affluent,30-39,75K-125K,Prime,27,2025-02-17
+CUST00435,Casey,Patel,West,Borrower,18-29,250K+,Near Prime,57,2024-06-22
+CUST00436,Avery,Diaz,West,Borrower,18-29,<75K,Near Prime,39,2024-02-19
+CUST00437,Casey,Kim,Southwest,Rate Shopper,50-64,75K-125K,Prime,26,2025-01-24
+CUST00438,Jordan,Evans,Midwest,Rate Shopper,50-64,<75K,Near Prime,40,2024-04-13
+CUST00439,Taylor,Hill,Midwest,Mass Affluent,65+,75K-125K,Super Prime,91,2024-04-18
+CUST00440,Kendall,Garcia,Southeast,Digital Native,18-29,250K+,Prime,86,2025-02-23
+CUST00441,Alex,Chen,Midwest,Emerging Affluent,18-29,250K+,Prime,36,2024-01-03
+CUST00442,Jordan,Johnson,West,Mass Affluent,50-64,125K-250K,Super Prime,84,2024-04-13
+CUST00443,Avery,Lopez,Northeast,Mass Affluent,40-49,125K-250K,Super Prime,39,2024-06-27
+CUST00444,Devon,Garcia,Northeast,Mass Affluent,40-49,125K-250K,Super Prime,59,2024-01-10
+CUST00445,Emerson,Diaz,Northeast,Digital Native,50-64,250K+,Super Prime,59,2024-12-16
+CUST00446,Emerson,Diaz,Southwest,Rate Shopper,30-39,<75K,Prime,38,2025-03-07
+CUST00447,Riley,Garcia,Southwest,Borrower,65+,250K+,Super Prime,28,2025-05-09
+CUST00448,Casey,Singh,Southeast,Rate Shopper,50-64,<75K,Prime,58,2025-05-14
+CUST00449,Jamie,Miller,Midwest,Mass Affluent,65+,<75K,Super Prime,56,2025-06-21
+CUST00450,Devon,Baker,Southwest,Digital Native,18-29,75K-125K,Near Prime,85,2025-01-29
+CUST00451,Taylor,Miller,Southwest,Emerging Affluent,30-39,125K-250K,Super Prime,31,2024-03-17
+CUST00452,Quinn,Rivera,West,Emerging Affluent,30-39,<75K,Super Prime,81,2025-07-17
+CUST00453,Taylor,Smith,West,Rate Shopper,40-49,<75K,Super Prime,27,2024-03-31
+CUST00454,Avery,Adams,Northeast,Rate Shopper,18-29,125K-250K,Near Prime,96,2025-02-26
+CUST00455,Parker,Baker,Southeast,Rate Shopper,30-39,250K+,Super Prime,96,2024-12-15
+CUST00456,Parker,Smith,West,Borrower,18-29,<75K,Near Prime,53,2025-04-29
+CUST00457,Kendall,Patel,Northeast,Digital Native,18-29,<75K,Prime,88,2024-12-29
+CUST00458,Jordan,Hill,Southeast,Rate Shopper,30-39,<75K,Super Prime,52,2024-04-19
+CUST00459,Casey,Singh,Southwest,Emerging Affluent,18-29,<75K,Super Prime,83,2024-12-12
+CUST00460,Taylor,Adams,West,Borrower,65+,<75K,Near Prime,80,2024-05-17
+CUST00461,Emerson,Garcia,West,Rate Shopper,30-39,<75K,Super Prime,66,2025-06-04
+CUST00462,Jamie,Kim,West,Rate Shopper,50-64,125K-250K,Super Prime,82,2025-03-04
+CUST00463,Kendall,Miller,Southeast,Emerging Affluent,65+,75K-125K,Prime,51,2025-02-26
+CUST00464,Devon,Garcia,West,Digital Native,65+,125K-250K,Near Prime,39,2024-12-19
+CUST00465,Reese,Lopez,Midwest,Borrower,50-64,<75K,Near Prime,38,2025-05-06
+CUST00466,Avery,Baker,Northeast,Rate Shopper,30-39,125K-250K,Prime,61,2024-05-28
+CUST00467,Kendall,Hill,Midwest,Emerging Affluent,65+,<75K,Super Prime,82,2024-03-04
+CUST00468,Jamie,Rivera,Northeast,Borrower,30-39,125K-250K,Near Prime,31,2025-07-29
+CUST00469,Morgan,Baker,Southwest,Rate Shopper,18-29,125K-250K,Prime,81,2025-03-02
+CUST00470,Harper,Hill,Southeast,Digital Native,40-49,250K+,Prime,34,2025-08-25
+CUST00471,Casey,Rivera,Southeast,Emerging Affluent,18-29,250K+,Super Prime,96,2025-06-10
+CUST00472,Jordan,Adams,Midwest,Emerging Affluent,40-49,250K+,Near Prime,44,2024-06-13
+CUST00473,Avery,Lopez,Northeast,Emerging Affluent,50-64,125K-250K,Prime,65,2024-11-26
+CUST00474,Blake,Garcia,West,Emerging Affluent,50-64,250K+,Prime,69,2024-07-07
+CUST00475,Morgan,Patel,Southeast,Emerging Affluent,40-49,75K-125K,Near Prime,92,2024-12-05
+CUST00476,Casey,Patel,Southwest,Borrower,50-64,75K-125K,Near Prime,56,2024-01-10
+CUST00477,Casey,Rivera,Northeast,Digital Native,40-49,125K-250K,Prime,91,2025-01-25
+CUST00478,Riley,Wilson,Midwest,Borrower,18-29,125K-250K,Near Prime,49,2025-06-04
+CUST00479,Casey,Garcia,Midwest,Borrower,65+,<75K,Near Prime,33,2024-03-25
+CUST00480,Casey,Hill,Southeast,Emerging Affluent,65+,250K+,Near Prime,34,2025-03-10
+CUST00481,Morgan,Baker,Southeast,Mass Affluent,18-29,<75K,Prime,47,2025-04-15
+CUST00482,Jamie,Kim,Midwest,Borrower,50-64,250K+,Super Prime,76,2024-03-13
+CUST00483,Quinn,Diaz,Southwest,Digital Native,65+,<75K,Near Prime,33,2024-01-18
+CUST00484,Parker,Diaz,West,Mass Affluent,40-49,125K-250K,Near Prime,36,2024-03-15
+CUST00485,Quinn,Adams,Midwest,Rate Shopper,50-64,75K-125K,Near Prime,53,2025-01-25
+CUST00486,Kendall,Evans,Southeast,Rate Shopper,40-49,125K-250K,Prime,95,2025-07-12
+CUST00487,Avery,Adams,West,Emerging Affluent,65+,250K+,Near Prime,95,2024-05-06
+CUST00488,Parker,Hill,Northeast,Digital Native,50-64,75K-125K,Prime,48,2024-08-03
+CUST00489,Harper,Diaz,Southeast,Borrower,30-39,<75K,Near Prime,84,2024-09-15
+CUST00490,Blake,Kim,West,Mass Affluent,18-29,75K-125K,Near Prime,99,2024-10-24
+CUST00491,Devon,Johnson,Southwest,Digital Native,18-29,125K-250K,Near Prime,33,2024-12-31
+CUST00492,Riley,Miller,Southeast,Digital Native,65+,125K-250K,Near Prime,99,2025-05-12
+CUST00493,Parker,Miller,Southeast,Borrower,50-64,75K-125K,Prime,65,2025-08-03
+CUST00494,Jordan,Patel,Southeast,Emerging Affluent,30-39,125K-250K,Super Prime,84,2025-03-22
+CUST00495,Taylor,Diaz,Southwest,Digital Native,30-39,<75K,Super Prime,42,2024-11-08
+CUST00496,Blake,Chen,West,Emerging Affluent,18-29,<75K,Near Prime,99,2024-09-26
+CUST00497,Avery,Kim,Southwest,Borrower,65+,250K+,Near Prime,44,2024-08-05
+CUST00498,Kendall,Evans,Midwest,Rate Shopper,50-64,<75K,Super Prime,71,2024-08-16
+CUST00499,Emerson,Evans,West,Mass Affluent,50-64,75K-125K,Prime,97,2024-09-01
+CUST00500,Parker,Baker,West,Emerging Affluent,30-39,250K+,Prime,33,2025-05-10
