@@ -27,6 +27,157 @@ The script writes CSV files into `data\bronze`, `data\silver`, `data\gold`, and 
 4. Use `sql\gold_views.sql` as a SQL analytics endpoint example for Power BI semantic modeling.
 5. Use `ontology\sales_ontology.json`, `ontology\sales_ontology_graph.mmd`, and `data\ontology\*.csv` as business ontology inputs for documentation, governance, graph, or Fabric Data Agent demos.
 
+## End-to-end user journey
+
+### 1. Get the data into Fabric Lakehouse
+
+Create a Fabric workspace and Lakehouse named `fabric_sales_demo`, then upload the repository `data` folder into the Lakehouse `Files` area so the paths look like:
+
+```text
+Files/data/bronze/*.csv
+Files/data/silver/*.csv
+Files/data/gold/*.csv
+Files/data/ontology/*.csv
+```
+
+Run `fabric\notebooks\01_load_to_lakehouse.py` in a Fabric notebook attached to the Lakehouse. The notebook loads bronze, silver, gold, and ontology CSVs into managed Delta tables.
+
+### 2. Create the analytics model
+
+Use the SQL analytics endpoint or Power BI Direct Lake to create a semantic model over the silver and gold tables.
+
+Recommended model shape:
+
+| Type | Tables |
+| --- | --- |
+| Dimensions | `dim_customer`, `dim_product`, `dim_channel`, `dim_date` |
+| Facts | `fact_sales`, `fact_campaign_touch`, `fact_web_event` |
+| Gold aggregates | `gold_monthly_sales_summary`, `gold_customer_360`, `gold_campaign_roi_summary`, `gold_product_performance`, `gold_channel_performance`, `gold_region_segment_scorecard`, `gold_executive_kpi_snapshot` |
+| Ontology | `ontology_entities`, `ontology_relationships`, `ontology_metrics`, `ontology_business_terms`, `ontology_graph_nodes`, `ontology_graph_edges` |
+
+Core measures:
+
+```DAX
+Applications = SUM(gold_monthly_sales_summary[applications])
+Funded Sales = SUM(gold_monthly_sales_summary[funded_sales])
+Sales Amount = SUM(gold_monthly_sales_summary[sales_amount])
+Estimated Revenue = SUM(gold_monthly_sales_summary[estimated_revenue])
+Conversion Rate = DIVIDE([Funded Sales], [Applications])
+New Customer Sales = SUM(gold_monthly_sales_summary[new_customer_sales])
+Campaign ROI Index = DIVIDE(SUM(gold_campaign_roi_summary[attributed_revenue]), SUM(gold_campaign_roi_summary[touches]) * 7.5)
+```
+
+### 3. Build the report
+
+Create a Power BI report with four pages:
+
+| Page | Purpose | Suggested visuals |
+| --- | --- | --- |
+| Executive Overview | Landing-page view of overall business health | KPI cards from `gold_executive_kpi_snapshot`, monthly sales trend, conversion rate trend |
+| Sales Performance | Product, channel, region, and segment analysis | Matrix by product and channel, region map, segment slicer, sales funnel |
+| Campaign ROI | Marketing performance and attribution | Campaign ROI table, conversion trend, attributed revenue by channel |
+| Customer 360 | Customer value and engagement analysis | Customer table, engagement score distribution, revenue per customer by segment |
+
+### 4. Add the ontology
+
+Use `ontology\sales_ontology.json` as the canonical business ontology. Load `data\ontology\*.csv` into Fabric to make the ontology queryable alongside the model. Use the graph node and edge tables for graph visualization, lineage discussions, or KQL graph demos.
+
+The ontology defines:
+
+- Business entities: Customer, Product, Channel, Sale, Campaign Touch, Web Event, and Gold KPI aggregates.
+- Relationships: sales-to-customer, sales-to-product, campaign attribution, web engagement, and gold rollups.
+- Metrics: applications, funded sales, sales amount, estimated revenue, conversion rate, new customer mix, campaign ROI, and revenue per customer.
+- Terms: application, funded sale, sales amount, estimated revenue, digital engagement score, and attributed revenue.
+
+### 5. Create a Fabric Data Agent
+
+Create a Fabric Data Agent over the semantic model and include the ontology tables as grounding context. Seed it with business-friendly instructions like:
+
+```text
+You are a sales analytics assistant for the Fabric Sales Demo.
+Use the ontology tables to explain business terms, entity relationships, and metric definitions.
+Prefer gold tables for executive answers and silver fact/dimension tables for drill-through analysis.
+When users ask about revenue, use Estimated Revenue unless they explicitly ask for Sales Amount.
+When users ask about marketing effectiveness, use Campaign ROI Index and campaign conversion rate.
+```
+
+Example prompts to validate the agent:
+
+```text
+What drove estimated revenue this month?
+Which customer segments have the highest conversion rate?
+Which campaign channel has the best ROI index?
+Explain how Campaign Touch relates to Sales.
+Show product performance by funded sales and new customer mix.
+```
+
+### 6. Integrate with Cowork
+
+Use the Fabric Data Agent as the analytics endpoint for Cowork so users can ask sales questions from the flow of work. Recommended integration pattern:
+
+1. Publish the Power BI report and Fabric Data Agent in the same Fabric workspace.
+2. Add report links and sample prompts to the Cowork space or tab.
+3. Configure Cowork to route sales analytics questions to the Fabric Data Agent.
+4. Use the ontology terms and graph as grounding content so Cowork responses explain metrics consistently.
+5. Pin the executive overview report and the Data Agent prompt starters for business users.
+
+Suggested Cowork prompt starters:
+
+```text
+Summarize sales performance for this reporting period.
+What are the top risks and opportunities by customer segment?
+Which product should the sales team prioritize next week?
+Explain the sales ontology and show how campaign ROI is calculated.
+Draft an executive update using the gold KPI snapshot.
+```
+
+## Ontology graph
+
+```mermaid
+flowchart LR
+    subgraph Silver["Silver semantic model"]
+        Customer["Customer<br/>dim_customer"]
+        Product["Product<br/>dim_product"]
+        Channel["Channel<br/>dim_channel"]
+        Date["Date<br/>dim_date"]
+        Sale["Sale<br/>fact_sales"]
+        CampaignTouch["Campaign Touch<br/>fact_campaign_touch"]
+        WebEvent["Web Event<br/>fact_web_event"]
+    end
+
+    subgraph Gold["Gold analytics datasets"]
+        SalesKPI["Sales KPI<br/>monthly_sales_summary"]
+        CustomerValue["Customer 360<br/>customer_360"]
+        CampaignROI["Campaign ROI<br/>campaign_roi_summary"]
+        ExecutiveSnapshot["Executive Snapshot<br/>executive_kpi_snapshot"]
+        ProductPerformance["Product Performance<br/>product_performance"]
+        ChannelPerformance["Channel Performance<br/>channel_performance"]
+        RegionSegmentScorecard["Region Segment Scorecard<br/>region_segment_scorecard"]
+    end
+
+    Sale -->|"belongs_to"| Customer
+    Sale -->|"sold_as"| Product
+    Sale -->|"originated_in"| Channel
+    Sale -->|"occurred_on"| Date
+    CampaignTouch -->|"targets"| Customer
+    CampaignTouch -->|"attributes_to"| Sale
+    WebEvent -->|"performed_by"| Customer
+    WebEvent -->|"references"| Product
+    SalesKPI -->|"aggregates"| Sale
+    CustomerValue -->|"summarizes"| Customer
+    CampaignROI -->|"aggregates"| CampaignTouch
+    ExecutiveSnapshot -->|"rolls_up"| SalesKPI
+    ExecutiveSnapshot -->|"rolls_up"| CampaignROI
+    ProductPerformance -->|"aggregates"| Sale
+    ChannelPerformance -->|"aggregates"| Sale
+    RegionSegmentScorecard -->|"aggregates"| Customer
+
+    classDef silver fill:#CFE4FA,stroke:#0078D4,color:#000000
+    classDef gold fill:#DFF6DD,stroke:#107C10,color:#000000
+    class Customer,Product,Channel,Date,Sale,CampaignTouch,WebEvent silver
+    class SalesKPI,CustomerValue,CampaignROI,ExecutiveSnapshot,ProductPerformance,ChannelPerformance,RegionSegmentScorecard gold
+```
+
 ## Dataset themes
 
 The sample models a consumer banking sales motion for products like savings, CDs, personal loans, investment accounts, and credit cards. It includes:
